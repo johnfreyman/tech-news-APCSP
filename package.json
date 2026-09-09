@@ -6,7 +6,9 @@
   "scripts": {
     "build": "node scripts/validate.mjs && node scripts/build.mjs",
     "test": "node --test scripts/validate.test.mjs",
-    "dev": "python3 -m http.server 4173 --directory public"
+    "dev": "npm run build && python3 -m http.server 4173 --directory dist"
   },
-  "engines": { "node": ">=22" }
+  "engines": {
+    "node": ">=22"
+  }
 }
