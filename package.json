@@ -1,0 +1,12 @@
+{
+  "name": "tech-news-apcsp",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/validate.mjs && node scripts/build.mjs",
+    "test": "node --test scripts/validate.test.mjs",
+    "dev": "python3 -m http.server 4173 --directory public"
+  },
+  "engines": { "node": ">=22" }
+}

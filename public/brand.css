@@ -1,0 +1,273 @@
+/* =========================================================================
+   Bishop Blanchet High School — Colors & Type
+   --------------------------------------------------------------------------
+   Source of truth for color tokens, type tokens, and semantic styles for
+   the Bishop Blanchet (BBHS) brand system. Import this file at the top of
+   any HTML artifact and use the variables / utility classes below.
+
+      <link rel="stylesheet" href="colors_and_type.css">
+
+   Colors are sampled from the official BBHS Brand Guidelines (Brandpad).
+   See README.md for usage rules and substitutions.
+   ========================================================================= */
+
+/* -------- 1. FONT FACES ------------------------------------------------- */
+/* Official BBHS type system (from the school's brand sheet):
+     MAIN HEADINGS  →  Leviathan        (heavy soft-cornered slab — "Bear/Bears")
+     SUBHEADINGS    →  Redzone Classic  (athletic block — "Bishop Blanchet")
+                       (Redline Classic is an acceptable substitute)
+     BODY           →  Trade Gothic or Roboto (bold OK as needed)
+
+   Leviathan and Redzone Classic are commercial. Until the licensed
+   files are dropped into `fonts/` we substitute Google Fonts:
+     LEVIATHAN        →  Ultra                  (closest free wide slab)
+     REDZONE CLASSIC  →  Big Shoulders Display  (athletic block sans)
+   Roboto is available on Google Fonts and is used directly — no
+   substitution flag needed for body. */
+
+@import url("https://fonts.googleapis.com/css2?family=Ultra&family=Big+Shoulders+Display:wght@500;700;800;900&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,700&display=swap");
+
+/* -------- 2. CORE TOKENS ------------------------------------------------ */
+:root {
+  /* ============================================================
+     OFFICIAL BBHS PALETTE (verified against the school's spec sheet)
+     ============================================================ */
+
+  /* ---------- Primary ---------- */
+  --bb-yellow:  #FECC07;   /* PMS 109   · C0 M19 Y100 K0   · RGB 254 207 7   */
+  --bb-kelly:   #079B49;   /* PMS 347   · C85 M13 Y100 K0  · RGB 7 155 73    */
+
+  /* ---------- Secondary ---------- */
+  --bb-forest:  #00742B;   /* PMS 356   · C89 M29 Y100 K19 · RGB 0 116 43    */
+  --bb-hunter:  #004939;   /* PMS 7484  · C90 M45 Y76 K47  · RGB 0 73 57     */
+
+  /* ---------- Tertiary ---------- */
+  --bb-black:   #000000;   /* PMS Black 6     · K100                         */
+  --bb-gray:    #969696;   /* PMS Cool Gray 7 · K50                          */
+  --bb-white:   #FFFFFF;
+  --bb-neon:    #C8FF32;   /* PMS 389   · C26 M0 Y100 K0  · for outline marks */
+  --bb-gold:    #C8A35B;   /* PMS 7752 / Foil — screen approximation         */
+
+  /* ============================================================
+     EXTENDED NEUTRALS (warm off-whites — not in official spec,
+     but needed for surface variety in digital comp. Use sparingly
+     and replace with #FFFFFF when in doubt.)
+     ============================================================ */
+  --bb-paper:   #FAF8F2;   /* warm off-white page background                 */
+  --bb-bone:    #EFEBDF;   /* quiet section background                       */
+  --bb-stone:   #D2D0C7;   /* hairline / light border                        */
+
+  /* ============================================================
+     ALIAS TOKENS — point at canonical colors for backward compat
+     and to give intent-readable names in markup.
+     ============================================================ */
+  --bb-spruce:  var(--bb-hunter);  /* "spruce" = our darkest brand green     */
+  --bb-ink:     var(--bb-black);   /* primary text on light                  */
+  --bb-ash:     var(--bb-gray);    /* secondary text                         */
+
+  /* Yellow tint for cards / badges (digital-only) */
+  --bb-yellow-light: #FFE894;
+
+  /* ---------- Semantic ---------- */
+  --bb-success: var(--bb-kelly);
+  --bb-warn:    var(--bb-yellow);
+  --bb-error:   #B23A1F;   /* terra-cotta red, used sparingly                */
+
+  /* ---------- Foreground / Background slots ---------- */
+  --bg-1: var(--bb-paper);     /* page background (default)                  */
+  --bg-2: var(--bb-white);     /* card surface                                */
+  --bg-3: var(--bb-bone);      /* quiet section                               */
+  --bg-dark: var(--bb-hunter); /* dark hero / footer                          */
+  --bg-accent: var(--bb-kelly);
+  --bg-gold: var(--bb-yellow);
+
+  --fg-1: var(--bb-ink);       /* primary text on light                       */
+  --fg-2: var(--bb-ash);       /* secondary text on light                     */
+  --fg-3: #B5B5B5;             /* tertiary / placeholders                     */
+  --fg-on-dark: var(--bb-white);
+  --fg-on-accent: var(--bb-white);
+  --fg-on-gold: var(--bb-black);
+  --fg-link: var(--bb-forest);
+
+  /* ---------- Borders & rules ---------- */
+  --border-1: rgba(0,73,57,0.12);
+  --border-2: rgba(0,73,57,0.22);
+  --rule-on-dark: rgba(255,255,255,0.18);
+
+  /* ---------- Typography Stacks ---------- */
+  --font-display:  "Ultra", "Alfa Slab One", Georgia, serif;          /* Leviathan substitute */
+  --font-athletic: "Big Shoulders Display", "Oswald", Impact, sans-serif; /* Redzone Classic substitute */
+  --font-body:     "Roboto", "Trade Gothic", -apple-system, BlinkMacSystemFont,
+                   "Segoe UI", Helvetica, Arial, sans-serif;
+  --font-mono:     "JetBrains Mono", ui-monospace, "SF Mono", Consolas, monospace;
+
+  /* ---------- Type scale (display / heading) ---------- */
+  --fs-display-xl: clamp(56px, 7vw, 112px);
+  --fs-display:    clamp(40px, 5vw, 72px);
+  --fs-h1: 48px;
+  --fs-h2: 36px;
+  --fs-h3: 26px;
+  --fs-h4: 20px;
+  --fs-eyebrow: 14px;
+
+  /* ---------- Body scale ---------- */
+  --fs-lead: 20px;
+  --fs-body: 17px;
+  --fs-small: 14px;
+  --fs-tiny: 12px;
+
+  /* ---------- Line heights ---------- */
+  --lh-tight: 0.95;
+  --lh-snug:  1.12;
+  --lh-base:  1.55;
+  --lh-loose: 1.7;
+
+  /* ---------- Tracking ---------- */
+  --tracking-display: -0.01em;
+  --tracking-athletic: 0.04em;
+  --tracking-eyebrow:  0.16em;
+  --tracking-body:     0em;
+
+  /* ---------- Spacing scale (4-pt base) ---------- */
+  --sp-1: 4px;
+  --sp-2: 8px;
+  --sp-3: 12px;
+  --sp-4: 16px;
+  --sp-5: 24px;
+  --sp-6: 32px;
+  --sp-7: 48px;
+  --sp-8: 64px;
+  --sp-9: 96px;
+  --sp-10: 128px;
+
+  /* ---------- Radii ---------- */
+  /* The brand is largely square. Buttons/cards get a small radius;
+     pills/badges go fully rounded. */
+  --radius-0: 0px;
+  --radius-1: 4px;
+  --radius-2: 8px;
+  --radius-3: 14px;
+  --radius-pill: 999px;
+
+  /* ---------- Shadow / Elevation ---------- */
+  /* Soft, low-elevation. Brand prefers flat surfaces with crisp rules. */
+  --shadow-1: 0 1px 2px rgba(15,36,34,0.06), 0 1px 1px rgba(15,36,34,0.04);
+  --shadow-2: 0 6px 14px rgba(15,36,34,0.08), 0 2px 4px rgba(15,36,34,0.05);
+  --shadow-3: 0 18px 40px rgba(15,36,34,0.14), 0 4px 10px rgba(15,36,34,0.06);
+
+  /* ---------- Container ---------- */
+  --maxw: 1200px;
+  --gutter: 32px;
+}
+
+/* -------- 3. RESET-ish --------------------------------------------------- */
+html, body { background: var(--bg-1); color: var(--fg-1);
+  font-family: var(--font-body); font-size: var(--fs-body);
+  line-height: var(--lh-base); -webkit-font-smoothing: antialiased; }
+
+/* -------- 4. SEMANTIC TYPE CLASSES -------------------------------------- */
+/* "Editorial" voice = Leviathan-style slab serif. Used for section titles
+   and Brand-tone headings (e.g. "Logo Marks", "Color Specs"). */
+.bb-display,
+h1.bb-display {
+  font-family: var(--font-display);
+  font-weight: 400;            /* Ultra ships as one weight */
+  font-size: var(--fs-display);
+  line-height: var(--lh-snug);
+  letter-spacing: var(--tracking-display);
+  color: var(--bb-kelly);
+}
+
+.bb-display-xl {
+  font-family: var(--font-display);
+  font-size: var(--fs-display-xl);
+  line-height: var(--lh-tight);
+  letter-spacing: var(--tracking-display);
+  color: var(--bb-kelly);
+}
+
+/* "Athletic" voice = Redzone Classic block sans. Used for subheadings,
+   eyebrows, chapter numbers, button labels, athletic call-outs. */
+.bb-athletic {
+  font-family: var(--font-athletic);
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-athletic);
+  line-height: var(--lh-snug);
+}
+
+.bb-eyebrow {
+  font-family: var(--font-athletic);
+  font-size: var(--fs-eyebrow);
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-eyebrow);
+  color: var(--bb-kelly);
+}
+
+/* Headings — combine display + athletic + body in a clear hierarchy. */
+h1, .bb-h1 {
+  font-family: var(--font-display); font-weight: 400;
+  font-size: var(--fs-h1); line-height: var(--lh-snug);
+  letter-spacing: var(--tracking-display); color: var(--bb-spruce);
+  margin: 0 0 var(--sp-4);
+}
+h2, .bb-h2 {
+  font-family: var(--font-display); font-weight: 400;
+  font-size: var(--fs-h2); line-height: var(--lh-snug);
+  color: var(--bb-spruce); margin: 0 0 var(--sp-3);
+}
+h3, .bb-h3 {
+  font-family: var(--font-athletic); font-weight: 800;
+  text-transform: uppercase; letter-spacing: var(--tracking-athletic);
+  font-size: var(--fs-h3); color: var(--bb-hunter);
+  margin: 0 0 var(--sp-3);
+}
+h4, .bb-h4 {
+  font-family: var(--font-athletic); font-weight: 700;
+  text-transform: uppercase; letter-spacing: var(--tracking-athletic);
+  font-size: var(--fs-h4); color: var(--bb-hunter);
+  margin: 0 0 var(--sp-2);
+}
+
+p, .bb-p {
+  font-family: var(--font-body); font-size: var(--fs-body);
+  line-height: var(--lh-base); color: var(--fg-1);
+  margin: 0 0 var(--sp-4); text-wrap: pretty;
+}
+.bb-lead { font-size: var(--fs-lead); line-height: 1.5; color: var(--fg-1); }
+.bb-small { font-size: var(--fs-small); color: var(--fg-2); }
+
+a, .bb-link {
+  color: var(--fg-link); text-decoration: underline;
+  text-underline-offset: 3px; text-decoration-thickness: 1px;
+}
+a:hover { color: var(--bb-kelly); }
+
+/* Inline emphasis for the brand "spirit" callout used in headlines. */
+.bb-gold { color: var(--bb-yellow); }
+.bb-green { color: var(--bb-kelly); }
+.bb-deep { color: var(--bb-spruce); }
+
+/* On dark surfaces, flip the type defaults. */
+.bb-on-dark { color: var(--fg-on-dark); }
+.bb-on-dark h1, .bb-on-dark h2 { color: var(--bb-white); }
+.bb-on-dark h3, .bb-on-dark h4 { color: var(--bb-yellow); }
+.bb-on-dark .bb-eyebrow { color: var(--bb-yellow); }
+.bb-on-dark a { color: var(--bb-yellow); }
+
+/* -------- 5. ATOMIC SURFACES ------------------------------------------- */
+.bb-surface-paper  { background: var(--bg-1); color: var(--fg-1); }
+.bb-surface-card   { background: var(--bg-2); color: var(--fg-1); }
+.bb-surface-bone   { background: var(--bg-3); color: var(--fg-1); }
+.bb-surface-green  { background: var(--bb-kelly);  color: var(--fg-on-accent); }
+.bb-surface-forest { background: var(--bb-forest); color: var(--fg-on-accent); }
+.bb-surface-hunter { background: var(--bb-hunter); color: var(--fg-on-accent); }
+.bb-surface-spruce { background: var(--bb-hunter); color: var(--fg-on-accent); }
+.bb-surface-black  { background: var(--bb-black);  color: var(--fg-on-accent); }
+.bb-surface-gold   { background: var(--bb-yellow); color: var(--fg-on-gold); }
+.bb-surface-neon   { background: var(--bb-neon);   color: var(--bb-black);   }
+
+/* -------- 6. UTILITY CONTAINERS ---------------------------------------- */
+.bb-container { max-width: var(--maxw); margin: 0 auto; padding: 0 var(--gutter); }
+.bb-rule { height: 2px; background: currentColor; opacity: 0.85; border: 0; margin: var(--sp-6) 0; }
