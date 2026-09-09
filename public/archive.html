@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#004939">
+  <meta name="description" content="Revisit Bishop Blanchet’s AP CSP briefings by date.">
+  <title>Past Briefings · Bishop Blanchet</title>
+  <link rel="icon" href="/assets/bear.png">
+  <link rel="stylesheet" href="/brand.css">
+  <link rel="stylesheet" href="/style.css">
+  <script type="module" src="/archive.js"></script>
+</head>
+<body>
+  <a class="skip" href="#briefings">Skip to briefings</a>
+  <div class="screen archive-screen">
+    <header class="masthead">
+      <div class="identity"><div class="mark"><img src="/assets/bear.png" alt="Bishop Blanchet Bears" width="64" height="64"></div><div><p class="eyebrow">Bishop Blanchet High School</p><h1>Past Briefings<span class="title-dot">.</span></h1></div></div>
+      <a class="control-link primary" href="/">Back to today</a>
+    </header>
+    <main class="archive-main">
+      <form id="archive-filters" class="archive-toolbar">
+        <div><label for="briefing-date">Find a date</label><input id="briefing-date" type="date"><button id="clear-date" class="control-link" type="button" hidden>Show recent</button></div>
+        <p id="archive-status" role="status">Loading saved briefings…</p>
+      </form>
+      <div id="briefings" tabindex="-1"></div>
+      <div class="archive-actions"><button id="show-older" class="control-link" type="button" hidden>Show older briefings</button><button id="retry-archive" class="control-link" type="button" hidden>Try again</button></div>
+    </main>
+  </div>
+  <noscript><p>Please enable JavaScript to browse the saved briefings.</p></noscript>
+</body>
+</html>
