@@ -1,116 +1,144 @@
 {
   "schemaVersion": 1,
-  "editionId": "2026-09-08-archive",
-  "date": "2026-09-08",
-  "coverage": "Five stories · one concept",
+  "editionId": "2026-09-09-daily",
+  "date": "2026-09-09",
+  "coverage": "Seven stories · AI, security, science and society",
   "cards": [
     {
-      "id": "windows-age-signals",
+      "id": "school-ai-standard",
       "type": "news",
-      "category": "Privacy & society",
-      "headline": "Should an app know your age?",
-      "summary": "Microsoft introduced tools that let Windows apps request an age range without receiving your full birth date. The tools are available to Windows Insider testers; a wider release is still coming.",
-      "whyItMatters": "An app could change which features you can use based on your age group. Sharing less information can protect privacy, but the rules still deserve scrutiny.",
+      "category": "AI & society",
+      "headline": "Schools get a new AI privacy standard",
+      "summary": "The AFT, UFT and Microsoft announced a national AI safety and privacy standard for schools. The agreement says participating tools should not use student data to train AI, should not track students, and should keep humans responsible for important decisions.",
+      "whyItMatters": "Rules about data collection and automated decisions shape how AI can be used in classrooms.",
       "csp": {
         "idea": "Impact of Computing",
-        "connection": "Design choices affect privacy, access, and who gets to use a feature."
+        "connection": "Computing systems affect privacy, access, and decisions about people."
       },
       "sources": [
         {
-          "name": "Microsoft · announcement",
-          "date": "2026-09-08",
-          "url": "https://blogs.windows.com/windowsexperience/2026/09/08/helping-families-and-educators-support-safer-experiences-and-healthier-habits-on-windows/"
+          "name": "Microsoft · AFT/UFT/Microsoft announcement",
+          "date": "2026-09-09",
+          "url": "https://news.microsoft.com/source/2026/09/09/aft-uft-and-microsoft-announce-national-ai-safety-privacy-standard-for-schools-to-protect-students-families-and-educators/"
         }
       ]
     },
     {
-      "id": "cloudflare-key-exchange",
-      "type": "news",
-      "category": "The internet",
-      "headline": "A faster start to a secure connection",
-      "summary": "Cloudflare announced an update that checks which encryption methods a website’s server supports before connecting. It prefers protection against future quantum attacks when the server supports it, and reports fewer connection retries during rollout.",
-      "whyItMatters": "Security depends on the connections between servers as well as your browser. Choosing a compatible method in advance can make a secure connection faster.",
-      "csp": {
-        "idea": "Computer Systems and Networks",
-        "connection": "Protocols let different computers agree on how to communicate securely."
-      },
-      "sources": [
-        {
-          "name": "Cloudflare · engineering report",
-          "date": "2026-09-08",
-          "url": "https://blog.cloudflare.com/automatic-key-exchange-for-origins/"
-        }
-      ]
-    },
-    {
-      "id": "spotify-experiments",
-      "type": "news",
-      "category": "Data & decisions",
-      "headline": "How do you know a new feature is better?",
-      "summary": "Spotify’s engineers published an explanation of how they evaluate A/B tests, experiments comparing two versions of a feature. They argue that rules for collecting and interpreting evidence matter more than choosing a fashionable statistical method.",
-      "whyItMatters": "More clicks do not automatically prove a redesign works. When you test your own project, decide what success means before looking at the results.",
-      "csp": {
-        "idea": "Data",
-        "connection": "The way data is collected and analyzed shapes the conclusions we draw."
-      },
-      "sources": [
-        {
-          "name": "Spotify Engineering",
-          "date": "2026-09-08",
-          "url": "https://engineering.atspotify.com/2026/9/why-spotify-is-not-using-bayesian-a-b-testing"
-        }
-      ]
-    },
-    {
-      "id": "github-isolated-ai",
-      "type": "news",
-      "category": "AI & programming",
-      "headline": "AI coding tools reach isolated company networks",
-      "summary": "GitHub’s new Enterprise Server release lets administrators configure its AI coding assistant for environments disconnected from GitHub Cloud. This feature is a technical preview and requires a configured model provider.",
-      "whyItMatters": "Some organizations cannot send their code to a public cloud service. Where an AI tool runs matters alongside what it can do.",
-      "csp": {
-        "idea": "Computer Systems and Networks",
-        "connection": "Network design controls which systems can communicate and where data travels."
-      },
-      "sources": [
-        {
-          "name": "GitHub · release notes",
-          "date": "2026-09-08",
-          "url": "https://github.blog/changelog/2026-09-08-github-enterprise-server-3-22-is-now-generally-available/"
-        }
-      ]
-    },
-    {
-      "id": "september-security-updates",
+      "id": "github-secret-merge-block",
       "type": "news",
       "category": "Cybersecurity",
-      "headline": "Security updates are part of owning software",
-      "summary": "Canada’s Cyber Centre issued an advisory about September security updates for Microsoft products. It recommends applying the relevant updates after reviewing Microsoft’s guidance.",
-      "whyItMatters": "A program can work normally and still contain a security flaw. Keeping your personal devices updated helps close known weaknesses; school-managed devices follow school procedures.",
+      "headline": "GitHub can block leaked secrets before merge",
+      "summary": "GitHub added a public-preview repository rule that can stop a pull request from merging when secret scanning finds a newly exposed credential. The rule waits for a scan of the head commit and requires introduced alerts to be resolved first.",
+      "whyItMatters": "An API key or password accidentally committed to code can become a real security problem, so automated checks can catch mistakes before release.",
+      "csp": {
+        "idea": "Computer Systems and Networks",
+        "connection": "Authentication secrets control access between users, programs, and network services."
+      },
       "sources": [
         {
-          "name": "Canadian Centre for Cyber Security",
-          "date": "2026-09-08",
-          "url": "https://www.cyber.gc.ca/en/alerts-advisories/microsoft-security-advisory-september-2026-monthly-rollup-av26-896"
+          "name": "GitHub Changelog",
+          "date": "2026-09-09",
+          "url": "https://github.blog/changelog/2026-09-09-block-pull-requests-with-exposed-secrets-from-merging/"
         }
       ]
     },
     {
-      "id": "age-range-abstraction",
-      "type": "concept",
-      "category": "CSP in the Wild",
-      "headline": "An age range can be enough information",
-      "summary": "Suppose a feature needs to know whether a user is at least 18. It may only need a yes-or-no answer, rather than a birth date. An abstraction keeps the information needed for a task while hiding other detail.",
-      "whyItMatters": "When you design an app, ask what information it actually needs. Collecting less personal data gives you less sensitive information to protect.",
+      "id": "openai-board-christiano",
+      "type": "news",
+      "category": "AI safety",
+      "headline": "OpenAI adds safety researcher to its board",
+      "summary": "OpenAI appointed AI safety researcher Paul Christiano to its Foundation Board and Safety and Security Committee. He will also be a non-voting observer on the company board and brings experience evaluating advanced AI systems at NIST.",
+      "whyItMatters": "AI safety is partly a technical problem and partly a governance problem: people and institutions decide which risks get measured and acted on.",
       "csp": {
-        "idea": "Algorithms and Programming",
-        "connection": "Abstraction exposes useful information while hiding unnecessary detail."
+        "idea": "Impact of Computing",
+        "connection": "The effects of computing depend on technical choices and on the organizations that govern them."
       },
       "sources": [
         {
-          "name": "Example from Microsoft’s announcement",
+          "name": "OpenAI",
+          "date": "2026-09-09",
+          "url": "https://openai.com/index/paul-christiano-joins-openai-foundation-board/"
+        }
+      ]
+    },
+    {
+      "id": "apple-health-sensing-ai",
+      "type": "news",
+      "category": "Data & devices",
+      "headline": "Apple turns more sensor data into health insights",
+      "summary": "Apple announced new health features for Apple Watch and a redesigned Health app that uses Apple Intelligence. The company says newer watches will collect higher-frequency heart-rate variability data and offer a readiness score; some features vary by device, age, region, or language.",
+      "whyItMatters": "Wearables turn streams of sensor measurements into conclusions, which makes data quality, algorithms, privacy, and limits important.",
+      "csp": {
+        "idea": "Data",
+        "connection": "Computers collect, process, and interpret data to produce information people use for decisions."
+      },
+      "sources": [
+        {
+          "name": "Apple Newsroom",
+          "date": "2026-09-09",
+          "url": "https://www.apple.com/newsroom/2026/09/apple-advances-health-and-fitness-capabilities-using-apple-intelligence/"
+        }
+      ]
+    },
+    {
+      "id": "ai-distillation-dispute",
+      "type": "news",
+      "category": "AI & cybersecurity",
+      "headline": "U.S. and China clash over AI distillation",
+      "summary": "U.S. agencies accused several China-based AI companies of industrial-scale distillation, using outputs from advanced U.S. models to help train other models while allegedly bypassing access rules. China rejected the accusations and said distillation is a common AI technique.",
+      "whyItMatters": "A model’s outputs can become training data for another model, raising technical questions about learning and policy questions about access, ownership, and fair use.",
+      "csp": {
+        "idea": "Impact of Computing",
+        "connection": "Computing innovations can create conflicts over ownership, access, competition, and rules."
+      },
+      "sources": [
+        {
+          "name": "NSA · joint U.S. advisory announcement",
           "date": "2026-09-08",
-          "url": "https://blogs.windows.com/windowsexperience/2026/09/08/helping-families-and-educators-support-safer-experiences-and-healthier-habits-on-windows/"
+          "url": "https://www.nsa.gov/Press-Room/Press-Releases-Statements/Press-Release-View/Article/4592113/nsa-and-others-warn-china-based-ai-companies-are-distilling-us-frontier-ai-mode/"
+        },
+        {
+          "name": "Associated Press",
+          "date": "2026-09-09",
+          "url": "https://apnews.com/article/us-china-ai-models-anthropic-trump-0f6ca61301630134607551b1dab0d632"
+        }
+      ]
+    },
+    {
+      "id": "ai-quantum-lab",
+      "type": "news",
+      "category": "AI & science",
+      "headline": "AI helps run repetitive quantum-computing experiments",
+      "summary": "OpenAI described an MIT graduate student connecting GPT-5.6 Sol through Codex to laboratory software for routine quantum-chip measurements. The case study says the system helped run and refine repetitive measurements while the researcher focused on experiment design and data analysis.",
+      "whyItMatters": "AI agents become more powerful when they can use software tools, but humans still need to set goals, check results, and understand the experiment.",
+      "csp": {
+        "idea": "Algorithms and Programming",
+        "connection": "Programs can combine algorithms with tools and feedback to carry out multi-step tasks."
+      },
+      "sources": [
+        {
+          "name": "OpenAI · MIT case study",
+          "date": "2026-09-08",
+          "url": "https://openai.com/index/codex-quantum-computing-experiments/"
+        }
+      ]
+    },
+    {
+      "id": "teen-ai-research-grants",
+      "type": "news",
+      "category": "AI & society",
+      "headline": "OpenAI funds research on teens and AI",
+      "summary": "OpenAI announced $5 million for independent research on how generative AI affects people ages 13 to 17. The program asks researchers to study areas such as learning, creativity, advice-seeking, relationships, and how effects differ across teens and situations.",
+      "whyItMatters": "Students your age are already part of the AI story, and better evidence can help schools, families, and developers make decisions instead of relying only on guesses.",
+      "csp": {
+        "idea": "Impact of Computing",
+        "connection": "Studying computing’s effects requires evidence about how technology changes people and communities."
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "date": "2026-09-08",
+          "url": "https://openai.com/index/teen-development-research-grants/"
         }
       ]
     }
