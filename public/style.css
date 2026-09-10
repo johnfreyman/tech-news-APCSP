@@ -21,3 +21,31 @@
 @media(max-width:1000px){.preview-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.archive-view{flex-wrap:wrap}}
 @media(max-width:600px){.preview-grid{grid-template-columns:1fr}.archive-main{padding-top:22px}.mini-card h3{font-size:1.25rem}.archive-screen .masthead>.control-link{margin-left:10px}}
 @media print{.archive-view,.archive-toolbar,.archive-actions{display:none}.preview-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.mini-card{break-inside:avoid}}
+
+/* Keep the complete briefing above the fold and scroll to the controls.
+   Use the available height as well as width for scaled classroom displays.
+   Short/narrow windows retain natural scrolling instead of clipping text. */
+.screen:has(>.briefing-panel){border-top:0}
+.briefing-panel{min-height:100svh;display:flex;flex-direction:column;border-top:10px solid var(--bb-hunter)}
+.briefing-panel>.masthead,.briefing-panel>.archive-view,.briefing-panel>.reading-track{flex-shrink:0}
+@media screen and (min-width:901px) and (min-height:500px){
+  .briefing-panel .masthead{padding-block:2svh}
+  .briefing-panel .mark{padding:1svh}
+  .briefing-panel .mark img{width:min(5vw,8svh)}
+  .briefing-panel h1{font-size:clamp(1.5rem,min(2.6vw,4svh),6rem)}
+  .briefing-panel .eyebrow{font-size:clamp(.875rem,min(1.25vw,2svh),3rem)}
+  .briefing-panel time{font-size:clamp(1rem,min(1.4vw,2.2svh),3.25rem)}
+  .briefing-panel .freshness{font-size:clamp(.875rem,min(1.1vw,1.8svh),2.5rem)}
+  .briefing-panel .edition-meta{gap:.6svh}
+  .briefing-panel .story{padding:2.5svh 5vw}
+  .briefing-panel .story-top{margin-bottom:2svh}
+  .briefing-panel .ordinal{font-size:clamp(1.5rem,min(3.3vw,4.5svh),8rem)}
+  .briefing-panel .story h2{font-size:clamp(1.75rem,min(3.5vw,5.3svh),9.6rem);max-width:32ch}
+  .briefing-panel .story-body{margin-top:2.5svh;gap:4vw}
+  .briefing-panel .summary{font-size:clamp(1.125rem,min(1.85vw,2.8svh),5rem);line-height:1.4}
+  .briefing-panel .takeaway{padding-top:1.5svh}
+  .briefing-panel .takeaway p{font-size:clamp(1.125rem,min(1.7vw,2.6svh),4.5rem);line-height:1.4;margin-top:1svh}
+  .briefing-panel .story-bottom{margin-top:2.5svh;padding-top:1.5svh;gap:3vw}
+  .briefing-panel .csp,.briefing-panel .sources{font-size:clamp(.875rem,min(1.05vw,1.7svh),2.5rem);line-height:1.4}
+}
+@media print{.briefing-panel{min-height:0;border:0}}
