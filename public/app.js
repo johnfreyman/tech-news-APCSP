@@ -2,7 +2,7 @@ import {validateEdition,expectedEditionDate,displayRequest,formatEditionDate} fr
 const $=id=>document.getElementById(id);
 const request=displayRequest(location.search);
 let edition=null,pending=null,index=0,elapsed=0,duration=40;
-let playing=!request.archived&&!matchMedia('(prefers-reduced-motion: reduce)').matches;
+let playing=!request.archived;
 let last=performance.now(),offline=false;
 const node=(tag,cls,value)=>{const n=document.createElement(tag);if(cls)n.className=cls;if(value)n.textContent=value;return n};
 
