@@ -67,7 +67,7 @@ async function loadArchive(){
     const saved=await readEdition(`/editions/${request.date}.json`);
     if(saved.date!==request.date)throw Error('Date mismatch');
     edition=saved;index=Math.max(0,edition.cards.findIndex(c=>c.id===request.card));render();
-    document.title=`${formatEditionDate(edition.date)} · CSP Daily Brief`;
+    document.title=`${formatEditionDate(edition.date)} · CS Daily Brief`;
   }catch{
     unavailable('This briefing isn’t available.','It may not have been published on this date, or the connection may be unavailable. Browse Past Briefings to choose another day.');
     $('archive-retry').hidden=false;
