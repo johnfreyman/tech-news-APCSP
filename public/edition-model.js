@@ -7,7 +7,7 @@ export function validateEdition(e){
   if(!isEditionDate(e.date))errors.push('Invalid edition date');
   if(!text(e.editionId,90))errors.push('Missing edition ID');
   if(!text(e.coverage,150))errors.push('Missing coverage label');
-  if(!Array.isArray(e.cards)||e.cards.length<6||e.cards.length>8)return [...errors,'Require 6–8 cards'];
+  if(!Array.isArray(e.cards)||e.cards.length<6||e.cards.length>10)return [...errors,'Require 6–10 cards'];
   const ids=new Set();
   for(const c of e.cards){
     if(!c||!text(c.id,80)){errors.push('Missing card ID');continue}
