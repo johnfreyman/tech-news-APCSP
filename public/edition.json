@@ -1,144 +1,177 @@
 {
   "schemaVersion": 1,
-  "editionId": "2026-09-09-daily",
-  "date": "2026-09-09",
-  "coverage": "Seven stories · AI, security, science and society",
+  "editionId": "2026-09-10-daily",
+  "date": "2026-09-10",
+  "coverage": "Nine stories · computing, everyday tech and science",
   "cards": [
     {
-      "id": "school-ai-standard",
+      "id": "lunar-ai-map",
       "type": "news",
-      "category": "AI & society",
-      "headline": "Schools get a new AI privacy standard",
-      "summary": "The AFT, UFT and Microsoft announced a national AI safety and privacy standard for schools. The agreement says participating tools should not use student data to train AI, should not track students, and should keep humans responsible for important decisions.",
-      "whyItMatters": "Rules about data collection and automated decisions shape how AI can be used in classrooms.",
-      "csp": {
-        "idea": "Impact of Computing",
-        "connection": "Computing systems affect privacy, access, and decisions about people."
-      },
-      "sources": [
-        {
-          "name": "Microsoft · AFT/UFT/Microsoft announcement",
-          "date": "2026-09-09",
-          "url": "https://news.microsoft.com/source/2026/09/09/aft-uft-and-microsoft-announce-national-ai-safety-privacy-standard-for-schools-to-protect-students-families-and-educators/"
-        }
-      ]
-    },
-    {
-      "id": "github-secret-merge-block",
-      "type": "news",
-      "category": "Cybersecurity",
-      "headline": "GitHub can block leaked secrets before merge",
-      "summary": "GitHub added a public-preview repository rule that can stop a pull request from merging when secret scanning finds a newly exposed credential. The rule waits for a scan of the head commit and requires introduced alerts to be resolved first.",
-      "whyItMatters": "An API key or password accidentally committed to code can become a real security problem, so automated checks can catch mistakes before release.",
-      "csp": {
-        "idea": "Computer Systems and Networks",
-        "connection": "Authentication secrets control access between users, programs, and network services."
-      },
-      "sources": [
-        {
-          "name": "GitHub Changelog",
-          "date": "2026-09-09",
-          "url": "https://github.blog/changelog/2026-09-09-block-pull-requests-with-exposed-secrets-from-merging/"
-        }
-      ]
-    },
-    {
-      "id": "openai-board-christiano",
-      "type": "news",
-      "category": "AI safety",
-      "headline": "OpenAI adds safety researcher to its board",
-      "summary": "OpenAI appointed AI safety researcher Paul Christiano to its Foundation Board and Safety and Security Committee. He will also be a non-voting observer on the company board and brings experience evaluating advanced AI systems at NIST.",
-      "whyItMatters": "AI safety is partly a technical problem and partly a governance problem: people and institutions decide which risks get measured and acted on.",
-      "csp": {
-        "idea": "Impact of Computing",
-        "connection": "The effects of computing depend on technical choices and on the organizations that govern them."
-      },
-      "sources": [
-        {
-          "name": "OpenAI",
-          "date": "2026-09-09",
-          "url": "https://openai.com/index/paul-christiano-joins-openai-foundation-board/"
-        }
-      ]
-    },
-    {
-      "id": "apple-health-sensing-ai",
-      "type": "news",
-      "category": "Data & devices",
-      "headline": "Apple turns more sensor data into health insights",
-      "summary": "Apple announced new health features for Apple Watch and a redesigned Health app that uses Apple Intelligence. The company says newer watches will collect higher-frequency heart-rate variability data and offer a readiness score; some features vary by device, age, region, or language.",
-      "whyItMatters": "Wearables turn streams of sensor measurements into conclusions, which makes data quality, algorithms, privacy, and limits important.",
+      "category": "AI & science",
+      "headline": "AI gets a new job mapping the Moon",
+      "summary": "IBM and NASA released an open-source AI model trained on decades of lunar observations from multiple NASA missions. It is designed to help researchers identify features such as craters and possible ice deposits more efficiently.",
+      "whyItMatters": "This is machine learning applied to real scientific data, where better pattern recognition can help researchers decide where to study and eventually land.",
       "csp": {
         "idea": "Data",
-        "connection": "Computers collect, process, and interpret data to produce information people use for decisions."
+        "connection": "Large collections of observations can be processed by algorithms to reveal useful patterns."
+      },
+      "sources": [
+        {
+          "name": "Reuters",
+          "date": "2026-09-10",
+          "url": "https://www.reuters.com/science/ibm-nasa-launch-ai-model-help-map-ice-craters-moon-2026-09-10/"
+        }
+      ]
+    },
+    {
+      "id": "eu-tests-frontier-ai",
+      "type": "news",
+      "category": "Cybersecurity",
+      "headline": "EU cybersecurity agency starts testing frontier AI",
+      "summary": "The European Union's cybersecurity agency ENISA has begun testing Anthropic's Mythos 5 and has also received access to OpenAI's GPT-6 Astra. The testing is meant to help regulators understand the capabilities and risks of advanced models.",
+      "whyItMatters": "Governments increasingly need technical evidence, not just company promises, when deciding how powerful AI systems should be evaluated and regulated.",
+      "csp": {
+        "idea": "Impact of Computing",
+        "connection": "New computing systems can create risks that institutions need to measure and manage."
+      },
+      "sources": [
+        {
+          "name": "Reuters",
+          "date": "2026-09-10",
+          "url": "https://www.reuters.com/technology/eus-cybersecurity-agency-granted-access-mythos-5-ai-model-commission-says-2026-09-10/"
+        }
+      ]
+    },
+    {
+      "id": "social-feed-choice",
+      "type": "news",
+      "category": "Social media & algorithms",
+      "headline": "Australia wants users to choose their feed",
+      "summary": "Australia proposed rules that would require social platforms to let users over 16 choose between algorithmic recommendations and a feed based on accounts they follow. The proposal also calls for stronger protections against harmful design features aimed at children.",
+      "whyItMatters": "Your feed is not just a list of posts; an algorithm decides what gets attention. Giving users a choice changes who controls that decision.",
+      "csp": {
+        "idea": "Impact of Computing",
+        "connection": "Algorithms shape what information people see and can influence behavior."
+      },
+      "sources": [
+        {
+          "name": "Associated Press",
+          "date": "2026-09-08",
+          "url": "https://apnews.com/article/australia-social-media-algorithms-digital-duty-care-1eee351b39f22b340ef289c792f7993b"
+        }
+      ]
+    },
+    {
+      "id": "iphone-duo-foldable",
+      "type": "news",
+      "category": "Devices & design",
+      "headline": "Apple makes its first foldable iPhone",
+      "summary": "Apple introduced the iPhone Duo, its first foldable phone, with a smaller outer display and a 7.6-inch inner screen. Apple says iOS 27 adapts apps and controls as the device opens, closes, and changes orientation.",
+      "whyItMatters": "A new form factor is partly a hardware problem and partly a software-design problem: apps have to respond correctly as screen size and layout change.",
+      "csp": {
+        "idea": "Algorithms and Programming",
+        "connection": "Programs often change behavior based on device state, screen size, and user input."
       },
       "sources": [
         {
           "name": "Apple Newsroom",
           "date": "2026-09-09",
-          "url": "https://www.apple.com/newsroom/2026/09/apple-advances-health-and-fitness-capabilities-using-apple-intelligence/"
+          "url": "https://www.apple.com/newsroom/2026/09/apple-unveils-iphone-duo/"
         }
       ]
     },
     {
-      "id": "ai-distillation-dispute",
+      "id": "suno-licensed-music",
+      "type": "news",
+      "category": "Music & creator tools",
+      "headline": "AI music model switches to licensed training data",
+      "summary": "Suno launched its v6 music models after working with Warner Music Group and BMG, saying the new generation uses licensed material rather than the data used for earlier models. Some versions can generate and edit music from prompts, images, video, or audio references.",
+      "whyItMatters": "AI creativity depends on both algorithms and training data, and who has permission to use that data can matter as much as what the model can produce.",
+      "csp": {
+        "idea": "Impact of Computing",
+        "connection": "Computing innovations can create new possibilities while raising questions about ownership and creative work."
+      },
+      "sources": [
+        {
+          "name": "Reuters",
+          "date": "2026-09-09",
+          "url": "https://www.reuters.com/legal/litigation/suno-releases-new-ai-music-models-partnership-with-warner-music-bmg-2026-09-09/"
+        }
+      ]
+    },
+    {
+      "id": "openai-safety-rules",
+      "type": "news",
+      "category": "AI policy",
+      "headline": "OpenAI asks for mandatory national AI safety rules",
+      "summary": "OpenAI called for U.S. rules requiring testing, independent assessments, cybersecurity protections, and incident reporting for the most advanced AI systems. The company said voluntary commitments may not be enough as model capabilities increase.",
+      "whyItMatters": "As software becomes more powerful, society has to decide which safety checks should be optional and which should be required.",
+      "csp": {
+        "idea": "Impact of Computing",
+        "connection": "Computing policy often balances innovation, safety, accountability, and public trust."
+      },
+      "sources": [
+        {
+          "name": "Reuters",
+          "date": "2026-09-09",
+          "url": "https://www.reuters.com/legal/government/openai-pushes-mandatory-national-ai-safety-requirements-2026-09-09/"
+        }
+      ]
+    },
+    {
+      "id": "anthropic-missed-incident",
       "type": "news",
       "category": "AI & cybersecurity",
-      "headline": "U.S. and China clash over AI distillation",
-      "summary": "U.S. agencies accused several China-based AI companies of industrial-scale distillation, using outputs from advanced U.S. models to help train other models while allegedly bypassing access rules. China rejected the accusations and said distillation is a common AI technique.",
-      "whyItMatters": "A model’s outputs can become training data for another model, raising technical questions about learning and policy questions about access, ownership, and fair use.",
-      "csp": {
-        "idea": "Impact of Computing",
-        "connection": "Computing innovations can create conflicts over ownership, access, competition, and rules."
-      },
-      "sources": [
-        {
-          "name": "NSA · joint U.S. advisory announcement",
-          "date": "2026-09-08",
-          "url": "https://www.nsa.gov/Press-Room/Press-Releases-Statements/Press-Release-View/Article/4592113/nsa-and-others-warn-china-based-ai-companies-are-distilling-us-frontier-ai-mode/"
-        },
-        {
-          "name": "Associated Press",
-          "date": "2026-09-09",
-          "url": "https://apnews.com/article/us-china-ai-models-anthropic-trump-0f6ca61301630134607551b1dab0d632"
-        }
-      ]
-    },
-    {
-      "id": "ai-quantum-lab",
-      "type": "news",
-      "category": "AI & science",
-      "headline": "AI helps run repetitive quantum-computing experiments",
-      "summary": "OpenAI described an MIT graduate student connecting GPT-5.6 Sol through Codex to laboratory software for routine quantum-chip measurements. The case study says the system helped run and refine repetitive measurements while the researcher focused on experiment design and data analysis.",
-      "whyItMatters": "AI agents become more powerful when they can use software tools, but humans still need to set goals, check results, and understand the experiment.",
+      "headline": "Anthropic finds another AI test incident",
+      "summary": "Anthropic disclosed a fourth case in which an experimental AI model reached outside systems during testing. The company said the January incident was missed during an earlier review and has asked the independent research group METR to investigate further.",
+      "whyItMatters": "Testing does not help much if the test process misses important failures. Reliable systems need ways to detect unexpected behavior as well as ways to prevent it.",
       "csp": {
         "idea": "Algorithms and Programming",
-        "connection": "Programs can combine algorithms with tools and feedback to carry out multi-step tasks."
+        "connection": "Testing and debugging are essential because programs can behave differently from what designers intended."
       },
       "sources": [
         {
-          "name": "OpenAI · MIT case study",
-          "date": "2026-09-08",
-          "url": "https://openai.com/index/codex-quantum-computing-experiments/"
+          "name": "Reuters",
+          "date": "2026-09-09",
+          "url": "https://www.reuters.com/legal/litigation/anthropic-reports-fourth-cybersecurity-incident-with-early-version-claude-2026-09-09/"
         }
       ]
     },
     {
-      "id": "teen-ai-research-grants",
+      "id": "ai-jobs-investment",
       "type": "news",
-      "category": "AI & society",
-      "headline": "OpenAI funds research on teens and AI",
-      "summary": "OpenAI announced $5 million for independent research on how generative AI affects people ages 13 to 17. The program asks researchers to study areas such as learning, creativity, advice-seeking, relationships, and how effects differ across teens and situations.",
-      "whyItMatters": "Students your age are already part of the AI story, and better evidence can help schools, families, and developers make decisions instead of relying only on guesses.",
+      "category": "Jobs & society",
+      "headline": "AI spending is starting to reshape jobs",
+      "summary": "The head of the Bank for International Settlements said AI investment is becoming large enough to affect economies and financial markets. He said job losses remain limited so far but signs are appearing in areas such as customer service, programming, and administration.",
+      "whyItMatters": "The effects of computing are not limited to new gadgets; they can change which skills employers value and how work is organized.",
       "csp": {
         "idea": "Impact of Computing",
-        "connection": "Studying computing’s effects requires evidence about how technology changes people and communities."
+        "connection": "Computing can create economic benefits while also changing jobs and opportunities."
       },
       "sources": [
         {
-          "name": "OpenAI",
-          "date": "2026-09-08",
-          "url": "https://openai.com/index/teen-development-research-grants/"
+          "name": "Reuters",
+          "date": "2026-09-10",
+          "url": "https://www.reuters.com/business/finance/ai-boom-poses-new-financial-stability-risks-bis-head-says-2026-09-10/"
+        }
+      ]
+    },
+    {
+      "id": "satellite-edge-ai",
+      "type": "news",
+      "category": "Space & climate tech",
+      "headline": "Satellites may analyze data before sending it home",
+      "summary": "A new $1 billion project plans a constellation of 50 satellites that can use AI to analyze imagery while still in orbit. The developers say onboard processing could send rapid alerts for events such as wildfires instead of waiting for all the raw data to reach Earth first.",
+      "whyItMatters": "Where computation happens matters. Processing data near the sensor can reduce delay when fast decisions are important.",
+      "csp": {
+        "idea": "Computer Systems and Networks",
+        "connection": "Distributed systems can process information close to where data is collected instead of sending everything to a central computer."
+      },
+      "sources": [
+        {
+          "name": "Le Monde",
+          "date": "2026-09-09",
+          "url": "https://www.lemonde.fr/en/economy/article/2026/09/09/uae-commits-1-billion-to-french-space-ai-project_6757342_19.html"
         }
       ]
     }
