@@ -45,7 +45,8 @@ function unavailable(title,message){
   $('counter').textContent='—';
 }
 async function readEdition(path){
-  const res=await fetch(path,{cache:'no-store',signal:AbortSignal.timeout(15000)});
+  const separator=path.includes('?')?'&':'?';
+  const res=await fetch(`${path}${separator}v=${Date.now()}`,{cache:'no-store',signal:AbortSignal.timeout(15000)});
   if(!res.ok)throw Error('Unavailable');
   const fresh=await res.json();if(validateEdition(fresh).length)throw Error('Invalid edition');return fresh;
 }
@@ -54,7 +55,10 @@ async function refresh(){
   try{
     const fresh=await readEdition('/edition.json');offline=false;
     if(!edition){edition=fresh;save();render()}
-    else if(fresh.editionId!==edition.editionId&&fresh.date>=edition.date){if(!playing){edition=fresh;index=0;save();render()}else pending=fresh}
+    else if(fresh.editionId!==edition.editionId&&fresh.date>=edition.date){
+      if(fresh.date>edition.date||!playing){edition=fresh;pending=null;index=0;save();render()}
+      else pending=fresh;
+    }
     status();
   }catch{offline=true;if(!edition)unavailable('The brief will be back shortly.','Please check the internet connection. We’ll keep trying automatically.');status()}
 }
