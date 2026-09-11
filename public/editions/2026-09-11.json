@@ -1,0 +1,199 @@
+{
+  "schemaVersion": 1,
+  "editionId": "2026-09-11-daily",
+  "date": "2026-09-11",
+  "coverage": "Nine stories · student tech, AI systems, robotics and science",
+  "cards": [
+    {
+      "id": "california-teen-tech-rules",
+      "type": "news",
+      "category": "Social media & safety",
+      "headline": "California limits addictive tech features for kids",
+      "summary": "California signed a package of laws aimed at reducing technology risks for young people. One measure bars social platforms from giving users under 16 features designed to drive compulsive use, including infinite scroll and algorithmic autoplay.",
+      "whyItMatters": "Software design choices can shape behavior. These laws show how governments may regulate the algorithms and interface features students use every day.",
+      "csp": {
+        "idea": "Impact of Computing",
+        "connection": "Computing products can affect people and society, leading to debates about safety, privacy and regulation."
+      },
+      "sources": [
+        {
+          "name": "Associated Press",
+          "date": "2026-09-10",
+          "url": "https://apnews.com/article/california-social-media-safety-kids-online-harms-6063026d1b54a8537d639605c23aab80"
+        },
+        {
+          "name": "Reuters",
+          "date": "2026-09-10",
+          "url": "https://www.reuters.com/legal/litigation/california-enacts-new-curbs-social-media-children-2026-09-11/"
+        }
+      ]
+    },
+    {
+      "id": "microsoft-school-ai-privacy",
+      "type": "news",
+      "category": "School & privacy",
+      "headline": "Microsoft agrees to enforceable school AI privacy rules",
+      "summary": "Microsoft agreed with two teachers unions on ten AI safety and privacy principles that school districts can add to contracts. The terms include not training models on student or educator data, limiting data collection and requiring human review for high-risk decisions.",
+      "whyItMatters": "Schools handle sensitive student data. Contract rules can turn privacy promises into requirements that districts can enforce.",
+      "csp": {
+        "idea": "Impact of Computing",
+        "connection": "Data collection and privacy rules influence how computing systems are designed and used in schools."
+      },
+      "sources": [
+        {
+          "name": "The Verge",
+          "date": "2026-09-10",
+          "url": "https://www.theverge.com/policy/992359/microsoft-aft-schools-ai-privacy"
+        },
+        {
+          "name": "Fortune",
+          "date": "2026-09-09",
+          "url": "https://fortune.com/2026/09/09/microsoft-school-district-ai-standard-enforceable-safety/"
+        }
+      ]
+    },
+    {
+      "id": "umg-elevenlabs-remix",
+      "type": "news",
+      "category": "Music & creator tools",
+      "headline": "Universal and ElevenLabs plan licensed AI remix platform",
+      "summary": "Universal Music Group and ElevenLabs announced a platform that will let fans create remixes, mashups and new interpretations from music by participating artists. Artists and songwriters will be able to choose whether their work is included.",
+      "whyItMatters": "Generative AI can create new media, but training data, licensing and permission determine what creators and fans are allowed to do with it.",
+      "csp": {
+        "idea": "Impact of Computing",
+        "connection": "Digital tools can expand creativity while changing how ownership, permission and compensation work."
+      },
+      "sources": [
+        {
+          "name": "Universal Music Group",
+          "date": "2026-09-10",
+          "url": "https://www.universalmusic.com/universal-music-group-and-elevenlabs-announce-multi-year-strategic-agreement-beginning-with-a-new-licensed-ai-music-creation-platform/"
+        },
+        {
+          "name": "The Verge",
+          "date": "2026-09-10",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/993465/universal-music-elevenlabs-ai"
+        }
+      ]
+    },
+    {
+      "id": "tesla-driver-attention",
+      "type": "news",
+      "category": "Transportation tech",
+      "headline": "Sleeping-driver videos test Tesla's safety safeguards",
+      "summary": "A U.S. lawmaker asked federal auto-safety officials to examine whether Tesla's driver-assistance safeguards do enough to prevent misuse. The request cited dozens of videos that appear to show drivers asleep or disengaged while Autopilot or Full Self-Driving was operating.",
+      "whyItMatters": "Driver-assistance software still depends on humans paying attention. Good systems need sensors, warnings and fail-safes for predictable misuse.",
+      "csp": {
+        "idea": "Computer Systems and Networks",
+        "connection": "Complex systems combine software, sensors and human input, and failures can happen when one part does not work as expected."
+      },
+      "sources": [
+        {
+          "name": "Reuters",
+          "date": "2026-09-10",
+          "url": "https://www.reuters.com/world/us/house-democrat-urges-us-action-over-sleeping-tesla-drivers-2026-09-10/"
+        }
+      ]
+    },
+    {
+      "id": "dmatrix-nvlink",
+      "type": "news",
+      "category": "Chips & hardware",
+      "headline": "AI chip startup plugs into Nvidia's server system",
+      "summary": "D-Matrix said its upcoming Raptor processors will connect directly to Nvidia data-center racks using NVLink Fusion. The chips focus on inference, the step where a trained AI model answers prompts or performs tasks for users.",
+      "whyItMatters": "AI speed depends on more than one processor. Fast links between chips, memory and servers can matter as much as the chips themselves.",
+      "csp": {
+        "idea": "Computer Systems and Networks",
+        "connection": "Computer performance depends on how processors, memory and communication links work together."
+      },
+      "sources": [
+        {
+          "name": "Reuters",
+          "date": "2026-09-10",
+          "url": "https://www.reuters.com/business/media-telecom/chip-startup-d-matrix-use-nvidia-chip-linking-tech-ai-servers-2026-09-10/"
+        }
+      ]
+    },
+    {
+      "id": "openai-finance-chatgpt",
+      "type": "news",
+      "category": "AI & data",
+      "headline": "ChatGPT gets a version built for financial work",
+      "summary": "OpenAI launched ChatGPT for Financial Services with built-in access to several financial data providers and tools for research, modeling and client materials. The product also includes controls such as role-based access, encryption and exportable audit logs.",
+      "whyItMatters": "Specialized AI is increasingly being connected to private data and professional workflows, making data quality, permissions and auditing central design problems.",
+      "csp": {
+        "idea": "Data",
+        "connection": "Useful computing systems depend on reliable data and rules that control who can access and use it."
+      },
+      "sources": [
+        {
+          "name": "Reuters",
+          "date": "2026-09-10",
+          "url": "https://www.reuters.com/business/openai-launches-chatgpt-financial-services-industry-2026-09-10/"
+        }
+      ]
+    },
+    {
+      "id": "tiangong-robot-work",
+      "type": "news",
+      "category": "Robotics",
+      "headline": "China's sprinting robot turns toward real-world jobs",
+      "summary": "After TianGong Ultra ran 100 meters in 8.64 seconds, its developers said the harder goal is making humanoid robots reliable enough for useful work. The team is testing motion-control software and early industrial tasks such as moving boxes.",
+      "whyItMatters": "A flashy demo is not the same as a dependable product. Robotics requires algorithms to keep balancing, sensing and adjusting in changing real-world conditions.",
+      "csp": {
+        "idea": "Algorithms and Programming",
+        "connection": "Robots use repeated sensor input and control algorithms to adjust their actions many times each second."
+      },
+      "sources": [
+        {
+          "name": "Reuters",
+          "date": "2026-09-10",
+          "url": "https://www.reuters.com/world/asia-pacific/after-outrunning-bolt-chinas-robot-champion-races-towards-real-world-work-2026-09-10/"
+        }
+      ]
+    },
+    {
+      "id": "ororatech-infrared-satellites",
+      "type": "news",
+      "category": "Space & climate tech",
+      "headline": "More satellites will watch Earth in infrared",
+      "summary": "OroraTech plans to place up to 96 infrared sensors on future Eutelsat low-Earth-orbit satellites. The company says the expanded network will help monitor wildfires, infrastructure and maritime activity without launching a separate spacecraft for every sensor.",
+      "whyItMatters": "Sensors in orbit produce huge streams of data. Better coverage can help computer systems detect heat patterns and send useful information to people on the ground faster.",
+      "csp": {
+        "idea": "Data",
+        "connection": "Remote sensors collect data that computing systems can process to identify patterns and support decisions."
+      },
+      "sources": [
+        {
+          "name": "Reuters",
+          "date": "2026-09-09",
+          "url": "https://www.reuters.com/business/media-telecom/ororatech-partners-with-eutelsat-infrared-satellite-monitoring-space-2026-09-09/"
+        }
+      ]
+    },
+    {
+      "id": "hydrogym-turbulence",
+      "type": "concept",
+      "category": "CSP in the Wild",
+      "headline": "CSP in the Wild: AI learns to tame turbulence",
+      "summary": "Researchers built HydroGym, an open platform where reinforcement-learning agents practice controlling fluid flows in more than 60 simulated environments. Some strategies learned in simpler simulations transferred to harder flow-control problems without additional training.",
+      "whyItMatters": "This is an unusual example of algorithms learning through repeated feedback, then applying what they learned to a new situation.",
+      "csp": {
+        "idea": "Algorithms and Programming",
+        "connection": "Reinforcement-learning algorithms improve a policy by repeatedly choosing actions and using feedback from the results."
+      },
+      "sources": [
+        {
+          "name": "Nature",
+          "date": "2026-08-19",
+          "url": "https://www.nature.com/articles/s41586-026-10917-6"
+        },
+        {
+          "name": "Nature",
+          "date": "2026-09-10",
+          "url": "https://www.nature.com/nature/volumes/657/issues/8131"
+        }
+      ]
+    }
+  ]
+}
