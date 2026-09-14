@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "editionId": "2026-09-14-daily",
+  "date": "2026-09-14",
+  "coverage": "Nine stories · AI safety, chips, games, sports and robotics",
+  "cards": [
+    {
+      "id": "microsoft-ai-control-code",
+      "type": "news",
+      "category": "AI & safety",
+      "headline": "Microsoft drafts rules to keep AI under human control",
+      "summary": "Microsoft published a draft code that would require its future AI systems to accept correction or shutdown and communicate in ways people can understand. The company is asking for six weeks of public feedback before using the rules to train future models.",
+      "whyItMatters": "AI safety is partly a software-design problem: systems need clear limits, tests and reliable ways for humans to correct or stop them.",
+      "csp": {"idea": "Impact of Computing", "connection": "The way AI systems are designed can affect safety, trust and how people remain in control of computing tools."},
+      "sources": [{"name": "Reuters", "date": "2026-09-14", "url": "https://www.reuters.com/legal/litigation/microsoft-drafts-code-conduct-keep-its-ai-under-human-control-2026-09-14/"}]
+    },
+    {
+      "id": "asml-high-na-chips",
+      "type": "news",
+      "category": "Chips & hardware",
+      "headline": "New chip machines can print features 40% smaller",
+      "summary": "Major chipmakers are committing to ASML's next-generation High NA lithography machines, which use light to print extremely small circuit patterns. Reuters reports that the tools can make features about 40% smaller than standard EUV systems, though each machine costs about $400 million.",
+      "whyItMatters": "Smaller circuit features can improve chip performance. Advances in manufacturing hardware help determine what future computers and AI systems can do.",
+      "csp": {"idea": "Computer Systems and Networks", "connection": "Computer performance depends on physical hardware, including how densely manufacturers can build circuits onto chips."},
+      "sources": [{"name": "Reuters", "date": "2026-09-14", "url": "https://www.reuters.com/world/asia-pacific/asml-extends-chipmaking-dominance-customers-embrace-high-na-2026-09-14/"}]
+    },
+    {
+      "id": "senate-ai-duty-care",
+      "type": "news",
+      "category": "AI & policy",
+      "headline": "Senators debate safety duties for the most powerful AI",
+      "summary": "U.S. Senate negotiators are discussing a proposal that would give advanced AI developers a \"duty of care\" to design against major known risks. The proposal is still being negotiated and could let the federal government block some model releases, with court review available to companies.",
+      "whyItMatters": "Software rules can become legal requirements. This debate asks who should test powerful AI and who decides when a system is safe enough to release.",
+      "csp": {"idea": "Impact of Computing", "connection": "Computing innovations can create new policy questions about safety, responsibility and government oversight."},
+      "sources": [{"name": "Reuters", "date": "2026-09-11", "url": "https://www.reuters.com/legal/litigation/us-senate-negotiators-consider-requiring-ai-firms-mitigate-known-major-risks-2026-09-11/"}]
+    },
+    {
+      "id": "ponyai-level4-truck",
+      "type": "news",
+      "category": "Transportation tech",
+      "headline": "Self-driving electric truck targets European road tests",
+      "summary": "Pony.ai unveiled a Level 4 electric heavy truck and says it is discussing road tests with European governments and ports. Level 4 means the truck can drive without a human under specific conditions and within approved areas.",
+      "whyItMatters": "Autonomous vehicles combine sensors, maps and control algorithms, but software capability still has to fit real-world safety rules and operating conditions.",
+      "csp": {"idea": "Algorithms and Programming", "connection": "Autonomous vehicles repeatedly process sensor data and use algorithms to decide how to move through changing environments."},
+      "sources": [{"name": "Reuters", "date": "2026-09-14", "url": "https://www.reuters.com/business/autos-transportation/chinas-ponyai-unveils-latest-robotruck-model-it-targets-european-sales-2026-09-14/"}]
+    },
+    {
+      "id": "roblox-creator-tools",
+      "type": "news",
+      "category": "Gaming & creator tools",
+      "headline": "Roblox expands how creators build and distribute games",
+      "summary": "Roblox plans to let creators distribute games as standalone apps and is expanding AI tools that can build or lay out games from text prompts. It also plans non-player characters that can help playtest games before release.",
+      "whyItMatters": "Game development combines programming, testing and user-interface design. New tools can lower the barrier to creating software while making careful testing more important.",
+      "csp": {"idea": "Algorithms and Programming", "connection": "Game creators build programs, test behavior and revise their work as tools automate more parts of the development process."},
+      "sources": [{"name": "Reuters", "date": "2026-09-11", "url": "https://www.reuters.com/technology/roblox-expands-tools-help-creators-build-distribute-games-2026-09-11/"}]
+    },
+    {
+      "id": "reuters-ai-video-editing",
+      "type": "news",
+      "category": "Media & creator tools",
+      "headline": "News editors can cut video with plain-language prompts",
+      "summary": "Reuters announced an integration with CuttingRoom that lets newsroom editors search, cut, mix and caption Reuters video using plain-language requests. Editors stay in the browser while their newsroom's own editorial rules still apply.",
+      "whyItMatters": "AI tools are moving from chat into real production workflows, where permissions, data handling and human editorial rules become part of system design.",
+      "csp": {"idea": "Impact of Computing", "connection": "Computing tools can change creative work while people still set rules for accuracy, responsibility and how the tools are used."},
+      "sources": [{"name": "Reuters Media Center", "date": "2026-09-12", "url": "https://www.reuters.com/media-center/reuters-cuttingroom-partner-provide-newsrooms-with-ai-assisted-video-editing-2026-09-12/"}]
+    },
+    {
+      "id": "us-open-limb-tracking",
+      "type": "news",
+      "category": "Sports technology",
+      "headline": "Cameras and AI score tennis serves at the U.S. Open",
+      "summary": "IBM and the USTA added a \"serve quality\" feature that uses cameras to track more than 20 body points for singles players at the U.S. Open. IBM's software processes movement data from areas such as knees, wrists and elbows into a score fans can see in the tournament app.",
+      "whyItMatters": "Sports analytics turns camera measurements into data, then uses algorithms to summarize complex movement. The result depends on what the system measures and how its scoring model is designed.",
+      "csp": {"idea": "Data", "connection": "Computing systems collect, process and summarize large sets of movement data to produce information people can use."},
+      "sources": [{"name": "Fortune", "date": "2026-09-12", "url": "https://fortune.com/2026/09/12/ibm-launched-limb-tracking-at-this-years-u-s-open-and-its-scoring-every-tennis-players-serve-for-fans-to-see/"}]
+    },
+    {
+      "id": "boston-dynamics-atlas-scale",
+      "type": "news",
+      "category": "Robotics",
+      "headline": "Humanoid robots still face a factory-scale reality check",
+      "summary": "Boston Dynamics has not yet deployed its Atlas humanoid robots at large scale, according to a Hyundai executive cited by Reuters. The gap between demonstrations and broad deployment highlights the challenge of making robots dependable enough for repeated real-world work.",
+      "whyItMatters": "A successful robot demo is only one step toward a useful system. Real deployments must keep sensing, balancing and making decisions reliably over and over.",
+      "csp": {"idea": "Computer Systems and Networks", "connection": "Robots combine processors, sensors, software and physical components that must work together reliably as one system."},
+      "sources": [{"name": "Reuters", "date": "2026-09-14", "url": "https://www.reuters.com/business/media-telecom/ipo-humanoid-robot-maker-boston-dynamics-unlikely-2027-executive-says-2026-09-14/"}]
+    },
+    {
+      "id": "ai-safety-outside-evaluators",
+      "type": "news",
+      "category": "AI & safety",
+      "headline": "AI leaders call for stronger outside safety checks",
+      "summary": "Anthropic CEO Dario Amodei called for slowing the pace of advanced AI development so safety work can catch up. His plan includes stronger independent evaluation, while the AP notes that experts still disagree about how likely the most extreme AI risks are.",
+      "whyItMatters": "Testing a powerful system raises a second question: who checks the test? Independent evaluation can provide evidence beyond a developer's own claims.",
+      "csp": {"idea": "Impact of Computing", "connection": "As computing systems grow more capable, people must decide how to evaluate risks, verify claims and assign responsibility."},
+      "sources": [{"name": "Associated Press", "date": "2026-09-13", "url": "https://apnews.com/article/anthropic-ai-dario-amodei-d59552edcb27892d8ee4d98a48397706"}]
+    }
+  ]
+}
