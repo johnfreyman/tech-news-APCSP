@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "editionId": "2026-09-15-daily",
   "date": "2026-09-15",
-  "coverage": "Nine stories · phones, privacy, schools, cloud systems and crypto",
+  "coverage": "Eight stories · phones, privacy, schools, cloud systems and crypto",
   "cards": [
     {
       "id": "mediatek-2nm-phone-chip",
@@ -83,16 +83,6 @@
       "whyItMatters": "Cryptocurrency mixes software, networks and money. Technical systems can grow faster than the laws that define who is responsible when people use them.",
       "csp": {"idea": "Impact of Computing", "connection": "New computing systems can create economic and legal questions that require rules beyond the code itself."},
       "sources": [{"name": "Reuters", "date": "2026-09-15", "url": "https://www.reuters.com/legal/government/us-senate-vote-advancing-landmark-crypto-bill-2026-09-15/"}]
-    },
-    {
-      "id": "llm-agents-state-csp-wild",
-      "type": "concept",
-      "category": "CSP in the Wild",
-      "headline": "CSP in the Wild: Why AI agents need state",
-      "summary": "NASA's AI and machine-learning science group opened its new weekly lecture series Monday with a talk on the foundations of LLM agents. An agent needs some representation of state — information about what has already happened — so it can choose a useful next action instead of treating every step as unrelated.",
-      "whyItMatters": "The same idea appears in ordinary programs: useful behavior often depends on storing information, updating it and using it in later decisions.",
-      "csp": {"idea": "Algorithms and Programming", "connection": "Programs use variables and data structures to preserve state, then algorithms use that state to decide what happens next."},
-      "sources": [{"name": "NASA Science", "date": "2026-09-14", "url": "https://science.nasa.gov/astrophysics/programs/cosmic-origins/community/ai-ml-stig-lecture-series-14-sept-2026/"}]
     }
   ]
 }
