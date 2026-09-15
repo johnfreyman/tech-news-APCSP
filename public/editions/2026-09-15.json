@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "editionId": "2026-09-15-daily",
+  "date": "2026-09-15",
+  "coverage": "Nine stories · phones, privacy, schools, cloud systems and crypto",
+  "cards": [
+    {
+      "id": "mediatek-2nm-phone-chip",
+      "type": "news",
+      "category": "Chips & devices",
+      "headline": "A 2-nanometer chip brings more AI onto phones",
+      "summary": "MediaTek unveiled its Dimensity 9600 Pro, its first smartphone processor made with TSMC's 2-nanometer manufacturing process. MediaTek says its dedicated AI processor can handle more generative-AI work directly on a phone, though the first phones using the chip have not launched yet.",
+      "whyItMatters": "Doing more computing on the device can make phone features faster and less dependent on sending data to distant servers.",
+      "csp": {"idea": "Computer Systems and Networks", "connection": "Hardware design affects what software can run locally, how quickly it responds and when a device needs a network connection."},
+      "sources": [{"name": "Reuters", "date": "2026-09-15", "url": "https://www.reuters.com/business/media-telecom/mediatek-launches-new-mobile-chip-using-tsmcs-most-advanced-technology-2026-09-15/"}]
+    },
+    {
+      "id": "eu-under15-online-proposal",
+      "type": "news",
+      "category": "Social media & online safety",
+      "headline": "EU proposal would restrict social media for under-15s",
+      "summary": "A European Commission proposal would restrict children under 15 from social media, video platforms, AI chatbots and online games, according to a draft seen by Reuters. The plan would also require age checks and limits on addictive designs, but it is still a proposal rather than current law.",
+      "whyItMatters": "Age verification and feed design are computing choices with real effects on privacy, access and how young people experience online services.",
+      "csp": {"idea": "Impact of Computing", "connection": "Online platforms create benefits and risks, and societies make rules about how those systems should work for different users."},
+      "sources": [{"name": "Reuters", "date": "2026-09-14", "url": "https://www.reuters.com/legal/litigation/eu-is-set-propose-ban-social-media-ai-chatbots-under-15s-2026-09-14/"}]
+    },
+    {
+      "id": "microsoft-school-ai-privacy",
+      "type": "news",
+      "category": "Education & privacy",
+      "headline": "Microsoft agrees to stronger privacy rules for school AI",
+      "summary": "Microsoft agreed to school-AI standards negotiated with the American Federation of Teachers that take effect for its school contracts November 1. The agreement says student and educator data cannot be used for advertising or ordinary AI training and requires audits and plain-language explanations for families.",
+      "whyItMatters": "Students generate data whenever they use digital learning tools. Rules about collecting, storing and reusing that data can matter as much as the AI feature itself.",
+      "csp": {"idea": "Impact of Computing", "connection": "Privacy decisions affect how computing systems collect data and how much control users have over information about themselves."},
+      "sources": [{"name": "Associated Press", "date": "2026-09-15", "url": "https://apnews.com/article/ai-school-student-data-privacy-microsoft-google-89b040631d635e0d8673f1e9aa9a6e28"}]
+    },
+    {
+      "id": "companies-ai-data-retention",
+      "type": "news",
+      "category": "AI & data security",
+      "headline": "Companies rethink AI use when sensitive data is involved",
+      "summary": "Palantir, Nvidia and Booz Allen may limit some use of advanced AI models unless providers give stronger guarantees about proprietary data, Reuters reported, citing The Information. Nvidia already limits Anthropic models to less-sensitive tasks, while the AI labs say they do not train on customer data by default unless customers opt in.",
+      "whyItMatters": "A useful AI tool can still be the wrong tool for sensitive information. Organizations have to decide what data may leave their systems and how long providers can keep it.",
+      "csp": {"idea": "Impact of Computing", "connection": "Data policies and system boundaries affect privacy, security and whether a computing tool is appropriate for a task."},
+      "sources": [{"name": "Reuters", "date": "2026-09-14", "url": "https://www.reuters.com/business/palantir-nvidia-curb-ai-model-use-over-data-fears-information-reports-2026-09-14/"}]
+    },
+    {
+      "id": "schoolai-classroom-controls",
+      "type": "news",
+      "category": "Education technology",
+      "headline": "Michigan district puts teachers in charge of classroom AI",
+      "summary": "Midland Public Schools is introducing SchoolAI for grades 6–12 while letting each teacher decide whether and how to use it. District staff say teachers can monitor interactions, set activity boundaries and receive safety alerts, while student data is encrypted and not used to train public AI models.",
+      "whyItMatters": "Schools do not have to choose only between banning AI and allowing everything. Software permissions and teacher controls can shape how a tool is used.",
+      "csp": {"idea": "Impact of Computing", "connection": "The effects of a computing innovation depend partly on the rules, interfaces and safeguards surrounding its use."},
+      "sources": [{"name": "Midland Daily News", "date": "2026-09-15", "url": "https://www.ourmidland.com/news/article/midland-schools-schoolai-ai-22422338.php"}]
+    },
+    {
+      "id": "medicare-ai-authorization-pilot",
+      "type": "news",
+      "category": "Health & algorithms",
+      "headline": "Documents show problems in Medicare's AI approval pilot",
+      "summary": "Newly released documents describe launch problems in a Medicare pilot that uses AI in decisions about whether certain medical services receive prior approval. STAT reports that a vendor warned the government before launch that the planned schedule was unrealistic, and the records describe delays in some care.",
+      "whyItMatters": "When an algorithm helps make high-stakes decisions, testing, rollout schedules and human oversight can affect people directly.",
+      "csp": {"idea": "Impact of Computing", "connection": "Computing systems can influence important decisions, so designers and organizations need ways to evaluate accuracy, reliability and consequences."},
+      "sources": [{"name": "STAT", "date": "2026-09-15", "url": "https://www.statnews.com/2026/09/15/medicare-wiser-ai-prior-authorization-pilot-rushed-launch-delayed-care/"}]
+    },
+    {
+      "id": "aws-region-resilience",
+      "type": "news",
+      "category": "Cloud computing",
+      "headline": "AWS outage shows why cloud systems use multiple regions",
+      "summary": "AWS says it cannot yet restore its Bahrain cloud region and one UAE data-hosting zone after physical damage earlier this year. Most affected customers re-established operations in other regions, showing both the limits of local redundancy and the value of geographically separated backups.",
+      "whyItMatters": "The cloud is still physical computers in real places. Reliable systems plan for failures by keeping services and data available somewhere else.",
+      "csp": {"idea": "Computer Systems and Networks", "connection": "Distributed systems can improve reliability by spreading computing and data across separate locations rather than depending on one site."},
+      "sources": [{"name": "Reuters", "date": "2026-09-15", "url": "https://www.reuters.com/world/middle-east/amazons-aws-is-unable-restore-access-bahrain-one-uae-cloud-data-zone-after-war-2026-09-15/"}]
+    },
+    {
+      "id": "crypto-clarity-act-vote",
+      "type": "news",
+      "category": "Digital money & policy",
+      "headline": "Senate vote tests new rules for digital assets",
+      "summary": "The U.S. Senate is scheduled to vote Tuesday on whether to advance the Clarity Act, a bill that would create a regulatory framework for digital assets. The vote is procedural and the bill is not yet law; lawmakers and banking groups still disagree over parts of the revised proposal.",
+      "whyItMatters": "Cryptocurrency mixes software, networks and money. Technical systems can grow faster than the laws that define who is responsible when people use them.",
+      "csp": {"idea": "Impact of Computing", "connection": "New computing systems can create economic and legal questions that require rules beyond the code itself."},
+      "sources": [{"name": "Reuters", "date": "2026-09-15", "url": "https://www.reuters.com/legal/government/us-senate-vote-advancing-landmark-crypto-bill-2026-09-15/"}]
+    },
+    {
+      "id": "llm-agents-state-csp-wild",
+      "type": "concept",
+      "category": "CSP in the Wild",
+      "headline": "CSP in the Wild: Why AI agents need state",
+      "summary": "NASA's AI and machine-learning science group opened its new weekly lecture series Monday with a talk on the foundations of LLM agents. An agent needs some representation of state — information about what has already happened — so it can choose a useful next action instead of treating every step as unrelated.",
+      "whyItMatters": "The same idea appears in ordinary programs: useful behavior often depends on storing information, updating it and using it in later decisions.",
+      "csp": {"idea": "Algorithms and Programming", "connection": "Programs use variables and data structures to preserve state, then algorithms use that state to decide what happens next."},
+      "sources": [{"name": "NASA Science", "date": "2026-09-14", "url": "https://science.nasa.gov/astrophysics/programs/cosmic-origins/community/ai-ml-stig-lecture-series-14-sept-2026/"}]
+    }
+  ]
+}
