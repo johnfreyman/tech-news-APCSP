@@ -1,88 +1,17 @@
 {
   "schemaVersion": 1,
-  "editionId": "2026-09-15-daily",
-  "date": "2026-09-15",
-  "coverage": "Eight stories · phones, privacy, schools, cloud systems and crypto",
+  "editionId": "2026-09-16-daily",
+  "date": "2026-09-16",
+  "coverage": "Nine stories · AI, robots, phones, transportation, languages and space",
   "cards": [
-    {
-      "id": "mediatek-2nm-phone-chip",
-      "type": "news",
-      "category": "Chips & devices",
-      "headline": "A 2-nanometer chip brings more AI onto phones",
-      "summary": "MediaTek unveiled its Dimensity 9600 Pro, its first smartphone processor made with TSMC's 2-nanometer manufacturing process. MediaTek says its dedicated AI processor can handle more generative-AI work directly on a phone, though the first phones using the chip have not launched yet.",
-      "whyItMatters": "Doing more computing on the device can make phone features faster and less dependent on sending data to distant servers.",
-      "csp": {"idea": "Computer Systems and Networks", "connection": "Hardware design affects what software can run locally, how quickly it responds and when a device needs a network connection."},
-      "sources": [{"name": "Reuters", "date": "2026-09-15", "url": "https://www.reuters.com/business/media-telecom/mediatek-launches-new-mobile-chip-using-tsmcs-most-advanced-technology-2026-09-15/"}]
-    },
-    {
-      "id": "eu-under15-online-proposal",
-      "type": "news",
-      "category": "Social media & online safety",
-      "headline": "EU proposal would restrict social media for under-15s",
-      "summary": "A European Commission proposal would restrict children under 15 from social media, video platforms, AI chatbots and online games, according to a draft seen by Reuters. The plan would also require age checks and limits on addictive designs, but it is still a proposal rather than current law.",
-      "whyItMatters": "Age verification and feed design are computing choices with real effects on privacy, access and how young people experience online services.",
-      "csp": {"idea": "Impact of Computing", "connection": "Online platforms create benefits and risks, and societies make rules about how those systems should work for different users."},
-      "sources": [{"name": "Reuters", "date": "2026-09-14", "url": "https://www.reuters.com/legal/litigation/eu-is-set-propose-ban-social-media-ai-chatbots-under-15s-2026-09-14/"}]
-    },
-    {
-      "id": "microsoft-school-ai-privacy",
-      "type": "news",
-      "category": "Education & privacy",
-      "headline": "Microsoft agrees to stronger privacy rules for school AI",
-      "summary": "Microsoft agreed to school-AI standards negotiated with the American Federation of Teachers that take effect for its school contracts November 1. The agreement says student and educator data cannot be used for advertising or ordinary AI training and requires audits and plain-language explanations for families.",
-      "whyItMatters": "Students generate data whenever they use digital learning tools. Rules about collecting, storing and reusing that data can matter as much as the AI feature itself.",
-      "csp": {"idea": "Impact of Computing", "connection": "Privacy decisions affect how computing systems collect data and how much control users have over information about themselves."},
-      "sources": [{"name": "Associated Press", "date": "2026-09-15", "url": "https://apnews.com/article/ai-school-student-data-privacy-microsoft-google-89b040631d635e0d8673f1e9aa9a6e28"}]
-    },
-    {
-      "id": "companies-ai-data-retention",
-      "type": "news",
-      "category": "AI & data security",
-      "headline": "Companies rethink AI use when sensitive data is involved",
-      "summary": "Palantir, Nvidia and Booz Allen may limit some use of advanced AI models unless providers give stronger guarantees about proprietary data, Reuters reported, citing The Information. Nvidia already limits Anthropic models to less-sensitive tasks, while the AI labs say they do not train on customer data by default unless customers opt in.",
-      "whyItMatters": "A useful AI tool can still be the wrong tool for sensitive information. Organizations have to decide what data may leave their systems and how long providers can keep it.",
-      "csp": {"idea": "Impact of Computing", "connection": "Data policies and system boundaries affect privacy, security and whether a computing tool is appropriate for a task."},
-      "sources": [{"name": "Reuters", "date": "2026-09-14", "url": "https://www.reuters.com/business/palantir-nvidia-curb-ai-model-use-over-data-fears-information-reports-2026-09-14/"}]
-    },
-    {
-      "id": "schoolai-classroom-controls",
-      "type": "news",
-      "category": "Education technology",
-      "headline": "Michigan district puts teachers in charge of classroom AI",
-      "summary": "Midland Public Schools is introducing SchoolAI for grades 6–12 while letting each teacher decide whether and how to use it. District staff say teachers can monitor interactions, set activity boundaries and receive safety alerts, while student data is encrypted and not used to train public AI models.",
-      "whyItMatters": "Schools do not have to choose only between banning AI and allowing everything. Software permissions and teacher controls can shape how a tool is used.",
-      "csp": {"idea": "Impact of Computing", "connection": "The effects of a computing innovation depend partly on the rules, interfaces and safeguards surrounding its use."},
-      "sources": [{"name": "Midland Daily News", "date": "2026-09-15", "url": "https://www.ourmidland.com/news/article/midland-schools-schoolai-ai-22422338.php"}]
-    },
-    {
-      "id": "medicare-ai-authorization-pilot",
-      "type": "news",
-      "category": "Health & algorithms",
-      "headline": "Documents show problems in Medicare's AI approval pilot",
-      "summary": "Newly released documents describe launch problems in a Medicare pilot that uses AI in decisions about whether certain medical services receive prior approval. STAT reports that a vendor warned the government before launch that the planned schedule was unrealistic, and the records describe delays in some care.",
-      "whyItMatters": "When an algorithm helps make high-stakes decisions, testing, rollout schedules and human oversight can affect people directly.",
-      "csp": {"idea": "Impact of Computing", "connection": "Computing systems can influence important decisions, so designers and organizations need ways to evaluate accuracy, reliability and consequences."},
-      "sources": [{"name": "STAT", "date": "2026-09-15", "url": "https://www.statnews.com/2026/09/15/medicare-wiser-ai-prior-authorization-pilot-rushed-launch-delayed-care/"}]
-    },
-    {
-      "id": "aws-region-resilience",
-      "type": "news",
-      "category": "Cloud computing",
-      "headline": "AWS outage shows why cloud systems use multiple regions",
-      "summary": "AWS says it cannot yet restore its Bahrain cloud region and one UAE data-hosting zone after physical damage earlier this year. Most affected customers re-established operations in other regions, showing both the limits of local redundancy and the value of geographically separated backups.",
-      "whyItMatters": "The cloud is still physical computers in real places. Reliable systems plan for failures by keeping services and data available somewhere else.",
-      "csp": {"idea": "Computer Systems and Networks", "connection": "Distributed systems can improve reliability by spreading computing and data across separate locations rather than depending on one site."},
-      "sources": [{"name": "Reuters", "date": "2026-09-15", "url": "https://www.reuters.com/world/middle-east/amazons-aws-is-unable-restore-access-bahrain-one-uae-cloud-data-zone-after-war-2026-09-15/"}]
-    },
-    {
-      "id": "crypto-clarity-act-vote",
-      "type": "news",
-      "category": "Digital money & policy",
-      "headline": "Senate vote tests new rules for digital assets",
-      "summary": "The U.S. Senate is scheduled to vote Tuesday on whether to advance the Clarity Act, a bill that would create a regulatory framework for digital assets. The vote is procedural and the bill is not yet law; lawmakers and banking groups still disagree over parts of the revised proposal.",
-      "whyItMatters": "Cryptocurrency mixes software, networks and money. Technical systems can grow faster than the laws that define who is responsible when people use them.",
-      "csp": {"idea": "Impact of Computing", "connection": "New computing systems can create economic and legal questions that require rules beyond the code itself."},
-      "sources": [{"name": "Reuters", "date": "2026-09-15", "url": "https://www.reuters.com/legal/government/us-senate-vote-advancing-landmark-crypto-bill-2026-09-15/"}]
-    }
+    {"id":"ai-safety-rivals","type":"news","category":"AI & safety","headline":"AI rivals are talking together about safety","summary":"OpenAI has been discussing AI safety with rivals Anthropic and Google DeepMind, Reuters reported, citing Bloomberg and OpenAI policy chief Chris Lehane. Reuters said it could not independently verify the report, so the collaboration should be treated as reported rather than independently confirmed.","whyItMatters":"When competing companies share safety practices, cooperation can matter alongside competition—especially when the same technology may create risks across many products.","csp":{"idea":"Impact of Computing","connection":"Computing innovations can create shared risks that organizations may address through technical standards, testing and policy."},"sources":[{"name":"Reuters","date":"2026-09-15","url":"https://www.reuters.com/technology/openai-is-working-with-anthropic-google-ai-safety-bloomberg-news-reports-2026-09-15/"}]},
+    {"id":"axelera-europa-chip","type":"news","category":"Chips & AI","headline":"A new chip is built to run AI, not train it","summary":"Dutch startup Axelera AI launched its second-generation Europa chip and said it has contracts to supply AI computing centers. The chip targets inference—the stage when a trained AI model actually answers a prompt or analyzes new data.","whyItMatters":"Training and using an AI model are different computing jobs. Hardware can be designed specifically for one part of that process to save power, time or cost.","csp":{"idea":"Computer Systems and Networks","connection":"Specialized processors show how hardware architecture is matched to the kind of computation software needs."},"sources":[{"name":"Reuters","date":"2026-09-15","url":"https://www.reuters.com/business/european-chip-startup-axelera-wins-ai-factory-supply-deals-launches-second-chip-2026-09-15/"}]},
+    {"id":"tesla-cybercab-certification","type":"news","category":"Transportation & autonomy","headline":"Regulators ask how Tesla certified a car without pedals","summary":"U.S. safety regulators ordered Tesla to explain how it certified its Cybercab, which lacks a steering wheel, brake pedal and other normal driver controls. The agency is asking about the robotaxi's technical limits and whether temporary human controls were involved in certification.","whyItMatters":"Autonomous vehicles combine software with machines that can affect physical safety. Testing and rules have to account for what happens when software replaces a human driver.","csp":{"idea":"Impact of Computing","connection":"Autonomous systems show how software decisions interact with safety requirements, human oversight and public policy."},"sources":[{"name":"Reuters","date":"2026-09-15","url":"https://www.reuters.com/business/autos-transportation/us-agency-orders-tesla-answer-questions-cybercab-certification-2026-09-15/"}]},
+    {"id":"gates-ai-access","type":"news","category":"AI & global access","headline":"A $1 billion push aims to make AI less unequal","summary":"The Gates Foundation pledged $1 billion over two years for AI projects involving local languages, health, education and agriculture. Bill Gates warned that AI could deepen inequality if useful systems work mainly for wealthy countries and widely represented languages.","whyItMatters":"A technology's impact depends on who can actually use it. Language data, internet access and local needs can determine whether an AI system helps a community or leaves it out.","csp":{"idea":"Impact of Computing","connection":"Access to computing innovations can be uneven, and data choices can affect which people benefit from a system."},"sources":[{"name":"Associated Press","date":"2026-09-15","url":"https://apnews.com/article/bill-gates-foundation-ai-united-nations-26ce25f9be20574a4fa04a5f983521ae"}]},
+    {"id":"nasa-robot-fleet","type":"news","category":"Robotics & space","headline":"NASA tests robots that choose jobs as a team","summary":"NASA field-tested a drone and two rovers that can divide science tasks among themselves. Their software weighs hazards, distance and scientific value, then adapts when the robots discover something new.","whyItMatters":"On a distant planet, waiting for instructions from Earth can take too long. Algorithms that let robots make bounded decisions could help them explore while humans remain in charge of the mission goals.","csp":{"idea":"Algorithms and Programming","connection":"The fleet turns goals and sensor data into decisions by evaluating conditions, tradeoffs and changing inputs."},"sources":[{"name":"NASA","date":"2026-09-15","url":"https://science.nasa.gov/blogs/planetary-expeditions/2026/09/15/nasa-field-tests-ai-fleet-capability-for-science-exploration/"}]},
+    {"id":"roman-camera-online","type":"news","category":"Space & data","headline":"A 300-megapixel space camera opens its eyes","summary":"NASA activated the Nancy Grace Roman Space Telescope's 300-megapixel infrared Wide Field Instrument and began sending test data to Earth. The team is still calibrating the telescope; NASA expects its first science images in early 2027.","whyItMatters":"Roman will produce enormous sets of images for scientists to process and analyze. Better sensors create new discoveries partly because computing can turn huge amounts of raw data into useful information.","csp":{"idea":"Data","connection":"Digital sensors encode observations as data that computers can store, process, compare and analyze."},"sources":[{"name":"NASA","date":"2026-09-15","url":"https://science.nasa.gov/blogs/roman/2026/09/15/nasa-activates-romans-primary-instrument-checks-out-coronagraph/"}]},
+    {"id":"google-language-ai","type":"news","category":"Language & accessibility","headline":"Google says its technology now reaches 300+ languages","summary":"Google says its products and technologies now support interactions in more than 300 languages and is developing AI that handles speech, tone, slang and languages with limited digital data. The company says it is working with local communities to collect and evaluate language data.","whyItMatters":"AI works best when its training and evaluation data represents the people using it. A language missing from digital datasets can become an accessibility problem.","csp":{"idea":"Data","connection":"The usefulness and fairness of a computing system can depend on which examples are represented in its data."},"sources":[{"name":"Google","date":"2026-09-15","url":"https://blog.google/innovation-and-ai/technology/ai/ai-for-every-language/"}]},
+    {"id":"pixel-scam-warnings","type":"news","category":"Phones & online safety","headline":"Pixel phones add warnings inside chats and keyboards","summary":"Google's September Pixel update expands scam detection for chat notifications and adds inline Gboard warnings in the U.S. Google describes these as tools for spotting suspicious messages while people are using their phones.","whyItMatters":"Security tools increasingly try to identify danger before a user taps a link or sends information. That means software is making real-time judgments from patterns in everyday communication.","csp":{"idea":"Impact of Computing","connection":"Automated detection can protect users, but its design also raises questions about accuracy, privacy and false alarms."},"sources":[{"name":"Google","date":"2026-09-15","url":"https://blog.google/products-and-platforms/devices/pixel/september-2026-pixel-drop/"}]},
+    {"id":"iss-bioprinting","type":"news","category":"Health & space technology","headline":"Astronauts are bioprinting cartilage in orbit","summary":"Astronauts on the International Space Station are using a bioprinter to process cartilage cells in microgravity. NASA says tissue produced this way may be higher quality than Earth-made samples, but the work is research and does not yet establish a treatment.","whyItMatters":"Bioprinting combines programmable machines, biological data and precise control systems. It is an example of computing becoming part of tools used far outside a traditional computer lab.","csp":{"idea":"Impact of Computing","connection":"Programmable systems can change how scientists conduct experiments and manufacture materials."},"sources":[{"name":"NASA","date":"2026-09-15","url":"https://www.nasa.gov/blogs/spacestation/2026/09/15/bioprinting-space-manufacturing-top-research-schedule-aboard-station/"}]}
   ]
 }
