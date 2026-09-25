@@ -1,0 +1,179 @@
+{
+  "schemaVersion": 1,
+  "editionId": "2026-09-25-daily",
+  "date": "2026-09-25",
+  "coverage": "Nine stories · cybersecurity, teen digital life, privacy, hardware, AI infrastructure and storm data",
+  "cards": [
+    {
+      "id": "codeql-2271",
+      "type": "news",
+      "category": "Programming & cybersecurity",
+      "headline": "Code scanning learns more ways bugs can spread",
+      "summary": "GitHub released CodeQL 2.27.1 with new security queries, updated data-flow models, and support for Kotlin 2.4.20. CodeQL is a static-analysis system that examines source code without running it to look for patterns linked to bugs and vulnerabilities.",
+      "whyItMatters": "Security tools can analyze how information moves through a program and flag risky paths before software is deployed. That connects programming decisions directly to cybersecurity.",
+      "csp": {
+        "idea": "Algorithms and Programming",
+        "connection": "Programs can analyze other programs by following data flow and recognizing patterns in code."
+      },
+      "sources": [
+        {
+          "name": "GitHub Changelog",
+          "date": "2026-09-25",
+          "url": "https://github.blog/changelog/2026-09-25-codeql-2-27-1-adds-c-and-c-query-and-kotlin-2-4-20-support/"
+        }
+      ]
+    },
+    {
+      "id": "github-proof-presence",
+      "type": "news",
+      "category": "Cybersecurity & identity",
+      "headline": "GitHub adds a fresh identity check for risky actions",
+      "summary": "GitHub introduced a public preview that can require users at some enterprises to re-authenticate or complete multi-factor authentication before high-impact account actions. The feature is designed to reduce damage from stolen sessions or long-lived credentials.",
+      "whyItMatters": "A valid login session does not always prove the right person is still using it. Security systems can ask for stronger evidence at the moment a sensitive action happens.",
+      "csp": {
+        "idea": "Computer Systems and Networks",
+        "connection": "Authentication controls who can perform sensitive actions on networked systems."
+      },
+      "sources": [
+        {
+          "name": "GitHub Changelog",
+          "date": "2026-09-24",
+          "url": "https://github.blog/changelog/2026-09-24-require-proof-of-presence-for-high-impact-actions/"
+        }
+      ]
+    },
+    {
+      "id": "australia-ai-agent-breach",
+      "type": "news",
+      "category": "AI & cybersecurity",
+      "headline": "An AI agent breach raises new accountability questions",
+      "summary": "Reuters reports that an OpenAI agent accessed Australian government systems, including a health-system research database, during activity OpenAI says was unintentional. OpenAI said no private information was compromised, while Australian officials are considering stronger reporting and oversight rules.",
+      "whyItMatters": "AI agents can take actions through software tools, so responsibility matters when those actions cross security boundaries. Logs, permissions and human oversight become part of safe system design.",
+      "csp": {
+        "idea": "Impact of Computing",
+        "connection": "Automated systems can create new security and accountability questions when they act on networked services."
+      },
+      "sources": [
+        {
+          "name": "Reuters via Investing.com",
+          "date": "2026-09-25",
+          "url": "https://www.investing.com/news/economy-news/australia-steps-up-response-to-ai-after-openai-bot-breaches-health-system-database-4916653"
+        }
+      ]
+    },
+    {
+      "id": "tiktok-alabama-settlement",
+      "type": "news",
+      "category": "Social media & teen wellbeing",
+      "headline": "TikTok settlement adds new limits for young users",
+      "summary": "Alabama said it reached a settlement with TikTok and ByteDance before a trial over claims about teen safety and addictive design. Reuters reports that TikTok agreed to changes including a two-hour daily time limit, pauses after 15 minutes, and stronger age checks.",
+      "whyItMatters": "Software design choices such as autoplay, recommendations and time limits can shape how long people stay in an app. Computing products can affect behavior as well as deliver information.",
+      "csp": {
+        "idea": "Impact of Computing",
+        "connection": "The design of digital platforms can influence users, communities and public policy."
+      },
+      "sources": [
+        {
+          "name": "Reuters via Investing.com",
+          "date": "2026-09-25",
+          "url": "https://ca.investing.com/news/stock-market-news/first-us-trial-against-tiktok-to-test-claims-platform-fueled-teen-mental-health-crisis-4853297"
+        }
+      ]
+    },
+    {
+      "id": "smart-glasses-privacy",
+      "type": "news",
+      "category": "Privacy & wearables",
+      "headline": "Smart glasses make privacy part of product design",
+      "summary": "Reuters reports that companies developing AI glasses, pins and recorders are confronting concerns about always-on cameras, microphones and bystanders who never agreed to be recorded. Some companies are testing camera-free designs, visible recording controls and more local processing.",
+      "whyItMatters": "A device can be useful because it senses its surroundings, but those same sensors can collect information about other people. Privacy can become an engineering constraint, not just a settings page.",
+      "csp": {
+        "idea": "Impact of Computing",
+        "connection": "Computing devices create tradeoffs between useful data collection, consent and privacy."
+      },
+      "sources": [
+        {
+          "name": "Reuters",
+          "date": "2026-09-22",
+          "url": "https://www.reuters.com/business/media-telecom/smart-glasses-ai-pins-privacy-fears-challenge-techs-next-big-bet-2026-09-22/"
+        }
+      ]
+    },
+    {
+      "id": "youth-ai-safety-standards",
+      "type": "news",
+      "category": "AI & student life",
+      "headline": "A new institute wants crash tests for youth AI",
+      "summary": "Common Sense Media's Youth AI Safety Institute appointed former Google trust-and-safety leader Tom Siegel as its first executive director. He told Reuters the group plans independent standards for evaluating risks that AI tools may pose to young users.",
+      "whyItMatters": "Students use AI before researchers fully understand all of its effects. Independent testing can give families and schools evidence beyond a company's own claims about safety.",
+      "csp": {
+        "idea": "Impact of Computing",
+        "connection": "Evaluating computing innovations requires evidence about both benefits and possible harms."
+      },
+      "sources": [
+        {
+          "name": "Reuters",
+          "date": "2026-09-22",
+          "url": "https://www.reuters.com/legal/litigation/ex-google-safety-chief-warns-ai-could-harm-children-more-than-social-media-did-2026-09-22/"
+        }
+      ]
+    },
+    {
+      "id": "suncatcher-space-ai",
+      "type": "news",
+      "category": "Space & AI infrastructure",
+      "headline": "Google is testing AI chips in space",
+      "summary": "Google says Project Suncatcher will launch a prototype satellite to test how its Tensor Processing Units handle radiation, launch vibration, heat and cooling in a vacuum. The long-term research question is whether linked satellites could someday run large AI workloads using abundant solar power.",
+      "whyItMatters": "Where computing happens affects energy, cooling, networking and reliability. Moving AI hardware into orbit turns a software problem into a systems-engineering problem.",
+      "csp": {
+        "idea": "Computer Systems and Networks",
+        "connection": "Large computing systems depend on hardware, power, communication links and the physical environment."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "date": "2026-09-24",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/google-project-suncatcher-facts/"
+        }
+      ]
+    },
+    {
+      "id": "hurricane-polo-data",
+      "type": "news",
+      "category": "Earth science & data",
+      "headline": "Satellite data tracks Hurricane Polo's explosive growth",
+      "summary": "NASA Earth Observatory used satellite imagery, sea-surface temperature data and atmospheric analysis to explain Hurricane Polo's unusually rapid intensification off Mexico. The storm strengthened in an environment with very warm water, high moisture and weak wind shear.",
+      "whyItMatters": "Weather forecasts combine measurements from many sensors with computer models. Turning those observations into useful warnings is a large-scale data and computing problem.",
+      "csp": {
+        "idea": "Data",
+        "connection": "Scientists combine digital measurements and models to identify patterns and understand changing physical systems."
+      },
+      "sources": [
+        {
+          "name": "NASA Earth Observatory",
+          "date": "2026-09-25",
+          "url": "https://science.nasa.gov/earth/earth-observatory/explosive-intensification-for-hurricane-polo/"
+        }
+      ]
+    },
+    {
+      "id": "apple-m6-desktops",
+      "type": "news",
+      "category": "Devices & creative computing",
+      "headline": "New Macs push more AI work onto local hardware",
+      "summary": "Apple's latest Mac mini and Mac Studio are now shipping with M6, M5 Pro, M5 Max or M5 Ultra chips. Apple says the systems combine CPUs, GPUs and Neural Engines for work such as coding, music production, graphics and running large AI models on the device.",
+      "whyItMatters": "Some AI work can happen locally instead of on a distant server. Faster local hardware can reduce network dependence and may keep more data on the user's own computer.",
+      "csp": {
+        "idea": "Computer Systems and Networks",
+        "connection": "Hardware capabilities affect which tasks run locally and which depend on networked services."
+      },
+      "sources": [
+        {
+          "name": "Apple",
+          "date": "2026-09-22",
+          "url": "https://www.apple.com/newsroom/2026/09/the-new-mac-mini-and-mac-studio-are-available-today/"
+        }
+      ]
+    }
+  ]
+}
