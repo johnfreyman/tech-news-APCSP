@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 1,
+  "editionId": "2026-09-29-daily",
+  "date": "2026-09-29",
+  "coverage": "Eight stories · programming, cybersecurity, AP CSP, student apps, wearable sensing and space robotics",
+  "cards": [
+    {
+      "id": "git-256",
+      "type": "news",
+      "category": "Programming & software development",
+      "headline": "Git 2.56 adds safer merge-conflict handling",
+      "summary": "The Git project released version 2.56, including a new `git add --resolved` option that stages resolved merge conflicts without automatically staging unrelated edits. The release also improves performance for some history and repository-storage operations.",
+      "whyItMatters": "Version-control tools help programmers combine work without losing changes. Small safety features can prevent mistakes when several edits are happening at once.",
+      "csp": {
+        "idea": "Algorithms and Programming",
+        "connection": "Software-development tools help programmers manage, test and combine changes to code."
+      },
+      "sources": [
+        {
+          "name": "GitHub Blog",
+          "date": "2026-09-28",
+          "url": "https://github.blog/open-source/git/highlights-from-git-2-56/"
+        }
+      ]
+    },
+    {
+      "id": "android-ai-security",
+      "type": "news",
+      "category": "Cybersecurity & mobile apps",
+      "headline": "AI-assisted research finds 24 Android app vulnerabilities",
+      "summary": "GitHub Security Lab says its open-source AI taskflow system helped researchers find and report 24 vulnerabilities in Android apps. The researchers also warn that AI can misjudge severity and produce false positives, so human security review remains necessary.",
+      "whyItMatters": "AI can help inspect large amounts of code, but its findings still need verification. This is a real example of humans and automated tools working together on software security.",
+      "csp": {
+        "idea": "Algorithms and Programming",
+        "connection": "Programs can analyze other programs for patterns linked to bugs, while people evaluate the results."
+      },
+      "sources": [
+        {
+          "name": "GitHub Security Lab",
+          "date": "2026-09-28",
+          "url": "https://github.blog/security/how-we-found-24-android-vulnerabilities-using-our-open-source-ai-security-agent/"
+        }
+      ]
+    },
+    {
+      "id": "nvidia-agent-safety",
+      "type": "news",
+      "category": "AI & cybersecurity",
+      "headline": "NVIDIA builds guardrails outside the AI agent",
+      "summary": "NVIDIA announced an open agent-safety platform that can trace actions, enforce permissions and use a separate hardware watchdog to monitor AI agents. NVIDIA says the design can quarantine an agent that moves outside defined boundaries.",
+      "whyItMatters": "Security does not have to depend on an AI system policing itself. Designers can add independent layers that limit what software is allowed to access or do.",
+      "csp": {
+        "idea": "Computer Systems and Networks",
+        "connection": "Secure systems use layers of hardware and software controls to restrict access and behavior."
+      },
+      "sources": [
+        {
+          "name": "NVIDIA Newsroom",
+          "date": "2026-09-28",
+          "url": "https://nvidianews.nvidia.com/news/open-agent-safety-platform"
+        },
+        {
+          "name": "ABC News",
+          "date": "2026-09-28",
+          "url": "https://abcnews.com/Business/nvidia-releases-software-prevent-ai-security-incidents/story?id=136818683"
+        }
+      ]
+    },
+    {
+      "id": "ap-csp-ai-redesign",
+      "type": "news",
+      "category": "School & AI",
+      "headline": "AI is coming directly into AP CSP",
+      "summary": "College Board says the redesigned AP Computer Science Principles course launching in 2027–28 will include generative AI, machine learning, algorithm development, data ethics and human decision-making. It will also add an AI Create Project in which students build an AI application.",
+      "whyItMatters": "This directly changes what future AP CSP students will learn and build. AI literacy is becoming part of computer science education rather than a separate topic.",
+      "csp": {
+        "idea": "Impact of Computing",
+        "connection": "The AP CSP curriculum itself is changing as AI affects programming, data, ethics and society."
+      },
+      "sources": [
+        {
+          "name": "College Board",
+          "date": "2026-09-28",
+          "url": "https://newsroom.collegeboard.org/new-college-board-research-ap-teachers-push-guardrails-and-support-genai-reshapes-classroom"
+        },
+        {
+          "name": "Government Technology",
+          "date": "2026-09-28",
+          "url": "https://www.govtech.com/education/k-12/ai-spurs-college-board-redesign-of-2-ap-courses"
+        }
+      ]
+    },
+    {
+      "id": "hosted-cs-classrooms",
+      "type": "news",
+      "category": "Education technology",
+      "headline": "Schools test hosted workspaces for computer science",
+      "summary": "SUNY Polytechnic Institute and New York high-school educators received an NSF planning grant to design a hosted environment for secondary AI and computer science classes. The project is exploring stable online workspaces that can work around limited technical support and restrictive school IT systems.",
+      "whyItMatters": "A coding lesson depends on more than the lesson itself: students also need reliable computers, accounts and software. Cloud-based workspaces can change who is able to participate in computer science.",
+      "csp": {
+        "idea": "Computer Systems and Networks",
+        "connection": "Cloud systems can provide shared computing resources through a network instead of relying only on local machines."
+      },
+      "sources": [
+        {
+          "name": "SUNY Polytechnic Institute",
+          "date": "2026-09-28",
+          "url": "https://sunypoly.edu/news/suny-poly-whitesboro-educators-partner-expand-ai-and-computer-science-learning.html"
+        }
+      ]
+    },
+    {
+      "id": "student-beacon-hackathon",
+      "type": "news",
+      "category": "Student inventions & AI",
+      "headline": "Students build six AI prototypes in one day",
+      "summary": "High-school and college students at an iUrban Teen and Long Beach City College hackathon built six front-end prototypes around real problems. The winning project, Beacon, was designed to help counselors notice and support students who stop attending school while limiting who can see sensitive information.",
+      "whyItMatters": "Students can turn a problem into a working interface quickly, but responsible design still matters. The project shows how privacy, accessibility and user needs can shape an app alongside its features.",
+      "csp": {
+        "idea": "Impact of Computing",
+        "connection": "Computing products reflect choices about users, data access, accessibility and possible social effects."
+      },
+      "sources": [
+        {
+          "name": "iUrban Teen / Long Beach AI Hackathon",
+          "date": "2026-09-26",
+          "url": "https://longbeachaihackathon.org/"
+        }
+      ]
+    },
+    {
+      "id": "eluminator-eskin",
+      "type": "news",
+      "category": "Health, wearables & interfaces",
+      "headline": "Electronic skin turns pressure directly into visible light",
+      "summary": "National University of Singapore researchers developed a thin flexible material called eLuminator that lights up where pressure is applied. The research team reports very fine pressure detail and potential uses in surgical tools, health monitoring, robotics and prosthetics.",
+      "whyItMatters": "Sensors usually collect data that a computer must process before people can see it. This material links physical input to immediate visual output while still allowing digital measurements.",
+      "csp": {
+        "idea": "Data",
+        "connection": "Sensors convert events in the physical world into information that people or computing systems can interpret."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore / National University of Singapore",
+          "date": "2026-09-28",
+          "url": "https://techxplore.com/news/2026-09-electronic-skin-users-instantly.html"
+        }
+      ]
+    },
+    {
+      "id": "nasa-dexterous-robots",
+      "type": "news",
+      "category": "Space & robotics",
+      "headline": "NASA trains robots for jobs designed for human hands",
+      "summary": "NASA highlighted its Dexterous Robotics Team, which develops hardware, software, simulations and test environments for robots that can handle human-style tasks. One test used a robotic arm to recognize a spacecraft hatch, operate its latch and move cargo.",
+      "whyItMatters": "Robots need perception, software and mechanical design to work safely in environments built for people. Simulation lets engineers test those systems before trusting them in difficult places such as the Moon.",
+      "csp": {
+        "idea": "Computer Systems and Networks",
+        "connection": "Robotic systems combine software, sensors, hardware and human supervision to perform physical tasks."
+      },
+      "sources": [
+        {
+          "name": "NASA",
+          "date": "2026-09-28",
+          "url": "https://www.nasa.gov/centers-and-facilities/johnson/reliable-robots-meet-johnsons-dexterous-robotics-team/"
+        }
+      ]
+    }
+  ]
+}
