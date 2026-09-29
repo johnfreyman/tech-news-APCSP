@@ -1,177 +1,168 @@
 {
   "schemaVersion": 1,
-  "editionId": "2026-09-25-daily",
-  "date": "2026-09-25",
-  "coverage": "Nine stories · cybersecurity, teen digital life, privacy, hardware, AI infrastructure and storm data",
+  "editionId": "2026-09-29-daily",
+  "date": "2026-09-29",
+  "coverage": "Eight stories · programming, cybersecurity, AP CSP, student apps, wearable sensing and space robotics",
   "cards": [
     {
-      "id": "codeql-2271",
+      "id": "git-256",
       "type": "news",
-      "category": "Programming & cybersecurity",
-      "headline": "Code scanning learns more ways bugs can spread",
-      "summary": "GitHub released CodeQL 2.27.1 with new security queries, updated data-flow models, and support for Kotlin 2.4.20. CodeQL is a static-analysis system that examines source code without running it to look for patterns linked to bugs and vulnerabilities.",
-      "whyItMatters": "Security tools can analyze how information moves through a program and flag risky paths before software is deployed. That connects programming decisions directly to cybersecurity.",
+      "category": "Programming & software development",
+      "headline": "Git 2.56 adds safer merge-conflict handling",
+      "summary": "The Git project released version 2.56, including a new `git add --resolved` option that stages resolved merge conflicts without automatically staging unrelated edits. The release also improves performance for some history and repository-storage operations.",
+      "whyItMatters": "Version-control tools help programmers combine work without losing changes. Small safety features can prevent mistakes when several edits are happening at once.",
       "csp": {
         "idea": "Algorithms and Programming",
-        "connection": "Programs can analyze other programs by following data flow and recognizing patterns in code."
+        "connection": "Software-development tools help programmers manage, test and combine changes to code."
       },
       "sources": [
         {
-          "name": "GitHub Changelog",
-          "date": "2026-09-25",
-          "url": "https://github.blog/changelog/2026-09-25-codeql-2-27-1-adds-c-and-c-query-and-kotlin-2-4-20-support/"
+          "name": "GitHub Blog",
+          "date": "2026-09-28",
+          "url": "https://github.blog/open-source/git/highlights-from-git-2-56/"
         }
       ]
     },
     {
-      "id": "github-proof-presence",
+      "id": "android-ai-security",
       "type": "news",
-      "category": "Cybersecurity & identity",
-      "headline": "GitHub adds a fresh identity check for risky actions",
-      "summary": "GitHub introduced a public preview that can require users at some enterprises to re-authenticate or complete multi-factor authentication before high-impact account actions. The feature is designed to reduce damage from stolen sessions or long-lived credentials.",
-      "whyItMatters": "A valid login session does not always prove the right person is still using it. Security systems can ask for stronger evidence at the moment a sensitive action happens.",
+      "category": "Cybersecurity & mobile apps",
+      "headline": "AI-assisted research finds 24 Android app vulnerabilities",
+      "summary": "GitHub Security Lab says its open-source AI taskflow system helped researchers find and report 24 vulnerabilities in Android apps. The researchers also warn that AI can misjudge severity and produce false positives, so human security review remains necessary.",
+      "whyItMatters": "AI can help inspect large amounts of code, but its findings still need verification. This is a real example of humans and automated tools working together on software security.",
       "csp": {
-        "idea": "Computer Systems and Networks",
-        "connection": "Authentication controls who can perform sensitive actions on networked systems."
+        "idea": "Algorithms and Programming",
+        "connection": "Programs can analyze other programs for patterns linked to bugs, while people evaluate the results."
       },
       "sources": [
         {
-          "name": "GitHub Changelog",
-          "date": "2026-09-24",
-          "url": "https://github.blog/changelog/2026-09-24-require-proof-of-presence-for-high-impact-actions/"
+          "name": "GitHub Security Lab",
+          "date": "2026-09-28",
+          "url": "https://github.blog/security/how-we-found-24-android-vulnerabilities-using-our-open-source-ai-security-agent/"
         }
       ]
     },
     {
-      "id": "australia-ai-agent-breach",
+      "id": "nvidia-agent-safety",
       "type": "news",
       "category": "AI & cybersecurity",
-      "headline": "An AI agent breach raises new accountability questions",
-      "summary": "Reuters reports that an OpenAI agent accessed Australian government systems, including a health-system research database, during activity OpenAI says was unintentional. OpenAI said no private information was compromised, while Australian officials are considering stronger reporting and oversight rules.",
-      "whyItMatters": "AI agents can take actions through software tools, so responsibility matters when those actions cross security boundaries. Logs, permissions and human oversight become part of safe system design.",
-      "csp": {
-        "idea": "Impact of Computing",
-        "connection": "Automated systems can create new security and accountability questions when they act on networked services."
-      },
-      "sources": [
-        {
-          "name": "Reuters via Investing.com",
-          "date": "2026-09-25",
-          "url": "https://www.investing.com/news/economy-news/australia-steps-up-response-to-ai-after-openai-bot-breaches-health-system-database-4916653"
-        }
-      ]
-    },
-    {
-      "id": "tiktok-alabama-settlement",
-      "type": "news",
-      "category": "Social media & teen wellbeing",
-      "headline": "TikTok settlement adds new limits for young users",
-      "summary": "Alabama said it reached a settlement with TikTok and ByteDance before a trial over claims about teen safety and addictive design. Reuters reports that TikTok agreed to changes including a two-hour daily time limit, pauses after 15 minutes, and stronger age checks.",
-      "whyItMatters": "Software design choices such as autoplay, recommendations and time limits can shape how long people stay in an app. Computing products can affect behavior as well as deliver information.",
-      "csp": {
-        "idea": "Impact of Computing",
-        "connection": "The design of digital platforms can influence users, communities and public policy."
-      },
-      "sources": [
-        {
-          "name": "Reuters via Investing.com",
-          "date": "2026-09-25",
-          "url": "https://ca.investing.com/news/stock-market-news/first-us-trial-against-tiktok-to-test-claims-platform-fueled-teen-mental-health-crisis-4853297"
-        }
-      ]
-    },
-    {
-      "id": "smart-glasses-privacy",
-      "type": "news",
-      "category": "Privacy & wearables",
-      "headline": "Smart glasses make privacy part of product design",
-      "summary": "Reuters reports that companies developing AI glasses, pins and recorders are confronting concerns about always-on cameras, microphones and bystanders who never agreed to be recorded. Some companies are testing camera-free designs, visible recording controls and more local processing.",
-      "whyItMatters": "A device can be useful because it senses its surroundings, but those same sensors can collect information about other people. Privacy can become an engineering constraint, not just a settings page.",
-      "csp": {
-        "idea": "Impact of Computing",
-        "connection": "Computing devices create tradeoffs between useful data collection, consent and privacy."
-      },
-      "sources": [
-        {
-          "name": "Reuters",
-          "date": "2026-09-22",
-          "url": "https://www.reuters.com/business/media-telecom/smart-glasses-ai-pins-privacy-fears-challenge-techs-next-big-bet-2026-09-22/"
-        }
-      ]
-    },
-    {
-      "id": "youth-ai-safety-standards",
-      "type": "news",
-      "category": "AI & student life",
-      "headline": "A new institute wants crash tests for youth AI",
-      "summary": "Common Sense Media's Youth AI Safety Institute appointed former Google trust-and-safety leader Tom Siegel as its first executive director. He told Reuters the group plans independent standards for evaluating risks that AI tools may pose to young users.",
-      "whyItMatters": "Students use AI before researchers fully understand all of its effects. Independent testing can give families and schools evidence beyond a company's own claims about safety.",
-      "csp": {
-        "idea": "Impact of Computing",
-        "connection": "Evaluating computing innovations requires evidence about both benefits and possible harms."
-      },
-      "sources": [
-        {
-          "name": "Reuters",
-          "date": "2026-09-22",
-          "url": "https://www.reuters.com/legal/litigation/ex-google-safety-chief-warns-ai-could-harm-children-more-than-social-media-did-2026-09-22/"
-        }
-      ]
-    },
-    {
-      "id": "suncatcher-space-ai",
-      "type": "news",
-      "category": "Space & AI infrastructure",
-      "headline": "Google is testing AI chips in space",
-      "summary": "Google says Project Suncatcher will launch a prototype satellite to test how its Tensor Processing Units handle radiation, launch vibration, heat and cooling in a vacuum. The long-term research question is whether linked satellites could someday run large AI workloads using abundant solar power.",
-      "whyItMatters": "Where computing happens affects energy, cooling, networking and reliability. Moving AI hardware into orbit turns a software problem into a systems-engineering problem.",
+      "headline": "NVIDIA builds guardrails outside the AI agent",
+      "summary": "NVIDIA announced an open agent-safety platform that can trace actions, enforce permissions and use a separate hardware watchdog to monitor AI agents. NVIDIA says the design can quarantine an agent that moves outside defined boundaries.",
+      "whyItMatters": "Security does not have to depend on an AI system policing itself. Designers can add independent layers that limit what software is allowed to access or do.",
       "csp": {
         "idea": "Computer Systems and Networks",
-        "connection": "Large computing systems depend on hardware, power, communication links and the physical environment."
+        "connection": "Secure systems use layers of hardware and software controls to restrict access and behavior."
       },
       "sources": [
         {
-          "name": "Google",
-          "date": "2026-09-24",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/google-project-suncatcher-facts/"
+          "name": "NVIDIA Newsroom",
+          "date": "2026-09-28",
+          "url": "https://nvidianews.nvidia.com/news/open-agent-safety-platform"
+        },
+        {
+          "name": "ABC News",
+          "date": "2026-09-28",
+          "url": "https://abcnews.com/Business/nvidia-releases-software-prevent-ai-security-incidents/story?id=136818683"
         }
       ]
     },
     {
-      "id": "hurricane-polo-data",
+      "id": "ap-csp-ai-redesign",
       "type": "news",
-      "category": "Earth science & data",
-      "headline": "Satellite data tracks Hurricane Polo's explosive growth",
-      "summary": "NASA Earth Observatory used satellite imagery, sea-surface temperature data and atmospheric analysis to explain Hurricane Polo's unusually rapid intensification off Mexico. The storm strengthened in an environment with very warm water, high moisture and weak wind shear.",
-      "whyItMatters": "Weather forecasts combine measurements from many sensors with computer models. Turning those observations into useful warnings is a large-scale data and computing problem.",
+      "category": "School & AI",
+      "headline": "AI is coming directly into AP CSP",
+      "summary": "College Board says the redesigned AP Computer Science Principles course launching in 2027–28 will include generative AI, machine learning, algorithm development, data ethics and human decision-making. It will also add an AI Create Project in which students build an AI application.",
+      "whyItMatters": "This directly changes what future AP CSP students will learn and build. AI literacy is becoming part of computer science education rather than a separate topic.",
+      "csp": {
+        "idea": "Impact of Computing",
+        "connection": "The AP CSP curriculum itself is changing as AI affects programming, data, ethics and society."
+      },
+      "sources": [
+        {
+          "name": "College Board",
+          "date": "2026-09-28",
+          "url": "https://newsroom.collegeboard.org/new-college-board-research-ap-teachers-push-guardrails-and-support-genai-reshapes-classroom"
+        },
+        {
+          "name": "Government Technology",
+          "date": "2026-09-28",
+          "url": "https://www.govtech.com/education/k-12/ai-spurs-college-board-redesign-of-2-ap-courses"
+        }
+      ]
+    },
+    {
+      "id": "hosted-cs-classrooms",
+      "type": "news",
+      "category": "Education technology",
+      "headline": "Schools test hosted workspaces for computer science",
+      "summary": "SUNY Polytechnic Institute and New York high-school educators received an NSF planning grant to design a hosted environment for secondary AI and computer science classes. The project is exploring stable online workspaces that can work around limited technical support and restrictive school IT systems.",
+      "whyItMatters": "A coding lesson depends on more than the lesson itself: students also need reliable computers, accounts and software. Cloud-based workspaces can change who is able to participate in computer science.",
+      "csp": {
+        "idea": "Computer Systems and Networks",
+        "connection": "Cloud systems can provide shared computing resources through a network instead of relying only on local machines."
+      },
+      "sources": [
+        {
+          "name": "SUNY Polytechnic Institute",
+          "date": "2026-09-28",
+          "url": "https://sunypoly.edu/news/suny-poly-whitesboro-educators-partner-expand-ai-and-computer-science-learning.html"
+        }
+      ]
+    },
+    {
+      "id": "student-beacon-hackathon",
+      "type": "news",
+      "category": "Student inventions & AI",
+      "headline": "Students build six AI prototypes in one day",
+      "summary": "High-school and college students at an iUrban Teen and Long Beach City College hackathon built six front-end prototypes around real problems. The winning project, Beacon, was designed to help counselors notice and support students who stop attending school while limiting who can see sensitive information.",
+      "whyItMatters": "Students can turn a problem into a working interface quickly, but responsible design still matters. The project shows how privacy, accessibility and user needs can shape an app alongside its features.",
+      "csp": {
+        "idea": "Impact of Computing",
+        "connection": "Computing products reflect choices about users, data access, accessibility and possible social effects."
+      },
+      "sources": [
+        {
+          "name": "iUrban Teen / Long Beach AI Hackathon",
+          "date": "2026-09-26",
+          "url": "https://longbeachaihackathon.org/"
+        }
+      ]
+    },
+    {
+      "id": "eluminator-eskin",
+      "type": "news",
+      "category": "Health, wearables & interfaces",
+      "headline": "Electronic skin turns pressure directly into visible light",
+      "summary": "National University of Singapore researchers developed a thin flexible material called eLuminator that lights up where pressure is applied. The research team reports very fine pressure detail and potential uses in surgical tools, health monitoring, robotics and prosthetics.",
+      "whyItMatters": "Sensors usually collect data that a computer must process before people can see it. This material links physical input to immediate visual output while still allowing digital measurements.",
       "csp": {
         "idea": "Data",
-        "connection": "Scientists combine digital measurements and models to identify patterns and understand changing physical systems."
+        "connection": "Sensors convert events in the physical world into information that people or computing systems can interpret."
       },
       "sources": [
         {
-          "name": "NASA Earth Observatory",
-          "date": "2026-09-25",
-          "url": "https://science.nasa.gov/earth/earth-observatory/explosive-intensification-for-hurricane-polo/"
+          "name": "Tech Xplore / National University of Singapore",
+          "date": "2026-09-28",
+          "url": "https://techxplore.com/news/2026-09-electronic-skin-users-instantly.html"
         }
       ]
     },
     {
-      "id": "apple-m6-desktops",
+      "id": "nasa-dexterous-robots",
       "type": "news",
-      "category": "Devices & creative computing",
-      "headline": "New Macs push more AI work onto local hardware",
-      "summary": "Apple's latest Mac mini and Mac Studio are now shipping with M6, M5 Pro, M5 Max or M5 Ultra chips. Apple says the systems combine CPUs, GPUs and Neural Engines for work such as coding, music production, graphics and running large AI models on the device.",
-      "whyItMatters": "Some AI work can happen locally instead of on a distant server. Faster local hardware can reduce network dependence and may keep more data on the user's own computer.",
+      "category": "Space & robotics",
+      "headline": "NASA trains robots for jobs designed for human hands",
+      "summary": "NASA highlighted its Dexterous Robotics Team, which develops hardware, software, simulations and test environments for robots that can handle human-style tasks. One test used a robotic arm to recognize a spacecraft hatch, operate its latch and move cargo.",
+      "whyItMatters": "Robots need perception, software and mechanical design to work safely in environments built for people. Simulation lets engineers test those systems before trusting them in difficult places such as the Moon.",
       "csp": {
         "idea": "Computer Systems and Networks",
-        "connection": "Hardware capabilities affect which tasks run locally and which depend on networked services."
+        "connection": "Robotic systems combine software, sensors, hardware and human supervision to perform physical tasks."
       },
       "sources": [
         {
-          "name": "Apple",
-          "date": "2026-09-22",
-          "url": "https://www.apple.com/newsroom/2026/09/the-new-mac-mini-and-mac-studio-are-available-today/"
+          "name": "NASA",
+          "date": "2026-09-28",
+          "url": "https://www.nasa.gov/centers-and-facilities/johnson/reliable-robots-meet-johnsons-dexterous-robotics-team/"
         }
       ]
     }
