@@ -1,168 +1,173 @@
 {
   "schemaVersion": 1,
-  "editionId": "2026-09-29-daily",
-  "date": "2026-09-29",
-  "coverage": "Eight stories · programming, cybersecurity, AP CSP, student apps, wearable sensing and space robotics",
+  "editionId": "2026-09-30-daily",
+  "date": "2026-09-30",
+  "coverage": "Nine stories · browser security, AI images, networks, teen tech, wearables, filmmaking and biohybrid robots",
   "cards": [
     {
-      "id": "git-256",
+      "id": "firefox-157-security",
       "type": "news",
-      "category": "Programming & software development",
-      "headline": "Git 2.56 adds safer merge-conflict handling",
-      "summary": "The Git project released version 2.56, including a new `git add --resolved` option that stages resolved merge conflicts without automatically staging unrelated edits. The release also improves performance for some history and repository-storage operations.",
-      "whyItMatters": "Version-control tools help programmers combine work without losing changes. Small safety features can prevent mistakes when several edits are happening at once.",
-      "csp": {
-        "idea": "Algorithms and Programming",
-        "connection": "Software-development tools help programmers manage, test and combine changes to code."
-      },
-      "sources": [
-        {
-          "name": "GitHub Blog",
-          "date": "2026-09-28",
-          "url": "https://github.blog/open-source/git/highlights-from-git-2-56/"
-        }
-      ]
-    },
-    {
-      "id": "android-ai-security",
-      "type": "news",
-      "category": "Cybersecurity & mobile apps",
-      "headline": "AI-assisted research finds 24 Android app vulnerabilities",
-      "summary": "GitHub Security Lab says its open-source AI taskflow system helped researchers find and report 24 vulnerabilities in Android apps. The researchers also warn that AI can misjudge severity and produce false positives, so human security review remains necessary.",
-      "whyItMatters": "AI can help inspect large amounts of code, but its findings still need verification. This is a real example of humans and automated tools working together on software security.",
-      "csp": {
-        "idea": "Algorithms and Programming",
-        "connection": "Programs can analyze other programs for patterns linked to bugs, while people evaluate the results."
-      },
-      "sources": [
-        {
-          "name": "GitHub Security Lab",
-          "date": "2026-09-28",
-          "url": "https://github.blog/security/how-we-found-24-android-vulnerabilities-using-our-open-source-ai-security-agent/"
-        }
-      ]
-    },
-    {
-      "id": "nvidia-agent-safety",
-      "type": "news",
-      "category": "AI & cybersecurity",
-      "headline": "NVIDIA builds guardrails outside the AI agent",
-      "summary": "NVIDIA announced an open agent-safety platform that can trace actions, enforce permissions and use a separate hardware watchdog to monitor AI agents. NVIDIA says the design can quarantine an agent that moves outside defined boundaries.",
-      "whyItMatters": "Security does not have to depend on an AI system policing itself. Designers can add independent layers that limit what software is allowed to access or do.",
+      "category": "Cybersecurity",
+      "headline": "Firefox 157 patches dozens of browser security flaws",
+      "summary": "Mozilla released Firefox 157 with fixes for many security bugs, including several it rates as high impact. The advisory lists problems involving browser sandboxes, memory handling, graphics, WebAssembly, networking and other components.",
+      "whyItMatters": "A web browser processes code and data from many sites, so one bug can affect a huge number of users. Regular software updates are an important layer of computer security.",
       "csp": {
         "idea": "Computer Systems and Networks",
-        "connection": "Secure systems use layers of hardware and software controls to restrict access and behavior."
+        "connection": "Browser security depends on isolating processes and limiting what untrusted code can access."
       },
       "sources": [
         {
-          "name": "NVIDIA Newsroom",
-          "date": "2026-09-28",
-          "url": "https://nvidianews.nvidia.com/news/open-agent-safety-platform"
-        },
-        {
-          "name": "ABC News",
-          "date": "2026-09-28",
-          "url": "https://abcnews.com/Business/nvidia-releases-software-prevent-ai-security-incidents/story?id=136818683"
+          "name": "Mozilla Security Advisory",
+          "date": "2026-09-29",
+          "url": "https://www.mozilla.org/en-US/security/advisories/mfsa2026-97/"
         }
       ]
     },
     {
-      "id": "ap-csp-ai-redesign",
+      "id": "diffusion-controller",
       "type": "news",
-      "category": "School & AI",
-      "headline": "AI is coming directly into AP CSP",
-      "summary": "College Board says the redesigned AP Computer Science Principles course launching in 2027–28 will include generative AI, machine learning, algorithm development, data ethics and human decision-making. It will also add an AI Create Project in which students build an AI application.",
-      "whyItMatters": "This directly changes what future AP CSP students will learn and build. AI literacy is becoming part of computer science education rather than a separate topic.",
+      "category": "AI & algorithms",
+      "headline": "Google tests a lighter way to steer AI images",
+      "summary": "Google Research introduced Diffusion Controller, a small add-on network designed to guide image generators toward a prompt without changing most of the original model. Google reports that its experiments improved prompt matching while preserving image quality, but the results are research findings rather than a new consumer feature.",
+      "whyItMatters": "AI image generation is an algorithmic process that can be adjusted while it runs. This research shows how a smaller control system can influence a much larger model.",
       "csp": {
-        "idea": "Impact of Computing",
-        "connection": "The AP CSP curriculum itself is changing as AI affects programming, data, ethics and society."
+        "idea": "Algorithms and Programming",
+        "connection": "The method changes how an image-generation algorithm moves from random noise toward a requested output."
       },
       "sources": [
         {
-          "name": "College Board",
-          "date": "2026-09-28",
-          "url": "https://newsroom.collegeboard.org/new-college-board-research-ap-teachers-push-guardrails-and-support-genai-reshapes-classroom"
-        },
-        {
-          "name": "Government Technology",
-          "date": "2026-09-28",
-          "url": "https://www.govtech.com/education/k-12/ai-spurs-college-board-redesign-of-2-ap-courses"
+          "name": "Google Research",
+          "date": "2026-09-29",
+          "url": "https://research.google/blog/how-diffusion-controller-unifies-and-simplifies-ai-image-generation/"
         }
       ]
     },
     {
-      "id": "hosted-cs-classrooms",
+      "id": "rural-network-forecasting",
       "type": "news",
-      "category": "Education technology",
-      "headline": "Schools test hosted workspaces for computer science",
-      "summary": "SUNY Polytechnic Institute and New York high-school educators received an NSF planning grant to design a hosted environment for secondary AI and computer science classes. The project is exploring stable online workspaces that can work around limited technical support and restrictive school IT systems.",
-      "whyItMatters": "A coding lesson depends on more than the lesson itself: students also need reliable computers, accounts and software. Cloud-based workspaces can change who is able to participate in computer science.",
+      "category": "Networks & data",
+      "headline": "AI predicts network traffic on ordinary hardware",
+      "summary": "University of Nebraska–Lincoln researchers reported testing traffic-forecasting models on 13.7 billion packets from 10 Internet2 core routers. Their pipeline trained the models in under six seconds per router on standard hardware, with possible uses in rural wireless and smart-farming networks.",
+      "whyItMatters": "Networks work better when they can prepare for sudden traffic spikes. Predicting demand can help limited hardware and bandwidth serve sensors, farms and rural communities more reliably.",
       "csp": {
         "idea": "Computer Systems and Networks",
-        "connection": "Cloud systems can provide shared computing resources through a network instead of relying only on local machines."
+        "connection": "Network operators can analyze packet data to predict congestion and decide how to use limited computing resources."
       },
       "sources": [
         {
-          "name": "SUNY Polytechnic Institute",
-          "date": "2026-09-28",
-          "url": "https://sunypoly.edu/news/suny-poly-whitesboro-educators-partner-expand-ai-and-computer-science-learning.html"
+          "name": "University of Nebraska–Lincoln School of Computing",
+          "date": "2026-09-29",
+          "url": "https://computing.unl.edu/news/shariff-presents-research-agwireless-2026/"
         }
       ]
     },
     {
-      "id": "student-beacon-hackathon",
+      "id": "apple-digital-habits",
       "type": "news",
-      "category": "Student inventions & AI",
-      "headline": "Students build six AI prototypes in one day",
-      "summary": "High-school and college students at an iUrban Teen and Long Beach City College hackathon built six front-end prototypes around real problems. The winning project, Beacon, was designed to help counselors notice and support students who stop attending school while limiting who can see sensitive information.",
-      "whyItMatters": "Students can turn a problem into a working interface quickly, but responsible design still matters. The project shows how privacy, accessibility and user needs can shape an app alongside its features.",
+      "category": "Teen technology & health",
+      "headline": "Apple and pediatricians publish new screen-time guide",
+      "summary": "Apple and the American Academy of Pediatrics released a family guide that pairs health guidance with updated Screen Time controls. It covers schedules, app and website permissions, communication settings and conversations about balancing devices with sleep, schoolwork, exercise and relationships.",
+      "whyItMatters": "Technology design can shape daily habits, not just what appears on a screen. The guide also shows how software controls and family decisions can work together rather than treating screen time as one simple number.",
       "csp": {
         "idea": "Impact of Computing",
-        "connection": "Computing products reflect choices about users, data access, accessibility and possible social effects."
+        "connection": "Computing systems influence behavior, privacy and family choices, while users decide how those systems should fit into their lives."
       },
       "sources": [
         {
-          "name": "iUrban Teen / Long Beach AI Hackathon",
-          "date": "2026-09-26",
-          "url": "https://longbeachaihackathon.org/"
+          "name": "Apple Newsroom",
+          "date": "2026-09-29",
+          "url": "https://images.apple.com/newsroom/2026/09/apple-releases-new-guide-to-help-families-build-healthy-digital-habits/"
         }
       ]
     },
     {
-      "id": "eluminator-eskin",
+      "id": "instagram-school-communities",
       "type": "news",
-      "category": "Health, wearables & interfaces",
-      "headline": "Electronic skin turns pressure directly into visible light",
-      "summary": "National University of Singapore researchers developed a thin flexible material called eLuminator that lights up where pressure is applied. The research team reports very fine pressure detail and potential uses in surgical tools, health monitoring, robotics and prosthetics.",
-      "whyItMatters": "Sensors usually collect data that a computer must process before people can see it. This material links physical input to immediate visual output while still allowing digital measurements.",
+      "category": "Social media & school",
+      "headline": "Instagram adds verified school communities for high-school students",
+      "summary": "Instagram says participating U.S. schools can now use Channels, School Stories and Notes, while verified students can see school directories, clubs and teams. Meta says third-party verification and school-admin controls are intended to limit access and give schools ways to manage the spaces.",
+      "whyItMatters": "A social app is borrowing features from school communication systems while adding identity verification and moderation. That creates useful questions about who gets access to a digital community and who controls its data.",
+      "csp": {
+        "idea": "Impact of Computing",
+        "connection": "Online communities depend on identity, permissions, moderation and design choices that affect privacy and participation."
+      },
+      "sources": [
+        {
+          "name": "Meta Newsroom",
+          "date": "2026-09-29",
+          "url": "https://about.fb.com/news/2026/09/expanding-instagram-school-partnership-program-help-teens-stay-informed/"
+        }
+      ]
+    },
+    {
+      "id": "wearable-approximate-computing",
+      "type": "news",
+      "category": "Health & wearables",
+      "headline": "Smarter math could stretch health-wearable battery life",
+      "summary": "Researchers at the University of Twente and Vrije Universiteit Amsterdam tested lower-precision calculations for AI that detects irregular heart rhythms. Their proof of concept used 8-bit values and approximate calculations in some steps and reported a 64.9% improvement in power efficiency.",
+      "whyItMatters": "Computers often trade precision, speed and energy use against one another. For a wearable that analyzes health data all day, doing some calculations approximately could mean longer battery life if accuracy remains acceptable.",
       "csp": {
         "idea": "Data",
-        "connection": "Sensors convert events in the physical world into information that people or computing systems can interpret."
+        "connection": "The number of bits used to represent data affects precision, storage and the amount of computation a device must perform."
       },
       "sources": [
         {
-          "name": "Tech Xplore / National University of Singapore",
-          "date": "2026-09-28",
-          "url": "https://techxplore.com/news/2026-09-electronic-skin-users-instantly.html"
+          "name": "University of Twente TechMed Centre",
+          "date": "2026-09-29",
+          "url": "https://www.utwente.nl/en/techmed/news/overview-news/2026/9/1185779/smarter-calculations-could-help-health-wearables-use-less-energy"
         }
       ]
     },
     {
-      "id": "nasa-dexterous-robots",
+      "id": "final-cut-camera-24",
       "type": "news",
-      "category": "Space & robotics",
-      "headline": "NASA trains robots for jobs designed for human hands",
-      "summary": "NASA highlighted its Dexterous Robotics Team, which develops hardware, software, simulations and test environments for robots that can handle human-style tasks. One test used a robotic arm to recognize a spacecraft hatch, operate its latch and move cargo.",
-      "whyItMatters": "Robots need perception, software and mechanical design to work safely in environments built for people. Simulation lets engineers test those systems before trusting them in difficult places such as the Moon.",
+      "category": "Creator tools & video",
+      "headline": "iPhone camera app gains pro-level video controls",
+      "summary": "Apple released Final Cut Camera 2.4 with a redesigned interface and variable-aperture control on iPhone 18 Pro. With iOS 27, the app also adds color and exposure scopes, clean video output and timing controls for coordinating an iPhone with other cameras.",
+      "whyItMatters": "Phone cameras increasingly combine physical optics with software interfaces and real-time data displays. Tools once associated with dedicated production gear are moving onto general-purpose mobile computers.",
       "csp": {
         "idea": "Computer Systems and Networks",
-        "connection": "Robotic systems combine software, sensors, hardware and human supervision to perform physical tasks."
+        "connection": "Modern cameras combine sensors, processors, software controls and digital data to capture and transform video."
       },
       "sources": [
         {
-          "name": "NASA",
-          "date": "2026-09-28",
-          "url": "https://www.nasa.gov/centers-and-facilities/johnson/reliable-robots-meet-johnsons-dexterous-robotics-team/"
+          "name": "Apple Newsroom",
+          "date": "2026-09-29",
+          "url": "https://images.apple.com/newsroom/2026/09/final-cut-camera-now-supports-variable-aperture-on-iphone-18-pro/"
+        }
+      ]
+    },
+    {
+      "id": "mit-muscle-aquabot",
+      "type": "news",
+      "category": "Robotics & science",
+      "headline": "Paper-thin robot swims using living muscle cells",
+      "summary": "MIT engineers built a thin swimming robot whose two fins are covered with living muscle cells engineered to contract when exposed to light. By flashing light on either fin, researchers controlled the robot's direction and speed through a simple watery maze.",
+      "whyItMatters": "Robotics does not have to mean motors, gears and metal. This prototype combines biological tissue with controllable inputs, showing how future machines could mix living and engineered systems.",
+      "sources": [
+        {
+          "name": "MIT News",
+          "date": "2026-09-29",
+          "url": "https://news.mit.edu/2026/powered-by-muscle-cells-paper-thin-robot-swims-through-watery-maze-0929"
+        }
+      ]
+    },
+    {
+      "id": "firefox-157-redesign",
+      "type": "news",
+      "category": "Browsers & interface design",
+      "headline": "Firefox 157 rolls out a redesigned browser interface",
+      "summary": "Mozilla is rolling out a new Firefox design across desktop and mobile with refreshed icons, colors, themes and navigation areas. Firefox 157 also brings back Compact Mode and adds more control over the New Tab page while keeping choices over privacy and AI features.",
+      "whyItMatters": "Interfaces are part of computing too: designers decide what controls are visible, how much space they use and how consistently they work across devices. User feedback can directly change those design decisions.",
+      "csp": {
+        "idea": "Creative Development",
+        "connection": "Computing products are iteratively designed and revised using user needs, constraints and feedback."
+      },
+      "sources": [
+        {
+          "name": "Mozilla Blog",
+          "date": "2026-09-29",
+          "url": "https://blog.mozilla.org/en/firefox/new-firefox-design-is-here/"
         }
       ]
     }
