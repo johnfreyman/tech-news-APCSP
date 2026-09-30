@@ -1,168 +1,182 @@
 {
   "schemaVersion": 1,
-  "editionId": "2026-09-29-daily",
-  "date": "2026-09-29",
-  "coverage": "Eight stories · programming, cybersecurity, AP CSP, student apps, wearable sensing and space robotics",
+  "editionId": "2026-09-30-daily",
+  "date": "2026-09-30",
+  "coverage": "Nine stories · AI coding, teen social media, digital habits, creator tools, outages, satellites and Seattle space computing",
   "cards": [
     {
-      "id": "git-256",
+      "id": "gpt-61-sol",
       "type": "news",
-      "category": "Programming & software development",
-      "headline": "Git 2.56 adds safer merge-conflict handling",
-      "summary": "The Git project released version 2.56, including a new `git add --resolved` option that stages resolved merge conflicts without automatically staging unrelated edits. The release also improves performance for some history and repository-storage operations.",
-      "whyItMatters": "Version-control tools help programmers combine work without losing changes. Small safety features can prevent mistakes when several edits are happening at once.",
+      "category": "AI & programming",
+      "headline": "GPT-6.1 Sol targets harder coding with fewer resources",
+      "summary": "OpenAI released GPT-6.1 Sol for ChatGPT Work and Codex, saying its tests show stronger coding, computer-use and professional-work performance than GPT-6 Sol. GitHub also began rolling the model into Copilot for agentic coding and terminal workflows.",
+      "whyItMatters": "AI coding tools are becoming more capable, but their benchmark scores are vendor tests rather than guarantees. Programmers still need to review generated code and verify results.",
       "csp": {
         "idea": "Algorithms and Programming",
-        "connection": "Software-development tools help programmers manage, test and combine changes to code."
+        "connection": "AI coding agents can generate and modify programs, while humans test whether the output actually meets requirements."
       },
       "sources": [
         {
-          "name": "GitHub Blog",
-          "date": "2026-09-28",
-          "url": "https://github.blog/open-source/git/highlights-from-git-2-56/"
-        }
-      ]
-    },
-    {
-      "id": "android-ai-security",
-      "type": "news",
-      "category": "Cybersecurity & mobile apps",
-      "headline": "AI-assisted research finds 24 Android app vulnerabilities",
-      "summary": "GitHub Security Lab says its open-source AI taskflow system helped researchers find and report 24 vulnerabilities in Android apps. The researchers also warn that AI can misjudge severity and produce false positives, so human security review remains necessary.",
-      "whyItMatters": "AI can help inspect large amounts of code, but its findings still need verification. This is a real example of humans and automated tools working together on software security.",
-      "csp": {
-        "idea": "Algorithms and Programming",
-        "connection": "Programs can analyze other programs for patterns linked to bugs, while people evaluate the results."
-      },
-      "sources": [
-        {
-          "name": "GitHub Security Lab",
-          "date": "2026-09-28",
-          "url": "https://github.blog/security/how-we-found-24-android-vulnerabilities-using-our-open-source-ai-security-agent/"
-        }
-      ]
-    },
-    {
-      "id": "nvidia-agent-safety",
-      "type": "news",
-      "category": "AI & cybersecurity",
-      "headline": "NVIDIA builds guardrails outside the AI agent",
-      "summary": "NVIDIA announced an open agent-safety platform that can trace actions, enforce permissions and use a separate hardware watchdog to monitor AI agents. NVIDIA says the design can quarantine an agent that moves outside defined boundaries.",
-      "whyItMatters": "Security does not have to depend on an AI system policing itself. Designers can add independent layers that limit what software is allowed to access or do.",
-      "csp": {
-        "idea": "Computer Systems and Networks",
-        "connection": "Secure systems use layers of hardware and software controls to restrict access and behavior."
-      },
-      "sources": [
-        {
-          "name": "NVIDIA Newsroom",
-          "date": "2026-09-28",
-          "url": "https://nvidianews.nvidia.com/news/open-agent-safety-platform"
+          "name": "OpenAI",
+          "date": "2026-09-29",
+          "url": "https://openai.com/index/introducing-gpt-6-1-sol/"
         },
         {
-          "name": "ABC News",
-          "date": "2026-09-28",
-          "url": "https://abcnews.com/Business/nvidia-releases-software-prevent-ai-security-incidents/story?id=136818683"
+          "name": "GitHub Changelog",
+          "date": "2026-09-29",
+          "url": "https://github.blog/changelog/2026-09-29-gpt-6-1-sol-in-github-copilot/"
         }
       ]
     },
     {
-      "id": "ap-csp-ai-redesign",
+      "id": "instagram-school",
       "type": "news",
-      "category": "School & AI",
-      "headline": "AI is coming directly into AP CSP",
-      "summary": "College Board says the redesigned AP Computer Science Principles course launching in 2027–28 will include generative AI, machine learning, algorithm development, data ethics and human decision-making. It will also add an AI Create Project in which students build an AI application.",
-      "whyItMatters": "This directly changes what future AP CSP students will learn and build. AI literacy is becoming part of computer science education rather than a separate topic.",
+      "category": "Social media & school",
+      "headline": "Instagram adds verified school spaces for high-school students",
+      "summary": "Meta expanded Instagram's School Partnership Program with school Channels, Stories and Notes plus student Clubs & Teams and a school directory. High-school students must pass third-party verification to enter a verified school community, and participating schools can moderate school-related content.",
+      "whyItMatters": "A social app is adding digital identity checks and school-controlled spaces. That creates a useful example of how platforms balance communication, verification, privacy and moderation.",
       "csp": {
         "idea": "Impact of Computing",
-        "connection": "The AP CSP curriculum itself is changing as AI affects programming, data, ethics and society."
+        "connection": "Online communities depend on design choices about identity, access, moderation and who can see shared information."
       },
       "sources": [
         {
-          "name": "College Board",
-          "date": "2026-09-28",
-          "url": "https://newsroom.collegeboard.org/new-college-board-research-ap-teachers-push-guardrails-and-support-genai-reshapes-classroom"
-        },
-        {
-          "name": "Government Technology",
-          "date": "2026-09-28",
-          "url": "https://www.govtech.com/education/k-12/ai-spurs-college-board-redesign-of-2-ap-courses"
+          "name": "Meta Newsroom",
+          "date": "2026-09-29",
+          "url": "https://about.fb.com/news/2026/09/expanding-instagram-school-partnership-program-help-teens-stay-informed/"
         }
       ]
     },
     {
-      "id": "hosted-cs-classrooms",
+      "id": "apple-digital-habits",
       "type": "news",
-      "category": "Education technology",
-      "headline": "Schools test hosted workspaces for computer science",
-      "summary": "SUNY Polytechnic Institute and New York high-school educators received an NSF planning grant to design a hosted environment for secondary AI and computer science classes. The project is exploring stable online workspaces that can work around limited technical support and restrictive school IT systems.",
-      "whyItMatters": "A coding lesson depends on more than the lesson itself: students also need reliable computers, accounts and software. Cloud-based workspaces can change who is able to participate in computer science.",
-      "csp": {
-        "idea": "Computer Systems and Networks",
-        "connection": "Cloud systems can provide shared computing resources through a network instead of relying only on local machines."
-      },
-      "sources": [
-        {
-          "name": "SUNY Polytechnic Institute",
-          "date": "2026-09-28",
-          "url": "https://sunypoly.edu/news/suny-poly-whitesboro-educators-partner-expand-ai-and-computer-science-learning.html"
-        }
-      ]
-    },
-    {
-      "id": "student-beacon-hackathon",
-      "type": "news",
-      "category": "Student inventions & AI",
-      "headline": "Students build six AI prototypes in one day",
-      "summary": "High-school and college students at an iUrban Teen and Long Beach City College hackathon built six front-end prototypes around real problems. The winning project, Beacon, was designed to help counselors notice and support students who stop attending school while limiting who can see sensitive information.",
-      "whyItMatters": "Students can turn a problem into a working interface quickly, but responsible design still matters. The project shows how privacy, accessibility and user needs can shape an app alongside its features.",
+      "category": "Health & digital life",
+      "headline": "Apple and pediatricians publish a family screen-time guide",
+      "summary": "Apple and the American Academy of Pediatrics released guidance that pairs healthy digital-habit advice with Apple's parental controls. It covers conversations about screen time, age-based safeguards, app and website approval, schedules and communication settings.",
+      "whyItMatters": "Technology design can shape sleep, schoolwork, exercise and social time. Controls such as schedules and permissions are examples of software turning family rules into system behavior.",
       "csp": {
         "idea": "Impact of Computing",
-        "connection": "Computing products reflect choices about users, data access, accessibility and possible social effects."
+        "connection": "Computing products affect daily behavior, and designers can build controls that give users and families more choices."
       },
       "sources": [
         {
-          "name": "iUrban Teen / Long Beach AI Hackathon",
-          "date": "2026-09-26",
-          "url": "https://longbeachaihackathon.org/"
+          "name": "Apple Newsroom",
+          "date": "2026-09-29",
+          "url": "https://www.apple.com/newsroom/2026/09/apple-releases-new-guide-to-help-families-build-healthy-digital-habits/"
         }
       ]
     },
     {
-      "id": "eluminator-eskin",
+      "id": "creator-studio",
       "type": "news",
-      "category": "Health, wearables & interfaces",
-      "headline": "Electronic skin turns pressure directly into visible light",
-      "summary": "National University of Singapore researchers developed a thin flexible material called eLuminator that lights up where pressure is applied. The research team reports very fine pressure detail and potential uses in surgical tools, health monitoring, robotics and prosthetics.",
-      "whyItMatters": "Sensors usually collect data that a computer must process before people can see it. This material links physical input to immediate visual output while still allowing digital measurements.",
+      "category": "Creator tools",
+      "headline": "Creator apps add smarter editing and collaboration tools",
+      "summary": "Apple announced Creator Studio updates including finer image-selection controls in Pixelmator Pro, editable Cinematic effects in Final Cut Pro and new collaboration features. Keynote can also generate images for slides, while Freeform can use Apple Intelligence to rewrite or summarize handwritten notes.",
+      "whyItMatters": "Creative software combines algorithms with human choices rather than replacing the creator. Selection masks, generated images and shared documents all turn different kinds of data into editable media.",
+      "csp": {
+        "idea": "Creative Development",
+        "connection": "Digital creators use software tools iteratively to produce, revise and share computing artifacts."
+      },
+      "sources": [
+        {
+          "name": "Apple Newsroom",
+          "date": "2026-09-29",
+          "url": "https://www.apple.com/newsroom/2026/09/new-updates-coming-to-apple-creator-studio/"
+        }
+      ]
+    },
+    {
+      "id": "iphone-camera",
+      "type": "news",
+      "category": "Phones & video",
+      "headline": "iPhone camera app exposes more pro video controls",
+      "summary": "Final Cut Camera 2.4 adds variable-aperture control for iPhone 18 Pro plus redesigned controls for exposure, focus and recording. With iOS 27 it can also show RGB color-channel data and histograms, tools filmmakers use to judge color balance and brightness.",
+      "whyItMatters": "A phone camera is a sensor system that turns light into numerical image data. Professional controls expose more of that pipeline instead of hiding every decision behind automatic processing.",
       "csp": {
         "idea": "Data",
-        "connection": "Sensors convert events in the physical world into information that people or computing systems can interpret."
+        "connection": "Digital cameras sample physical light into data that software can measure, transform, display and store."
       },
       "sources": [
         {
-          "name": "Tech Xplore / National University of Singapore",
-          "date": "2026-09-28",
-          "url": "https://techxplore.com/news/2026-09-electronic-skin-users-instantly.html"
+          "name": "Apple Newsroom",
+          "date": "2026-09-29",
+          "url": "https://www.apple.com/newsroom/2026/09/final-cut-camera-now-supports-variable-aperture-on-iphone-18-pro/"
         }
       ]
     },
     {
-      "id": "nasa-dexterous-robots",
+      "id": "spotify-claude-outage",
       "type": "news",
-      "category": "Space & robotics",
-      "headline": "NASA trains robots for jobs designed for human hands",
-      "summary": "NASA highlighted its Dexterous Robotics Team, which develops hardware, software, simulations and test environments for robots that can handle human-style tasks. One test used a robotic arm to recognize a spacecraft hatch, operate its latch and move cargo.",
-      "whyItMatters": "Robots need perception, software and mechanical design to work safely in environments built for people. Simulation lets engineers test those systems before trusting them in difficult places such as the Moon.",
+      "category": "Networks & cloud services",
+      "headline": "Spotify and Claude recover from separate service outages",
+      "summary": "Spotify and Anthropic's Claude both experienced brief U.S. service disruptions Tuesday, according to Reuters and user reports collected by Downdetector. Anthropic said its Claude issues were mitigated, while Spotify acknowledged problems and investigated them.",
+      "whyItMatters": "Apps that feel local often depend on remote servers and networks. When a cloud service fails, thousands of users can notice at once even though their own phones and computers are working.",
       "csp": {
         "idea": "Computer Systems and Networks",
-        "connection": "Robotic systems combine software, sensors, hardware and human supervision to perform physical tasks."
+        "connection": "Internet services rely on connected servers, networks and software layers, so failures can affect many clients at the same time."
       },
       "sources": [
         {
-          "name": "NASA",
-          "date": "2026-09-28",
-          "url": "https://www.nasa.gov/centers-and-facilities/johnson/reliable-robots-meet-johnsons-dexterous-robotics-team/"
+          "name": "Reuters",
+          "date": "2026-09-29",
+          "url": "https://www.reuters.com/business/spotify-down-thousands-users-us-downdetector-shows-2026-09-29/"
+        }
+      ]
+    },
+    {
+      "id": "landsat-five-years",
+      "type": "news",
+      "category": "Climate data & satellites",
+      "headline": "Landsat 9 marks five years of mapping Earth",
+      "summary": "NASA says Landsat 9 completed its five-year design life after collecting science-grade images of Earth's surface since 2021. Paired with Landsat 8, the satellites provide near-weekly observations used for agriculture, disasters, forests, fires, water and environmental research.",
+      "whyItMatters": "Satellite images become large datasets that computers can compare across years. Open Earth-observation data lets researchers detect patterns and changes that would be difficult to measure from the ground.",
+      "csp": {
+        "idea": "Data",
+        "connection": "Computing systems collect, store and analyze repeated measurements to reveal changes across large places and long periods."
+      },
+      "sources": [
+        {
+          "name": "NASA Science",
+          "date": "2026-09-29",
+          "url": "https://science.nasa.gov/mission/landsat/news/mission-success-celebrating-landsat-9s-five-year-design-life-milestone/"
+        }
+      ]
+    },
+    {
+      "id": "uw-raytracing-space",
+      "type": "news",
+      "category": "Seattle & space computing",
+      "headline": "UW students invite new Huskies to code physics for space",
+      "summary": "The University of Washington's Husky Satellite Lab held a Seattle workshop where students could build ray-tracing algorithms that simulate light through Earth's atmosphere. The lab highlighted computer vision, star tracking, orbital simulation and other algorithms it wants to test with satellite cameras.",
+      "whyItMatters": "This is computing happening close to home and beyond Earth. The same ideas students learn about algorithms and simulation can become tools for spacecraft navigation and scientific research.",
+      "csp": {
+        "idea": "Algorithms and Programming",
+        "connection": "A simulation is a program that uses algorithms and mathematical models to represent behavior in the physical world."
+      },
+      "sources": [
+        {
+          "name": "University of Washington Dawg Daze",
+          "date": "2026-09-29",
+          "url": "https://dawgdaze.uw.edu/event/raytracing-and-physics-in-space-w-husky-satellite-lab-4/"
+        }
+      ]
+    },
+    {
+      "id": "space-flight-computer",
+      "type": "news",
+      "category": "Hardware & space",
+      "headline": "UW workshop asks what a satellite computer really needs",
+      "summary": "Husky Satellite Lab also challenged students to design a miniature flight computer while considering radiation, limited power, lost connections, processors, storage and sensors. The exercise showed why spacecraft computers face constraints that ordinary laptops do not.",
+      "whyItMatters": "Computer design is about tradeoffs, not simply choosing the fastest chip. Engineers match hardware and software to the environment, reliability needs, power budget and data a system must handle.",
+      "csp": {
+        "idea": "Computer Systems and Networks",
+        "connection": "A computing system's hardware, storage, sensors and communication links must work together under real-world constraints."
+      },
+      "sources": [
+        {
+          "name": "University of Washington Dawg Daze",
+          "date": "2026-09-29",
+          "url": "https://dawgdaze.uw.edu/event/husky-satellite-lab-can-you-build-a-flight-computer-w-cookies/"
         }
       ]
     }
