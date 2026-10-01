@@ -1,173 +1,163 @@
 {
   "schemaVersion": 1,
-  "editionId": "2026-09-30-daily",
-  "date": "2026-09-30",
-  "coverage": "Nine stories · browser security, AI images, networks, teen tech, wearables, filmmaking and biohybrid robots",
+  "editionId": "2026-10-01-daily",
+  "date": "2026-10-01",
+  "coverage": "Eight stories · software security, AI evidence, drones, digital culture, accessibility, robotics and student computing",
   "cards": [
     {
-      "id": "firefox-157-security",
+      "id": "mcp-python-memory-fixes",
       "type": "news",
-      "category": "Cybersecurity",
-      "headline": "Firefox 157 patches dozens of browser security flaws",
-      "summary": "Mozilla released Firefox 157 with fixes for many security bugs, including several it rates as high impact. The advisory lists problems involving browser sandboxes, memory handling, graphics, WebAssembly, networking and other components.",
-      "whyItMatters": "A web browser processes code and data from many sites, so one bug can affect a huge number of users. Regular software updates are an important layer of computer security.",
+      "category": "Cybersecurity & software",
+      "headline": "MCP Python SDK fixes two memory-exhaustion flaws",
+      "summary": "Maintainers of the official Model Context Protocol Python SDK published two high-severity advisories about servers using too much memory. One involved sessions that were not reclaimed; another involved HTTP request bodies with no size limit. Patched releases add limits and cleanup.",
+      "whyItMatters": "Software security includes protecting a system's resources, not just passwords and data. Limits on memory, request size and session lifetime can keep a service available when inputs behave unexpectedly.",
       "csp": {
         "idea": "Computer Systems and Networks",
-        "connection": "Browser security depends on isolating processes and limiting what untrusted code can access."
+        "connection": "Network services must manage finite resources and validate incoming data so one client cannot consume everything."
       },
       "sources": [
         {
-          "name": "Mozilla Security Advisory",
-          "date": "2026-09-29",
-          "url": "https://www.mozilla.org/en-US/security/advisories/mfsa2026-97/"
+          "name": "MCP Python SDK Security Advisory",
+          "date": "2026-09-30",
+          "url": "https://github.com/modelcontextprotocol/python-sdk/security/advisories/GHSA-84m7-p3x7-pcfv"
+        },
+        {
+          "name": "MCP Python SDK Security Advisory",
+          "date": "2026-09-30",
+          "url": "https://github.com/modelcontextprotocol/python-sdk/security/advisories/GHSA-fmmv-w9g8-j3gc"
         }
       ]
     },
     {
-      "id": "diffusion-controller",
+      "id": "changeorg-ai-petitions",
       "type": "news",
-      "category": "AI & algorithms",
-      "headline": "Google tests a lighter way to steer AI images",
-      "summary": "Google Research introduced Diffusion Controller, a small add-on network designed to guide image generators toward a prompt without changing most of the original model. Google reports that its experiments improved prompt matching while preserving image quality, but the results are research findings rather than a new consumer feature.",
-      "whyItMatters": "AI image generation is an algorithmic process that can be adjusted while it runs. This research shows how a smaller control system can influence a much larger model.",
-      "csp": {
-        "idea": "Algorithms and Programming",
-        "connection": "The method changes how an image-generation algorithm moves from random noise toward a requested output."
-      },
-      "sources": [
-        {
-          "name": "Google Research",
-          "date": "2026-09-29",
-          "url": "https://research.google/blog/how-diffusion-controller-unifies-and-simplifies-ai-image-generation/"
-        }
-      ]
-    },
-    {
-      "id": "rural-network-forecasting",
-      "type": "news",
-      "category": "Networks & data",
-      "headline": "AI predicts network traffic on ordinary hardware",
-      "summary": "University of Nebraska–Lincoln researchers reported testing traffic-forecasting models on 13.7 billion packets from 10 Internet2 core routers. Their pipeline trained the models in under six seconds per router on standard hardware, with possible uses in rural wireless and smart-farming networks.",
-      "whyItMatters": "Networks work better when they can prepare for sudden traffic spikes. Predicting demand can help limited hardware and bandwidth serve sensors, farms and rural communities more reliably.",
-      "csp": {
-        "idea": "Computer Systems and Networks",
-        "connection": "Network operators can analyze packet data to predict congestion and decide how to use limited computing resources."
-      },
-      "sources": [
-        {
-          "name": "University of Nebraska–Lincoln School of Computing",
-          "date": "2026-09-29",
-          "url": "https://computing.unl.edu/news/shariff-presents-research-agwireless-2026/"
-        }
-      ]
-    },
-    {
-      "id": "apple-digital-habits",
-      "type": "news",
-      "category": "Teen technology & health",
-      "headline": "Apple and pediatricians publish new screen-time guide",
-      "summary": "Apple and the American Academy of Pediatrics released a family guide that pairs health guidance with updated Screen Time controls. It covers schedules, app and website permissions, communication settings and conversations about balancing devices with sleep, schoolwork, exercise and relationships.",
-      "whyItMatters": "Technology design can shape daily habits, not just what appears on a screen. The guide also shows how software controls and family decisions can work together rather than treating screen time as one simple number.",
-      "csp": {
-        "idea": "Impact of Computing",
-        "connection": "Computing systems influence behavior, privacy and family choices, while users decide how those systems should fit into their lives."
-      },
-      "sources": [
-        {
-          "name": "Apple Newsroom",
-          "date": "2026-09-29",
-          "url": "https://images.apple.com/newsroom/2026/09/apple-releases-new-guide-to-help-families-build-healthy-digital-habits/"
-        }
-      ]
-    },
-    {
-      "id": "instagram-school-communities",
-      "type": "news",
-      "category": "Social media & school",
-      "headline": "Instagram adds verified school communities for high-school students",
-      "summary": "Instagram says participating U.S. schools can now use Channels, School Stories and Notes, while verified students can see school directories, clubs and teams. Meta says third-party verification and school-admin controls are intended to limit access and give schools ways to manage the spaces.",
-      "whyItMatters": "A social app is borrowing features from school communication systems while adding identity verification and moderation. That creates useful questions about who gets access to a digital community and who controls its data.",
-      "csp": {
-        "idea": "Impact of Computing",
-        "connection": "Online communities depend on identity, permissions, moderation and design choices that affect privacy and participation."
-      },
-      "sources": [
-        {
-          "name": "Meta Newsroom",
-          "date": "2026-09-29",
-          "url": "https://about.fb.com/news/2026/09/expanding-instagram-school-partnership-program-help-teens-stay-informed/"
-        }
-      ]
-    },
-    {
-      "id": "wearable-approximate-computing",
-      "type": "news",
-      "category": "Health & wearables",
-      "headline": "Smarter math could stretch health-wearable battery life",
-      "summary": "Researchers at the University of Twente and Vrije Universiteit Amsterdam tested lower-precision calculations for AI that detects irregular heart rhythms. Their proof of concept used 8-bit values and approximate calculations in some steps and reported a 64.9% improvement in power efficiency.",
-      "whyItMatters": "Computers often trade precision, speed and energy use against one another. For a wearable that analyzes health data all day, doing some calculations approximately could mean longer battery life if accuracy remains acceptable.",
+      "category": "AI & social platforms",
+      "headline": "AI rewrites petitions without improving their results",
+      "summary": "Cornell researchers analyzed 1.5 million Change.org petitions around the rollout of an AI writing assistant. AI-assisted petitions became longer and used more similar wording, but the researchers found little or no improvement in outcomes such as comments and signatures.",
+      "whyItMatters": "A tool can noticeably change an output without making it more effective. Large real-world datasets can test whether an AI feature actually helps people accomplish the goal it was designed for.",
       "csp": {
         "idea": "Data",
-        "connection": "The number of bits used to represent data affects precision, storage and the amount of computation a device must perform."
+        "connection": "Researchers compared large groups of platform data to measure how a computing feature changed both text and user outcomes."
       },
       "sources": [
         {
-          "name": "University of Twente TechMed Centre",
-          "date": "2026-09-29",
-          "url": "https://www.utwente.nl/en/techmed/news/overview-news/2026/9/1185779/smarter-calculations-could-help-health-wearables-use-less-energy"
+          "name": "Cornell Chronicle",
+          "date": "2026-09-30",
+          "url": "https://news.cornell.edu/index.php/stories/2026/09/ai-enhanced-petitions-changeorg-more-text-less-success"
         }
       ]
     },
     {
-      "id": "final-cut-camera-24",
+      "id": "sapience-autonomous-drones",
       "type": "news",
-      "category": "Creator tools & video",
-      "headline": "iPhone camera app gains pro-level video controls",
-      "summary": "Apple released Final Cut Camera 2.4 with a redesigned interface and variable-aperture control on iPhone 18 Pro. With iOS 27, the app also adds color and exposure scopes, clean video output and timing controls for coordinating an iPhone with other cameras.",
-      "whyItMatters": "Phone cameras increasingly combine physical optics with software interfaces and real-time data displays. Tools once associated with dedicated production gear are moving onto general-purpose mobile computers.",
+      "category": "Robotics & networks",
+      "headline": "Student-built drones search disaster zones without GPS",
+      "summary": "University teams in the NATO-supported SAPIENCE competition tested autonomous drones in a simulated disaster area without GPS or human control. The aircraft had to navigate, find simulated survivors, judge urgency, coordinate supplies and avoid obstacles and one another.",
+      "whyItMatters": "Autonomous machines need sensing, navigation, communication and decision-making to work together. The project also shows students debugging real systems when networks and hardware do not behave exactly as expected.",
       "csp": {
         "idea": "Computer Systems and Networks",
-        "connection": "Modern cameras combine sensors, processors, software controls and digital data to capture and transform video."
+        "connection": "Robotic systems combine sensors, software and network communication to coordinate actions in the physical world."
       },
       "sources": [
         {
-          "name": "Apple Newsroom",
-          "date": "2026-09-29",
-          "url": "https://images.apple.com/newsroom/2026/09/final-cut-camera-now-supports-variable-aperture-on-iphone-18-pro/"
+          "name": "University of Alabama in Huntsville",
+          "date": "2026-09-30",
+          "url": "https://www.uah.edu/news/items/uah-puts-autonomous-drone-technology-test-in-final-international-nato-competition-focused-on-disaster-support"
         }
       ]
     },
     {
-      "id": "mit-muscle-aquabot",
+      "id": "tiktok-music-unlocks",
       "type": "news",
-      "category": "Robotics & science",
-      "headline": "Paper-thin robot swims using living muscle cells",
-      "summary": "MIT engineers built a thin swimming robot whose two fins are covered with living muscle cells engineered to contract when exposed to light. By flashing light on either fin, researchers controlled the robot's direction and speed through a simple watery maze.",
-      "whyItMatters": "Robotics does not have to mean motors, gears and metal. This prototype combines biological tissue with controllable inputs, showing how future machines could mix living and engineered systems.",
+      "category": "Music & digital culture",
+      "headline": "TikTok turns a music release into a group challenge",
+      "summary": "TikTok launched an in-app hub around Taylor Swift's “Patient Zero” with phased unlocks, a profile-frame reward and group goals that reveal behind-the-scenes clips. Some rewards depend on actions such as following accounts, posting with the song or listening to tracks.",
+      "whyItMatters": "Apps can turn media into an interactive system using progress, rewards and collective goals. Those interface choices can shape what users do, share and listen to rather than simply showing them content.",
+      "csp": {
+        "idea": "Impact of Computing",
+        "connection": "Platform design choices can influence participation, sharing and how online communities experience media."
+      },
       "sources": [
         {
-          "name": "MIT News",
-          "date": "2026-09-29",
-          "url": "https://news.mit.edu/2026/powered-by-muscle-cells-paper-thin-robot-swims-through-watery-maze-0929"
+          "name": "TikTok Newsroom",
+          "date": "2026-09-30",
+          "url": "https://newsroom.tiktok.com/taylor-swift-and-tiktok-celebrate-the-life-of-a-showgirl-the-encore-with-a-new-in-app-experience?lang=en&preview=true%3Fgad_source%3D1"
         }
       ]
     },
     {
-      "id": "firefox-157-redesign",
+      "id": "ai-code-accessibility",
       "type": "news",
-      "category": "Browsers & interface design",
-      "headline": "Firefox 157 rolls out a redesigned browser interface",
-      "summary": "Mozilla is rolling out a new Firefox design across desktop and mobile with refreshed icons, colors, themes and navigation areas. Firefox 157 also brings back Compact Mode and adds more control over the New Tab page while keeping choices over privacy and AI features.",
-      "whyItMatters": "Interfaces are part of computing too: designers decide what controls are visible, how much space they use and how consistently they work across devices. User feedback can directly change those design decisions.",
+      "category": "Accessibility & coding",
+      "headline": "AI coding tools stumble on web accessibility",
+      "summary": "Accessibility company AudioEye asked five AI coding tools to build three websites each to meet WCAG 2.2 AA accessibility requirements. AudioEye reports that all 15 test sites failed even the basic Level A tier; the company sells accessibility services, so its study is best read as a vendor test rather than independent research.",
+      "whyItMatters": "Code that looks correct can still fail for keyboard or screen-reader users. Whether code comes from a person or an AI tool, testing with accessibility requirements and real interactions remains part of building usable software.",
       "csp": {
         "idea": "Creative Development",
-        "connection": "Computing products are iteratively designed and revised using user needs, constraints and feedback."
+        "connection": "Developers test and revise computing products to meet user needs, including needs that may not be visible on screen."
       },
       "sources": [
         {
-          "name": "Mozilla Blog",
-          "date": "2026-09-29",
-          "url": "https://blog.mozilla.org/en/firefox/new-firefox-design-is-here/"
+          "name": "AudioEye",
+          "date": "2026-09-30",
+          "url": "https://www.audioeye.com/ai-coding-tools-do-not-write-accessible-code/"
+        }
+      ]
+    },
+    {
+      "id": "oarfish-robot-design",
+      "type": "news",
+      "category": "Robotics & science",
+      "headline": "Oarfish fins inspire a quieter underwater robot",
+      "summary": "Cornell researchers studied how oarfish move hundreds of dorsal-fin rays in coordinated waves, using dissections, X-rays, CT scans and video. The work is helping inform a proposed large underwater robot that could move quietly while carrying instruments to monitor ocean health.",
+      "whyItMatters": "Engineers often study biological systems before designing machines. Turning a fish's motion into a robot requires converting observations into mechanical structures, control rules and sensor-driven behavior.",
+      "csp": {
+        "idea": "Algorithms and Programming",
+        "connection": "A robot needs programmed control patterns to coordinate many moving parts and produce a desired motion."
+      },
+      "sources": [
+        {
+          "name": "Cornell Chronicle",
+          "date": "2026-09-30",
+          "url": "https://news.cornell.edu/stories/2026/09/mysterious-oarfishs-fins-inspire-large-underwater-robot-design"
+        }
+      ]
+    },
+    {
+      "id": "moonk-am-archive",
+      "type": "news",
+      "category": "Space & data archives",
+      "headline": "Lost student Moon photos get a permanent archive",
+      "summary": "Cornell's Spacecraft Planetary Image Facility is preserving recovered MoonKAM photos requested by middle-school students during NASA's 2011–12 GRAIL mission. The images were not originally required to be archived, and some sets had become difficult to locate.",
+      "whyItMatters": "Digital data can disappear even when the original project was important. Archives need deliberate storage, organization and long-term stewardship so future students and researchers can still find and use old data.",
+      "csp": {
+        "idea": "Data",
+        "connection": "Computing systems store and organize digital information, but preservation depends on decisions about formats, metadata and long-term access."
+      },
+      "sources": [
+        {
+          "name": "Cornell Chronicle",
+          "date": "2026-09-30",
+          "url": "https://news.cornell.edu/stories/2026/09/exploring-solar-system-through-cornells-image-library"
+        }
+      ]
+    },
+    {
+      "id": "broward-ai-python-pathway",
+      "type": "news",
+      "category": "School & computing careers",
+      "headline": "High-school students train in Python and AI",
+      "summary": "An NSF-funded Broward College program is bringing AI, IT and cybersecurity training to first-year college students and students at Nova High School. Its pathways include entry-level Python, data analytics and AI credentials, plus hands-on mentoring and problem-based learning.",
+      "whyItMatters": "Computer science skills can connect directly to many kinds of work, not only jobs labeled “programmer.” The program is an example of schools building practical pathways from high school into computing and technology careers.",
+      "csp": {
+        "idea": "Impact of Computing",
+        "connection": "Computing knowledge affects education and career pathways across industries, including jobs that mix technology with other fields."
+      },
+      "sources": [
+        {
+          "name": "Broward College",
+          "date": "2026-09-30",
+          "url": "https://news.broward.edu/2026/09/aibluecollar.html"
         }
       ]
     }
