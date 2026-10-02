@@ -1,0 +1,179 @@
+{
+  "schemaVersion": 1,
+  "editionId": "2026-10-02-daily",
+  "date": "2026-10-02",
+  "coverage": "Nine stories · AI agents, 3D design, gaming, wearables, space robots, chips, cloud infrastructure and shopping",
+  "cards": [
+    {
+      "id": "gemini-4-argon",
+      "type": "news",
+      "category": "AI & software",
+      "headline": "Google previews Gemini 4 Argon for cyber defenders",
+      "summary": "Google introduced Gemini 4 Argon, a new model aimed at long, complex work such as coding and cybersecurity. It is initially rolling out only to trusted cyber defenders through Google's Fairwind program while the company tests safeguards before wider access.",
+      "whyItMatters": "A powerful AI model is not automatically a public product. Staged releases show how capability testing, security and access controls can be part of deploying software responsibly.",
+      "csp": {
+        "idea": "Impact of Computing",
+        "connection": "Developers make choices about who can access powerful computing systems and what safeguards are needed before broader release."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "date": "2026-09-30",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+        }
+      ]
+    },
+    {
+      "id": "instructmesh-3d",
+      "type": "news",
+      "category": "Creator tools & AI",
+      "headline": "AI tool lets people repair 3D models before printing",
+      "summary": "MIT researchers introduced InstructMesh, which combines a 3D generator with a language model so users can select and repair flawed parts of generated objects before fabrication. In tests, novices identified and fixed structural problems about 90% of the time, according to the researchers.",
+      "whyItMatters": "Generating an image of an object is different from designing something that works in the physical world. Interactive software can keep people in the loop to inspect, test and revise AI output.",
+      "csp": {
+        "idea": "Creative Development",
+        "connection": "Computing products are improved through iterative design, testing and user feedback rather than treating the first output as final."
+      },
+      "sources": [
+        {
+          "name": "MIT News",
+          "date": "2026-10-01",
+          "url": "https://news.mit.edu/2026/instructmesh-tool-lets-users-repair-ai-3d-models-then-fabricate-them-1001"
+        }
+      ]
+    },
+    {
+      "id": "xbox-disc-digital",
+      "type": "news",
+      "category": "Gaming & digital ownership",
+      "headline": "Xbox turns physical game discs into digital licenses",
+      "summary": "Microsoft has expanded Xbox Disc-to-Digital from Insider testing to all players for supported Xbox One and Series X games. Inserting a supported disc can grant a digital entitlement for disc-free play, but transferring the disc can also transfer that entitlement away.",
+      "whyItMatters": "A physical object and a digital license can represent the same purchase in very different ways. The system is a useful example of how software rules define access, ownership and portability.",
+      "csp": {
+        "idea": "Impact of Computing",
+        "connection": "Digital platforms use accounts, licenses and software rules to decide who can access purchased content and on which devices."
+      },
+      "sources": [
+        {
+          "name": "Windows Central",
+          "date": "2026-09-30",
+          "url": "https://www.windowscentral.com/gaming/xbox/xbox-disc-to-digital-feature-is-now-available-for-all"
+        }
+      ]
+    },
+    {
+      "id": "arpa-delphi-biosensors",
+      "type": "news",
+      "category": "Health & wearables",
+      "headline": "Tiny chiplets could make biosensors more personal",
+      "summary": "ARPA-H selected teams for its Delphi program, which aims to build small modular sensor chiplets that can be combined into wearable or other health devices. The agency says the goal is to measure signals beyond heart rate or glucose, including hormones, inflammation markers and medication levels.",
+      "whyItMatters": "Wearables are computers connected to sensors, and better sensors can create much richer streams of health data. That also makes accuracy, privacy and responsible data use increasingly important.",
+      "csp": {
+        "idea": "Data",
+        "connection": "Sensors convert physical measurements into digital data that software can store, analyze and use to support decisions."
+      },
+      "sources": [
+        {
+          "name": "ARPA-H",
+          "date": "2026-10-01",
+          "url": "https://arpa-h.gov/news-and-events/arpa-h-kicks-work-advance-next-generation-personalized-biosensors"
+        }
+      ]
+    },
+    {
+      "id": "nasa-smallsats",
+      "type": "news",
+      "category": "Space & robotics",
+      "headline": "Small satellites test autonomous inspection and new propulsion",
+      "summary": "Three NASA-supported small spacecraft launched Oct. 1 to test propulsion, study ultraviolet light and demonstrate satellite inspection. One mission, SSPICY, will use computer-vision navigation and autonomous guidance to approach inactive satellites and collect information about them.",
+      "whyItMatters": "A spacecraft cannot rely on a person steering every tiny movement in real time. Sensors, algorithms and onboard computing help robots understand where they are and act safely far from their operators.",
+      "csp": {
+        "idea": "Algorithms and Programming",
+        "connection": "Autonomous navigation combines sensor data with algorithms that repeatedly estimate position and choose safe actions."
+      },
+      "sources": [
+        {
+          "name": "NASA",
+          "date": "2026-10-01",
+          "url": "https://www.nasa.gov/blogs/smallsatellites/2026/10/01/nasa-smallsats-launch-to-advance-science-technology-orbital-operations/"
+        }
+      ]
+    },
+    {
+      "id": "volantis-optical-memory",
+      "type": "news",
+      "category": "Chips & hardware",
+      "headline": "Startup uses tiny lasers to link AI chips and memory",
+      "summary": "Chip startup Volantis says it is developing optical links that send data between processors and memory using tiny lasers instead of short electrical connections. The company hopes the approach will let future AI systems connect many more memory chips around a GPU.",
+      "whyItMatters": "Fast processors still slow down when data cannot reach them quickly enough. Computer performance depends on communication between components as well as the speed of the processor itself.",
+      "csp": {
+        "idea": "Computer Systems and Networks",
+        "connection": "A computer system's performance depends on how processors, memory and communication links work together."
+      },
+      "sources": [
+        {
+          "name": "Reuters",
+          "date": "2026-10-01",
+          "url": "https://www.reuters.com/business/volantis-raises-88-million-tech-connect-ai-memory-chips-2026-10-01/"
+        }
+      ]
+    },
+    {
+      "id": "aws-data-center-communities",
+      "type": "news",
+      "category": "Cloud & environment",
+      "headline": "AWS pledges $1 billion around U.S. data centers",
+      "summary": "Amazon Web Services says it will invest more than $1 billion over five years in communities that host its U.S. data centers, including education, job training, energy affordability and water projects. Data-center growth has drawn scrutiny because cloud and AI computing require large amounts of electricity and water.",
+      "whyItMatters": "Cloud computing feels invisible on a screen, but it runs in physical buildings with real power, cooling and community needs. Scaling software can therefore create environmental and infrastructure tradeoffs.",
+      "csp": {
+        "idea": "Impact of Computing",
+        "connection": "Large computing systems have physical resource costs and can affect communities far beyond the people using the software."
+      },
+      "sources": [
+        {
+          "name": "Reuters",
+          "date": "2026-10-02",
+          "url": "https://www.reuters.com/business/retail-consumer/amazon-invest-1-billion-over-five-years-us-data-center-communities-2026-10-02/"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt-virtual-tryon",
+      "type": "news",
+      "category": "Shopping & digital identity",
+      "headline": "ChatGPT adds virtual try-on for clothes and accessories",
+      "summary": "OpenAI launched a ChatGPT shopping feature that can place clothing or accessories onto an uploaded selfie or full-body photo, along with a Favorites feature for saving products. The try-on uses image-generation software, so the result is a visualization rather than a guarantee of real-world fit.",
+      "whyItMatters": "Generative images are moving into everyday shopping, where a synthetic preview can influence a real purchase. Users also have to decide when sharing a personal photo is worth the convenience.",
+      "csp": {
+        "idea": "Impact of Computing",
+        "connection": "Computing tools can change consumer decisions while creating new choices about personal data and how generated media should be interpreted."
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "date": "2026-10-01",
+          "url": "https://techcrunch.com/2026/10/01/chatgpt-can-now-virtually-try-on-clothes-for-you/"
+        }
+      ]
+    },
+    {
+      "id": "openai-dots",
+      "type": "news",
+      "category": "AI agents",
+      "headline": "OpenAI launches always-on agents called dots",
+      "summary": "OpenAI began rolling out dots, AI agents with their own cloud computers that can work on multiple tasks and use connected apps. The company says dots include permission controls, action review and read-only limits for proactive background research, with availability starting on selected paid plans.",
+      "whyItMatters": "AI is shifting from answering prompts toward software that can take actions over time. That makes permissions, monitoring and deciding when a human must approve an action central parts of system design.",
+      "csp": {
+        "idea": "Computer Systems and Networks",
+        "connection": "Agent systems combine cloud computers, connected services and permission rules to act across multiple software systems."
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "date": "2026-09-29",
+          "url": "https://openai.com/index/introducing-dots/"
+        }
+      ]
+    }
+  ]
+}
