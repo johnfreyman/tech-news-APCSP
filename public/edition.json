@@ -1,163 +1,177 @@
 {
   "schemaVersion": 1,
-  "editionId": "2026-10-01-daily",
-  "date": "2026-10-01",
-  "coverage": "Eight stories · software security, AI evidence, drones, digital culture, accessibility, robotics and student computing",
+  "editionId": "2026-10-02-daily",
+  "date": "2026-10-02",
+  "coverage": "Nine stories · AI agents, 3D design, gaming, wearables, space robots, chips, cloud infrastructure and shopping",
   "cards": [
     {
-      "id": "mcp-python-memory-fixes",
+      "id": "gemini-4-argon",
       "type": "news",
-      "category": "Cybersecurity & software",
-      "headline": "MCP Python SDK fixes two memory-exhaustion flaws",
-      "summary": "Maintainers of the official Model Context Protocol Python SDK published two high-severity advisories about servers using too much memory. One involved sessions that were not reclaimed; another involved HTTP request bodies with no size limit. Patched releases add limits and cleanup.",
-      "whyItMatters": "Software security includes protecting a system's resources, not just passwords and data. Limits on memory, request size and session lifetime can keep a service available when inputs behave unexpectedly.",
-      "csp": {
-        "idea": "Computer Systems and Networks",
-        "connection": "Network services must manage finite resources and validate incoming data so one client cannot consume everything."
-      },
-      "sources": [
-        {
-          "name": "MCP Python SDK Security Advisory",
-          "date": "2026-09-30",
-          "url": "https://github.com/modelcontextprotocol/python-sdk/security/advisories/GHSA-84m7-p3x7-pcfv"
-        },
-        {
-          "name": "MCP Python SDK Security Advisory",
-          "date": "2026-09-30",
-          "url": "https://github.com/modelcontextprotocol/python-sdk/security/advisories/GHSA-fmmv-w9g8-j3gc"
-        }
-      ]
-    },
-    {
-      "id": "changeorg-ai-petitions",
-      "type": "news",
-      "category": "AI & social platforms",
-      "headline": "AI rewrites petitions without improving their results",
-      "summary": "Cornell researchers analyzed 1.5 million Change.org petitions around the rollout of an AI writing assistant. AI-assisted petitions became longer and used more similar wording, but the researchers found little or no improvement in outcomes such as comments and signatures.",
-      "whyItMatters": "A tool can noticeably change an output without making it more effective. Large real-world datasets can test whether an AI feature actually helps people accomplish the goal it was designed for.",
-      "csp": {
-        "idea": "Data",
-        "connection": "Researchers compared large groups of platform data to measure how a computing feature changed both text and user outcomes."
-      },
-      "sources": [
-        {
-          "name": "Cornell Chronicle",
-          "date": "2026-09-30",
-          "url": "https://news.cornell.edu/index.php/stories/2026/09/ai-enhanced-petitions-changeorg-more-text-less-success"
-        }
-      ]
-    },
-    {
-      "id": "sapience-autonomous-drones",
-      "type": "news",
-      "category": "Robotics & networks",
-      "headline": "Student-built drones search disaster zones without GPS",
-      "summary": "University teams in the NATO-supported SAPIENCE competition tested autonomous drones in a simulated disaster area without GPS or human control. The aircraft had to navigate, find simulated survivors, judge urgency, coordinate supplies and avoid obstacles and one another.",
-      "whyItMatters": "Autonomous machines need sensing, navigation, communication and decision-making to work together. The project also shows students debugging real systems when networks and hardware do not behave exactly as expected.",
-      "csp": {
-        "idea": "Computer Systems and Networks",
-        "connection": "Robotic systems combine sensors, software and network communication to coordinate actions in the physical world."
-      },
-      "sources": [
-        {
-          "name": "University of Alabama in Huntsville",
-          "date": "2026-09-30",
-          "url": "https://www.uah.edu/news/items/uah-puts-autonomous-drone-technology-test-in-final-international-nato-competition-focused-on-disaster-support"
-        }
-      ]
-    },
-    {
-      "id": "tiktok-music-unlocks",
-      "type": "news",
-      "category": "Music & digital culture",
-      "headline": "TikTok turns a music release into a group challenge",
-      "summary": "TikTok launched an in-app hub around Taylor Swift's “Patient Zero” with phased unlocks, a profile-frame reward and group goals that reveal behind-the-scenes clips. Some rewards depend on actions such as following accounts, posting with the song or listening to tracks.",
-      "whyItMatters": "Apps can turn media into an interactive system using progress, rewards and collective goals. Those interface choices can shape what users do, share and listen to rather than simply showing them content.",
+      "category": "AI & software",
+      "headline": "Google previews Gemini 4 Argon for cyber defenders",
+      "summary": "Google introduced Gemini 4 Argon, a new model aimed at long, complex work such as coding and cybersecurity. It is initially rolling out only to trusted cyber defenders through Google's Fairwind program while the company tests safeguards before wider access.",
+      "whyItMatters": "A powerful AI model is not automatically a public product. Staged releases show how capability testing, security and access controls can be part of deploying software responsibly.",
       "csp": {
         "idea": "Impact of Computing",
-        "connection": "Platform design choices can influence participation, sharing and how online communities experience media."
+        "connection": "Developers make choices about who can access powerful computing systems and what safeguards are needed before broader release."
       },
       "sources": [
         {
-          "name": "TikTok Newsroom",
+          "name": "Google",
           "date": "2026-09-30",
-          "url": "https://newsroom.tiktok.com/taylor-swift-and-tiktok-celebrate-the-life-of-a-showgirl-the-encore-with-a-new-in-app-experience?lang=en&preview=true%3Fgad_source%3D1"
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
         }
       ]
     },
     {
-      "id": "ai-code-accessibility",
+      "id": "instructmesh-3d",
       "type": "news",
-      "category": "Accessibility & coding",
-      "headline": "AI coding tools stumble on web accessibility",
-      "summary": "Accessibility company AudioEye asked five AI coding tools to build three websites each to meet WCAG 2.2 AA accessibility requirements. AudioEye reports that all 15 test sites failed even the basic Level A tier; the company sells accessibility services, so its study is best read as a vendor test rather than independent research.",
-      "whyItMatters": "Code that looks correct can still fail for keyboard or screen-reader users. Whether code comes from a person or an AI tool, testing with accessibility requirements and real interactions remains part of building usable software.",
+      "category": "Creator tools & AI",
+      "headline": "AI tool lets people repair 3D models before printing",
+      "summary": "MIT researchers introduced InstructMesh, which combines a 3D generator with a language model so users can select and repair flawed parts of generated objects before fabrication. In tests, novices identified and fixed structural problems about 90% of the time, according to the researchers.",
+      "whyItMatters": "Generating an image of an object is different from designing something that works in the physical world. Interactive software can keep people in the loop to inspect, test and revise AI output.",
       "csp": {
         "idea": "Creative Development",
-        "connection": "Developers test and revise computing products to meet user needs, including needs that may not be visible on screen."
+        "connection": "Computing products are improved through iterative design, testing and user feedback rather than treating the first output as final."
       },
       "sources": [
         {
-          "name": "AudioEye",
-          "date": "2026-09-30",
-          "url": "https://www.audioeye.com/ai-coding-tools-do-not-write-accessible-code/"
+          "name": "MIT News",
+          "date": "2026-10-01",
+          "url": "https://news.mit.edu/2026/instructmesh-tool-lets-users-repair-ai-3d-models-then-fabricate-them-1001"
         }
       ]
     },
     {
-      "id": "oarfish-robot-design",
+      "id": "xbox-disc-digital",
       "type": "news",
-      "category": "Robotics & science",
-      "headline": "Oarfish fins inspire a quieter underwater robot",
-      "summary": "Cornell researchers studied how oarfish move hundreds of dorsal-fin rays in coordinated waves, using dissections, X-rays, CT scans and video. The work is helping inform a proposed large underwater robot that could move quietly while carrying instruments to monitor ocean health.",
-      "whyItMatters": "Engineers often study biological systems before designing machines. Turning a fish's motion into a robot requires converting observations into mechanical structures, control rules and sensor-driven behavior.",
-      "csp": {
-        "idea": "Algorithms and Programming",
-        "connection": "A robot needs programmed control patterns to coordinate many moving parts and produce a desired motion."
-      },
-      "sources": [
-        {
-          "name": "Cornell Chronicle",
-          "date": "2026-09-30",
-          "url": "https://news.cornell.edu/stories/2026/09/mysterious-oarfishs-fins-inspire-large-underwater-robot-design"
-        }
-      ]
-    },
-    {
-      "id": "moonk-am-archive",
-      "type": "news",
-      "category": "Space & data archives",
-      "headline": "Lost student Moon photos get a permanent archive",
-      "summary": "Cornell's Spacecraft Planetary Image Facility is preserving recovered MoonKAM photos requested by middle-school students during NASA's 2011–12 GRAIL mission. The images were not originally required to be archived, and some sets had become difficult to locate.",
-      "whyItMatters": "Digital data can disappear even when the original project was important. Archives need deliberate storage, organization and long-term stewardship so future students and researchers can still find and use old data.",
-      "csp": {
-        "idea": "Data",
-        "connection": "Computing systems store and organize digital information, but preservation depends on decisions about formats, metadata and long-term access."
-      },
-      "sources": [
-        {
-          "name": "Cornell Chronicle",
-          "date": "2026-09-30",
-          "url": "https://news.cornell.edu/stories/2026/09/exploring-solar-system-through-cornells-image-library"
-        }
-      ]
-    },
-    {
-      "id": "broward-ai-python-pathway",
-      "type": "news",
-      "category": "School & computing careers",
-      "headline": "High-school students train in Python and AI",
-      "summary": "An NSF-funded Broward College program is bringing AI, IT and cybersecurity training to first-year college students and students at Nova High School. Its pathways include entry-level Python, data analytics and AI credentials, plus hands-on mentoring and problem-based learning.",
-      "whyItMatters": "Computer science skills can connect directly to many kinds of work, not only jobs labeled “programmer.” The program is an example of schools building practical pathways from high school into computing and technology careers.",
+      "category": "Gaming & digital ownership",
+      "headline": "Xbox turns physical game discs into digital licenses",
+      "summary": "Microsoft has expanded Xbox Disc-to-Digital from Insider testing to all players for supported Xbox One and Series X games. Inserting a supported disc can grant a digital entitlement for disc-free play, but transferring the disc can also transfer that entitlement away.",
+      "whyItMatters": "A physical object and a digital license can represent the same purchase in very different ways. The system is a useful example of how software rules define access, ownership and portability.",
       "csp": {
         "idea": "Impact of Computing",
-        "connection": "Computing knowledge affects education and career pathways across industries, including jobs that mix technology with other fields."
+        "connection": "Digital platforms use accounts, licenses and software rules to decide who can access purchased content and on which devices."
       },
       "sources": [
         {
-          "name": "Broward College",
+          "name": "Windows Central",
           "date": "2026-09-30",
-          "url": "https://news.broward.edu/2026/09/aibluecollar.html"
+          "url": "https://www.windowscentral.com/gaming/xbox/xbox-disc-to-digital-feature-is-now-available-for-all"
+        }
+      ]
+    },
+    {
+      "id": "arpa-delphi-biosensors",
+      "type": "news",
+      "category": "Health & wearables",
+      "headline": "Tiny chiplets could make biosensors more personal",
+      "summary": "ARPA-H selected teams for its Delphi program, which aims to build small modular sensor chiplets that can be combined into wearable or other health devices. The agency says the goal is to measure signals beyond heart rate or glucose, including hormones, inflammation markers and medication levels.",
+      "whyItMatters": "Wearables are computers connected to sensors, and better sensors can create much richer streams of health data. That also makes accuracy, privacy and responsible data use increasingly important.",
+      "csp": {
+        "idea": "Data",
+        "connection": "Sensors convert physical measurements into digital data that software can store, analyze and use to support decisions."
+      },
+      "sources": [
+        {
+          "name": "ARPA-H",
+          "date": "2026-10-01",
+          "url": "https://arpa-h.gov/news-and-events/arpa-h-kicks-work-advance-next-generation-personalized-biosensors"
+        }
+      ]
+    },
+    {
+      "id": "nasa-smallsats",
+      "type": "news",
+      "category": "Space & robotics",
+      "headline": "Small satellites test autonomous inspection and new propulsion",
+      "summary": "Three NASA-supported small spacecraft launched Oct. 1 to test propulsion, study ultraviolet light and demonstrate satellite inspection. One mission, SSPICY, will use computer-vision navigation and autonomous guidance to approach inactive satellites and collect information about them.",
+      "whyItMatters": "A spacecraft cannot rely on a person steering every tiny movement in real time. Sensors, algorithms and onboard computing help robots understand where they are and act safely far from their operators.",
+      "csp": {
+        "idea": "Algorithms and Programming",
+        "connection": "Autonomous navigation combines sensor data with algorithms that repeatedly estimate position and choose safe actions."
+      },
+      "sources": [
+        {
+          "name": "NASA",
+          "date": "2026-10-01",
+          "url": "https://www.nasa.gov/blogs/smallsatellites/2026/10/01/nasa-smallsats-launch-to-advance-science-technology-orbital-operations/"
+        }
+      ]
+    },
+    {
+      "id": "volantis-optical-memory",
+      "type": "news",
+      "category": "Chips & hardware",
+      "headline": "Startup uses tiny lasers to link AI chips and memory",
+      "summary": "Chip startup Volantis says it is developing optical links that send data between processors and memory using tiny lasers instead of short electrical connections. The company hopes the approach will let future AI systems connect many more memory chips around a GPU.",
+      "whyItMatters": "Fast processors still slow down when data cannot reach them quickly enough. Computer performance depends on communication between components as well as the speed of the processor itself.",
+      "csp": {
+        "idea": "Computer Systems and Networks",
+        "connection": "A computer system's performance depends on how processors, memory and communication links work together."
+      },
+      "sources": [
+        {
+          "name": "Reuters",
+          "date": "2026-10-01",
+          "url": "https://www.reuters.com/business/volantis-raises-88-million-tech-connect-ai-memory-chips-2026-10-01/"
+        }
+      ]
+    },
+    {
+      "id": "aws-data-center-communities",
+      "type": "news",
+      "category": "Cloud & environment",
+      "headline": "AWS pledges $1 billion around U.S. data centers",
+      "summary": "Amazon Web Services says it will invest more than $1 billion over five years in communities that host its U.S. data centers, including education, job training, energy affordability and water projects. Data-center growth has drawn scrutiny because cloud and AI computing require large amounts of electricity and water.",
+      "whyItMatters": "Cloud computing feels invisible on a screen, but it runs in physical buildings with real power, cooling and community needs. Scaling software can therefore create environmental and infrastructure tradeoffs.",
+      "csp": {
+        "idea": "Impact of Computing",
+        "connection": "Large computing systems have physical resource costs and can affect communities far beyond the people using the software."
+      },
+      "sources": [
+        {
+          "name": "Reuters",
+          "date": "2026-10-02",
+          "url": "https://www.reuters.com/business/retail-consumer/amazon-invest-1-billion-over-five-years-us-data-center-communities-2026-10-02/"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt-virtual-tryon",
+      "type": "news",
+      "category": "Shopping & digital identity",
+      "headline": "ChatGPT adds virtual try-on for clothes and accessories",
+      "summary": "OpenAI launched a ChatGPT shopping feature that can place clothing or accessories onto an uploaded selfie or full-body photo, along with a Favorites feature for saving products. The try-on uses image-generation software, so the result is a visualization rather than a guarantee of real-world fit.",
+      "whyItMatters": "Generative images are moving into everyday shopping, where a synthetic preview can influence a real purchase. Users also have to decide when sharing a personal photo is worth the convenience.",
+      "csp": {
+        "idea": "Impact of Computing",
+        "connection": "Computing tools can change consumer decisions while creating new choices about personal data and how generated media should be interpreted."
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "date": "2026-10-01",
+          "url": "https://techcrunch.com/2026/10/01/chatgpt-can-now-virtually-try-on-clothes-for-you/"
+        }
+      ]
+    },
+    {
+      "id": "openai-dots",
+      "type": "news",
+      "category": "AI agents",
+      "headline": "OpenAI launches always-on agents called dots",
+      "summary": "OpenAI began rolling out dots, AI agents with their own cloud computers that can work on multiple tasks and use connected apps. The company says dots include permission controls, action review and read-only limits for proactive background research, with availability starting on selected paid plans.",
+      "whyItMatters": "AI is shifting from answering prompts toward software that can take actions over time. That makes permissions, monitoring and deciding when a human must approve an action central parts of system design.",
+      "csp": {
+        "idea": "Computer Systems and Networks",
+        "connection": "Agent systems combine cloud computers, connected services and permission rules to act across multiple software systems."
+      },
+      "sources": [
+        {
+          "name": "OpenAI",
+          "date": "2026-09-29",
+          "url": "https://openai.com/index/introducing-dots/"
         }
       ]
     }
