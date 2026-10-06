@@ -1,0 +1,189 @@
+{
+  "schemaVersion": 1,
+  "editionId": "2026-10-06-daily",
+  "date": "2026-10-06",
+  "coverage": "Nine stories · social shopping, personal AI hardware, Seattle space robotics, chips, Windows reliability, orbital computing, privacy, AI transparency and hiring",
+  "cards": [
+    {
+      "id": "tiktok-ai-shopping",
+      "type": "news",
+      "category": "Social media & shopping",
+      "headline": "TikTok puts an AI shopping assistant inside the feed",
+      "summary": "TikTok launched Shopping Assistant, a conversational AI that can answer questions about products, sizing, shipping and availability, alongside Buy Direct one-click checkout. The company says the tools are being built with commerce and payment partners including Shopify, Salesforce and Stripe.",
+      "whyItMatters": "Recommendation algorithms already influence what people discover online. Adding an AI assistant and checkout means one app can now help choose a product and complete the purchase, making it important to notice how software shapes buying decisions.",
+      "csp": {
+        "idea": "Impact of Computing",
+        "connection": "Computing platforms can combine recommendation, conversation and payment systems to influence real-world consumer decisions."
+      },
+      "sources": [
+        {
+          "name": "TikTok Newsroom",
+          "date": "2026-10-05",
+          "url": "https://newsroom.tiktok.com/tiktok-unveils-ai-powered-updates-for-advertisers-driving-discovery-action-and-measurable-business-outcomes?lang=en"
+        },
+        {
+          "name": "TechCrunch",
+          "date": "2026-10-05",
+          "url": "https://techcrunch.com/2026/10/05/tiktok-rolls-out-an-ai-shopping-assistant-and-one-click-checkout/"
+        }
+      ]
+    },
+    {
+      "id": "ghost-core-personal-ai",
+      "type": "news",
+      "category": "Hardware & personal AI",
+      "headline": "A 19-year-old founder builds a computer for personal AI",
+      "summary": "Startup Ghost introduced Core, a $3,499 screenless computer designed to run AI agents and models locally instead of depending entirely on cloud services. Founder Zain Javaid, 19, says the device stores its models and personal memory on the machine and lets users control how much autonomy agents receive.",
+      "whyItMatters": "Where computation happens changes privacy, speed and control. Running models locally can keep more data on a user's own hardware, but an agent that can act on personal information still needs strong permissions and security.",
+      "csp": {
+        "idea": "Computer Systems and Networks",
+        "connection": "Applications can divide work between local hardware and cloud systems, creating different tradeoffs in privacy, performance and reliability."
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "date": "2026-10-05",
+          "url": "https://techcrunch.com/2026/10/05/at-19-ghost-founder-raises-11-million-to-build-a-3499-computer-for-your-personal-ai/"
+        }
+      ]
+    },
+    {
+      "id": "orbital-robotics-iss",
+      "type": "news",
+      "category": "Seattle robotics & space",
+      "headline": "Seattle robotic arms are headed for an ISS test",
+      "summary": "Seattle startup Orbital Robotics plans to send two autonomous robotic arms to the International Space Station in 2027 for tests on NASA's free-flying Astrobee robots. The demonstration is intended to combine the arms' capture hardware with autonomous control software in microgravity.",
+      "whyItMatters": "Robots in space need software that turns sensor input into safe physical actions without constant hands-on control. This local project connects AI, robotics and engineering to a real test environment hundreds of miles above Earth.",
+      "csp": {
+        "idea": "Algorithms and Programming",
+        "connection": "Autonomous robots repeatedly sense their environment, process data and choose actions through programmed control systems."
+      },
+      "sources": [
+        {
+          "name": "GeekWire",
+          "date": "2026-10-05",
+          "url": "https://www.geekwire.com/2026/orbital-robotics-arms-international-space-station/"
+        }
+      ]
+    },
+    {
+      "id": "qualcomm-arm-trial",
+      "type": "news",
+      "category": "Chips & software licensing",
+      "headline": "Qualcomm and Arm return to court over chip technology",
+      "summary": "Qualcomm and Arm began another federal trial over contracts governing access to Arm chip technology and testing tools. Qualcomm says Arm withheld tools and harmed a potential Meta deal, while Arm disputes those claims; the case also examines how royalties should work for newer, more complex processors.",
+      "whyItMatters": "Modern chips depend on layers of licensed designs, software tools and intellectual property. A contract dispute between two companies can affect how processors are designed, tested and priced across many devices.",
+      "csp": {
+        "idea": "Computer Systems and Networks",
+        "connection": "Hardware ecosystems depend on technical standards, reusable designs and tools supplied by multiple organizations."
+      },
+      "sources": [
+        {
+          "name": "Reuters",
+          "date": "2026-10-05",
+          "url": "https://www.reuters.com/business/media-telecom/qualcomm-arm-head-trial-again-potential-huge-damages-focus-2026-10-05/"
+        }
+      ]
+    },
+    {
+      "id": "windows-audio-update-bug",
+      "type": "news",
+      "category": "Software reliability",
+      "headline": "Windows update bug can crash games and media apps",
+      "summary": "Microsoft confirmed that a Windows 11 update can make some applications close unexpectedly when they rely on Windows to decode AC-3 audio. The problem affects several current Windows 11 versions and is more likely to appear in older software that uses the operating system's built-in decoder.",
+      "whyItMatters": "A change in one shared system component can break many unrelated programs that depend on it. Software testing has to consider dependencies and backward compatibility, not just whether a new feature works by itself.",
+      "csp": {
+        "idea": "Algorithms and Programming",
+        "connection": "Programs depend on libraries and operating-system services, so changes in one component can affect software elsewhere in the system."
+      },
+      "sources": [
+        {
+          "name": "Cyber Security News",
+          "date": "2026-10-05",
+          "url": "https://cybersecuritynews.com/windows-11-kb5124010-update-crash/"
+        }
+      ]
+    },
+    {
+      "id": "google-suncatcher-orbit",
+      "type": "news",
+      "category": "Cloud computing & space",
+      "headline": "Google tests ordinary AI chips in orbit",
+      "summary": "Google's Project Suncatcher experiment put four of its TPU AI processors into low Earth orbit to study how data-center-style hardware handles radiation, launch forces and cooling in space. The chips are versions of hardware used on Earth rather than processors designed specifically for spacecraft.",
+      "whyItMatters": "Cloud computing still depends on physical hardware, power and cooling. Testing server chips in orbit shows how the environment can change the engineering requirements of a computing system.",
+      "csp": {
+        "idea": "Computer Systems and Networks",
+        "connection": "Computing performance and reliability depend on physical constraints such as heat, power, radiation and communication."
+      },
+      "sources": [
+        {
+          "name": "Tech Wire Asia",
+          "date": "2026-10-05",
+          "url": "https://techwireasia.com/2026/10/google-ai-chips-space-orbital-data-centres/"
+        },
+        {
+          "name": "Ars Technica",
+          "date": "2026-09-24",
+          "url": "https://arstechnica.com/google/2026/09/googles-first-suncatcher-orbital-data-center-test-launches-october-1/"
+        }
+      ]
+    },
+    {
+      "id": "flock-warrant-ruling",
+      "type": "news",
+      "category": "Privacy & surveillance",
+      "headline": "Judge challenges warrantless searches of license-plate camera data",
+      "summary": "A federal judge ruled that an Oklahoma deputy violated a driver's Fourth Amendment rights by searching a Flock license-plate database without a warrant. The ruling is not binding precedent, but the judge described long-term, networked collection of vehicle locations as a form of mass surveillance.",
+      "whyItMatters": "A single camera observation may reveal little, but a large database can reconstruct where someone has traveled over time. Combining data at scale can create privacy consequences that are very different from the individual pieces.",
+      "csp": {
+        "idea": "Data",
+        "connection": "Large datasets can reveal patterns and personal information that may not be obvious from any single record."
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "date": "2026-10-03",
+          "url": "https://techcrunch.com/2026/10/03/federal-judge-calls-flock-indiscriminate-mass-surveillance/"
+        }
+      ]
+    },
+    {
+      "id": "openai-eu-text-watermark",
+      "type": "news",
+      "category": "AI & digital media",
+      "headline": "ChatGPT text will get invisible AI markers in Europe",
+      "summary": "OpenAI says it will begin adding an invisible watermark to eligible ChatGPT and Codex text in the European Union to meet AI Act transparency rules. The technique changes patterns in generated word choices so software can detect a signal that readers do not see, and the rollout is limited rather than a global default.",
+      "whyItMatters": "Detecting AI-written text is technically difficult because generated writing can look like human writing. Watermarking shows one approach: design a machine-detectable pattern into the output instead of guessing from the finished text alone.",
+      "csp": {
+        "idea": "Data",
+        "connection": "Information can contain hidden patterns that algorithms detect even when those patterns are not obvious to a human reader."
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "date": "2026-10-05",
+          "url": "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/"
+        }
+      ]
+    },
+    {
+      "id": "hackerrank-ai-interviewer",
+      "type": "news",
+      "category": "Education, careers & AI",
+      "headline": "AI interviewer watches how programmers solve problems",
+      "summary": "HackerRank made its Chakra AI interviewer generally available after about six months of beta testing. The system conducts technical interviews and evaluates not only a candidate's final answer but also the process used while working through a programming problem.",
+      "whyItMatters": "Automated evaluation can affect who gets opportunities, so what an algorithm measures matters. Students entering technical careers may increasingly encounter systems that analyze their process as well as their final code.",
+      "csp": {
+        "idea": "Impact of Computing",
+        "connection": "Automated decision systems can affect people directly, making the choice of data, criteria and human oversight important."
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "date": "2026-10-05",
+          "url": "https://techcrunch.com/2026/10/05/hackerranks-ai-interviewer-offers-a-glimpse-into-what-job-interviews-could-become/"
+        }
+      ]
+    }
+  ]
+}
