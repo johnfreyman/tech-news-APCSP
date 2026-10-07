@@ -1,0 +1,184 @@
+{
+  "schemaVersion": 1,
+  "editionId": "2026-10-07-daily",
+  "date": "2026-10-07",
+  "coverage": "Nine stories · AI laptops, game creation, moderation, beauty tools, social video, private assistants, web agents, autonomous driving and space computing",
+  "cards": [
+    {
+      "id": "surface-laptop-ultra",
+      "type": "news",
+      "category": "Hardware & AI",
+      "headline": "Microsoft and Nvidia bring more AI onto the laptop",
+      "summary": "Microsoft and Nvidia are unveiling the Surface Laptop Ultra, built around Nvidia RTX Spark chips for running demanding AI tasks directly on a Windows PC. Reuters reports the goal is to handle work such as coding locally instead of sending every request to cloud servers.",
+      "whyItMatters": "Local computing can reduce network dependence and keep some data on the device, but powerful hardware also raises cost and battery tradeoffs. It shows how decisions about where computation happens shape a computer system.",
+      "csp": {
+        "idea": "Computer Systems and Networks",
+        "connection": "Applications can split computation between local hardware and remote cloud systems depending on speed, privacy and resource needs."
+      },
+      "sources": [
+        {
+          "name": "Reuters",
+          "date": "2026-10-07",
+          "url": "https://www.reuters.com/business/microsoft-nvidia-ceos-unveil-new-ai-laptop-san-francisco-event-2026-10-07/"
+        }
+      ]
+    },
+    {
+      "id": "google-playground-games",
+      "type": "news",
+      "category": "Gaming & creator tools",
+      "headline": "Google lets people build games with text prompts",
+      "summary": "Google launched Playground, a web tool that can create and revise playable games from conversational prompts, with sharing through an online gallery. The U.S. launch is limited to users 18 and older, and Google and Unity also announced a more advanced Unity Spark tool for a closed beta later this year.",
+      "whyItMatters": "Game creation is becoming more accessible, but a generated game still depends on rules, assets, physics and repeated testing. These tools change which parts of software creation people write directly and which parts they describe to an AI system.",
+      "csp": {
+        "idea": "Creative Development",
+        "connection": "Software is often built iteratively by describing goals, testing behavior and revising a product based on what happens."
+      },
+      "sources": [
+        {
+          "name": "The Verge",
+          "date": "2026-10-07",
+          "url": "https://www.theverge.com/tech/1006477/google-playground-unity-spark-ai"
+        }
+      ]
+    },
+    {
+      "id": "policylm-moderation",
+      "type": "news",
+      "category": "Social platforms & algorithms",
+      "headline": "Small AI model reads a platform's moderation rules",
+      "summary": "Startup Musubi released PolicyLM-1.7B, an open-weight model that scores text against moderation rules supplied when the model runs, so a platform can change rules without retraining it. The company says the model is fast, but its reported benchmarks are not independent and it has not yet been tested on live traffic.",
+      "whyItMatters": "Content moderation is an algorithmic decision problem with real consequences for users. A system can be fast and customizable while still needing careful testing for false positives, missed violations and unfair outcomes.",
+      "csp": {
+        "idea": "Impact of Computing",
+        "connection": "Automated decisions can affect what people are allowed to see or say, so designers must evaluate accuracy, bias and consequences."
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "date": "2026-10-06",
+          "url": "https://techcrunch.com/2026/10/06/how-ai-decision-models-could-change-content-moderation/"
+        }
+      ]
+    },
+    {
+      "id": "pinterest-beauty-guides",
+      "type": "news",
+      "category": "Apps & visual computing",
+      "headline": "Pinterest turns beauty photos into salon instructions",
+      "summary": "Pinterest introduced Beauty Guides that use its visual-intelligence and generative-AI systems to translate saved hair and nail images into terms a stylist can use, including descriptions such as color techniques or nail shapes. The feature turns an image-search result into a more structured plan for a real-world task.",
+      "whyItMatters": "Computer vision does more than label an image; software can extract features and transform them into useful information. The result still needs human judgment because a generated description may not perfectly match a person's hair, nails or desired result.",
+      "csp": {
+        "idea": "Data",
+        "connection": "Computing systems can analyze visual data, identify features and convert those features into another representation people can use."
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "date": "2026-10-06",
+          "url": "https://techcrunch.com/2026/10/06/pinterests-ai-now-turns-beauty-pins-into-action-plans/"
+        },
+        {
+          "name": "Pinterest Newsroom",
+          "date": "2026-10-06",
+          "url": "https://newsroom.pinterest.com/news/beauty-trend-report-2026/"
+        }
+      ]
+    },
+    {
+      "id": "facebook-reels-first-india",
+      "type": "news",
+      "category": "Social media & interfaces",
+      "headline": "Facebook tests opening straight into Reels",
+      "summary": "Meta is testing a Facebook design in India that opens some users directly into full-screen video instead of the traditional Feed. People in the test can opt out, while the regular Feed remains available as another tab.",
+      "whyItMatters": "An interface is not neutral: the first screen an app shows can influence what people watch and how long they stay. A large-scale test like this is also an example of using user behavior data to evaluate a design change.",
+      "csp": {
+        "idea": "Impact of Computing",
+        "connection": "Interface choices and recommendation systems can shape how people interact with information and with one another."
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "date": "2026-10-06",
+          "url": "https://techcrunch.com/2026/10/06/facebook-tests-going-reels-first-in-india/"
+        }
+      ]
+    },
+    {
+      "id": "underdog-on-device",
+      "type": "news",
+      "category": "Privacy & personal computing",
+      "headline": "New AI assistant keeps its model on your computer",
+      "summary": "Conway Research launched an invite-only beta of Underdog, an assistant whose model runs on a user's Mac or Windows PC rather than a remote AI server. The company says account keys are encrypted and plans Linux, iPhone and Android versions later.",
+      "whyItMatters": "Running a model locally can keep more personal data off a company's servers, but smaller on-device models may have different capabilities from large cloud models. Privacy, performance and cost are engineering tradeoffs rather than a single best answer.",
+      "csp": {
+        "idea": "Computer Systems and Networks",
+        "connection": "Where data is processed and stored affects privacy, latency, network use and the computing resources a program needs."
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "date": "2026-10-06",
+          "url": "https://techcrunch.com/2026/10/06/silicon-valleys-ai-wunderkind-launches-underdog-the-most-private-instinct-muse-competitor-yet/"
+        }
+      ]
+    },
+    {
+      "id": "tesla-eu-fsd-review",
+      "type": "news",
+      "category": "Transportation & safety",
+      "headline": "Tesla's driver-assistance system faces a European safety test",
+      "summary": "European regulators are weighing approval of Tesla's Full Self-Driving system, which despite its name still requires driver supervision. Reuters reports that several traffic-safety researchers have criticized parts of Tesla's submitted evidence, including tests that use substitute behaviors instead of direct crash outcomes.",
+      "whyItMatters": "Safety-critical software needs evidence that matches the claim being tested. Autonomous and driver-assistance systems show why simulations, test design, sensor data and independent review matter before software is trusted on public roads.",
+      "csp": {
+        "idea": "Impact of Computing",
+        "connection": "The consequences of a computing system depend not only on its code but also on how its performance is measured and validated."
+      },
+      "sources": [
+        {
+          "name": "Reuters",
+          "date": "2026-10-07",
+          "url": "https://www.reuters.com/investigations/tesla-is-browbeating-eu-approve-its-full-self-driving-tech-pressure-is-working-2026-10-07/"
+        }
+      ]
+    },
+    {
+      "id": "agents-web-access",
+      "type": "news",
+      "category": "Internet & automation",
+      "headline": "AI agents are running into the web's anti-bot defenses",
+      "summary": "Personal AI agents can try to shop or book services for users, but many websites restrict automated traffic for security, licensing or business reasons. Meta and several companies are now working on an open protocol intended to help businesses distinguish authorized agents from unwanted bots.",
+      "whyItMatters": "The web was largely designed for people using browsers, not software acting independently for them. Agent access raises classic CSP questions about protocols, authentication, permissions and how two computer systems decide to trust each other.",
+      "csp": {
+        "idea": "Computer Systems and Networks",
+        "connection": "Protocols define how systems communicate, while authentication and authorization help determine which automated requests should be accepted."
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "date": "2026-10-06",
+          "url": "https://techcrunch.com/2026/10/06/the-next-hurdle-for-ai-agents-getting-websites-to-let-them-in/"
+        }
+      ]
+    },
+    {
+      "id": "nasa-sunrise-six-satellites",
+      "type": "news",
+      "category": "Space & distributed computing",
+      "headline": "Six tiny satellites will act like one giant radio dish",
+      "summary": "NASA says its SunRISE mission is now targeting a launch no earlier than mid-2027. Six toaster-oven-size satellites will fly near one another and combine their observations as a virtual radio telescope to study solar radio bursts that can threaten astronauts and spacecraft.",
+      "whyItMatters": "A powerful instrument does not always have to be one giant machine. Coordinated computers can combine measurements from separate locations, an idea related to distributed systems and to how networks turn many devices into one larger capability.",
+      "csp": {
+        "idea": "Computer Systems and Networks",
+        "connection": "Multiple networked devices can coordinate and combine data to perform a task that no single device could accomplish as effectively."
+      },
+      "sources": [
+        {
+          "name": "NASA JPL",
+          "date": "2026-10-06",
+          "url": "https://www.jpl.nasa.gov/news/nasas-sunrise-mission-targets-no-earlier-than-mid-2027-launch/"
+        }
+      ]
+    }
+  ]
+}
