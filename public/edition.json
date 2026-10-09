@@ -1,173 +1,177 @@
 {
   "schemaVersion": 1,
-  "editionId": "2026-10-08-daily",
-  "date": "2026-10-08",
-  "coverage": "Nine stories · basketball sensors, game creation, local AI, drones, audiobooks, cell data, Instagram safety, shellfishing and shared computing",
+  "editionId": "2026-10-09-daily",
+  "date": "2026-10-09",
+  "coverage": "Nine stories · wearable sensors, tablets, social memories, code security, offline AI, proteins, satellite robotics, Seattle food data and passkeys",
   "cards": [
     {
-      "id": "nba-smart-basketballs",
+      "id": "mit-shape-sensing-sheet",
       "type": "news",
-      "category": "Sports technology",
-      "headline": "NBA tests basketballs with Bluetooth sensors",
-      "summary": "The NBA is testing basketballs with built-in Bluetooth sensors during selected preseason games, alongside wrist devices that help referees contact the replay center. The ball data is for research only and will not affect calls, and neither technology is planned for regular-season use yet.",
-      "whyItMatters": "A sensor can turn a familiar object into a source of digital data. Engineers still need to test accuracy and decide when that data is reliable enough to affect real decisions.",
+      "category": "Health & gaming",
+      "headline": "A bendable sensor sheet could control games with movement",
+      "summary": "MIT researchers built a soft sheet threaded with optical fibers that change light patterns when the sheet bends. An algorithm reconstructs its shape almost instantly; the prototype might someday track physical therapy or control game characters.",
+      "whyItMatters": "This is a real example of sensors turning physical motion into digital data. The wearable design is still research, not a consumer product.",
       "csp": {
         "idea": "Data",
-        "connection": "Physical measurements become useful when computers collect, interpret and verify them."
+        "connection": "Sensor measurements become useful when an algorithm converts them into a digital model."
       },
       "sources": [
         {
-          "name": "NBA / Associated Press",
-          "date": "2026-10-05",
-          "url": "https://www.nba.com/news/nba-experiments-with-smart-basketballs-wrist-wearables"
+          "name": "MIT News",
+          "date": "2026-10-08",
+          "url": "https://news.mit.edu/2026/shape-sensing-sheet-digitally-tracks-movement-bends-twists-1008"
         }
       ]
     },
     {
-      "id": "google-playground-games",
+      "id": "amazon-alexa-tablets",
       "type": "news",
-      "category": "Gaming & creativity",
-      "headline": "Google launches games built from text descriptions",
-      "summary": "Google introduced Playground, an experimental website where people describe a game, adjust its rules and share the result with others. The U.S. launch is restricted to adults 18 and older, while more advanced Unity Spark tools are still being tested.",
-      "whyItMatters": "Game creation involves rules, inputs and repeated testing, even when an AI helps produce the code. The tool also raises questions about how creators check and improve generated games.",
+      "category": "Devices & reading",
+      "headline": "Amazon's new tablets mix reading, apps, and AI",
+      "summary": "Amazon announced three Android Alexa Tablets with Google Play access and a built-in Alexa+ assistant. A Kindle reading mode silences notifications, and the devices are scheduled to ship in North America on October 14.",
+      "whyItMatters": "Software can change how the same hardware behaves for reading, gaming, and studying. Screen-aware assistants also make permission settings important.",
       "csp": {
-        "idea": "Creative Development",
-        "connection": "Developers test and revise interactive programs to make their behavior match a design."
+        "idea": "Impact of Computing",
+        "connection": "Device features and permission choices affect how people use technology and protect information."
+      },
+      "sources": [
+        {
+          "name": "Amazon",
+          "date": "2026-10-08",
+          "url": "https://www.aboutamazon.com/news/devices/new-amazon-alexa-tablets-alexa-plus"
+        }
+      ]
+    },
+    {
+      "id": "seattle-eluum-memories",
+      "type": "news",
+      "category": "Social media & privacy",
+      "headline": "Seattle app gathers scattered photos into one story",
+      "summary": "Seattle startup Eluum says its new app brings photos, videos, posts, and locations together into a personal life story. Its AI helper organizes the material, while the company says users control what they keep and share.",
+      "whyItMatters": "Combining data from different apps is a design challenge, not just a storage problem. An organizing app also needs thoughtful rules for handling personal information.",
+      "csp": {
+        "idea": "Data",
+        "connection": "Digital artifacts from many sources can be organized and linked through structured data."
+      },
+      "sources": [
+        {
+          "name": "GeekWire",
+          "date": "2026-10-08",
+          "url": "https://www.geekwire.com/2026/your-digital-photos-and-posts-are-scattered-everywhere-this-startup-ties-them-all-together/"
+        }
+      ]
+    },
+    {
+      "id": "anthropic-oss-scanner",
+      "type": "news",
+      "category": "Cybersecurity",
+      "headline": "AI bug scanner offers free checks for open-source code",
+      "summary": "Anthropic launched OSS Scanner, an opt-in service that uses AI models to look for security flaws in open-source software. Reports go to project maintainers without human review, so some findings may be inaccurate.",
+      "whyItMatters": "A tool can flag possible bugs faster than people can investigate them. Security reports still need testing before anyone treats them as confirmed.",
+      "csp": {
+        "idea": "Algorithms and Programming",
+        "connection": "Automated analysis can inspect programs for defects, but its output must be verified."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "date": "2026-10-08",
+          "url": "https://www.anthropic.com/news/anthropic-cyber-mission"
+        }
+      ]
+    },
+    {
+      "id": "google-offline-notes",
+      "type": "news",
+      "category": "Apps & productivity",
+      "headline": "Google tests note-taking AI that works without internet",
+      "summary": "Google's experimental AI Edge Foresight app for Macs can transcribe meetings and help organize notes while running on the device. It can answer questions from local notes and documents even when the computer is offline.",
+      "whyItMatters": "Local processing can keep data on a device and work without a network. This is a useful tradeoff to compare with cloud-based AI services.",
+      "csp": {
+        "idea": "Computer Systems and Networks",
+        "connection": "On-device and cloud computing have different privacy, connectivity, and hardware tradeoffs."
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "date": "2026-10-08",
+          "url": "https://techcrunch.com/2026/10/08/google-releases-a-new-local-first-granola-competitor/"
+        }
+      ]
+    },
+    {
+      "id": "uw-protein-compute",
+      "type": "news",
+      "category": "Health & science",
+      "headline": "UW scientists get millions of computing hours for proteins",
+      "summary": "A foundation grant gives the University of Washington's Institute for Protein Design access to nearly 7 million GPU hours through cloud computers. Researchers use that processing power to test AI models for designing proteins with possible medical and environmental uses.",
+      "whyItMatters": "More computing power can let scientists run experiments that were previously too expensive. Predictions from computer models still need real-world testing.",
+      "csp": {
+        "idea": "Data",
+        "connection": "Large datasets and powerful processors help researchers train and evaluate scientific models."
+      },
+      "sources": [
+        {
+          "name": "GeekWire",
+          "date": "2026-10-08",
+          "url": "https://www.geekwire.com/2026/uw-institute-run-by-nobel-winner-lands-transformational-cloud-grant-from-huang-foundation/"
+        }
+      ]
+    },
+    {
+      "id": "nasa-sspicy-inspection",
+      "type": "news",
+      "category": "Space & robotics",
+      "headline": "Seattle-built spacecraft will inspect inactive satellites",
+      "summary": "NASA described the SSPICY mission, launched October 1 with a small spacecraft built by Seattle's Starfish Space. In early 2027, it plans to use cameras, sensors, and autonomous navigation software to inspect inactive objects in orbit without touching them.",
+      "whyItMatters": "Autonomous systems must make careful decisions from changing sensor data. These inspections could help engineers plan future repairs and reduce space junk.",
+      "csp": {
+        "idea": "Algorithms and Programming",
+        "connection": "Navigation software updates its decisions using live sensor inputs."
+      },
+      "sources": [
+        {
+          "name": "NASA",
+          "date": "2026-10-08",
+          "url": "https://www.nasa.gov/centers-and-facilities/ames/nasas-sspicy-mission-to-demonstrate-in-space-inspection-technologies/"
+        }
+      ]
+    },
+    {
+      "id": "google-maps-seattle-dosas",
+      "type": "news",
+      "category": "Food & data",
+      "headline": "Maps reviews reveal Seattle's rising dosa trend",
+      "summary": "Google released a dining list based on Maps reviews, ratings, and aggregated direction searches across ten cities. It says Seattle reviews mentioning dosas rose 136% year over year, while matcha mentions climbed more than 50%.",
+      "whyItMatters": "Apps can spot trends by analyzing huge collections of user activity. The results describe activity on Google Maps, not necessarily what every Seattle resident likes.",
+      "csp": {
+        "idea": "Data",
+        "connection": "Aggregated user-generated data can reveal patterns, but sampling and interpretation matter."
       },
       "sources": [
         {
           "name": "Google",
-          "date": "2026-10-07",
-          "url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/"
+          "date": "2026-10-08",
+          "url": "https://blog.google/products-and-platforms/products/maps/google-maps-fan-favorite-dining-list/"
         }
       ]
     },
     {
-      "id": "microsoft-local-ai",
-      "type": "news",
-      "category": "Computers & security",
-      "headline": "Microsoft shows AI tools that run on your laptop",
-      "summary": "Microsoft unveiled a high-powered Windows laptop and AI coding models designed to run on the computer instead of always sending work to the cloud. It also introduced Execution Containers, security technology meant to limit what AI agents can access or change.",
-      "whyItMatters": "Running a model locally can change speed, privacy and hardware needs. An agent still requires clear permissions so its ability to act does not become a security risk.",
-      "csp": {
-        "idea": "Computer Systems and Networks",
-        "connection": "Software can run on a local device or a remote server, with different tradeoffs for performance and privacy."
-      },
-      "sources": [
-        {
-          "name": "Reuters",
-          "date": "2026-10-07",
-          "url": "https://www.reuters.com/business/microsoft-nvidia-ceos-unveil-new-ai-laptop-san-francisco-event-2026-10-07/"
-        }
-      ]
-    },
-    {
-      "id": "mit-sando-drones",
-      "type": "news",
-      "category": "Robotics & algorithms",
-      "headline": "MIT drone software dodges moving obstacles in tests",
-      "summary": "MIT researchers developed SANDO, a system that repeatedly recalculates a drone's flight path as obstacles move. It avoided collisions in simulations and 12 real test flights, though those results do not guarantee safety in every real-world situation.",
-      "whyItMatters": "An algorithm may need to update its plan every moment as new sensor data arrives. This could help rescue robots travel through unfamiliar places without hitting people or objects.",
-      "csp": {
-        "idea": "Algorithms and Programming",
-        "connection": "Repeatedly updating a solution from new inputs helps a program respond to a changing environment."
-      },
-      "sources": [
-        {
-          "name": "MIT News",
-          "date": "2026-10-07",
-          "url": "https://news.mit.edu/2026/planning-system-ensures-robots-flight-path-will-remain-collision-free-1007"
-        }
-      ]
-    },
-    {
-      "id": "spotify-audiobooks-global",
-      "type": "news",
-      "category": "Books & streaming",
-      "headline": "Spotify plans audiobooks in more than 180 markets",
-      "summary": "Spotify says it will expand audiobooks from 22 markets to more than 180 by the end of 2026, with listening options varying by country. Its Page Match feature is also adding page-number support to help listeners switch between a printed book and its audio version.",
-      "whyItMatters": "A single app can connect physical books, audio files and reading positions through stored data. Features that sync formats depend on good identification and matching of content.",
-      "sources": [
-        {
-          "name": "Spotify Newsroom",
-          "date": "2026-10-07",
-          "url": "https://newsroom.spotify.com/2026-10-07/audiobooks-global-expansion/"
-        }
-      ]
-    },
-    {
-      "id": "biohub-cell-data",
-      "type": "news",
-      "category": "Health & AI",
-      "headline": "Researchers plan huge datasets to model living cells",
-      "summary": "Biohub and new partners announced a combined $1.8 billion effort to gather biological data for AI models that might predict how cells behave. Researchers say the first dataset could arrive in about a year; accurate digital cell models remain a future goal.",
-      "whyItMatters": "AI predictions are limited by the quality and variety of the data used to train them. Better biological models could eventually help scientists study disease, but they need careful testing.",
-      "csp": {
-        "idea": "Data",
-        "connection": "Models learn patterns from examples, so the dataset's scope and quality shape their usefulness."
-      },
-      "sources": [
-        {
-          "name": "Reuters",
-          "date": "2026-10-07",
-          "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/us-government-google-join-zuckerberg-backed-biohub-18-billion-push-ai-biology-2026-10-07/"
-        }
-      ]
-    },
-    {
-      "id": "instagram-instants-safety",
-      "type": "news",
-      "category": "Social media & privacy",
-      "headline": "UK investigates safety review of Instagram's disappearing posts",
-      "summary": "The UK's communications regulator opened an investigation into whether Meta adequately assessed risks before launching Instagram Instants, which lets posts disappear after viewing. The investigation is ongoing and does not establish that Meta broke the law.",
-      "whyItMatters": "A new app feature can create privacy and safety questions even when content disappears. Designers should examine possible risks before releasing a feature, especially for younger users.",
+      "id": "passkeys-csp-in-wild",
+      "type": "concept",
+      "category": "CSP in the Wild",
+      "headline": "CSP in the Wild: Why passkeys resist phishing",
+      "summary": "A passkey lets you sign in using your device's face unlock, fingerprint, or PIN instead of typing a reusable password. Google's October 8 security guide explains that biometric data stays on the device and passkeys are designed to resist fake sign-in pages.",
+      "whyItMatters": "Authentication checks whether someone should get access to an account. Unlike a typed password, a passkey uses cryptography tied to the real website, which helps block phishing.",
       "csp": {
         "idea": "Impact of Computing",
-        "connection": "Software design choices affect users and require testing beyond whether the feature works."
+        "connection": "Authentication design can improve both account security and everyday usability."
       },
       "sources": [
         {
-          "name": "Ofcom",
-          "date": "2026-10-06",
-          "url": "https://www.ofcom.org.uk/online-safety/illegal-and-harmful-content/ofcom-investigates-metas-compliance-with-uk-online-safety-laws"
-        }
-      ]
-    },
-    {
-      "id": "mit-seashell-data",
-      "type": "news",
-      "category": "Environment & data",
-      "headline": "Cloud app helps people know when shellfishing is safe",
-      "summary": "MIT researchers built Seashell, a platform that combines tide, weather and official closure data so Massachusetts shellfish harvesters can check local conditions. It connects existing government databases instead of making every town replace its systems.",
-      "whyItMatters": "Useful software often joins scattered information and presents just what a person needs. APIs, databases and clear interfaces can help communities make practical decisions.",
-      "csp": {
-        "idea": "Computer Systems and Networks",
-        "connection": "APIs let different information systems exchange data while retaining their own records."
-      },
-      "sources": [
-        {
-          "name": "MIT News",
-          "date": "2026-10-07",
-          "url": "https://news.mit.edu/2026/turning-tide-massachusetts-shellfishing-data-1007"
-        }
-      ]
-    },
-    {
-      "id": "national-compute-grid",
-      "type": "news",
-      "category": "Cloud computing",
-      "headline": "New grid aims to share idle AI computer power",
-      "summary": "A coalition announced the National Compute Grid, a plan to connect underused AI chips across data centers and assign jobs through shared scheduling software. The effort is launching, not yet a proven solution to the shortage of computing capacity.",
-      "whyItMatters": "Powerful hardware is less useful when it sits idle while others wait. Scheduling algorithms can match computing jobs to available machines, much like allocating shared school computers.",
-      "csp": {
-        "idea": "Computer Systems and Networks",
-        "connection": "Distributed systems coordinate resources across multiple computers to handle workloads."
-      },
-      "sources": [
-        {
-          "name": "Axios",
-          "date": "2026-10-07",
-          "url": "https://www.axios.com/2026/10/07/national-compute-grid-ai-capacity"
+          "name": "Google",
+          "date": "2026-10-08",
+          "url": "https://blog.google/innovation-and-ai/technology/safety-security/how-to-set-up-passkey/"
         }
       ]
     }
