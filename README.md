@@ -1,8 +1,8 @@
 # CSP Daily Brief
 
-Bishop Blanchet High School’s AP CSP classroom news display. Seven story cards by default, with a 40-second timer and an optional concept card. No discussion cards. Uses the supplied school design system and bear artwork; Ultra and Big Shoulders Display are supplied substitutes for the school’s commercial display fonts.
+Bishop Blanchet High School’s AP CSP classroom news display. Nine story cards by default (eight to ten allowed), with a 40-second timer and an optional concept card. No discussion cards. Uses the supplied school design system and bear artwork; Ultra and Big Shoulders Display are supplied substitutes for the school’s commercial display fonts.
 
-The site is static and has no AI API key, student accounts, analytics, or database. ChatGPT Work produces editions through the connected GitHub plugin using the teacher’s subscription. Vercel publishes main automatically. The daily task updates `public/edition.json` and an identical `public/editions/YYYY-MM-DD.json`. Each date is retained in Git; no older editions are automatically deleted.
+The site is static and has no AI API key, student accounts, analytics, or database. A Claude scheduled task produces editions on weekday mornings using the teacher’s Claude subscription and the connected GitHub tools. Vercel publishes main automatically. The daily task updates `public/edition.json` and an identical `public/editions/YYYY-MM-DD.json`. Each date is retained in Git; no older editions are automatically deleted.
 
 ## Development
 
