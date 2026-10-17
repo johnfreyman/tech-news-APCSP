@@ -1,0 +1,160 @@
+{
+  "schemaVersion": 1,
+  "editionId": "2026-10-16-daily",
+  "date": "2026-10-16",
+  "coverage": "Eight stories · forecasting, cell signals, Antarctic ice, crop genes, particle physics, email security, game tools and voting information",
+  "cards": [
+    {
+      "id": "mit-subseasonal-weather",
+      "type": "news",
+      "category": "Climate & AI",
+      "headline": "MIT tool corrects weather forecasts two to six weeks ahead",
+      "summary": "MIT researchers built a machine-learning layer that learns a forecasting model's usual mistakes from past data and adjusts new forecasts. The team reports it roughly doubled the accuracy of a leading European model for two-to-six-week forecasts, a range that is hard to predict.",
+      "whyItMatters": "A model can improve by studying its own past errors, not only by getting more computing power. Farmers and emergency planners could use longer forecasts, though one season of results is not proof it works everywhere.",
+      "csp": {
+        "idea": "Data",
+        "connection": "Comparing predictions with past outcomes lets programs find patterns in errors and correct them."
+      },
+      "sources": [
+        {
+          "name": "MIT News",
+          "date": "2026-10-14",
+          "url": "https://news.mit.edu/2026/researchers-improve-weather-forecasts-looking-two-six-weeks-out-1014"
+        }
+      ]
+    },
+    {
+      "id": "mit-iris-cell-signals",
+      "type": "news",
+      "category": "Health & AI",
+      "headline": "AI model reads the signals cells send each other",
+      "summary": "MIT and Whitehead Institute researchers created IRIS, a neural network that estimates which chemical signaling pathways a cell experienced while developing. It was trained on human stem cells and its lung prediction was confirmed in mouse embryos, though medical uses are still future goals.",
+      "whyItMatters": "Cells carry patterns that scientists cannot see directly, and a model can help find them. Predictions still need laboratory tests, which is why the lung result was checked in real embryos.",
+      "csp": {
+        "idea": "Data",
+        "connection": "Models trained on examples can infer hidden information, but their predictions must be tested against real evidence."
+      },
+      "sources": [
+        {
+          "name": "MIT News",
+          "date": "2026-10-15",
+          "url": "https://news.mit.edu/2026/ai-model-decodes-language-cells-use-communicate-1015"
+        }
+      ]
+    },
+    {
+      "id": "antarctic-ice-cliffs-satellite",
+      "type": "news",
+      "category": "Space & climate data",
+      "headline": "Satellite data challenges fears about collapsing Antarctic ice cliffs",
+      "summary": "Researchers analyzed four years of laser measurements from NASA's ICESat-2 satellite covering more than 15,000 Antarctic ice cliffs. Most were far shorter than the height models assumed would collapse, and cliffs that retreated tended to stabilize, so the study found no sign of runaway collapse.",
+      "whyItMatters": "Large datasets can test the assumptions built into computer models. Four years is still a short record, so scientists will keep gathering data before treating the sea-level question as settled.",
+      "csp": {
+        "idea": "Data",
+        "connection": "Large datasets let researchers check a model's assumptions against real measurements."
+      },
+      "sources": [
+        {
+          "name": "MIT News",
+          "date": "2026-10-15",
+          "url": "https://news.mit.edu/2026/satellite-data-reveal-how-antarcticas-ice-cliffs-behave-over-time-1015"
+        }
+      ]
+    },
+    {
+      "id": "deepmind-sorghum-atlas",
+      "type": "news",
+      "category": "Food & data",
+      "headline": "Google and partners plan an AI-supported sorghum gene atlas",
+      "summary": "Google DeepMind, Google.org and research groups in India and the U.S. announced a project to analyze the genes of sorghum, a drought-tolerant crop, using seeds from a genebank of over 44,000 samples. Google says machine learning will help breeders pick promising plants, but no results have been published yet.",
+      "whyItMatters": "Plant breeding can take about a decade of trial and error, so better data could speed up the search. The announcement is Google's own and does not yet include a timeline or measured improvement.",
+      "csp": {
+        "idea": "Data",
+        "connection": "Machine learning looks for patterns in large collections of data that would be slow for people to review."
+      },
+      "sources": [
+        {
+          "name": "Google",
+          "date": "2026-10-15",
+          "url": "https://blog.google/intl/en-in/company-news/from-lab-to-impact-advancing-ai-for-real-world-progress-in-india/"
+        }
+      ]
+    },
+    {
+      "id": "cern-mistral-physics-model",
+      "type": "news",
+      "category": "Science & AI",
+      "headline": "CERN and Mistral plan an AI model for particle collisions",
+      "summary": "CERN and the AI company Mistral signed a statement of intent to build a \"Large Physics Model\" trained on billions of simulated Large Hadron Collider collisions. It would handle several analysis jobs now done by separate programs. It is a goal only: no budget, timeline or results were announced.",
+      "whyItMatters": "The collider produces more data than people can inspect by hand, so software must sort it. Whether one general model can match specialized algorithms is a question the project still has to answer.",
+      "csp": {
+        "idea": "Algorithms and Programming",
+        "connection": "One general program can replace several specialized ones, but it must be tested against them."
+      },
+      "sources": [
+        {
+          "name": "CERN",
+          "date": "2026-10-15",
+          "url": "https://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science/"
+        }
+      ]
+    },
+    {
+      "id": "cisco-email-gateway-flaw",
+      "type": "news",
+      "category": "Cybersecurity",
+      "headline": "Cisco warns of an actively exploited email security flaw",
+      "summary": "Cisco reported a critical flaw, rated 9.8 out of 10, in its Secure Email Gateway. A crafted email attachment could let an unauthenticated attacker write files and run commands on the device. Cisco says attacks are already happening, affected systems need updates, and no workaround exists.",
+      "whyItMatters": "Software that inspects incoming data must treat every file as untrusted. Even security products can contain bugs, so organizations apply updates quickly once a fix is released.",
+      "csp": {
+        "idea": "Impact of Computing",
+        "connection": "Vulnerabilities in widely used software can affect many organizations until fixes are installed."
+      },
+      "sources": [
+        {
+          "name": "Cisco Security Advisory",
+          "date": "2026-10-14",
+          "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-esa-afw-zqYJkjxp.html"
+        }
+      ]
+    },
+    {
+      "id": "xbox-labs",
+      "type": "news",
+      "category": "Gaming & creativity",
+      "headline": "Xbox forms a lab to explore new game technology",
+      "summary": "Xbox announced Xbox Labs, a small group of game makers, engineers and scientists led by its chief technology officer. It aims to make games more accessible, revive older games and help more people create. Xbox says it will share its tools with developers, but it named no products or dates.",
+      "whyItMatters": "Games are programs, so changes to the tools can change who gets to play and create. This announcement describes plans only, so the real effect will depend on what Xbox releases.",
+      "csp": {
+        "idea": "Creative Development",
+        "connection": "Programmers build tools that let more people design and share their own software."
+      },
+      "sources": [
+        {
+          "name": "Gematsu (reporting Xbox's announcement)",
+          "date": "2026-10-13",
+          "url": "https://www.gematsu.com/2026/10/xbox-announces-xbox-labs-to-explore-emerging-technologies"
+        }
+      ]
+    },
+    {
+      "id": "claude-election-info",
+      "type": "news",
+      "category": "Social media & privacy",
+      "headline": "Anthropic adds voting information to its Claude chatbot",
+      "summary": "Anthropic says Claude will soon show state-specific voting information from the nonpartisan group Democracy Works before the November midterms. The company also describes tests of its election safeguards, which found the system could miss harmful requests split into smaller, harmless-looking steps.",
+      "whyItMatters": "Chatbots are becoming a place where people look up civic information, so accuracy and neutrality matter. The voting feature was not yet live when announced, and these safeguards come from the company's own report.",
+      "csp": {
+        "idea": "Impact of Computing",
+        "connection": "Information tools shape what people learn, so designers test for misuse and bias."
+      },
+      "sources": [
+        {
+          "name": "Anthropic",
+          "date": "2026-10-14",
+          "url": "https://www.anthropic.com/news/2026-us-midterms"
+        }
+      ]
+    }
+  ]
+}

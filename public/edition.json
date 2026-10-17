@@ -1,173 +1,158 @@
 {
   "schemaVersion": 1,
-  "editionId": "2026-10-08-daily",
-  "date": "2026-10-08",
-  "coverage": "Nine stories · basketball sensors, game creation, local AI, drones, audiobooks, cell data, Instagram safety, shellfishing and shared computing",
+  "editionId": "2026-10-16-daily",
+  "date": "2026-10-16",
+  "coverage": "Eight stories · forecasting, cell signals, Antarctic ice, crop genes, particle physics, email security, game tools and voting information",
   "cards": [
     {
-      "id": "nba-smart-basketballs",
+      "id": "mit-subseasonal-weather",
       "type": "news",
-      "category": "Sports technology",
-      "headline": "NBA tests basketballs with Bluetooth sensors",
-      "summary": "The NBA is testing basketballs with built-in Bluetooth sensors during selected preseason games, alongside wrist devices that help referees contact the replay center. The ball data is for research only and will not affect calls, and neither technology is planned for regular-season use yet.",
-      "whyItMatters": "A sensor can turn a familiar object into a source of digital data. Engineers still need to test accuracy and decide when that data is reliable enough to affect real decisions.",
+      "category": "Climate & AI",
+      "headline": "MIT tool corrects weather forecasts two to six weeks ahead",
+      "summary": "MIT researchers built a machine-learning layer that learns a forecasting model's usual mistakes from past data and adjusts new forecasts. The team reports it roughly doubled the accuracy of a leading European model for two-to-six-week forecasts, a range that is hard to predict.",
+      "whyItMatters": "A model can improve by studying its own past errors, not only by getting more computing power. Farmers and emergency planners could use longer forecasts, though one season of results is not proof it works everywhere.",
       "csp": {
         "idea": "Data",
-        "connection": "Physical measurements become useful when computers collect, interpret and verify them."
+        "connection": "Comparing predictions with past outcomes lets programs find patterns in errors and correct them."
       },
       "sources": [
         {
-          "name": "NBA / Associated Press",
-          "date": "2026-10-05",
-          "url": "https://www.nba.com/news/nba-experiments-with-smart-basketballs-wrist-wearables"
+          "name": "MIT News",
+          "date": "2026-10-14",
+          "url": "https://news.mit.edu/2026/researchers-improve-weather-forecasts-looking-two-six-weeks-out-1014"
         }
       ]
     },
     {
-      "id": "google-playground-games",
+      "id": "mit-iris-cell-signals",
       "type": "news",
-      "category": "Gaming & creativity",
-      "headline": "Google launches games built from text descriptions",
-      "summary": "Google introduced Playground, an experimental website where people describe a game, adjust its rules and share the result with others. The U.S. launch is restricted to adults 18 and older, while more advanced Unity Spark tools are still being tested.",
-      "whyItMatters": "Game creation involves rules, inputs and repeated testing, even when an AI helps produce the code. The tool also raises questions about how creators check and improve generated games.",
+      "category": "Health & AI",
+      "headline": "AI model reads the signals cells send each other",
+      "summary": "MIT and Whitehead Institute researchers created IRIS, a neural network that estimates which chemical signaling pathways a cell experienced while developing. It was trained on human stem cells and its lung prediction was confirmed in mouse embryos, though medical uses are still future goals.",
+      "whyItMatters": "Cells carry patterns that scientists cannot see directly, and a model can help find them. Predictions still need laboratory tests, which is why the lung result was checked in real embryos.",
       "csp": {
-        "idea": "Creative Development",
-        "connection": "Developers test and revise interactive programs to make their behavior match a design."
+        "idea": "Data",
+        "connection": "Models trained on examples can infer hidden information, but their predictions must be tested against real evidence."
+      },
+      "sources": [
+        {
+          "name": "MIT News",
+          "date": "2026-10-15",
+          "url": "https://news.mit.edu/2026/ai-model-decodes-language-cells-use-communicate-1015"
+        }
+      ]
+    },
+    {
+      "id": "antarctic-ice-cliffs-satellite",
+      "type": "news",
+      "category": "Space & climate data",
+      "headline": "Satellite data challenges fears about collapsing Antarctic ice cliffs",
+      "summary": "Researchers analyzed four years of laser measurements from NASA's ICESat-2 satellite covering more than 15,000 Antarctic ice cliffs. Most were far shorter than the height models assumed would collapse, and cliffs that retreated tended to stabilize, so the study found no sign of runaway collapse.",
+      "whyItMatters": "Large datasets can test the assumptions built into computer models. Four years is still a short record, so scientists will keep gathering data before treating the sea-level question as settled.",
+      "csp": {
+        "idea": "Data",
+        "connection": "Large datasets let researchers check a model's assumptions against real measurements."
+      },
+      "sources": [
+        {
+          "name": "MIT News",
+          "date": "2026-10-15",
+          "url": "https://news.mit.edu/2026/satellite-data-reveal-how-antarcticas-ice-cliffs-behave-over-time-1015"
+        }
+      ]
+    },
+    {
+      "id": "deepmind-sorghum-atlas",
+      "type": "news",
+      "category": "Food & data",
+      "headline": "Google and partners plan an AI-supported sorghum gene atlas",
+      "summary": "Google DeepMind, Google.org and research groups in India and the U.S. announced a project to analyze the genes of sorghum, a drought-tolerant crop, using seeds from a genebank of over 44,000 samples. Google says machine learning will help breeders pick promising plants, but no results have been published yet.",
+      "whyItMatters": "Plant breeding can take about a decade of trial and error, so better data could speed up the search. The announcement is Google's own and does not yet include a timeline or measured improvement.",
+      "csp": {
+        "idea": "Data",
+        "connection": "Machine learning looks for patterns in large collections of data that would be slow for people to review."
       },
       "sources": [
         {
           "name": "Google",
-          "date": "2026-10-07",
-          "url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/"
+          "date": "2026-10-15",
+          "url": "https://blog.google/intl/en-in/company-news/from-lab-to-impact-advancing-ai-for-real-world-progress-in-india/"
         }
       ]
     },
     {
-      "id": "microsoft-local-ai",
+      "id": "cern-mistral-physics-model",
       "type": "news",
-      "category": "Computers & security",
-      "headline": "Microsoft shows AI tools that run on your laptop",
-      "summary": "Microsoft unveiled a high-powered Windows laptop and AI coding models designed to run on the computer instead of always sending work to the cloud. It also introduced Execution Containers, security technology meant to limit what AI agents can access or change.",
-      "whyItMatters": "Running a model locally can change speed, privacy and hardware needs. An agent still requires clear permissions so its ability to act does not become a security risk.",
-      "csp": {
-        "idea": "Computer Systems and Networks",
-        "connection": "Software can run on a local device or a remote server, with different tradeoffs for performance and privacy."
-      },
-      "sources": [
-        {
-          "name": "Reuters",
-          "date": "2026-10-07",
-          "url": "https://www.reuters.com/business/microsoft-nvidia-ceos-unveil-new-ai-laptop-san-francisco-event-2026-10-07/"
-        }
-      ]
-    },
-    {
-      "id": "mit-sando-drones",
-      "type": "news",
-      "category": "Robotics & algorithms",
-      "headline": "MIT drone software dodges moving obstacles in tests",
-      "summary": "MIT researchers developed SANDO, a system that repeatedly recalculates a drone's flight path as obstacles move. It avoided collisions in simulations and 12 real test flights, though those results do not guarantee safety in every real-world situation.",
-      "whyItMatters": "An algorithm may need to update its plan every moment as new sensor data arrives. This could help rescue robots travel through unfamiliar places without hitting people or objects.",
+      "category": "Science & AI",
+      "headline": "CERN and Mistral plan an AI model for particle collisions",
+      "summary": "CERN and the AI company Mistral signed a statement of intent to build a \"Large Physics Model\" trained on billions of simulated Large Hadron Collider collisions. It would handle several analysis jobs now done by separate programs. It is a goal only: no budget, timeline or results were announced.",
+      "whyItMatters": "The collider produces more data than people can inspect by hand, so software must sort it. Whether one general model can match specialized algorithms is a question the project still has to answer.",
       "csp": {
         "idea": "Algorithms and Programming",
-        "connection": "Repeatedly updating a solution from new inputs helps a program respond to a changing environment."
+        "connection": "One general program can replace several specialized ones, but it must be tested against them."
       },
       "sources": [
         {
-          "name": "MIT News",
-          "date": "2026-10-07",
-          "url": "https://news.mit.edu/2026/planning-system-ensures-robots-flight-path-will-remain-collision-free-1007"
+          "name": "CERN",
+          "date": "2026-10-15",
+          "url": "https://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science/"
         }
       ]
     },
     {
-      "id": "spotify-audiobooks-global",
+      "id": "cisco-email-gateway-flaw",
       "type": "news",
-      "category": "Books & streaming",
-      "headline": "Spotify plans audiobooks in more than 180 markets",
-      "summary": "Spotify says it will expand audiobooks from 22 markets to more than 180 by the end of 2026, with listening options varying by country. Its Page Match feature is also adding page-number support to help listeners switch between a printed book and its audio version.",
-      "whyItMatters": "A single app can connect physical books, audio files and reading positions through stored data. Features that sync formats depend on good identification and matching of content.",
-      "sources": [
-        {
-          "name": "Spotify Newsroom",
-          "date": "2026-10-07",
-          "url": "https://newsroom.spotify.com/2026-10-07/audiobooks-global-expansion/"
-        }
-      ]
-    },
-    {
-      "id": "biohub-cell-data",
-      "type": "news",
-      "category": "Health & AI",
-      "headline": "Researchers plan huge datasets to model living cells",
-      "summary": "Biohub and new partners announced a combined $1.8 billion effort to gather biological data for AI models that might predict how cells behave. Researchers say the first dataset could arrive in about a year; accurate digital cell models remain a future goal.",
-      "whyItMatters": "AI predictions are limited by the quality and variety of the data used to train them. Better biological models could eventually help scientists study disease, but they need careful testing.",
-      "csp": {
-        "idea": "Data",
-        "connection": "Models learn patterns from examples, so the dataset's scope and quality shape their usefulness."
-      },
-      "sources": [
-        {
-          "name": "Reuters",
-          "date": "2026-10-07",
-          "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/us-government-google-join-zuckerberg-backed-biohub-18-billion-push-ai-biology-2026-10-07/"
-        }
-      ]
-    },
-    {
-      "id": "instagram-instants-safety",
-      "type": "news",
-      "category": "Social media & privacy",
-      "headline": "UK investigates safety review of Instagram's disappearing posts",
-      "summary": "The UK's communications regulator opened an investigation into whether Meta adequately assessed risks before launching Instagram Instants, which lets posts disappear after viewing. The investigation is ongoing and does not establish that Meta broke the law.",
-      "whyItMatters": "A new app feature can create privacy and safety questions even when content disappears. Designers should examine possible risks before releasing a feature, especially for younger users.",
+      "category": "Cybersecurity",
+      "headline": "Cisco warns of an actively exploited email security flaw",
+      "summary": "Cisco reported a critical flaw, rated 9.8 out of 10, in its Secure Email Gateway. A crafted email attachment could let an unauthenticated attacker write files and run commands on the device. Cisco says attacks are already happening, affected systems need updates, and no workaround exists.",
+      "whyItMatters": "Software that inspects incoming data must treat every file as untrusted. Even security products can contain bugs, so organizations apply updates quickly once a fix is released.",
       "csp": {
         "idea": "Impact of Computing",
-        "connection": "Software design choices affect users and require testing beyond whether the feature works."
+        "connection": "Vulnerabilities in widely used software can affect many organizations until fixes are installed."
       },
       "sources": [
         {
-          "name": "Ofcom",
-          "date": "2026-10-06",
-          "url": "https://www.ofcom.org.uk/online-safety/illegal-and-harmful-content/ofcom-investigates-metas-compliance-with-uk-online-safety-laws"
+          "name": "Cisco Security Advisory",
+          "date": "2026-10-14",
+          "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-esa-afw-zqYJkjxp.html"
         }
       ]
     },
     {
-      "id": "mit-seashell-data",
+      "id": "xbox-labs",
       "type": "news",
-      "category": "Environment & data",
-      "headline": "Cloud app helps people know when shellfishing is safe",
-      "summary": "MIT researchers built Seashell, a platform that combines tide, weather and official closure data so Massachusetts shellfish harvesters can check local conditions. It connects existing government databases instead of making every town replace its systems.",
-      "whyItMatters": "Useful software often joins scattered information and presents just what a person needs. APIs, databases and clear interfaces can help communities make practical decisions.",
+      "category": "Gaming & creativity",
+      "headline": "Xbox forms a lab to explore new game technology",
+      "summary": "Xbox announced Xbox Labs, a small group of game makers, engineers and scientists led by its chief technology officer. It aims to make games more accessible, revive older games and help more people create. Xbox says it will share its tools with developers, but it named no products or dates.",
+      "whyItMatters": "Games are programs, so changes to the tools can change who gets to play and create. This announcement describes plans only, so the real effect will depend on what Xbox releases.",
       "csp": {
-        "idea": "Computer Systems and Networks",
-        "connection": "APIs let different information systems exchange data while retaining their own records."
+        "idea": "Creative Development",
+        "connection": "Programmers build tools that let more people design and share their own software."
       },
       "sources": [
         {
-          "name": "MIT News",
-          "date": "2026-10-07",
-          "url": "https://news.mit.edu/2026/turning-tide-massachusetts-shellfishing-data-1007"
+          "name": "Gematsu (reporting Xbox's announcement)",
+          "date": "2026-10-13",
+          "url": "https://www.gematsu.com/2026/10/xbox-announces-xbox-labs-to-explore-emerging-technologies"
         }
       ]
     },
     {
-      "id": "national-compute-grid",
+      "id": "claude-election-info",
       "type": "news",
-      "category": "Cloud computing",
-      "headline": "New grid aims to share idle AI computer power",
-      "summary": "A coalition announced the National Compute Grid, a plan to connect underused AI chips across data centers and assign jobs through shared scheduling software. The effort is launching, not yet a proven solution to the shortage of computing capacity.",
-      "whyItMatters": "Powerful hardware is less useful when it sits idle while others wait. Scheduling algorithms can match computing jobs to available machines, much like allocating shared school computers.",
+      "category": "Social media & privacy",
+      "headline": "Anthropic adds voting information to its Claude chatbot",
+      "summary": "Anthropic says Claude will soon show state-specific voting information from the nonpartisan group Democracy Works before the November midterms. The company also describes tests of its election safeguards, which found the system could miss harmful requests split into smaller, harmless-looking steps.",
+      "whyItMatters": "Chatbots are becoming a place where people look up civic information, so accuracy and neutrality matter. The voting feature was not yet live when announced, and these safeguards come from the company's own report.",
       "csp": {
-        "idea": "Computer Systems and Networks",
-        "connection": "Distributed systems coordinate resources across multiple computers to handle workloads."
+        "idea": "Impact of Computing",
+        "connection": "Information tools shape what people learn, so designers test for misuse and bias."
       },
       "sources": [
         {
-          "name": "Axios",
-          "date": "2026-10-07",
-          "url": "https://www.axios.com/2026/10/07/national-compute-grid-ai-capacity"
+          "name": "Anthropic",
+          "date": "2026-10-14",
+          "url": "https://www.anthropic.com/news/2026-us-midterms"
         }
       ]
     }
