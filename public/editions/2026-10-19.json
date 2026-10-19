@@ -1,0 +1,194 @@
+{
+  "schemaVersion": 1,
+  "editionId": "2026-10-19-daily",
+  "date": "2026-10-19",
+  "coverage": "Nine stories · student data, chatbot languages, coding agents, voice security, store prices, referee tech, data centers, brain cells and star colors",
+  "cards": [
+    {
+      "id": "ets-california-student-data",
+      "type": "news",
+      "category": "Privacy & education",
+      "headline": "Testing company notifies California students after data breach",
+      "summary": "Educational Testing Service, which runs California's statewide tests, says someone used a compromised login to copy student files from a file-transfer server between May and September. The files may include names, birth dates, addresses, test results and disability information, but not Social Security numbers or passwords.",
+      "whyItMatters": "Schools share student records with outside companies, so one weak password at a vendor can expose many people. Families are being offered two years of free identity protection, and notices continue into early November.",
+      "csp": {
+        "idea": "Impact of Computing",
+        "connection": "Personal data stored by third parties is only as safe as their account security."
+      },
+      "sources": [
+        {
+          "name": "California Department of Education",
+          "date": "2026-10-16",
+          "url": "https://www.cde.ca.gov/nr/ne/yr26/yr26rel45.asp"
+        },
+        {
+          "name": "California Department of Education (ETS notice)",
+          "date": "2026-10-16",
+          "url": "https://www.cde.ca.gov/nr/in/ets-notification.asp"
+        }
+      ]
+    },
+    {
+      "id": "chatbot-personality-language",
+      "type": "news",
+      "category": "AI & language",
+      "headline": "Chatbots answer personality tests differently in English and Mandarin",
+      "summary": "Researchers had five chatbots, including ChatGPT-4o and DeepSeek-V3, answer a standard 60-question personality survey 30 times each in English and Mandarin. Results were steady within a language but shifted between languages, in different directions for different models. The tests were run in early 2025 on older model versions.",
+      "whyItMatters": "The language of a question can change what an AI says about itself. The scores describe survey answers, not real traits, so they do not prove a chatbot acts differently in conversation.",
+      "csp": {
+        "idea": "Data",
+        "connection": "Training data in different languages can lead the same model to produce different outputs."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore",
+          "date": "2026-10-18",
+          "url": "https://techxplore.com/news/2026-10-languages-chatbot-personality-results.html"
+        }
+      ]
+    },
+    {
+      "id": "agents-predict-before-modify",
+      "type": "news",
+      "category": "Programming & AI",
+      "headline": "AI coding agents improve by predicting whether their edits help",
+      "summary": "Researchers from the University of Virginia, Microsoft Research and Tsinghua University tested AI agents that rewrite their own code and instructions. A forecasting model predicts whether each edit will help before it is kept. On 166 coding tasks, agents chosen this way typically solved about 30%, compared with 22% for an earlier method. The paper is a preprint, not yet peer reviewed.",
+      "whyItMatters": "Testing a change before keeping it is a habit good programmers already use. The authors say the results do not show that AI agents can replace human programmers or reviewers.",
+      "csp": {
+        "idea": "Algorithms and Programming",
+        "connection": "Programs are improved through cycles of changing code, testing it and keeping what works."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore",
+          "date": "2026-10-16",
+          "url": "https://techxplore.com/news/2026-10-ai-agents-errors-software.html"
+        },
+        {
+          "name": "arXiv (preprint)",
+          "date": "2026-10-15",
+          "url": "https://arxiv.org/abs/2610.13991"
+        }
+      ]
+    },
+    {
+      "id": "divnet-voice-assistant-variants",
+      "type": "news",
+      "category": "Cybersecurity",
+      "headline": "Varied copies of a speech model could block mass voice attacks",
+      "summary": "Voice assistants often ship with identical speech-recognition models, so one specially crafted audio clip could fool millions of devices. George Mason University researchers built DivNet, which adjusts a model's internal settings to create many different versions that still understand normal speech. They report attacks succeeded much less often; no product has been announced.",
+      "whyItMatters": "When every device runs the same code, one attack can spread widely. Making copies different is a defense idea that also appears in other parts of computer security.",
+      "csp": {
+        "idea": "Computer Systems and Networks",
+        "connection": "Diversity across devices can stop a single attack from working everywhere at once."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (George Mason University)",
+          "date": "2026-10-17",
+          "url": "https://techxplore.com/news/2026-10-ai-trillions-variants-mass-voice.html"
+        }
+      ]
+    },
+    {
+      "id": "retail-algorithmic-pricing",
+      "type": "news",
+      "category": "Shopping & data",
+      "headline": "Shoppers grow wary of digital price tags and pricing algorithms",
+      "summary": "Stores such as Walmart and Whole Foods are adding electronic shelf labels, and some companies use software to adjust prices. The Associated Press reports that it is unclear how often personal data is used to set prices. Maryland, New Jersey and Connecticut recently limited using shoppers' personal data to set prices, and Walmart says it does not price by individual shopper.",
+      "whyItMatters": "Algorithms can change prices quickly, and shoppers may not know which data was used. A price difference alone does not prove personal data was involved, which is why laws are focusing on disclosure.",
+      "csp": {
+        "idea": "Impact of Computing",
+        "connection": "Data collected about people can feed algorithms that affect what they pay."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (Associated Press)",
+          "date": "2026-10-18",
+          "url": "https://techxplore.com/news/2026-10-consumer-apprehension-retailers-ai-pricing.html"
+        }
+      ]
+    },
+    {
+      "id": "uruguay-electronic-referee-cards",
+      "type": "news",
+      "category": "Sports technology",
+      "headline": "Uruguayan referee tests a digital screen instead of yellow cards",
+      "summary": "In a Copa Uruguay match, referee Eduardo Varela showed cautions on a phone-sized screen built by the company REFe. The device records each decision with a timestamp and sends it to the league's records system. An earlier trial stopped because sunlight made the screen hard to read, and some viewers struggled to see colors this time.",
+      "whyItMatters": "It replaces paper notes with automatic digital records. The trial also shows that a design must work for the crowd and TV viewers, not only the person holding the device.",
+      "csp": {
+        "idea": "Creative Development",
+        "connection": "Testing with real users reveals problems, such as glare, that designers may not predict."
+      },
+      "sources": [
+        {
+          "name": "Taipei Times (Reuters)",
+          "date": "2026-10-18",
+          "url": "https://www.taipeitimes.com/News/sport/archives/2026/10/18/2003866165"
+        }
+      ]
+    },
+    {
+      "id": "pennsylvania-data-center-payments",
+      "type": "news",
+      "category": "Data centers & communities",
+      "headline": "Pennsylvania neighbors push back on a data center's $10,000 offer",
+      "summary": "A developer building a data center in Hazle Township, Pennsylvania, has offered $10,000 per household once it operates, part of a $165 million community fund. Some residents worry about noise, lost forest and home values, and they won a court-ordered pause on construction. The developer did not respond to AFP's questions.",
+      "whyItMatters": "Cloud services and AI run in physical buildings that need land, power and transmission lines. Where those buildings go is a real decision that affects nearby communities.",
+      "csp": {
+        "idea": "Computer Systems and Networks",
+        "connection": "Internet services depend on physical data centers with real local costs and benefits."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (AFP)",
+          "date": "2026-10-19",
+          "url": "https://techxplore.com/news/2026-10-bribe-pennsylvania-residents-spurn-center.html"
+        }
+      ]
+    },
+    {
+      "id": "organoids-braille-recognition",
+      "type": "news",
+      "category": "Biology & computing",
+      "headline": "Tiny lab-grown brain tissue helps identify braille letters",
+      "summary": "University of Bristol researchers turned a touch sensor's braille readings into electrical signals for organoids, clumps of about 10,000 lab-grown neurons. A program then read the neurons' responses to guess the letter. Three organoids together were about 83% accurate, similar to decoding the signals directly, but they held up better when noise was added.",
+      "whyItMatters": "Scientists are exploring whether living cells could one day process information alongside computers. The team says the organoids did not learn or change over time, so this is an early experiment.",
+      "csp": {
+        "idea": "Computer Systems and Networks",
+        "connection": "Researchers compare new hardware against standard methods to see if it really adds value."
+      },
+      "sources": [
+        {
+          "name": "Frontiers in Artificial Intelligence",
+          "date": "2026-10-16",
+          "url": "https://www.frontiersin.org/articles/10.3389/frai.2026.1800219/full"
+        },
+        {
+          "name": "Tech Xplore",
+          "date": "2026-10-16",
+          "url": "https://techxplore.com/news/2026-10-mini-brain-organoids-braille-key.html"
+        }
+      ]
+    },
+    {
+      "id": "green-white-dwarf-star",
+      "type": "news",
+      "category": "Space & data",
+      "headline": "Astronomers calculate that one nearby star would look green",
+      "summary": "University of Warwick astronomers ran light measurements from 151 nearby white dwarf stars through a computer model of human color vision. Most would look white and five looked pink or yellow. The team also found that the white dwarf WD J1330+6435 would appear green, because sodium from old planet debris absorbs yellow, orange and red light.",
+      "whyItMatters": "Nobody has seen these colors directly; a model turned data into what eyes would perceive. Five unusual stars is a small sample, so the team's estimate of how common they are could change.",
+      "csp": {
+        "idea": "Data",
+        "connection": "Models can transform raw measurements into information people can understand."
+      },
+      "sources": [
+        {
+          "name": "University of Warwick",
+          "date": "2026-10-15",
+          "url": "https://warwick.ac.uk/news/pressreleases/astronomers-reveal-true-colours-of-white-dwarf-stars/"
+        }
+      ]
+    }
+  ]
+}
