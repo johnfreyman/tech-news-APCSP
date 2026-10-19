@@ -1,158 +1,192 @@
 {
   "schemaVersion": 1,
-  "editionId": "2026-10-16-daily",
-  "date": "2026-10-16",
-  "coverage": "Eight stories · forecasting, cell signals, Antarctic ice, crop genes, particle physics, email security, game tools and voting information",
+  "editionId": "2026-10-19-daily",
+  "date": "2026-10-19",
+  "coverage": "Nine stories · student data, chatbot languages, coding agents, voice security, store prices, referee tech, data centers, brain cells and star colors",
   "cards": [
     {
-      "id": "mit-subseasonal-weather",
+      "id": "ets-california-student-data",
       "type": "news",
-      "category": "Climate & AI",
-      "headline": "MIT tool corrects weather forecasts two to six weeks ahead",
-      "summary": "MIT researchers built a machine-learning layer that learns a forecasting model's usual mistakes from past data and adjusts new forecasts. The team reports it roughly doubled the accuracy of a leading European model for two-to-six-week forecasts, a range that is hard to predict.",
-      "whyItMatters": "A model can improve by studying its own past errors, not only by getting more computing power. Farmers and emergency planners could use longer forecasts, though one season of results is not proof it works everywhere.",
+      "category": "Privacy & education",
+      "headline": "Testing company notifies California students after data breach",
+      "summary": "Educational Testing Service, which runs California's statewide tests, says someone used a compromised login to copy student files from a file-transfer server between May and September. The files may include names, birth dates, addresses, test results and disability information, but not Social Security numbers or passwords.",
+      "whyItMatters": "Schools share student records with outside companies, so one weak password at a vendor can expose many people. Families are being offered two years of free identity protection, and notices continue into early November.",
       "csp": {
-        "idea": "Data",
-        "connection": "Comparing predictions with past outcomes lets programs find patterns in errors and correct them."
+        "idea": "Impact of Computing",
+        "connection": "Personal data stored by third parties is only as safe as their account security."
       },
       "sources": [
         {
-          "name": "MIT News",
-          "date": "2026-10-14",
-          "url": "https://news.mit.edu/2026/researchers-improve-weather-forecasts-looking-two-six-weeks-out-1014"
+          "name": "California Department of Education",
+          "date": "2026-10-16",
+          "url": "https://www.cde.ca.gov/nr/ne/yr26/yr26rel45.asp"
+        },
+        {
+          "name": "California Department of Education (ETS notice)",
+          "date": "2026-10-16",
+          "url": "https://www.cde.ca.gov/nr/in/ets-notification.asp"
         }
       ]
     },
     {
-      "id": "mit-iris-cell-signals",
+      "id": "chatbot-personality-language",
       "type": "news",
-      "category": "Health & AI",
-      "headline": "AI model reads the signals cells send each other",
-      "summary": "MIT and Whitehead Institute researchers created IRIS, a neural network that estimates which chemical signaling pathways a cell experienced while developing. It was trained on human stem cells and its lung prediction was confirmed in mouse embryos, though medical uses are still future goals.",
-      "whyItMatters": "Cells carry patterns that scientists cannot see directly, and a model can help find them. Predictions still need laboratory tests, which is why the lung result was checked in real embryos.",
+      "category": "AI & language",
+      "headline": "Chatbots answer personality tests differently in English and Mandarin",
+      "summary": "Researchers had five chatbots, including ChatGPT-4o and DeepSeek-V3, answer a standard 60-question personality survey 30 times each in English and Mandarin. Results were steady within a language but shifted between languages, in different directions for different models. The tests were run in early 2025 on older model versions.",
+      "whyItMatters": "The language of a question can change what an AI says about itself. The scores describe survey answers, not real traits, so they do not prove a chatbot acts differently in conversation.",
       "csp": {
         "idea": "Data",
-        "connection": "Models trained on examples can infer hidden information, but their predictions must be tested against real evidence."
+        "connection": "Training data in different languages can lead the same model to produce different outputs."
       },
       "sources": [
         {
-          "name": "MIT News",
-          "date": "2026-10-15",
-          "url": "https://news.mit.edu/2026/ai-model-decodes-language-cells-use-communicate-1015"
+          "name": "Tech Xplore",
+          "date": "2026-10-18",
+          "url": "https://techxplore.com/news/2026-10-languages-chatbot-personality-results.html"
         }
       ]
     },
     {
-      "id": "antarctic-ice-cliffs-satellite",
+      "id": "agents-predict-before-modify",
       "type": "news",
-      "category": "Space & climate data",
-      "headline": "Satellite data challenges fears about collapsing Antarctic ice cliffs",
-      "summary": "Researchers analyzed four years of laser measurements from NASA's ICESat-2 satellite covering more than 15,000 Antarctic ice cliffs. Most were far shorter than the height models assumed would collapse, and cliffs that retreated tended to stabilize, so the study found no sign of runaway collapse.",
-      "whyItMatters": "Large datasets can test the assumptions built into computer models. Four years is still a short record, so scientists will keep gathering data before treating the sea-level question as settled.",
-      "csp": {
-        "idea": "Data",
-        "connection": "Large datasets let researchers check a model's assumptions against real measurements."
-      },
-      "sources": [
-        {
-          "name": "MIT News",
-          "date": "2026-10-15",
-          "url": "https://news.mit.edu/2026/satellite-data-reveal-how-antarcticas-ice-cliffs-behave-over-time-1015"
-        }
-      ]
-    },
-    {
-      "id": "deepmind-sorghum-atlas",
-      "type": "news",
-      "category": "Food & data",
-      "headline": "Google and partners plan an AI-supported sorghum gene atlas",
-      "summary": "Google DeepMind, Google.org and research groups in India and the U.S. announced a project to analyze the genes of sorghum, a drought-tolerant crop, using seeds from a genebank of over 44,000 samples. Google says machine learning will help breeders pick promising plants, but no results have been published yet.",
-      "whyItMatters": "Plant breeding can take about a decade of trial and error, so better data could speed up the search. The announcement is Google's own and does not yet include a timeline or measured improvement.",
-      "csp": {
-        "idea": "Data",
-        "connection": "Machine learning looks for patterns in large collections of data that would be slow for people to review."
-      },
-      "sources": [
-        {
-          "name": "Google",
-          "date": "2026-10-15",
-          "url": "https://blog.google/intl/en-in/company-news/from-lab-to-impact-advancing-ai-for-real-world-progress-in-india/"
-        }
-      ]
-    },
-    {
-      "id": "cern-mistral-physics-model",
-      "type": "news",
-      "category": "Science & AI",
-      "headline": "CERN and Mistral plan an AI model for particle collisions",
-      "summary": "CERN and the AI company Mistral signed a statement of intent to build a \"Large Physics Model\" trained on billions of simulated Large Hadron Collider collisions. It would handle several analysis jobs now done by separate programs. It is a goal only: no budget, timeline or results were announced.",
-      "whyItMatters": "The collider produces more data than people can inspect by hand, so software must sort it. Whether one general model can match specialized algorithms is a question the project still has to answer.",
+      "category": "Programming & AI",
+      "headline": "AI coding agents improve by predicting whether their edits help",
+      "summary": "Researchers from the University of Virginia, Microsoft Research and Tsinghua University tested AI agents that rewrite their own code and instructions. A forecasting model predicts whether each edit will help before it is kept. On 166 coding tasks, agents chosen this way typically solved about 30%, compared with 22% for an earlier method. The paper is a preprint, not yet peer reviewed.",
+      "whyItMatters": "Testing a change before keeping it is a habit good programmers already use. The authors say the results do not show that AI agents can replace human programmers or reviewers.",
       "csp": {
         "idea": "Algorithms and Programming",
-        "connection": "One general program can replace several specialized ones, but it must be tested against them."
+        "connection": "Programs are improved through cycles of changing code, testing it and keeping what works."
       },
       "sources": [
         {
-          "name": "CERN",
+          "name": "Tech Xplore",
+          "date": "2026-10-16",
+          "url": "https://techxplore.com/news/2026-10-ai-agents-errors-software.html"
+        },
+        {
+          "name": "arXiv (preprint)",
           "date": "2026-10-15",
-          "url": "https://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science/"
+          "url": "https://arxiv.org/abs/2610.13991"
         }
       ]
     },
     {
-      "id": "cisco-email-gateway-flaw",
+      "id": "divnet-voice-assistant-variants",
       "type": "news",
       "category": "Cybersecurity",
-      "headline": "Cisco warns of an actively exploited email security flaw",
-      "summary": "Cisco reported a critical flaw, rated 9.8 out of 10, in its Secure Email Gateway. A crafted email attachment could let an unauthenticated attacker write files and run commands on the device. Cisco says attacks are already happening, affected systems need updates, and no workaround exists.",
-      "whyItMatters": "Software that inspects incoming data must treat every file as untrusted. Even security products can contain bugs, so organizations apply updates quickly once a fix is released.",
+      "headline": "Varied copies of a speech model could block mass voice attacks",
+      "summary": "Voice assistants often ship with identical speech-recognition models, so one specially crafted audio clip could fool millions of devices. George Mason University researchers built DivNet, which adjusts a model's internal settings to create many different versions that still understand normal speech. They report attacks succeeded much less often; no product has been announced.",
+      "whyItMatters": "When every device runs the same code, one attack can spread widely. Making copies different is a defense idea that also appears in other parts of computer security.",
       "csp": {
-        "idea": "Impact of Computing",
-        "connection": "Vulnerabilities in widely used software can affect many organizations until fixes are installed."
+        "idea": "Computer Systems and Networks",
+        "connection": "Diversity across devices can stop a single attack from working everywhere at once."
       },
       "sources": [
         {
-          "name": "Cisco Security Advisory",
-          "date": "2026-10-14",
-          "url": "https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-esa-afw-zqYJkjxp.html"
+          "name": "Tech Xplore (George Mason University)",
+          "date": "2026-10-17",
+          "url": "https://techxplore.com/news/2026-10-ai-trillions-variants-mass-voice.html"
         }
       ]
     },
     {
-      "id": "xbox-labs",
+      "id": "retail-algorithmic-pricing",
       "type": "news",
-      "category": "Gaming & creativity",
-      "headline": "Xbox forms a lab to explore new game technology",
-      "summary": "Xbox announced Xbox Labs, a small group of game makers, engineers and scientists led by its chief technology officer. It aims to make games more accessible, revive older games and help more people create. Xbox says it will share its tools with developers, but it named no products or dates.",
-      "whyItMatters": "Games are programs, so changes to the tools can change who gets to play and create. This announcement describes plans only, so the real effect will depend on what Xbox releases.",
+      "category": "Shopping & data",
+      "headline": "Shoppers grow wary of digital price tags and pricing algorithms",
+      "summary": "Stores such as Walmart and Whole Foods are adding electronic shelf labels, and some companies use software to adjust prices. The Associated Press reports that it is unclear how often personal data is used to set prices. Maryland, New Jersey and Connecticut recently limited using shoppers' personal data to set prices, and Walmart says it does not price by individual shopper.",
+      "whyItMatters": "Algorithms can change prices quickly, and shoppers may not know which data was used. A price difference alone does not prove personal data was involved, which is why laws are focusing on disclosure.",
+      "csp": {
+        "idea": "Impact of Computing",
+        "connection": "Data collected about people can feed algorithms that affect what they pay."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (Associated Press)",
+          "date": "2026-10-18",
+          "url": "https://techxplore.com/news/2026-10-consumer-apprehension-retailers-ai-pricing.html"
+        }
+      ]
+    },
+    {
+      "id": "uruguay-electronic-referee-cards",
+      "type": "news",
+      "category": "Sports technology",
+      "headline": "Uruguayan referee tests a digital screen instead of yellow cards",
+      "summary": "In a Copa Uruguay match, referee Eduardo Varela showed cautions on a phone-sized screen built by the company REFe. The device records each decision with a timestamp and sends it to the league's records system. An earlier trial stopped because sunlight made the screen hard to read, and some viewers struggled to see colors this time.",
+      "whyItMatters": "It replaces paper notes with automatic digital records. The trial also shows that a design must work for the crowd and TV viewers, not only the person holding the device.",
       "csp": {
         "idea": "Creative Development",
-        "connection": "Programmers build tools that let more people design and share their own software."
+        "connection": "Testing with real users reveals problems, such as glare, that designers may not predict."
       },
       "sources": [
         {
-          "name": "Gematsu (reporting Xbox's announcement)",
-          "date": "2026-10-13",
-          "url": "https://www.gematsu.com/2026/10/xbox-announces-xbox-labs-to-explore-emerging-technologies"
+          "name": "Taipei Times (Reuters)",
+          "date": "2026-10-18",
+          "url": "https://www.taipeitimes.com/News/sport/archives/2026/10/18/2003866165"
         }
       ]
     },
     {
-      "id": "claude-election-info",
+      "id": "pennsylvania-data-center-payments",
       "type": "news",
-      "category": "Social media & privacy",
-      "headline": "Anthropic adds voting information to its Claude chatbot",
-      "summary": "Anthropic says Claude will soon show state-specific voting information from the nonpartisan group Democracy Works before the November midterms. The company also describes tests of its election safeguards, which found the system could miss harmful requests split into smaller, harmless-looking steps.",
-      "whyItMatters": "Chatbots are becoming a place where people look up civic information, so accuracy and neutrality matter. The voting feature was not yet live when announced, and these safeguards come from the company's own report.",
+      "category": "Data centers & communities",
+      "headline": "Pennsylvania neighbors push back on a data center's $10,000 offer",
+      "summary": "A developer building a data center in Hazle Township, Pennsylvania, has offered $10,000 per household once it operates, part of a $165 million community fund. Some residents worry about noise, lost forest and home values, and they won a court-ordered pause on construction. The developer did not respond to AFP's questions.",
+      "whyItMatters": "Cloud services and AI run in physical buildings that need land, power and transmission lines. Where those buildings go is a real decision that affects nearby communities.",
       "csp": {
-        "idea": "Impact of Computing",
-        "connection": "Information tools shape what people learn, so designers test for misuse and bias."
+        "idea": "Computer Systems and Networks",
+        "connection": "Internet services depend on physical data centers with real local costs and benefits."
       },
       "sources": [
         {
-          "name": "Anthropic",
-          "date": "2026-10-14",
-          "url": "https://www.anthropic.com/news/2026-us-midterms"
+          "name": "Tech Xplore (AFP)",
+          "date": "2026-10-19",
+          "url": "https://techxplore.com/news/2026-10-bribe-pennsylvania-residents-spurn-center.html"
+        }
+      ]
+    },
+    {
+      "id": "organoids-braille-recognition",
+      "type": "news",
+      "category": "Biology & computing",
+      "headline": "Tiny lab-grown brain tissue helps identify braille letters",
+      "summary": "University of Bristol researchers turned a touch sensor's braille readings into electrical signals for organoids, clumps of about 10,000 lab-grown neurons. A program then read the neurons' responses to guess the letter. Three organoids together were about 83% accurate, similar to decoding the signals directly, but they held up better when noise was added.",
+      "whyItMatters": "Scientists are exploring whether living cells could one day process information alongside computers. The team says the organoids did not learn or change over time, so this is an early experiment.",
+      "csp": {
+        "idea": "Computer Systems and Networks",
+        "connection": "Researchers compare new hardware against standard methods to see if it really adds value."
+      },
+      "sources": [
+        {
+          "name": "Frontiers in Artificial Intelligence",
+          "date": "2026-10-16",
+          "url": "https://www.frontiersin.org/articles/10.3389/frai.2026.1800219/full"
+        },
+        {
+          "name": "Tech Xplore",
+          "date": "2026-10-16",
+          "url": "https://techxplore.com/news/2026-10-mini-brain-organoids-braille-key.html"
+        }
+      ]
+    },
+    {
+      "id": "green-white-dwarf-star",
+      "type": "news",
+      "category": "Space & data",
+      "headline": "Astronomers calculate that one nearby star would look green",
+      "summary": "University of Warwick astronomers ran light measurements from 151 nearby white dwarf stars through a computer model of human color vision. Most would look white and five looked pink or yellow. The team also found that the white dwarf WD J1330+6435 would appear green, because sodium from old planet debris absorbs yellow, orange and red light.",
+      "whyItMatters": "Nobody has seen these colors directly; a model turned data into what eyes would perceive. Five unusual stars is a small sample, so the team's estimate of how common they are could change.",
+      "csp": {
+        "idea": "Data",
+        "connection": "Models can transform raw measurements into information people can understand."
+      },
+      "sources": [
+        {
+          "name": "University of Warwick",
+          "date": "2026-10-15",
+          "url": "https://warwick.ac.uk/news/pressreleases/astronomers-reveal-true-colours-of-white-dwarf-stars/"
         }
       ]
     }
