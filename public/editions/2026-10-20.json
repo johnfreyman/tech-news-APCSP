@@ -1,0 +1,209 @@
+{
+  "schemaVersion": 1,
+  "editionId": "2026-10-20-daily",
+  "date": "2026-10-20",
+  "coverage": "Nine stories · AI key breach, DeepSeek ban, elk alerts, talking screens, ship records, a new comet, CT scans, robot planning and car security",
+  "cards": [
+    {
+      "id": "opencode-api-key-breach",
+      "type": "news",
+      "category": "Cybersecurity",
+      "headline": "Breach at AI coding tool leads to surprise charges for developers",
+      "summary": "Attackers got into an older part of OpenCode Console, an online service where some developers store API keys, the secret codes that let programs use paid AI services. OpenCode says 1.4% of Console users were affected, and some reported unauthorized charges from OpenAI, Anthropic or Google, a few above $1,000. The company says refunds are underway but has not explained how the attackers got in.",
+      "whyItMatters": "An API key works like a password that can also spend money, so storing it with any outside service adds risk. OpenCode told affected users to cancel their old keys and create new ones with each AI provider.",
+      "csp": {
+        "idea": "Impact of Computing",
+        "connection": "Safe computing includes protecting credentials, such as passwords and keys, from unauthorized access."
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "date": "2026-10-19",
+          "url": "https://techcrunch.com/2026/10/19/hackers-hit-ai-coding-tool-opencode-running-up-charges-on-users-ai-accounts/"
+        },
+        {
+          "name": "Notebookcheck",
+          "date": "2026-10-17",
+          "url": "https://www.notebookcheck.net/OpenCode-hacked-users-urged-to-revoke-their-API-keys.1426957.0.html"
+        }
+      ]
+    },
+    {
+      "id": "dhs-deepseek-federal-ban",
+      "type": "news",
+      "category": "AI & government",
+      "headline": "U.S. orders civilian agencies to remove DeepSeek AI tools",
+      "summary": "The Department of Homeland Security ordered federal civilian agencies to stop buying products from Chinese AI company DeepSeek and to remove them from government devices, including other companies' tools built with DeepSeek. DHS said the models present “multiple threat vectors” and warned that data could reach China, where DeepSeek's servers are. The order does not cover the military or intelligence agencies.",
+      "whyItMatters": "When you use an online AI tool, your questions are sent to servers someone else controls. Governments and schools consider where that data goes before approving a tool.",
+      "csp": {
+        "idea": "Impact of Computing",
+        "connection": "Data sent to an online service is stored on servers governed by the laws of the country where they sit."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (AFP)",
+          "date": "2026-10-20",
+          "url": "https://techxplore.com/news/2026-10-china-deepseek-agencies.html"
+        },
+        {
+          "name": "Security Magazine",
+          "date": "2026-10-19",
+          "url": "https://www.securitymagazine.com/articles/102669-dhs-banning-deepseek-from-us-federal-civilian-agencies"
+        }
+      ]
+    },
+    {
+      "id": "elk-detection-warning-signs",
+      "type": "news",
+      "category": "Transportation",
+      "headline": "Thermal cameras and AI warn Virginia drivers about elk",
+      "summary": "Virginia Tech researchers tested a system on Route 460 in Southwest Virginia that uses heat-sensing cameras and AI software to spot medium and large animals near the road. When it detects one, roadside signs light up to warn drivers. In a one-year pilot on a 750-meter stretch, the team reports 97% detection accuracy, and drivers slowed by about 3 mph on average near activated signs.",
+      "whyItMatters": "Elk crashes cost more than $80,000 each on average, according to the project's study. The team has not yet reported whether crashes went down, so the system's safety effect is still being analyzed.",
+      "csp": {
+        "idea": "Computer Systems and Networks",
+        "connection": "Solar-powered trailers send sensor data over cellular and satellite links to a central hub."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (Virginia Tech)",
+          "date": "2026-10-20",
+          "url": "https://techxplore.com/news/2026-10-real-driver-animal-collisions.html"
+        },
+        {
+          "name": "WSET",
+          "date": "2025-11-19",
+          "url": "https://www.wset.com/news/local/vdot-tests-elk-detection-system-to-prevent-collisions-in-southwest-virginia"
+        }
+      ]
+    },
+    {
+      "id": "display-sound-on-screen",
+      "type": "news",
+      "category": "Emerging interfaces",
+      "headline": "Prototype screen plays sound from wherever the action appears",
+      "summary": "Researchers at the Korea Institute of Machinery and Materials built a roughly 100-inch display that works as its own speaker. Eighty small motors behind the panel vibrate only the area where a sound should come from, while AI separates sounds and tracks where each source is on screen. The team reports choosing the right zone 99.9% of the time. It is a research prototype, not a product.",
+      "whyItMatters": "Sound that matches a moving image could make large screens, museum exhibits and car displays easier to follow. The design combines hardware, math and AI in one system.",
+      "csp": {
+        "idea": "Algorithms and Programming",
+        "connection": "An algorithm calculates the voltage for each motor so only the chosen part of the panel vibrates."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore",
+          "date": "2026-10-19",
+          "url": "https://techxplore.com/news/2026-10-display-technology-screen.html"
+        },
+        {
+          "name": "Electronics For You",
+          "date": "2026-10-15",
+          "url": "https://www.electronicsforu.com/?p=205179"
+        }
+      ]
+    },
+    {
+      "id": "ai-reads-port-books",
+      "type": "news",
+      "category": "History & data",
+      "headline": "AI reads old handwriting to map centuries of British shipping",
+      "summary": "University of Southampton historians scanned about 100,000 pages of handwritten port books, customs records that begin in 1565. They trained AI software to read the handwriting of many different officials and spellings that changed over time, then built a database and public interactive map of hundreds of thousands of voyages. Coal was the most common cargo, listed in more than 101,000 entries.",
+      "whyItMatters": "AI sped up turning handwritten pages into searchable data. The researchers say its output still needed checking by people, and they describe the findings as an initial analysis.",
+      "csp": {
+        "idea": "Data",
+        "connection": "Digitizing records lets people search, filter and visualize information that was locked on paper."
+      },
+      "sources": [
+        {
+          "name": "University of Southampton",
+          "date": "2026-10-19",
+          "url": "https://www.southampton.ac.uk/news/2026/10/ai-reads-centuriesold-handwriting-to-reveal-britains-vast-historic-shipping-trade.page"
+        },
+        {
+          "name": "Phys.org",
+          "date": "2026-10-19",
+          "url": "https://phys.org/news/2026-10-ai-centuries-reveal-britain-vast.html"
+        }
+      ]
+    },
+    {
+      "id": "euclid-new-comet",
+      "type": "news",
+      "category": "Space & software",
+      "headline": "Student's software spots a new comet in space telescope images",
+      "summary": "Euclid, a European space telescope built to map galaxies, has found its first new comet. University of Helsinki PhD student Mikko Pöntinen wrote software that detects moving objects, and it flagged a streak across images taken in September. With no match in existing catalogs, the Minor Planet Center confirmed it on October 8 as comet C/2026 S1 (Euclid), about 1.3 billion km from Earth.",
+      "whyItMatters": "Telescopes collect far more images than people can inspect by hand, so programs search them for patterns such as moving dots. Checking against catalogs of known objects confirms a discovery is new.",
+      "csp": {
+        "idea": "Data",
+        "connection": "Programs can find patterns in large data sets that people would likely miss."
+      },
+      "sources": [
+        {
+          "name": "European Space Agency",
+          "date": "2026-10-19",
+          "url": "https://www.esa.int/Science_Exploration/Space_Science/Euclid/Euclid_discovers_new_comet"
+        },
+        {
+          "name": "Phys.org (ESA)",
+          "date": "2026-10-19",
+          "url": "https://phys.org/news/2026-10-euclid-comet-million-miles-earth.html"
+        }
+      ]
+    },
+    {
+      "id": "percival-ct-scan-ai",
+      "type": "news",
+      "category": "Health & AI",
+      "headline": "AI looks for hidden health clues in routine CT scans",
+      "summary": "Penn Medicine researchers trained an AI model called Percival on about 400,000 CT scans from roughly 50,000 patients. It links scans with lab results and patient outcomes, so it can look for signs of conditions doctors were not checking for, such as chronic kidney disease. The study appears in npj Digital Medicine, but the model is still being tested and is not used in patient care.",
+      "whyItMatters": "One scan may reveal more about a patient's health than the reason it was ordered. The training data came from one health system, so the model must be tested on other patients before doctors could rely on it.",
+      "csp": {
+        "idea": "Data",
+        "connection": "Linking data sets, such as scans and lab results, can reveal patterns that neither shows alone."
+      },
+      "sources": [
+        {
+          "name": "Medical Xpress",
+          "date": "2026-10-19",
+          "url": "https://medicalxpress.com/news/2026-10-percival-ai-uncover-unseen-health.html"
+        }
+      ]
+    },
+    {
+      "id": "robot-predicts-future-scenes",
+      "type": "news",
+      "category": "Robotics",
+      "headline": "Robot AI pictures the result of a move before making it",
+      "summary": "Seoul National University researchers built Dynin-Robotics, an AI model that handles language, images, video and robot movements together. Before acting, it predicts images of what a scene will look like after a possible action and uses them to choose its moves. Across four real tasks, such as sorting blocks by color, it succeeded 78.4% of the time, slightly ahead of three other robot models tested. The paper is a preprint.",
+      "whyItMatters": "Predicting outcomes before acting is how people avoid mistakes, too. Tests used prepared lab setups, so the team says it must try more objects and tasks before factories could use it.",
+      "csp": {
+        "idea": "Algorithms and Programming",
+        "connection": "Simulating possible outcomes before choosing an action is a common way programs make decisions."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (Seoul National University)",
+          "date": "2026-10-19",
+          "url": "https://techxplore.com/news/2026-10-robot-ai-future-scenes.html"
+        }
+      ]
+    },
+    {
+      "id": "car-software-vulnerabilities",
+      "type": "news",
+      "category": "Cybersecurity",
+      "headline": "Car security flaws are shifting to apps and cloud services",
+      "summary": "Researchers at the University of Gothenburg and Chalmers University of Technology reviewed 413 reported security weaknesses in car software from 2022 to 2024. Compared with the previous decade, the share found in carmakers' apps, websites and cloud services nearly tripled. In one case from December 2024, location and contact data linked to about 800,000 electric cars was openly accessible online for months before it was fixed.",
+      "whyItMatters": "A connected car depends on phones and servers, not just the car itself. The researchers advise owners to install updates and use strong passwords, and carmakers to keep driving controls separate from entertainment systems.",
+      "csp": {
+        "idea": "Computer Systems and Networks",
+        "connection": "Every connection between devices and servers is another place a system can be attacked."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (University of Gothenburg)",
+          "date": "2026-10-19",
+          "url": "https://techxplore.com/news/2026-10-car-weakest.html"
+        }
+      ]
+    }
+  ]
+}
