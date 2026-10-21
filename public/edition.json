@@ -33,7 +33,7 @@
       "type": "news",
       "category": "Cloud computing",
       "headline": "Google Cloud outage knocks out U.K. banking apps for hours",
-      "summary": "A Google Cloud outage centered in London disrupted online services for Lloyds, Halifax, HSBC and Revolut on Tuesday morning, starting at 6:08 a.m. U.K. time. Cloud computing means renting servers in a company's data centers instead of running your own, so one provider's problem can hit many businesses at once. Services were largely restored about six hours later; Google has not yet explained the cause.",
+      "summary": "A Google Cloud outage centered in London disrupted online services for Lloyds, Halifax, HSBC and Revolut on Tuesday morning, starting at 6:08 a.m. GMT. Cloud computing means renting servers in a company's data centers instead of running your own, so one provider's problem can hit many businesses at once. Services were largely restored about six hours later; Google has not yet explained the cause.",
       "whyItMatters": "Many apps you use every day run on the same few cloud providers. Engineers add backup systems in other regions so an app keeps working when one data center fails.",
       "csp": {
         "idea": "Computer Systems and Networks",
@@ -176,7 +176,7 @@
       "type": "news",
       "category": "Archaeology & tech",
       "headline": "Laser-scanning drones help find hidden Aboriginal rock art sites",
-      "summary": "University of Sydney researchers flew a drone carrying LiDAR, a sensor that fires laser pulses to build 3D maps, over thick forest in Australia's Blue Mountains. The maps flagged possible rock shelters, and teams on foot confirmed three previously unrecorded sites with red hand stencils and stone tools. The work was done with the Dharug Custodian Aboriginal Corporation.",
+      "summary": "University of Sydney researchers flew a drone carrying LiDAR, a sensor that fires laser pulses to build 3D maps, over thick forest in Australia's Blue Mountains. The maps flagged possible rock shelters, and teams on foot confirmed three previously unrecorded sites with red hand stencils and stone artifacts. The work was done with the Dharug Custodian Aboriginal Corporation.",
       "whyItMatters": "Turning millions of laser measurements into a 3D map lets researchers see through tree cover. Experts estimate only about 10% of the region has been surveyed so far.",
       "csp": {
         "idea": "Data",
