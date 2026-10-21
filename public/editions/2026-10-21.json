@@ -1,0 +1,194 @@
+{
+  "schemaVersion": 1,
+  "editionId": "2026-10-21-daily",
+  "date": "2026-10-21",
+  "coverage": "Nine stories · Minecraft AI, cloud outage, radio static, phone-free classes, ER AI bias, step data, tennis heat, Shakespeare and rock art",
+  "cards": [
+    {
+      "id": "ai-agents-beat-minecraft",
+      "type": "news",
+      "category": "AI & gaming",
+      "headline": "Team of four AI agents beats Minecraft's Ender Dragon",
+      "summary": "Google DeepMind researchers gave four AI agents one goal, defeat the Ender Dragon, with no Minecraft training data or strategy tips. The agents controlled their players by writing JavaScript, split up jobs like mining and fighting through in-game chat, and won after about 27 hours, 2,783 programs and 605 deaths. The result is a preprint describing a single run, so it has not been peer reviewed or repeated.",
+      "whyItMatters": "Beating Minecraft takes thousands of steps that depend on each other, much like a big coding project. The agents also kept fixing their own code after failures, the same debug-and-retry loop programmers use.",
+      "csp": {
+        "idea": "Algorithms and Programming",
+        "connection": "The agents broke a huge goal into smaller tasks and wrote programs to carry out each one."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore",
+          "date": "2026-10-20",
+          "url": "https://techxplore.com/news/2026-10-ai-slays-dragon-agents-conquer.html"
+        },
+        {
+          "name": "arXiv",
+          "date": "2026-10-15",
+          "url": "https://arxiv.org/abs/2610.22319"
+        }
+      ]
+    },
+    {
+      "id": "google-cloud-outage-uk-banks",
+      "type": "news",
+      "category": "Cloud computing",
+      "headline": "Google Cloud outage knocks out U.K. banking apps for hours",
+      "summary": "A Google Cloud outage centered in London disrupted online services for Lloyds, Halifax, HSBC and Revolut on Tuesday morning, starting at 6:08 a.m. U.K. time. Cloud computing means renting servers in a company's data centers instead of running your own, so one provider's problem can hit many businesses at once. Services were largely restored about six hours later; Google has not yet explained the cause.",
+      "whyItMatters": "Many apps you use every day run on the same few cloud providers. Engineers add backup systems in other regions so an app keeps working when one data center fails.",
+      "csp": {
+        "idea": "Computer Systems and Networks",
+        "connection": "Redundancy, having backup paths and servers, helps systems stay available when one part fails."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (AP)",
+          "date": "2026-10-20",
+          "url": "https://techxplore.com/news/2026-10-google-cloud-outage-uk-banks.html"
+        },
+        {
+          "name": "ABC News (AP)",
+          "date": "2026-10-20",
+          "url": "https://abcnews.com/Business/wireStory/google-cloud-outage-hits-uk-banks-137407567"
+        }
+      ]
+    },
+    {
+      "id": "thermal-noise-wireless-data",
+      "type": "news",
+      "category": "Networks",
+      "headline": "Stanford team sends data by reshaping background radio static",
+      "summary": "Stanford engineers sent data without producing a radio signal by flipping an antenna between two states, standing for 1 and 0, that either absorb or reflect natural electrical noise. A receiver reads the tiny changes in that noise as bits. Using a new mathematical model of the system, the team made data move 100 times faster than before, though tests so far ran only inside a shielded chamber.",
+      "whyItMatters": "The researchers say such a transmitter could use up to 1,000 times less energy than a normal radio. That could someday help tiny sensors or medical implants send small amounts of data for years on little power.",
+      "csp": {
+        "idea": "Computer Systems and Networks",
+        "connection": "Any physical signal with two distinguishable states can carry binary data."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (Stanford)",
+          "date": "2026-10-20",
+          "url": "https://techxplore.com/news/2026-10-background-static-wireless-generated-radio.html"
+        }
+      ]
+    },
+    {
+      "id": "phone-free-classes-grades",
+      "type": "news",
+      "category": "Education technology",
+      "headline": "Locking phones away during class raised grades in huge trial",
+      "summary": "In a semester-long experiment with 16,683 college students in India, some classes had students put their phones in a box at the start of each lesson. Those classes earned slightly higher grades, with the biggest gains for students who had the lowest grades before. The study, published in Science, also found fewer off-topic conversations in phone-free rooms.",
+      "whyItMatters": "Randomly assigning classes to phone-free or normal lets researchers separate the phones' effect from other differences. The study covered college students, so the authors say high schools still need testing.",
+      "csp": {
+        "idea": "Impact of Computing",
+        "connection": "Computing devices can have both helpful and harmful effects depending on how and when they are used."
+      },
+      "sources": [
+        {
+          "name": "Phys.org",
+          "date": "2026-10-20",
+          "url": "https://phys.org/news/2026-10-college-lessons-grades-large-randomized.html"
+        }
+      ]
+    },
+    {
+      "id": "ai-triage-stigmatizing-notes",
+      "type": "news",
+      "category": "Health & AI",
+      "headline": "Biased wording in patient notes can mislead emergency room AI",
+      "summary": "UT Southwestern researchers tested three open-source AI language models on real emergency department records to see which patients they would treat first. Adding stigmatizing wording, such as stressing frequent ER visits or psychiatric history, sometimes pushed patients who later got worse down the list. In some scenarios, nearly 10% of patients were wrongly downgraded.",
+      "whyItMatters": "AI learns patterns from human writing, including unfair ones. The researchers recommend testing each medical AI tool against real patient outcomes before hospitals rely on it.",
+      "csp": {
+        "idea": "Impact of Computing",
+        "connection": "Bias in data or wording can be carried into computing results and affect real people."
+      },
+      "sources": [
+        {
+          "name": "Medical Xpress",
+          "date": "2026-10-20",
+          "url": "https://medicalxpress.com/news/2026-10-stigmatizing-patient-ai-deprioritize-high.html"
+        }
+      ]
+    },
+    {
+      "id": "fitness-tracker-brain-health",
+      "type": "news",
+      "category": "Health & wearables",
+      "headline": "A year of step counts linked to later brain health",
+      "summary": "Researchers analyzed a year of fitness-tracker step data from 22,517 U.S. adults aged 40 and older, then followed their health records for about five years. People in the lowest step group, about 4,800 a day, were diagnosed with dementia, Parkinson's or stroke about 80% more often than those near 12,600 steps. The findings, presented at a medical conference, show a link, not proof that steps cause the difference.",
+      "whyItMatters": "Data collected quietly over a long time can reveal patterns that one checkup misses. The researchers say a low step count should prompt a health check, not a diagnosis.",
+      "csp": {
+        "idea": "Data",
+        "connection": "Large datasets collected over time can reveal trends, but correlation does not prove causation."
+      },
+      "sources": [
+        {
+          "name": "Medical Xpress",
+          "date": "2026-10-20",
+          "url": "https://medicalxpress.com/news/2026-10-tracker-clues-future-brain-health.html"
+        }
+      ]
+    },
+    {
+      "id": "tennis-heat-scheduling-data",
+      "type": "news",
+      "category": "Sports technology",
+      "headline": "Weather data helps plan safer tennis tournaments in heat",
+      "summary": "Researchers in Japan analyzed more than 119,000 hourly heat-stress readings from 11 weather stations to see when high school tennis tournaments could run safely. Moving play to early morning or night raised the odds of safe conditions more than changing tournament dates. The team says organizers should plan for extra safe hours, not just barely meet the minimum.",
+      "whyItMatters": "Organizers can test schedules with past data before putting athletes on the court. The same approach could help plan outdoor events in hot regions anywhere.",
+      "csp": {
+        "idea": "Data",
+        "connection": "Processing large amounts of historical data can support better decisions and plans."
+      },
+      "sources": [
+        {
+          "name": "Phys.org",
+          "date": "2026-10-21",
+          "url": "https://phys.org/news/2026-10-smart-outdoor-sports-tournaments-environmental.html"
+        },
+        {
+          "name": "Frontiers in Sports and Active Living",
+          "date": "2026-10-09",
+          "url": "https://www.frontiersin.org/articles/10.3389/fspor.2026.1914945/full"
+        }
+      ]
+    },
+    {
+      "id": "shakespeare-edward-iii-text-analysis",
+      "type": "news",
+      "category": "Data & history",
+      "headline": "Computer text analysis credits Shakespeare and Marlowe with old play",
+      "summary": "Researchers at the University of Kent and University of Leeds used computerized text analysis to compare the anonymous 1596 play Edward III with known works by 10 playwrights of the time. They conclude Shakespeare wrote most of it and collaborated with Christopher Marlowe; one test labeled 23 sections as Shakespeare's and nine as Marlowe's. The full study is due in an upcoming journal issue.",
+      "whyItMatters": "Every writer has habits, such as favorite word combinations, that software can count and compare. The same pattern-matching ideas are used to detect plagiarism and AI-written text.",
+      "csp": {
+        "idea": "Data",
+        "connection": "Computers can find patterns in large collections of text that would be hard for people to spot."
+      },
+      "sources": [
+        {
+          "name": "Phys.org",
+          "date": "2026-10-20",
+          "url": "https://phys.org/news/2026-10-shakespeare-wrote-edward-iii-marlowe.html"
+        }
+      ]
+    },
+    {
+      "id": "drone-lidar-rock-art",
+      "type": "news",
+      "category": "Archaeology & tech",
+      "headline": "Laser-scanning drones help find hidden Aboriginal rock art sites",
+      "summary": "University of Sydney researchers flew a drone carrying LiDAR, a sensor that fires laser pulses to build 3D maps, over thick forest in Australia's Blue Mountains. The maps flagged possible rock shelters, and teams on foot confirmed three previously unrecorded sites with red hand stencils and stone tools. The work was done with the Dharug Custodian Aboriginal Corporation.",
+      "whyItMatters": "Turning millions of laser measurements into a 3D map lets researchers see through tree cover. Experts estimate only about 10% of the region has been surveyed so far.",
+      "csp": {
+        "idea": "Data",
+        "connection": "Sensors gather raw data that software turns into useful information like 3D terrain maps."
+      },
+      "sources": [
+        {
+          "name": "Phys.org",
+          "date": "2026-10-20",
+          "url": "https://phys.org/news/2026-10-drones-archaeologists-aboriginal-art-sites.html"
+        }
+      ]
+    }
+  ]
+}
