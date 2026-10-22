@@ -1,0 +1,185 @@
+{
+  "schemaVersion": 1,
+  "editionId": "2026-10-22-daily",
+  "date": "2026-10-22",
+  "coverage": "Nine stories · PHP fix, student cyber guard, folding phone, VR eyes, bee audio, drone sounds, robot shuttle, infrared AR, fishing satellites",
+  "cards": [
+    {
+      "id": "php-critical-flaws-ai-found",
+      "type": "news",
+      "category": "Cybersecurity",
+      "headline": "AI-assisted researchers find serious flaws in PHP, the language behind most websites",
+      "summary": "PHP is a programming language that runs on web servers to build pages, and experts estimate it powers about 70% of websites. Researchers using AI models found two critical flaws, some hidden for over a decade, that could let attackers run their own code on a server. The PHP project released fixes on Wednesday, and some sites went offline briefly to update; researchers say they have seen no sign the flaws were used in attacks.",
+      "whyItMatters": "Old code that millions of sites depend on can hide bugs for years. AI is now helping defenders find them faster, and experts say attackers may try the same, so quick updates matter more than ever.",
+      "csp": {
+        "idea": "Impact of Computing",
+        "connection": "Software updates that patch vulnerabilities are a key defense, since one flaw in shared code can affect many systems."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (AP)",
+          "date": "2026-10-22",
+          "url": "https://techxplore.com/news/2026-10-websites-dark-ai-flaw-web.html"
+        },
+        {
+          "name": "Tech Xplore (AFP)",
+          "date": "2026-10-22",
+          "url": "https://techxplore.com/news/2026-10-websites-php-ai-hacking.html"
+        },
+        {
+          "name": "PHP.net",
+          "date": "2026-10-21",
+          "url": "https://www.php.net/"
+        }
+      ]
+    },
+    {
+      "id": "trustgate-student-water-plant-security",
+      "type": "news",
+      "category": "Student inventions",
+      "headline": "College students build AI guard for water treatment plants",
+      "summary": "Two third-year students at IIT Gandhinagar in India built TrustGate, a system that watches both network traffic and physical sensor readings, like water levels, to spot attacks on industrial control systems. Checking both together helps catch attacks that look normal in network data alone. It won second prize at an international Intel Cup contest but has only been tested on a lab water-treatment dataset, not a real plant.",
+      "whyItMatters": "Water, power and factories are run by computers, so cybersecurity protects physical safety too. The project shows how combining two kinds of data can reveal problems neither shows by itself.",
+      "csp": {
+        "idea": "Data",
+        "connection": "Combining data from multiple sources can reveal patterns that one source alone would miss."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (IIT Gandhinagar)",
+          "date": "2026-10-21",
+          "url": "https://techxplore.com/news/2026-10-students-ai-powered-cybersecurity-treatment.html"
+        }
+      ]
+    },
+    {
+      "id": "apple-duo-folding-phone-care",
+      "type": "news",
+      "category": "Devices",
+      "headline": "Apple's first folding phone reaches stores with care warnings",
+      "summary": "Apple's Duo, the company's first folding phone, arrives in stores on Friday, though many buyers report preorders slipping into January. It has a fixed outer screen and a larger inner screen that bends at a hinge. Experts told the Associated Press the hinge is the weak point, so owners should keep out sand, dust, coins and keys, and avoid forcing it open or using it in extreme cold.",
+      "whyItMatters": "Flexible screens let a phone become a small tablet, but every new design brings tradeoffs in durability. Engineers have to balance features, cost and how well a device survives everyday use.",
+      "csp": {
+        "idea": "Computer Systems and Networks",
+        "connection": "Hardware design choices affect how reliable and long-lasting a computing device is."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (AP)",
+          "date": "2026-10-22",
+          "url": "https://techxplore.com/news/2026-10-apple-duo-dos-donts.html"
+        }
+      ]
+    },
+    {
+      "id": "vr-eye-tracking-mental-effort",
+      "type": "news",
+      "category": "Health & VR",
+      "headline": "VR headset reads eyes to measure mental effort",
+      "summary": "University of East Anglia researchers had 84 volunteers, half with chronic pain, do harder and harder memory tasks inside a VR headset with eye tracking. AI models used pupil size and blink patterns to tell low effort from high effort with up to 88% accuracy in healthy volunteers, but noticeably less in people with chronic pain. The goal is VR pain therapy that adjusts itself, which has not been tested yet.",
+      "whyItMatters": "A model that works well for one group may work worse for another, here the very patients it aims to help. That is why researchers test AI on the people who will actually use it.",
+      "csp": {
+        "idea": "Impact of Computing",
+        "connection": "A computing tool's accuracy can differ across groups, so testing with real users matters."
+      },
+      "sources": [
+        {
+          "name": "Medical Xpress",
+          "date": "2026-10-21",
+          "url": "https://medicalxpress.com/news/2026-10-eye-tracking-virtual-reality-pain.html"
+        }
+      ]
+    },
+    {
+      "id": "ai-bee-buzz-monitoring",
+      "type": "news",
+      "category": "Environment & AI",
+      "headline": "AI listens to bee buzzes so scientists can skip lethal traps",
+      "summary": "Bee surveys often use cups of soapy water that kill the insects they count. UMass Amherst researchers trained two deep-learning models on 594 field recordings from 43 northeastern U.S. sites: one detects bee activity and one tells honeybees from bumblebees. The models were 93% to 97% precise and matched human field observations, though many species still need a microscope to identify.",
+      "whyItMatters": "Microphones can collect data in treetops or during heat waves where people struggle to work. The team says the tool adds to traditional methods rather than replacing them.",
+      "csp": {
+        "idea": "Data",
+        "connection": "Machine learning can classify sound data into categories after training on labeled examples."
+      },
+      "sources": [
+        {
+          "name": "Phys.org (UMass Amherst)",
+          "date": "2026-10-21",
+          "url": "https://phys.org/news/2026-10-ai-bee-lethal.html"
+        }
+      ]
+    },
+    {
+      "id": "drone-sound-failure-detection",
+      "type": "news",
+      "category": "Robotics",
+      "headline": "Engineers use sound to catch damaged drones before takeoff",
+      "summary": "University of Cincinnati engineers, working on a project NASA is interested in, recorded how drones sound when propellers are chipped or cracked or when motors are failing. They turned those recordings into data that ground computers can use to warn operators that a drone is unsafe to fly. Students hope to later build a drone that can hear its own damage mid-flight and return to base, which is still a goal.",
+      "whyItMatters": "Drones are used more and more for public safety, where a crash can hurt people. Turning sound into data is a cheap way to inspect machines without taking them apart.",
+      "csp": {
+        "idea": "Data",
+        "connection": "Sensor recordings like sound can be converted into data that programs analyze to detect problems."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (University of Cincinnati)",
+          "date": "2026-10-22",
+          "url": "https://techxplore.com/news/2026-10-potential-catastrophic-drone-failures.html"
+        }
+      ]
+    },
+    {
+      "id": "on-demand-autonomous-shuttle",
+      "type": "news",
+      "category": "Transportation",
+      "headline": "Self-driving electric shuttle tested as on-demand public transit",
+      "summary": "Researchers from Graz University of Technology in Austria and partners in China built a self-driving electric shuttle for up to 15 riders that comes when called instead of running a fixed schedule. It uses lidar, radar and cameras, plus a 5G link to roadside cameras that can spot pedestrians its own sensors miss. A test vehicle is driving a route in China, and demonstrators are planned for Austria.",
+      "whyItMatters": "If the network connection fails, the shuttle is designed to stop safely, an example of planning for failure. Routing software also decides when to charge and which riders to pick up to cut waiting times.",
+      "csp": {
+        "idea": "Computer Systems and Networks",
+        "connection": "Devices sharing data over a network can sense more than any single device can alone."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (TU Graz)",
+          "date": "2026-10-22",
+          "url": "https://techxplore.com/news/2026-10-personalized-autonomous-mobility.html"
+        }
+      ]
+    },
+    {
+      "id": "infrared-green-letters-ar",
+      "type": "news",
+      "category": "Emerging interfaces",
+      "headline": "Invisible infrared light draws green letters that stay sharp",
+      "summary": "Researchers in Poland used a scanning laser of invisible near-infrared light that the eye sees as green, an effect called two-photon vision, to draw the letter E. In a lab test with 12 people, the letter stayed sharp over a range of focus more than 1.4 times wider than a normal visible-light letter. The team thinks this could make future augmented-reality glasses more comfortable, but has not yet tested a working AR system.",
+      "whyItMatters": "Augmented reality glasses overlay digital images on the real world, and constantly refocusing between them can strain your eyes. New display physics could change how comfortable such devices feel.",
+      "sources": [
+        {
+          "name": "Medical Xpress",
+          "date": "2026-10-21",
+          "url": "https://medicalxpress.com/news/2026-10-invisible-infrared-green-letters-prone.html"
+        }
+      ]
+    },
+    {
+      "id": "satellites-illegal-fishing-design",
+      "type": "news",
+      "category": "Space & data",
+      "headline": "Proposed satellite network could spot illegal fishing off Africa",
+      "summary": "A University of Florida researcher designed, on paper, a group of 24 radar satellites to watch for illegal fishing off the Horn of Africa, passing overhead about every 1.1 hours. The radar would create about 690 gigabytes of data a day, but ground stations could receive only 120 to 360 gigabytes, so satellites would sort images in orbit and send down only likely boats. The estimated cost is about $347 million over five years.",
+      "whyItMatters": "When there is more data than bandwidth, systems must decide what to keep before sending it. The author notes satellites can find boats, but stopping illegal fishing still depends on patrols and courts.",
+      "csp": {
+        "idea": "Computer Systems and Networks",
+        "connection": "Limited bandwidth means systems must process or filter data before sending it over a network."
+      },
+      "sources": [
+        {
+          "name": "Phys.org (The Conversation)",
+          "date": "2026-10-21",
+          "url": "https://phys.org/news/2026-10-illegal-fishing-african-satellite.html"
+        }
+      ]
+    }
+  ]
+}
