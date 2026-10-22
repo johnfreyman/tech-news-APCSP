@@ -1,192 +1,183 @@
 {
   "schemaVersion": 1,
-  "editionId": "2026-10-21-daily",
-  "date": "2026-10-21",
-  "coverage": "Nine stories · Minecraft AI, cloud outage, radio static, phone-free classes, ER AI bias, step data, tennis heat, Shakespeare and rock art",
+  "editionId": "2026-10-22-daily",
+  "date": "2026-10-22",
+  "coverage": "Nine stories · PHP fix, student cyber guard, folding phone, VR eyes, bee audio, drone sounds, robot shuttle, infrared AR, fishing satellites",
   "cards": [
     {
-      "id": "ai-agents-beat-minecraft",
+      "id": "php-critical-flaws-ai-found",
       "type": "news",
-      "category": "AI & gaming",
-      "headline": "Team of four AI agents beats Minecraft's Ender Dragon",
-      "summary": "Google DeepMind researchers gave four AI agents one goal, defeat the Ender Dragon, with no Minecraft training data or strategy tips. The agents controlled their players by writing JavaScript, split up jobs like mining and fighting through in-game chat, and won after about 27 hours, 2,783 programs and 605 deaths. The result is a preprint describing a single run, so it has not been peer reviewed or repeated.",
-      "whyItMatters": "Beating Minecraft takes thousands of steps that depend on each other, much like a big coding project. The agents also kept fixing their own code after failures, the same debug-and-retry loop programmers use.",
+      "category": "Cybersecurity",
+      "headline": "AI-assisted researchers find serious flaws in PHP, the language behind most websites",
+      "summary": "PHP is a programming language that runs on web servers to build pages, and experts estimate it powers about 70% of websites. Researchers using AI models found two critical flaws, some hidden for over a decade, that could let attackers run their own code on a server. The PHP project released fixes on Wednesday, and some sites went offline briefly to update; researchers say they have seen no sign the flaws were used in attacks.",
+      "whyItMatters": "Old code that millions of sites depend on can hide bugs for years. AI is now helping defenders find them faster, and experts say attackers may try the same, so quick updates matter more than ever.",
       "csp": {
-        "idea": "Algorithms and Programming",
-        "connection": "The agents broke a huge goal into smaller tasks and wrote programs to carry out each one."
-      },
-      "sources": [
-        {
-          "name": "Tech Xplore",
-          "date": "2026-10-20",
-          "url": "https://techxplore.com/news/2026-10-ai-slays-dragon-agents-conquer.html"
-        },
-        {
-          "name": "arXiv",
-          "date": "2026-10-15",
-          "url": "https://arxiv.org/abs/2610.22319"
-        }
-      ]
-    },
-    {
-      "id": "google-cloud-outage-uk-banks",
-      "type": "news",
-      "category": "Cloud computing",
-      "headline": "Google Cloud outage knocks out U.K. banking apps for hours",
-      "summary": "A Google Cloud outage centered in London disrupted online services for Lloyds, Halifax, HSBC and Revolut on Tuesday morning, starting at 6:08 a.m. GMT. Cloud computing means renting servers in a company's data centers instead of running your own, so one provider's problem can hit many businesses at once. Services were largely restored about six hours later; Google has not yet explained the cause.",
-      "whyItMatters": "Many apps you use every day run on the same few cloud providers. Engineers add backup systems in other regions so an app keeps working when one data center fails.",
-      "csp": {
-        "idea": "Computer Systems and Networks",
-        "connection": "Redundancy, having backup paths and servers, helps systems stay available when one part fails."
+        "idea": "Impact of Computing",
+        "connection": "Software updates that patch vulnerabilities are a key defense, since one flaw in shared code can affect many systems."
       },
       "sources": [
         {
           "name": "Tech Xplore (AP)",
-          "date": "2026-10-20",
-          "url": "https://techxplore.com/news/2026-10-google-cloud-outage-uk-banks.html"
+          "date": "2026-10-22",
+          "url": "https://techxplore.com/news/2026-10-websites-dark-ai-flaw-web.html"
         },
         {
-          "name": "ABC News (AP)",
-          "date": "2026-10-20",
-          "url": "https://abcnews.com/Business/wireStory/google-cloud-outage-hits-uk-banks-137407567"
+          "name": "Tech Xplore (AFP)",
+          "date": "2026-10-22",
+          "url": "https://techxplore.com/news/2026-10-websites-php-ai-hacking.html"
+        },
+        {
+          "name": "PHP.net",
+          "date": "2026-10-21",
+          "url": "https://www.php.net/"
         }
       ]
     },
     {
-      "id": "thermal-noise-wireless-data",
+      "id": "trustgate-student-water-plant-security",
       "type": "news",
-      "category": "Networks",
-      "headline": "Stanford team sends data by reshaping background radio static",
-      "summary": "Stanford engineers sent data without producing a radio signal by flipping an antenna between two states, standing for 1 and 0, that either absorb or reflect natural electrical noise. A receiver reads the tiny changes in that noise as bits. Using a new mathematical model of the system, the team made data move 100 times faster than before, though tests so far ran only inside a shielded chamber.",
-      "whyItMatters": "The researchers say such a transmitter could use up to 1,000 times less energy than a normal radio. That could someday help tiny sensors or medical implants send small amounts of data for years on little power.",
+      "category": "Student inventions",
+      "headline": "College students build AI guard for water treatment plants",
+      "summary": "Two third-year students at IIT Gandhinagar in India built TrustGate, a system that watches both network traffic and physical sensor readings from equipment to spot attacks on industrial control systems. Checking both together helps catch attacks that look normal in network data alone. It won second prize at an international Intel Cup contest but has only been tested on a lab water-treatment dataset, not a real plant.",
+      "whyItMatters": "Water, power and factories are run by computers, so cybersecurity protects physical safety too. The project shows how combining two kinds of data can reveal problems neither shows by itself.",
+      "csp": {
+        "idea": "Data",
+        "connection": "Combining data from multiple sources can reveal patterns that one source alone would miss."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (IIT Gandhinagar)",
+          "date": "2026-10-21",
+          "url": "https://techxplore.com/news/2026-10-students-ai-powered-cybersecurity-treatment.html"
+        }
+      ]
+    },
+    {
+      "id": "apple-duo-folding-phone-care",
+      "type": "news",
+      "category": "Devices",
+      "headline": "Apple's first folding phone reaches stores with care warnings",
+      "summary": "Apple's Duo, the company's first folding phone, arrives in stores on Friday, though many buyers report preorders slipping into January. It has a fixed outer screen and a larger inner screen that bends at a hinge. Experts told the Associated Press the hinge is the weak point, so owners should keep out sand, dust, coins and keys, and avoid forcing it open or opening it in very cold weather.",
+      "whyItMatters": "Flexible screens let a phone become a small tablet, but every new design brings tradeoffs in durability. Engineers have to balance features, cost and how well a device survives everyday use.",
       "csp": {
         "idea": "Computer Systems and Networks",
-        "connection": "Any physical signal with two distinguishable states can carry binary data."
+        "connection": "Hardware design choices affect how reliable and long-lasting a computing device is."
       },
       "sources": [
         {
-          "name": "Tech Xplore (Stanford)",
-          "date": "2026-10-20",
-          "url": "https://techxplore.com/news/2026-10-background-static-wireless-generated-radio.html"
+          "name": "Tech Xplore (AP)",
+          "date": "2026-10-22",
+          "url": "https://techxplore.com/news/2026-10-apple-duo-dos-donts.html"
         }
       ]
     },
     {
-      "id": "phone-free-classes-grades",
+      "id": "vr-eye-tracking-mental-effort",
       "type": "news",
-      "category": "Education technology",
-      "headline": "Locking phones away during class raised grades in huge trial",
-      "summary": "In a semester-long experiment with 16,683 college students in India, some classes had students put their phones in a box at the start of each lesson. Those classes earned slightly higher grades, with the biggest gains for students who had the lowest grades before. The study, published in Science, also found fewer off-topic conversations in phone-free rooms.",
-      "whyItMatters": "Randomly assigning classes to phone-free or normal lets researchers separate the phones' effect from other differences. The study covered college students, so the authors say high schools still need testing.",
+      "category": "Health & VR",
+      "headline": "VR headset reads eyes to measure mental effort",
+      "summary": "University of East Anglia researchers had 84 volunteers, half with chronic pain, do harder and harder memory tasks inside a VR headset with eye tracking. AI models used pupil size and blink patterns to tell low effort from high effort with up to 88% accuracy in healthy volunteers, but noticeably less in people with chronic pain. The goal is VR pain therapy that adjusts itself, which has not been tested yet.",
+      "whyItMatters": "A model that works well for one group may work worse for another, here the very patients it aims to help. That is why researchers test AI on the people who will actually use it.",
       "csp": {
         "idea": "Impact of Computing",
-        "connection": "Computing devices can have both helpful and harmful effects depending on how and when they are used."
-      },
-      "sources": [
-        {
-          "name": "Phys.org",
-          "date": "2026-10-20",
-          "url": "https://phys.org/news/2026-10-college-lessons-grades-large-randomized.html"
-        }
-      ]
-    },
-    {
-      "id": "ai-triage-stigmatizing-notes",
-      "type": "news",
-      "category": "Health & AI",
-      "headline": "Biased wording in patient notes can mislead emergency room AI",
-      "summary": "UT Southwestern researchers tested three open-source AI language models on real emergency department records to see which patients they would treat first. Adding stigmatizing wording, such as stressing frequent ER visits or psychiatric history, sometimes pushed patients who later got worse down the list. In some scenarios, nearly 10% of patients were wrongly downgraded.",
-      "whyItMatters": "AI learns patterns from human writing, including unfair ones. The researchers recommend testing each medical AI tool against real patient outcomes before hospitals rely on it.",
-      "csp": {
-        "idea": "Impact of Computing",
-        "connection": "Bias in data or wording can be carried into computing results and affect real people."
+        "connection": "A computing tool's accuracy can differ across groups, so testing with real users matters."
       },
       "sources": [
         {
           "name": "Medical Xpress",
-          "date": "2026-10-20",
-          "url": "https://medicalxpress.com/news/2026-10-stigmatizing-patient-ai-deprioritize-high.html"
-        }
-      ]
-    },
-    {
-      "id": "fitness-tracker-brain-health",
-      "type": "news",
-      "category": "Health & wearables",
-      "headline": "A year of step counts linked to later brain health",
-      "summary": "Researchers analyzed a year of fitness-tracker step data from 22,517 U.S. adults aged 40 and older, then followed their health records for about five years. People in the lowest step group, about 4,800 a day, were diagnosed with dementia, Parkinson's or stroke about 80% more often than those near 12,600 steps. The findings, presented at a medical conference, show a link, not proof that steps cause the difference.",
-      "whyItMatters": "Data collected quietly over a long time can reveal patterns that one checkup misses. The researchers say a low step count should prompt a health check, not a diagnosis.",
-      "csp": {
-        "idea": "Data",
-        "connection": "Large datasets collected over time can reveal trends, but correlation does not prove causation."
-      },
-      "sources": [
-        {
-          "name": "Medical Xpress",
-          "date": "2026-10-20",
-          "url": "https://medicalxpress.com/news/2026-10-tracker-clues-future-brain-health.html"
-        }
-      ]
-    },
-    {
-      "id": "tennis-heat-scheduling-data",
-      "type": "news",
-      "category": "Sports technology",
-      "headline": "Weather data helps plan safer tennis tournaments in heat",
-      "summary": "Researchers in Japan analyzed more than 119,000 hourly heat-stress readings from 11 weather stations to see when high school tennis tournaments could run safely. Moving play to early morning or night raised the odds of safe conditions more than changing tournament dates. The team says organizers should plan for extra safe hours, not just barely meet the minimum.",
-      "whyItMatters": "Organizers can test schedules with past data before putting athletes on the court. The same approach could help plan outdoor events in hot regions anywhere.",
-      "csp": {
-        "idea": "Data",
-        "connection": "Processing large amounts of historical data can support better decisions and plans."
-      },
-      "sources": [
-        {
-          "name": "Phys.org",
           "date": "2026-10-21",
-          "url": "https://phys.org/news/2026-10-smart-outdoor-sports-tournaments-environmental.html"
-        },
-        {
-          "name": "Frontiers in Sports and Active Living",
-          "date": "2026-10-09",
-          "url": "https://www.frontiersin.org/articles/10.3389/fspor.2026.1914945/full"
+          "url": "https://medicalxpress.com/news/2026-10-eye-tracking-virtual-reality-pain.html"
         }
       ]
     },
     {
-      "id": "shakespeare-edward-iii-text-analysis",
+      "id": "ai-bee-buzz-monitoring",
       "type": "news",
-      "category": "Data & history",
-      "headline": "Computer text analysis credits Shakespeare and Marlowe with old play",
-      "summary": "Researchers at the University of Kent and University of Leeds used computerized text analysis to compare the anonymous 1596 play Edward III with known works by 10 playwrights of the time. They conclude Shakespeare wrote most of it and collaborated with Christopher Marlowe; one test labeled 23 sections as Shakespeare's and nine as Marlowe's. The full study is due in an upcoming journal issue.",
-      "whyItMatters": "Every writer has habits, such as favorite word combinations, that software can count and compare. The same pattern-matching ideas are used to detect plagiarism and AI-written text.",
+      "category": "Environment & AI",
+      "headline": "AI listens to bee buzzes so scientists can skip lethal traps",
+      "summary": "Bee surveys often use cups of soapy water that kill the insects they count. UMass Amherst researchers trained two deep-learning models on 594 field recordings from 43 northeastern U.S. sites: one detects bee activity and one tells honeybees from bumblebees. The models were 93% to 97% precise and matched human field observations, though many species still need a microscope to identify.",
+      "whyItMatters": "Microphones can collect data in treetops or during heat waves where people struggle to work. The team says the tool adds to traditional methods rather than replacing them.",
       "csp": {
         "idea": "Data",
-        "connection": "Computers can find patterns in large collections of text that would be hard for people to spot."
+        "connection": "Machine learning can classify sound data into categories after training on labeled examples."
       },
       "sources": [
         {
-          "name": "Phys.org",
-          "date": "2026-10-20",
-          "url": "https://phys.org/news/2026-10-shakespeare-wrote-edward-iii-marlowe.html"
+          "name": "Phys.org (UMass Amherst)",
+          "date": "2026-10-21",
+          "url": "https://phys.org/news/2026-10-ai-bee-lethal.html"
         }
       ]
     },
     {
-      "id": "drone-lidar-rock-art",
+      "id": "drone-sound-failure-detection",
       "type": "news",
-      "category": "Archaeology & tech",
-      "headline": "Laser-scanning drones help find hidden Aboriginal rock art sites",
-      "summary": "University of Sydney researchers flew a drone carrying LiDAR, a sensor that fires laser pulses to build 3D maps, over thick forest in Australia's Blue Mountains. The maps flagged possible rock shelters, and teams on foot confirmed three previously unrecorded sites with red hand stencils and stone artifacts. The work was done with the Dharug Custodian Aboriginal Corporation.",
-      "whyItMatters": "Turning millions of laser measurements into a 3D map lets researchers see through tree cover. Experts estimate only about 10% of the region has been surveyed so far.",
+      "category": "Robotics",
+      "headline": "Engineers use sound to catch damaged drones before takeoff",
+      "summary": "University of Cincinnati engineers, working on a project NASA is interested in, recorded how drones sound when propellers are chipped or cracked or when motors are failing. They turned those recordings into data that ground computers can use to warn operators that a drone is unsafe to fly. Students hope to later build a drone that can hear its own damage mid-flight and return to base, which is still a goal.",
+      "whyItMatters": "Drones are used more and more for public safety, where a crash can hurt people. Turning sound into data is a cheap way to inspect machines without taking them apart.",
       "csp": {
         "idea": "Data",
-        "connection": "Sensors gather raw data that software turns into useful information like 3D terrain maps."
+        "connection": "Sensor recordings like sound can be converted into data that programs analyze to detect problems."
       },
       "sources": [
         {
-          "name": "Phys.org",
-          "date": "2026-10-20",
-          "url": "https://phys.org/news/2026-10-drones-archaeologists-aboriginal-art-sites.html"
+          "name": "Tech Xplore (University of Cincinnati)",
+          "date": "2026-10-22",
+          "url": "https://techxplore.com/news/2026-10-potential-catastrophic-drone-failures.html"
+        }
+      ]
+    },
+    {
+      "id": "on-demand-autonomous-shuttle",
+      "type": "news",
+      "category": "Transportation",
+      "headline": "Self-driving electric shuttle tested as on-demand public transit",
+      "summary": "Researchers from Graz University of Technology in Austria and partners in China built a self-driving electric shuttle for up to 15 riders that comes when called instead of running a fixed schedule. It uses lidar, radar and cameras, plus a 5G link to roadside cameras that can spot pedestrians its own sensors miss. A test vehicle is driving a route in China, and demonstrators are planned for Austria.",
+      "whyItMatters": "If the network connection fails, the shuttle is designed to stop safely, an example of planning for failure. Routing software also decides when to charge and which riders to pick up to cut waiting times.",
+      "csp": {
+        "idea": "Computer Systems and Networks",
+        "connection": "Devices sharing data over a network can sense more than any single device can alone."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (TU Graz)",
+          "date": "2026-10-22",
+          "url": "https://techxplore.com/news/2026-10-personalized-autonomous-mobility.html"
+        }
+      ]
+    },
+    {
+      "id": "infrared-green-letters-ar",
+      "type": "news",
+      "category": "Emerging interfaces",
+      "headline": "Invisible infrared light draws green letters that stay sharp",
+      "summary": "Researchers led by a team in Poland used a scanning laser of invisible near-infrared light that the eye sees as green, an effect called two-photon vision, to draw the letter E. In a lab test with 12 people, the letter stayed sharp over a range of focus more than 1.4 times wider than a normal visible-light letter. The team thinks this could make future augmented-reality glasses more comfortable, but has not yet tested a working AR system.",
+      "whyItMatters": "Augmented reality glasses overlay digital images on the real world, and constantly refocusing between them can strain your eyes. New display physics could change how comfortable such devices feel.",
+      "sources": [
+        {
+          "name": "Medical Xpress",
+          "date": "2026-10-21",
+          "url": "https://medicalxpress.com/news/2026-10-invisible-infrared-green-letters-prone.html"
+        }
+      ]
+    },
+    {
+      "id": "satellites-illegal-fishing-design",
+      "type": "news",
+      "category": "Space & data",
+      "headline": "Proposed satellite network could spot illegal fishing off Africa",
+      "summary": "A University of Florida researcher designed, on paper, a group of 24 radar satellites to watch for illegal fishing off the Horn of Africa, passing overhead about every 1.1 hours. The radar would create about 690 gigabytes of data a day, but ground stations could receive only 120 to 360 gigabytes, so satellites would sort images in orbit and send down only likely boats. The estimated cost is about $347 million over five years.",
+      "whyItMatters": "When there is more data than bandwidth, systems must decide what to keep before sending it. The author notes satellites can find boats, but stopping illegal fishing still depends on patrols and courts.",
+      "csp": {
+        "idea": "Computer Systems and Networks",
+        "connection": "Limited bandwidth means systems must process or filter data before sending it over a network."
+      },
+      "sources": [
+        {
+          "name": "Phys.org (The Conversation)",
+          "date": "2026-10-21",
+          "url": "https://phys.org/news/2026-10-illegal-fishing-african-satellite.html"
         }
       ]
     }
