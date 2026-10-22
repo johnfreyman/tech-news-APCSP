@@ -38,7 +38,7 @@
       "type": "news",
       "category": "Student inventions",
       "headline": "College students build AI guard for water treatment plants",
-      "summary": "Two third-year students at IIT Gandhinagar in India built TrustGate, a system that watches both network traffic and physical sensor readings, like water levels, to spot attacks on industrial control systems. Checking both together helps catch attacks that look normal in network data alone. It won second prize at an international Intel Cup contest but has only been tested on a lab water-treatment dataset, not a real plant.",
+      "summary": "Two third-year students at IIT Gandhinagar in India built TrustGate, a system that watches both network traffic and physical sensor readings from equipment to spot attacks on industrial control systems. Checking both together helps catch attacks that look normal in network data alone. It won second prize at an international Intel Cup contest but has only been tested on a lab water-treatment dataset, not a real plant.",
       "whyItMatters": "Water, power and factories are run by computers, so cybersecurity protects physical safety too. The project shows how combining two kinds of data can reveal problems neither shows by itself.",
       "csp": {
         "idea": "Data",
@@ -57,7 +57,7 @@
       "type": "news",
       "category": "Devices",
       "headline": "Apple's first folding phone reaches stores with care warnings",
-      "summary": "Apple's Duo, the company's first folding phone, arrives in stores on Friday, though many buyers report preorders slipping into January. It has a fixed outer screen and a larger inner screen that bends at a hinge. Experts told the Associated Press the hinge is the weak point, so owners should keep out sand, dust, coins and keys, and avoid forcing it open or using it in extreme cold.",
+      "summary": "Apple's Duo, the company's first folding phone, arrives in stores on Friday, though many buyers report preorders slipping into January. It has a fixed outer screen and a larger inner screen that bends at a hinge. Experts told the Associated Press the hinge is the weak point, so owners should keep out sand, dust, coins and keys, and avoid forcing it open or opening it in very cold weather.",
       "whyItMatters": "Flexible screens let a phone become a small tablet, but every new design brings tradeoffs in durability. Engineers have to balance features, cost and how well a device survives everyday use.",
       "csp": {
         "idea": "Computer Systems and Networks",
@@ -152,7 +152,7 @@
       "type": "news",
       "category": "Emerging interfaces",
       "headline": "Invisible infrared light draws green letters that stay sharp",
-      "summary": "Researchers in Poland used a scanning laser of invisible near-infrared light that the eye sees as green, an effect called two-photon vision, to draw the letter E. In a lab test with 12 people, the letter stayed sharp over a range of focus more than 1.4 times wider than a normal visible-light letter. The team thinks this could make future augmented-reality glasses more comfortable, but has not yet tested a working AR system.",
+      "summary": "Researchers led by a team in Poland used a scanning laser of invisible near-infrared light that the eye sees as green, an effect called two-photon vision, to draw the letter E. In a lab test with 12 people, the letter stayed sharp over a range of focus more than 1.4 times wider than a normal visible-light letter. The team thinks this could make future augmented-reality glasses more comfortable, but has not yet tested a working AR system.",
       "whyItMatters": "Augmented reality glasses overlay digital images on the real world, and constantly refocusing between them can strain your eyes. New display physics could change how comfortable such devices feel.",
       "sources": [
         {
