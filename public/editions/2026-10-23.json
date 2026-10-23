@@ -1,0 +1,175 @@
+{
+  "schemaVersion": 1,
+  "editionId": "2026-10-23-daily",
+  "date": "2026-10-23",
+  "coverage": "Nine stories · AI for blind users, touchscreen sleeve, internet smells, camera pillars, muscle robots, playful AI, heat tips, frog eyes, space",
+  "cards": [
+    {
+      "id": "be-my-ai-blind-users-study",
+      "type": "news",
+      "category": "Accessibility & AI",
+      "headline": "Photo-describing AI app gives blind users overly long answers",
+      "summary": "Be My AI, part of the Be My Eyes app, answers questions about photos for blind and low-vision people. University of Maryland researchers had 11 blind participants use it in daily life for 10 days and studied 418 conversations. Users asked questions of 10 to 20 words, but replies were more than 10 times longer, and each conversation began with a full photo description, so people had to listen through long answers read aloud to find what they needed.",
+      "whyItMatters": "An answer can be accurate and still unhelpful if it ignores what the user asked. Testing with the people who rely on a tool reveals design problems that lab benchmarks miss.",
+      "csp": {
+        "idea": "Impact of Computing",
+        "connection": "Involving real users in testing helps designers build accessible tools that meet people's actual needs."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (University of Maryland)",
+          "date": "2026-10-22",
+          "url": "https://techxplore.com/news/2026-10-app-ai-eyes-users-fall.html"
+        }
+      ]
+    },
+    {
+      "id": "touchscreen-fiber-garment",
+      "type": "news",
+      "category": "Wearables & fashion",
+      "headline": "Researchers weave a working touchscreen into a shirt sleeve",
+      "summary": "A National University of Singapore team built fibers about 1 mm thick that both light up as pixels and sense touch, then combined 54 of them into a 96-by-54-pixel sleeve display. It ran a calculator, a photo gallery and video at 30 frames per second, and kept working nearly unchanged after 50 machine washes. The results appeared in Nature; it is a lab prototype with no product timeline.",
+      "whyItMatters": "Each fiber has its own control channel, so one broken fiber does not black out the rest. That kind of fault-tolerant design matters for any device worn and washed every day.",
+      "csp": {
+        "idea": "Computer Systems and Networks",
+        "connection": "Building a system from independent parts lets it keep working when one part fails."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (NUS)",
+          "date": "2026-10-22",
+          "url": "https://techxplore.com/news/2026-10-thread-world-touchscreen-garment.html"
+        }
+      ]
+    },
+    {
+      "id": "scentronic-smell-over-internet",
+      "type": "news",
+      "category": "Emerging interfaces",
+      "headline": "Prototype sends smells over the internet to a wearable",
+      "summary": "Researchers at Ohio State University and Zhejiang Laboratory built an AI electronic nose that identifies an odor, sends that information online, and has a receiver called Scentronic release a matching scent. The receiver picks from preloaded scent channels rather than recreating the exact chemicals. In a lab test with 14 volunteers and five smells, such as coffee and orange, people identified the right scent about 73% of the time.",
+      "whyItMatters": "Smell becomes a category label that can be sent as data, much like a letter becomes binary. The team says real-world tests are still needed.",
+      "csp": {
+        "idea": "Data",
+        "connection": "Information from the physical world must be represented as data before a computer can store or transmit it."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (Science Advances)",
+          "date": "2026-10-22",
+          "url": "https://techxplore.com/news/2026-10-scientists-aromas-internet.html"
+        }
+      ]
+    },
+    {
+      "id": "3d-printed-color-routers-camera",
+      "type": "news",
+      "category": "Hardware & photography",
+      "headline": "Tiny 3D-printed pillars could help cameras see in dim light",
+      "summary": "Most camera sensors use color filters that let one color through and absorb the rest, wasting much of the light. A team led by the Singapore University of Technology and Design 3D-printed microscopic plastic pillars that steer red, green and blue light toward the right sensor spots instead. Printed versions routed about 70% of the light, and a test matched a filtered sensor's color with one-third the exposure time, but it is not yet built into a working camera.",
+      "whyItMatters": "The pillar shapes were found by an optimization algorithm that tests many designs. Better low-light sensors could mean clearer phone photos at night.",
+      "csp": {
+        "idea": "Algorithms and Programming",
+        "connection": "Optimization algorithms can search through many possible designs to find one that performs best."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (SUTD)",
+          "date": "2026-10-22",
+          "url": "https://techxplore.com/news/2026-10-tiny-3d-routers-enable-sharper.html"
+        }
+      ]
+    },
+    {
+      "id": "muscle-powered-biohybrid-robots",
+      "type": "news",
+      "category": "Robotics",
+      "headline": "Lab-grown muscle lets tiny soft robots jump, swim and walk",
+      "summary": "ETH Zurich engineers built robots about 1.5 cm long from lab-grown mouse muscle tissue on a soft 3D-printed gel frame. A computer algorithm designed the muscle layout and frame together, and lab results were fed back to improve the simulation. The robots have up to 11 times the range of motion of earlier designs with similar muscle and contract when given an electrical pulse, but they must live in a nutrient bath.",
+      "whyItMatters": "Pairing simulation with real experiments is a common way engineers improve designs faster. The researchers say practical uses are still a long way off.",
+      "csp": {
+        "idea": "Algorithms and Programming",
+        "connection": "Simulations let engineers test designs on a computer before building them, then refine with real data."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (ETH Zurich)",
+          "date": "2026-10-22",
+          "url": "https://techxplore.com/news/2026-10-lab-grown-mouse-muscles-enable.html"
+        }
+      ]
+    },
+    {
+      "id": "ai-agents-invent-games-island",
+      "type": "news",
+      "category": "Artificial intelligence",
+      "headline": "AI agents left alone on a virtual island started inventing games",
+      "summary": "MIT researchers placed 13 AI agents on a simulated desert island for 30 hours with no tasks, only an instruction to be curious and explore. The agents read text descriptions of their surroundings, typed commands to act, and kept notes in text files when the island reset each hour. They built towers and improvised games like bowling and basketball, and later did better on set tasks than new agents. The study is a preprint, not yet peer reviewed.",
+      "whyItMatters": "Whether this counts as play is the researchers' judgment, but the agents found physics tricks the designers did not know about. Open exploration may teach things that fixed tasks do not.",
+      "sources": [
+        {
+          "name": "Tech Xplore (MIT CSAIL)",
+          "date": "2026-10-22",
+          "url": "https://techxplore.com/news/2026-10-strand-ai-island-playing-games.html"
+        }
+      ]
+    },
+    {
+      "id": "reddit-heat-prep-community",
+      "type": "news",
+      "category": "Social media & health",
+      "headline": "Reddit community shares cheap ways to survive extreme heat",
+      "summary": "Researchers led by Columbia University studied popular posts on r/heat_prep, a Reddit group with more than 20,000 members that two of the authors founded, and surveyed its members. Activity peaked in summer, and posts focused on low-cost tips such as window shading and frozen water bottles in front of fans. Most respondents said they preferred Reddit over official channels for heat information.",
+      "whyItMatters": "Online communities can fill gaps in official advice, but misinformation can spread too. The authors suggest health agencies work with moderators to share accurate information.",
+      "csp": {
+        "idea": "Impact of Computing",
+        "connection": "Online platforms let people share knowledge widely, with both benefits and risks for accuracy."
+      },
+      "sources": [
+        {
+          "name": "Medical Xpress (Columbia University)",
+          "date": "2026-10-23",
+          "url": "https://medicalxpress.com/news/2026-10-reddit-health-communications-extreme.html"
+        }
+      ]
+    },
+    {
+      "id": "treefrog-iris-recognition",
+      "type": "news",
+      "category": "Nature & computer vision",
+      "headline": "Eye patterns let scientists identify frogs without harming them",
+      "summary": "Researchers usually track frogs by clipping a toe, which can hurt animals that climb trees. A University of Bern team instead photographed the golden, black-lined irises of an Amazonian treefrog and matched them against a photo library on a rugged tablet, checking results with Wild-ID, photo-matching software. Over three rainy seasons they identified 103 frogs from 392 captures.",
+      "whyItMatters": "Like a fingerprint, a natural pattern can work as a unique ID. The authors say the method should be tested species by species before wider use.",
+      "csp": {
+        "idea": "Data",
+        "connection": "Unique patterns in images can serve as identifiers when software compares them to stored records."
+      },
+      "sources": [
+        {
+          "name": "Phys.org (Pensoft)",
+          "date": "2026-10-23",
+          "url": "https://phys.org/news/2026-10-iris-patterns-noninvasive-individual-amazonian.html"
+        }
+      ]
+    },
+    {
+      "id": "self-assembling-space-modules",
+      "type": "news",
+      "category": "Space & robotics",
+      "headline": "Self-adjusting modules could build giant telescopes in orbit",
+      "summary": "Rockets limit how big a structure can be launched, so engineers want pieces that join in space. Researchers in China built triangular modules whose carbon-fiber arms change length using motors and a feedback loop, with small gas thrusters to steer and magnets to lock. In a ground test of two modules gliding on air, the controls cut positioning errors by over 98%; without them, the pieces missed each other.",
+      "whyItMatters": "A feedback loop measures error and corrects it repeatedly, the same idea used in thermostats and self-driving cars. It has not yet been tested in space.",
+      "csp": {
+        "idea": "Algorithms and Programming",
+        "connection": "Feedback loops repeatedly measure a system and adjust it, a common control algorithm."
+      },
+      "sources": [
+        {
+          "name": "Phys.org (Universe Today)",
+          "date": "2026-10-22",
+          "url": "https://phys.org/news/2026-10-autonomous-triangular-modules-tomorrow-mega.html"
+        }
+      ]
+    }
+  ]
+}
