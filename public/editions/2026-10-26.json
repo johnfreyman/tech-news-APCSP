@@ -1,0 +1,179 @@
+{
+  "schemaVersion": 1,
+  "editionId": "2026-10-26-daily",
+  "date": "2026-10-26",
+  "coverage": "Nine stories · drone signatures, deepfake calls, cancer scans, driverless trains, data center neighbors, robot data, VR sickness, early universe",
+  "cards": [
+    {
+      "id": "drone-magnetic-signatures",
+      "type": "news",
+      "category": "Hardware & machine learning",
+      "headline": "Drones' motor magnetism lets a cheap sensor identify the model",
+      "summary": "A drone's spinning electric motors give off weak, extremely low frequency magnetic fields, and each model's motor setup creates a distinct pattern. Florida International University engineers recorded these patterns with a special antenna and used a machine learning model to name a drone's make and model. Outdoors it was up to 98.52% accurate at ranges up to 15 meters, according to the study in IEEE Sensors Journal.",
+      "whyItMatters": "Unlike radar, the system only listens and sends no signal of its own, and the team says it costs a few hundred dollars. The short range is a current limit.",
+      "csp": {
+        "idea": "Data",
+        "connection": "A machine learning model can classify objects by finding patterns in sensor data."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (Florida International University)",
+          "date": "2026-10-25",
+          "url": "https://techxplore.com/news/2026-10-stealthy-tech-drones.html"
+        }
+      ]
+    },
+    {
+      "id": "deepfake-video-call-detector",
+      "type": "news",
+      "category": "Cybersecurity & AI",
+      "headline": "Deepfake detector for video calls skips most of the work",
+      "summary": "Video apps compress video by sending mainly what changes between frames, and a fake face tends to create unusual bursts of change. A University of Colorado Boulder team built a system that watches that compressed data and runs a full AI check only when something looks suspicious, examining about one frame in 100. The team reports near-perfect accuracy on 1,000 online videos while using about 143 times less computing power than existing detectors.",
+      "whyItMatters": "Detection that runs cheaply could someday protect everyday calls from impersonation scams. It is a research prototype and has not been tested in live calls.",
+      "csp": {
+        "idea": "Algorithms and Programming",
+        "connection": "Doing expensive work only when a cheap check flags a problem makes an algorithm far more efficient."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (University of Colorado Boulder)",
+          "date": "2026-10-23",
+          "url": "https://techxplore.com/news/2026-10-ai-deepfakes-realistic-scientists.html"
+        }
+      ]
+    },
+    {
+      "id": "ai-pancreatic-cancer-ct-scans",
+      "type": "news",
+      "category": "Health & AI",
+      "headline": "AI spotted pancreatic cancer signs on scans taken before diagnosis",
+      "summary": "Researchers tested an AI system called REDMOD on earlier CT scans of 219 patients whose scans radiologists had read as cancer-free but who were later diagnosed with pancreatic cancer. The AI studies fine texture patterns in the organ. It flagged 73% of these cases, compared with 39% for radiologists, on average 475 days before diagnosis. It also mislabeled about 19% of cancer-free scans in a separate test group.",
+      "whyItMatters": "This looked back at old scans, and the authors in the journal Gut say testing on new patients is needed before clinical use. The patient group also lacked ethnic diversity.",
+      "csp": {
+        "idea": "Impact of Computing",
+        "connection": "AI tools must be tested on diverse data, or they may not work equally well for everyone."
+      },
+      "sources": [
+        {
+          "name": "ScienceDaily (BMJ Group)",
+          "date": "2026-10-26",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261024222031.htm"
+        }
+      ]
+    },
+    {
+      "id": "driverless-transit-trains",
+      "type": "news",
+      "category": "Transportation",
+      "headline": "U.S. transit systems weigh trains with no human at the controls",
+      "summary": "Almost all U.S. subways and light rail still need an onboard operator, even as robotaxis spread. Washington, D.C.'s Metro backed a nearly $1 billion Red Line upgrade that could allow computer-run trains with no onboard worker as early as 2033, and Los Angeles is studying an automated line. Honolulu already runs the largest U.S. driverless rail system, while Jacksonville's driverless Skyway is shutting down over budget cuts.",
+      "whyItMatters": "A transit union leader calls automation dangerous, while supporters point to unattended systems abroad. Experts say public trust depends on near-perfect safety.",
+      "csp": {
+        "idea": "Impact of Computing",
+        "connection": "Automating a job raises questions about safety, cost and workers alongside the technology itself."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (Associated Press)",
+          "date": "2026-10-26",
+          "url": "https://techxplore.com/news/2026-10-transit-human.html"
+        }
+      ]
+    },
+    {
+      "id": "lowell-data-center-neighbors",
+      "type": "news",
+      "category": "Cloud & communities",
+      "headline": "Data center next to homes divides a Massachusetts mill city",
+      "summary": "In Lowell, Massachusetts, a data center in a former pasta factory expanded to 27 backup diesel generators. Some neighbors report noise, fumes and cooling-tower mist and won a temporary court injunction against the expansion in August; the city also paused new data centers for 360 days. The operator says its generators run brief weekly tests, and some residents credit it with reviving an abandoned site.",
+      "whyItMatters": "Cloud apps and AI run in physical buildings that need power, cooling and backup generators. Deciding where they go affects real neighborhoods.",
+      "csp": {
+        "idea": "Computer Systems and Networks",
+        "connection": "Data centers are the physical computers that store and serve data across the internet."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (AFP)",
+          "date": "2026-10-26",
+          "url": "https://techxplore.com/news/2026-10-center-door-massachusetts-mill-town.html"
+        }
+      ]
+    },
+    {
+      "id": "battery-free-graphene-sensor",
+      "type": "news",
+      "category": "Hardware & sensors",
+      "headline": "Temperature sensor runs on energy leaking from power lines",
+      "summary": "Wires carrying household electricity in the U.S. create weak magnetic fields that cycle back and forth 60 times per second. University of Arkansas and University of Michigan researchers built a graphene coil and custom circuit that collect that energy to charge a tiny temperature sensor using only billionths of a watt. Stored charge could keep it running about a day or more during a power outage, the lead researcher estimates.",
+      "whyItMatters": "Sensors that never need batteries could cut waste and maintenance. This is an early proof of concept, and the report gives no figures on how much power it collects.",
+      "csp": {
+        "idea": "Computer Systems and Networks",
+        "connection": "Low-power devices let computing spread into places where changing batteries is impractical."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (University of Arkansas)",
+          "date": "2026-10-23",
+          "url": "https://techxplore.com/news/2026-10-ambient-power-battery-free-temperature.html"
+        }
+      ]
+    },
+    {
+      "id": "wearable-data-robot-training",
+      "type": "news",
+      "category": "Robotics",
+      "headline": "Wearable rig records 100 hours of human work to teach robots",
+      "summary": "Researchers in China combined a head-mounted camera, five motion trackers and sensor gloves to record how people move and handle objects. They collected 100 hours of mostly professional tasks into a dataset called EgoExplorer, with video, body and finger motion, touch data and step-by-step task descriptions. A simulated humanoid robot copied movements from two recordings without falling. The study is a preprint, not yet peer reviewed.",
+      "whyItMatters": "Robots learn from examples, and gathering good training data is often the hardest part. No physical robot has been tested yet.",
+      "csp": {
+        "idea": "Data",
+        "connection": "Combining several kinds of data about the same event gives a learning system a fuller picture."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (Shanghai AI Laboratory)",
+          "date": "2026-10-24",
+          "url": "https://techxplore.com/news/2026-10-wearable-captures-human-robot.html"
+        }
+      ]
+    },
+    {
+      "id": "vr-sickness-brain-signals",
+      "type": "news",
+      "category": "Gaming & VR",
+      "headline": "Brain waves could reveal VR sickness as it happens",
+      "summary": "VR headsets can make users queasy, partly because eyes point at objects at one distance while focusing on a screen at another. University of Maryland researchers recorded brain activity with 64 scalp sensors while 40 people used a Meta Quest 2, then compared it with a sickness survey. They found clear changes in certain brain wave frequencies during sickness. The work was done with the FDA and Sony.",
+      "whyItMatters": "The team hopes a headset could someday adjust a scene when sickness starts. That idea is proposed, not yet tested, and current checks rely on a 1993 questionnaire.",
+      "csp": {
+        "idea": "Data",
+        "connection": "Measured signals can be more objective than self-reported answers when studying how people react."
+      },
+      "sources": [
+        {
+          "name": "Medical Xpress (University of Maryland)",
+          "date": "2026-10-23",
+          "url": "https://medicalxpress.com/news/2026-10-brain-virtual-reality-sickness.html"
+        }
+      ]
+    },
+    {
+      "id": "lumina-early-universe-simulation",
+      "type": "news",
+      "category": "Space & supercomputing",
+      "headline": "Supercomputer simulation shows the early universe lighting up",
+      "summary": "A team including MIT and Harvard & Smithsonian researchers built Lumina, a simulation of the universe's first 2 billion years starting about 45 million years after the Big Bang. It tracks about half a trillion pieces of dark matter and gas across a region 1.6 billion light-years wide. It ran on the Frontier supercomputer using the equivalent of over 100,000 processor cores and about 15,000 GPUs.",
+      "whyItMatters": "Keeping that many processors working together was a major engineering challenge. The team is sharing Lumina so scientists can compare it with telescope observations.",
+      "csp": {
+        "idea": "Computer Systems and Networks",
+        "connection": "Parallel computing splits a huge problem across many processors that run at the same time."
+      },
+      "sources": [
+        {
+          "name": "MIT News",
+          "date": "2026-10-26",
+          "url": "https://news.mit.edu/2026/watch-universe-emerge-from-dark-ages-with-lumina-1026"
+        }
+      ]
+    }
+  ]
+}
