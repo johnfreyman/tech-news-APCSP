@@ -104,7 +104,7 @@
       "type": "news",
       "category": "Hardware & sensors",
       "headline": "Temperature sensor runs on energy leaking from power lines",
-      "summary": "Wires carrying household electricity in the U.S. create weak magnetic fields that switch direction 60 times per second. University of Arkansas and University of Michigan researchers built a graphene coil and custom circuit that collect that energy to charge a tiny temperature sensor using only billionths of a watt. Stored charge could keep it running about a day or more during a power outage, the lead researcher estimates.",
+      "summary": "Wires carrying household electricity in the U.S. create weak magnetic fields that cycle back and forth 60 times per second. University of Arkansas and University of Michigan researchers built a graphene coil and custom circuit that collect that energy to charge a tiny temperature sensor using only billionths of a watt. Stored charge could keep it running about a day or more during a power outage, the lead researcher estimates.",
       "whyItMatters": "Sensors that never need batteries could cut waste and maintenance. This is an early proof of concept, and the report gives no figures on how much power it collects.",
       "csp": {
         "idea": "Computer Systems and Networks",
