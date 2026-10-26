@@ -1,173 +1,177 @@
 {
   "schemaVersion": 1,
-  "editionId": "2026-10-23-daily",
-  "date": "2026-10-23",
-  "coverage": "Nine stories · AI for blind users, touchscreen sleeve, internet smells, camera pillars, muscle robots, playful AI, heat tips, frog eyes, space",
+  "editionId": "2026-10-26-daily",
+  "date": "2026-10-26",
+  "coverage": "Nine stories · drone signatures, deepfake calls, cancer scans, driverless trains, data center neighbors, robot data, VR sickness, early universe",
   "cards": [
     {
-      "id": "be-my-ai-blind-users-study",
+      "id": "drone-magnetic-signatures",
       "type": "news",
-      "category": "Accessibility & AI",
-      "headline": "Photo-describing AI app gives blind users overly long answers",
-      "summary": "Be My AI, part of the Be My Eyes app, answers questions about photos for blind and low-vision people. University of Maryland researchers had 11 blind participants use it in daily life for 10 days and studied 418 conversations. Users asked questions of 10 to 20 words, but replies were more than 10 times longer, and each conversation began with a full photo description, so people had to listen through long answers read aloud to find what they needed.",
-      "whyItMatters": "An answer can be accurate and still unhelpful if it ignores what the user asked. Testing with the people who rely on a tool reveals design problems that lab benchmarks miss.",
+      "category": "Hardware & machine learning",
+      "headline": "Drones' motor magnetism lets a cheap sensor identify the model",
+      "summary": "A drone's spinning electric motors give off weak, extremely low frequency magnetic fields, and each model's motor setup creates a distinct pattern. Florida International University engineers recorded these patterns with a special antenna and used a machine learning model to name a drone's make and model. Outdoors it was up to 98.52% accurate at ranges up to 15 meters, according to the study in IEEE Sensors Journal.",
+      "whyItMatters": "Unlike radar, the system only listens and sends no signal of its own, and the team says it costs a few hundred dollars. The short range is a current limit.",
       "csp": {
-        "idea": "Impact of Computing",
-        "connection": "Involving real users in testing helps designers build accessible tools that meet people's actual needs."
+        "idea": "Data",
+        "connection": "A machine learning model can classify objects by finding patterns in sensor data."
       },
       "sources": [
         {
-          "name": "Tech Xplore (University of Maryland)",
-          "date": "2026-10-22",
-          "url": "https://techxplore.com/news/2026-10-app-ai-eyes-users-fall.html"
+          "name": "Tech Xplore (Florida International University)",
+          "date": "2026-10-25",
+          "url": "https://techxplore.com/news/2026-10-stealthy-tech-drones.html"
         }
       ]
     },
     {
-      "id": "touchscreen-fiber-garment",
+      "id": "deepfake-video-call-detector",
       "type": "news",
-      "category": "Wearables & fashion",
-      "headline": "Researchers weave a working touchscreen into a shirt sleeve",
-      "summary": "A National University of Singapore team built fibers about 1 mm thick that both light up as pixels and sense touch, then combined 54 of them into a 96-by-54-pixel sleeve display. It ran a calculator, a photo gallery and video at 30 frames per second, and kept working nearly unchanged after 50 machine washes. The results appeared in Nature; it is a lab prototype with no product timeline.",
-      "whyItMatters": "Each fiber has its own control channel, so one broken fiber does not black out the rest. That kind of fault-tolerant design matters for any device worn and washed every day.",
+      "category": "Cybersecurity & AI",
+      "headline": "Deepfake detector for video calls skips most of the work",
+      "summary": "Video apps compress video by sending mainly what changes between frames, and a fake face tends to create unusual bursts of change. A University of Colorado Boulder team built a system that watches that compressed data and runs a full AI check only when something looks suspicious, examining about one frame in 100. The team reports near-perfect accuracy on 1,000 online videos while using about 143 times less computing power than existing detectors.",
+      "whyItMatters": "Detection that runs cheaply could someday protect everyday calls from impersonation scams. It is a research prototype and has not been tested in live calls.",
+      "csp": {
+        "idea": "Algorithms and Programming",
+        "connection": "Doing expensive work only when a cheap check flags a problem makes an algorithm far more efficient."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (University of Colorado Boulder)",
+          "date": "2026-10-23",
+          "url": "https://techxplore.com/news/2026-10-ai-deepfakes-realistic-scientists.html"
+        }
+      ]
+    },
+    {
+      "id": "ai-pancreatic-cancer-ct-scans",
+      "type": "news",
+      "category": "Health & AI",
+      "headline": "AI spotted pancreatic cancer signs on scans taken before diagnosis",
+      "summary": "Researchers tested an AI system called REDMOD on earlier CT scans of 219 patients whose scans radiologists had read as cancer-free but who were later diagnosed with pancreatic cancer. The AI studies fine texture patterns in the organ. It flagged 73% of these cases, compared with 39% for radiologists, on average 475 days before diagnosis. It also mislabeled about 19% of cancer-free scans in a separate test group.",
+      "whyItMatters": "This looked back at old scans, and the authors in the journal Gut say testing on new patients is needed before clinical use. The patient group also lacked ethnic diversity.",
+      "csp": {
+        "idea": "Impact of Computing",
+        "connection": "AI tools must be tested on diverse data, or they may not work equally well for everyone."
+      },
+      "sources": [
+        {
+          "name": "ScienceDaily (BMJ Group)",
+          "date": "2026-10-26",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261024222031.htm"
+        }
+      ]
+    },
+    {
+      "id": "driverless-transit-trains",
+      "type": "news",
+      "category": "Transportation",
+      "headline": "U.S. transit systems weigh trains with no human at the controls",
+      "summary": "Almost all U.S. subways and light rail still need an onboard operator, even as robotaxis spread. Washington, D.C.'s Metro backed a nearly $1 billion Red Line upgrade that could allow computer-run trains with no onboard worker as early as 2033, and Los Angeles is studying an automated line. Honolulu already runs the largest U.S. driverless rail system, while Jacksonville's driverless Skyway is shutting down over budget cuts.",
+      "whyItMatters": "A transit union leader calls automation dangerous, while supporters point to unattended systems abroad. Experts say public trust depends on near-perfect safety.",
+      "csp": {
+        "idea": "Impact of Computing",
+        "connection": "Automating a job raises questions about safety, cost and workers alongside the technology itself."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (Associated Press)",
+          "date": "2026-10-26",
+          "url": "https://techxplore.com/news/2026-10-transit-human.html"
+        }
+      ]
+    },
+    {
+      "id": "lowell-data-center-neighbors",
+      "type": "news",
+      "category": "Cloud & communities",
+      "headline": "Data center next to homes divides a Massachusetts mill city",
+      "summary": "In Lowell, Massachusetts, a data center in a former pasta factory expanded to 27 backup diesel generators. Some neighbors report noise, fumes and cooling-tower mist and won a temporary court injunction against the expansion in August; the city also paused new data centers for 360 days. The operator says its generators run brief weekly tests, and some residents credit it with reviving an abandoned site.",
+      "whyItMatters": "Cloud apps and AI run in physical buildings that need power, cooling and backup generators. Deciding where they go affects real neighborhoods.",
       "csp": {
         "idea": "Computer Systems and Networks",
-        "connection": "Building a system from independent parts lets it keep working when one part fails."
+        "connection": "Data centers are the physical computers that store and serve data across the internet."
       },
       "sources": [
         {
-          "name": "Tech Xplore (NUS)",
-          "date": "2026-10-22",
-          "url": "https://techxplore.com/news/2026-10-thread-world-touchscreen-garment.html"
+          "name": "Tech Xplore (AFP)",
+          "date": "2026-10-26",
+          "url": "https://techxplore.com/news/2026-10-center-door-massachusetts-mill-town.html"
         }
       ]
     },
     {
-      "id": "scentronic-smell-over-internet",
+      "id": "battery-free-graphene-sensor",
       "type": "news",
-      "category": "Emerging interfaces",
-      "headline": "Prototype sends smells over the internet to a wearable",
-      "summary": "Researchers at Ohio State University and Zhejiang Laboratory built an AI electronic nose that identifies an odor, sends that information online, and has a receiver called Scentronic release a matching scent. The receiver picks from preloaded scent channels rather than recreating the exact chemicals. In a lab test with 14 volunteers and five smells, such as coffee and orange, people identified the right scent about 73% of the time.",
-      "whyItMatters": "Smell becomes a category label that can be sent as data, much like a letter becomes binary. The team says real-world tests are still needed.",
+      "category": "Hardware & sensors",
+      "headline": "Temperature sensor runs on energy leaking from power lines",
+      "summary": "Wires carrying household electricity in the U.S. create weak magnetic fields that switch direction 60 times per second. University of Arkansas and University of Michigan researchers built a graphene coil and custom circuit that collect that energy to charge a tiny temperature sensor using only billionths of a watt. Stored charge could keep it running about a day or more during a power outage, the lead researcher estimates.",
+      "whyItMatters": "Sensors that never need batteries could cut waste and maintenance. This is an early proof of concept, and the report gives no figures on how much power it collects.",
       "csp": {
-        "idea": "Data",
-        "connection": "Information from the physical world must be represented as data before a computer can store or transmit it."
+        "idea": "Computer Systems and Networks",
+        "connection": "Low-power devices let computing spread into places where changing batteries is impractical."
       },
       "sources": [
         {
-          "name": "Tech Xplore (Science Advances)",
-          "date": "2026-10-22",
-          "url": "https://techxplore.com/news/2026-10-scientists-aromas-internet.html"
+          "name": "Tech Xplore (University of Arkansas)",
+          "date": "2026-10-23",
+          "url": "https://techxplore.com/news/2026-10-ambient-power-battery-free-temperature.html"
         }
       ]
     },
     {
-      "id": "3d-printed-color-routers-camera",
-      "type": "news",
-      "category": "Hardware & photography",
-      "headline": "Tiny 3D-printed pillars could help cameras see in dim light",
-      "summary": "Most camera sensors use color filters that let one color through and absorb the rest, wasting much of the light. A team led by the Singapore University of Technology and Design 3D-printed microscopic plastic pillars that steer red, green and blue light toward the right sensor spots instead. Printed versions routed about 70% of the light, and a test matched a filtered sensor's color with one-third the exposure time, but it is not yet built into a working camera.",
-      "whyItMatters": "The pillar shapes were found by an optimization algorithm that tests many designs. Better low-light sensors could mean clearer phone photos at night.",
-      "csp": {
-        "idea": "Algorithms and Programming",
-        "connection": "Optimization algorithms can search through many possible designs to find one that performs best."
-      },
-      "sources": [
-        {
-          "name": "Tech Xplore (SUTD)",
-          "date": "2026-10-22",
-          "url": "https://techxplore.com/news/2026-10-tiny-3d-routers-enable-sharper.html"
-        }
-      ]
-    },
-    {
-      "id": "muscle-powered-biohybrid-robots",
+      "id": "wearable-data-robot-training",
       "type": "news",
       "category": "Robotics",
-      "headline": "Lab-grown muscle lets tiny soft robots jump, swim and walk",
-      "summary": "ETH Zurich engineers built robots about 1.5 cm long from lab-grown mouse muscle tissue on a soft 3D-printed gel frame. A computer algorithm designed the muscle layout and frame together, and lab results were fed back to improve the simulation. The robots have up to 11 times the range of motion of earlier designs with similar muscle and contract when given an electrical pulse, but they must live in a nutrient bath.",
-      "whyItMatters": "Pairing simulation with real experiments is a common way engineers improve designs faster. The researchers say practical uses are still a long way off.",
-      "csp": {
-        "idea": "Algorithms and Programming",
-        "connection": "Simulations let engineers test designs on a computer before building them, then refine with real data."
-      },
-      "sources": [
-        {
-          "name": "Tech Xplore (ETH Zurich)",
-          "date": "2026-10-22",
-          "url": "https://techxplore.com/news/2026-10-lab-grown-mouse-muscles-enable.html"
-        }
-      ]
-    },
-    {
-      "id": "ai-agents-invent-games-island",
-      "type": "news",
-      "category": "Artificial intelligence",
-      "headline": "AI agents left alone on a virtual island started inventing games",
-      "summary": "MIT researchers placed 13 AI agents on a simulated desert island for 30 hours with no tasks, only an instruction to be curious and explore. The agents read text descriptions of their surroundings, typed commands to act, and kept notes in text files when the island reset each hour. They built towers and improvised games like bowling and basketball, and later did better on set tasks than new agents. The study is a preprint, not yet peer reviewed.",
-      "whyItMatters": "Whether this counts as play is the researchers' judgment, but the agents found physics tricks the designers did not know about. Open exploration may teach things that fixed tasks do not.",
-      "sources": [
-        {
-          "name": "Tech Xplore (MIT CSAIL)",
-          "date": "2026-10-22",
-          "url": "https://techxplore.com/news/2026-10-strand-ai-island-playing-games.html"
-        }
-      ]
-    },
-    {
-      "id": "reddit-heat-prep-community",
-      "type": "news",
-      "category": "Social media & health",
-      "headline": "Reddit community shares cheap ways to survive extreme heat",
-      "summary": "Researchers led by Columbia University studied popular posts on r/heat_prep, a Reddit group with more than 20,000 members that two of the authors founded, and surveyed its members. Activity peaked in summer, and posts focused on low-cost tips such as window shading and frozen water bottles in front of fans. Most respondents said they preferred Reddit over official channels for heat information.",
-      "whyItMatters": "Online communities can fill gaps in official advice, but misinformation can spread too. The authors suggest health agencies work with moderators to share accurate information.",
-      "csp": {
-        "idea": "Impact of Computing",
-        "connection": "Online platforms let people share knowledge widely, with both benefits and risks for accuracy."
-      },
-      "sources": [
-        {
-          "name": "Medical Xpress (Columbia University)",
-          "date": "2026-10-23",
-          "url": "https://medicalxpress.com/news/2026-10-reddit-health-communications-extreme.html"
-        }
-      ]
-    },
-    {
-      "id": "treefrog-iris-recognition",
-      "type": "news",
-      "category": "Nature & computer vision",
-      "headline": "Eye patterns let scientists identify frogs without harming them",
-      "summary": "Researchers usually track frogs by clipping a toe, which can hurt animals that climb trees. A University of Bern team instead photographed the golden, black-lined irises of an Amazonian treefrog and matched them against a photo library on a rugged tablet, checking results with Wild-ID, photo-matching software. Over three rainy seasons they identified 103 frogs from 392 captures.",
-      "whyItMatters": "Like a fingerprint, a natural pattern can work as a unique ID. The authors say the method should be tested species by species before wider use.",
+      "headline": "Wearable rig records 100 hours of human work to teach robots",
+      "summary": "Researchers in China combined a head-mounted camera, five motion trackers and sensor gloves to record how people move and handle objects. They collected 100 hours of mostly professional tasks into a dataset called EgoExplorer, with video, body and finger motion, touch data and step-by-step task descriptions. A simulated humanoid robot copied movements from two recordings without falling. The study is a preprint, not yet peer reviewed.",
+      "whyItMatters": "Robots learn from examples, and gathering good training data is often the hardest part. No physical robot has been tested yet.",
       "csp": {
         "idea": "Data",
-        "connection": "Unique patterns in images can serve as identifiers when software compares them to stored records."
+        "connection": "Combining several kinds of data about the same event gives a learning system a fuller picture."
       },
       "sources": [
         {
-          "name": "Phys.org (Pensoft)",
-          "date": "2026-10-23",
-          "url": "https://phys.org/news/2026-10-iris-patterns-noninvasive-individual-amazonian.html"
+          "name": "Tech Xplore (Shanghai AI Laboratory)",
+          "date": "2026-10-24",
+          "url": "https://techxplore.com/news/2026-10-wearable-captures-human-robot.html"
         }
       ]
     },
     {
-      "id": "self-assembling-space-modules",
+      "id": "vr-sickness-brain-signals",
       "type": "news",
-      "category": "Space & robotics",
-      "headline": "Self-adjusting modules could build giant telescopes in orbit",
-      "summary": "Rockets limit how big a structure can be launched, so engineers want pieces that join in space. Researchers in China built triangular modules whose carbon-fiber arms change length using motors and a feedback loop, with small gas thrusters to steer and magnets to lock. In a ground test of two modules gliding on air, the controls cut positioning errors by over 98%; without them, the pieces missed each other.",
-      "whyItMatters": "A feedback loop measures error and corrects it repeatedly, the same idea used in thermostats and self-driving cars. It has not yet been tested in space.",
+      "category": "Gaming & VR",
+      "headline": "Brain waves could reveal VR sickness as it happens",
+      "summary": "VR headsets can make users queasy, partly because eyes point at objects at one distance while focusing on a screen at another. University of Maryland researchers recorded brain activity with 64 scalp sensors while 40 people used a Meta Quest 2, then compared it with a sickness survey. They found clear changes in certain brain wave frequencies during sickness. The work was done with the FDA and Sony.",
+      "whyItMatters": "The team hopes a headset could someday adjust a scene when sickness starts. That idea is proposed, not yet tested, and current checks rely on a 1993 questionnaire.",
       "csp": {
-        "idea": "Algorithms and Programming",
-        "connection": "Feedback loops repeatedly measure a system and adjust it, a common control algorithm."
+        "idea": "Data",
+        "connection": "Measured signals can be more objective than self-reported answers when studying how people react."
       },
       "sources": [
         {
-          "name": "Phys.org (Universe Today)",
-          "date": "2026-10-22",
-          "url": "https://phys.org/news/2026-10-autonomous-triangular-modules-tomorrow-mega.html"
+          "name": "Medical Xpress (University of Maryland)",
+          "date": "2026-10-23",
+          "url": "https://medicalxpress.com/news/2026-10-brain-virtual-reality-sickness.html"
+        }
+      ]
+    },
+    {
+      "id": "lumina-early-universe-simulation",
+      "type": "news",
+      "category": "Space & supercomputing",
+      "headline": "Supercomputer simulation shows the early universe lighting up",
+      "summary": "A team including MIT and Harvard & Smithsonian researchers built Lumina, a simulation of the universe's first 2 billion years starting about 45 million years after the Big Bang. It tracks about half a trillion pieces of dark matter and gas across a region 1.6 billion light-years wide. It ran on the Frontier supercomputer using the equivalent of over 100,000 processor cores and about 15,000 GPUs.",
+      "whyItMatters": "Keeping that many processors working together was a major engineering challenge. The team is sharing Lumina so scientists can compare it with telescope observations.",
+      "csp": {
+        "idea": "Computer Systems and Networks",
+        "connection": "Parallel computing splits a huge problem across many processors that run at the same time."
+      },
+      "sources": [
+        {
+          "name": "MIT News",
+          "date": "2026-10-26",
+          "url": "https://news.mit.edu/2026/watch-universe-emerge-from-dark-ages-with-lumina-1026"
         }
       ]
     }
