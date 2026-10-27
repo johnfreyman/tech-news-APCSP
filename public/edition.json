@@ -29,7 +29,7 @@
       "category": "Cybersecurity",
       "headline": "AI helped find a decade-old flaw in software behind many websites",
       "summary": "PHP is a programming language that runs on web servers and powers a large share of websites, including WordPress sites. A researcher at the security firm Calif used an OpenAI model to find a serious flaw in PHP's core code that had existed for over a decade and alerted PHP's maintainers. Patches are out, and companies and government agencies rushed to install them this past week.",
-      "whyItMatters": "Visitors don't need to do anything, but anyone running a website should update PHP. Experts warn that AI may now find flaws faster than organizations can test fixes.",
+      "whyItMatters": "Visitors don't need to do anything, but anyone running a website should update PHP. An expert warns that attacks now follow so fast that organizations have little time to test fixes.",
       "csp": {
         "idea": "Impact of Computing",
         "connection": "One bug in widely shared code can affect millions of systems at once, so patching quickly matters."
