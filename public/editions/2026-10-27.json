@@ -1,0 +1,180 @@
+{
+  "schemaVersion": 1,
+  "editionId": "2026-10-27-daily",
+  "date": "2026-10-27",
+  "coverage": "Nine stories · robot skin, PHP flaw, deleted AI chats, radiation maps, mosquito AI, smart mattresses, violin brains, origami, scam signs",
+  "cards": [
+    {
+      "id": "robot-iontronic-skin",
+      "type": "news",
+      "category": "Robotics",
+      "headline": "Artificial skin lets robot fingers grip pencil lead and avoid needles",
+      "summary": "Researchers at China's Southern University of Science and Technology built a soft robot skin that reads more than 10,000 touch sensors 100 times a second. A middle processing stage, inspired by the spinal cord, compresses the touch data 268-fold before software interprets it, still sorting 10 object types with 98.2% accuracy. Robot fingers held 0.5 mm pencil lead and pulled away from a needle using a calculated \"pain\" signal.",
+      "whyItMatters": "Robots that sense touch quickly could handle fragile things more safely. It is a lab prototype, and the team says its circuitry is still too bulky to build into the skin.",
+      "csp": {
+        "idea": "Data",
+        "connection": "Compressing data close to where it is collected lets a system respond faster with less to process."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (Nature Machine Intelligence)",
+          "date": "2026-10-27",
+          "url": "https://techxplore.com/news/2026-10-artificial-skin-robots-grasp-pencil.html"
+        }
+      ]
+    },
+    {
+      "id": "php-flaw-ai-found",
+      "type": "news",
+      "category": "Cybersecurity",
+      "headline": "AI helped find a decade-old flaw in software behind many websites",
+      "summary": "PHP is a programming language that runs on web servers and powers a large share of websites, including WordPress sites. A researcher at the security firm Calif used an OpenAI model to find a serious flaw in PHP's core code that had existed for over a decade and alerted PHP's maintainers. Patches are out, and companies and government agencies rushed to install them this past week.",
+      "whyItMatters": "Visitors don't need to do anything, but anyone running a website should update PHP. An expert warns that attacks now follow so fast that organizations have little time to test fixes.",
+      "csp": {
+        "idea": "Impact of Computing",
+        "connection": "One bug in widely shared code can affect millions of systems at once, so patching quickly matters."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (The Conversation)",
+          "date": "2026-10-26",
+          "url": "https://techxplore.com/news/2026-10-ai-discovery-exposes-decade-php.html"
+        },
+        {
+          "name": "Tech Xplore (AFP)",
+          "date": "2026-10-25",
+          "url": "https://techxplore.com/news/2026-10-tech-debt-due-ai-flaw.html"
+        }
+      ]
+    },
+    {
+      "id": "deleted-ai-chats-memory",
+      "type": "news",
+      "category": "Privacy & AI",
+      "headline": "Deleted chats with phone-based AI assistants can leave recoverable traces",
+      "summary": "Some AI assistants run entirely on a phone instead of in the cloud. Georgia Tech researchers built a tool called ORISA that searches an Android phone's memory for fragments of deleted conversations with these assistants and rebuilds them into a working chat. In one test with 100 fictional facts, the restored assistant could list 26 of them. The tool was tested across 10 apps and three AI models.",
+      "whyItMatters": "Pressing delete doesn't always erase data right away. The work, presented at the IEEE Symposium on Security and Privacy, used fictional data, and traces fade as new phone activity overwrites memory.",
+      "csp": {
+        "idea": "Computer Systems and Networks",
+        "connection": "Deleting data often just marks memory as free, so old bits can remain until something overwrites them."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (Georgia Tech)",
+          "date": "2026-10-26",
+          "url": "https://techxplore.com/news/2026-10-deleted-ai-chats-clues.html"
+        }
+      ]
+    },
+    {
+      "id": "bayesian-radiation-flyover",
+      "type": "news",
+      "category": "Algorithms & science",
+      "headline": "Statistics method finds radioactive sources from a six-second helicopter pass",
+      "summary": "University of Michigan and Paul Scherrer Institute researchers built a method that compares a helicopter detector's blurry gamma-ray readings against thousands of predicted patterns. It uses Bayesian inference, a way of updating confidence as evidence arrives. Splitting the physics into precomputed parts turned simulations that took hours or days into microseconds. In Swiss tests 30 meters up, it located sources within two meters.",
+      "whyItMatters": "Faster, more accurate radiation maps could help emergency responders after an accident. This was a research demonstration with known test sources, not a deployed system.",
+      "csp": {
+        "idea": "Algorithms and Programming",
+        "connection": "Precomputing slow parts ahead of time lets an algorithm answer quickly when it counts."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (University of Michigan)",
+          "date": "2026-10-26",
+          "url": "https://techxplore.com/news/2026-10-faster-accurate-airborne-helicopter-flyovers.html"
+        }
+      ]
+    },
+    {
+      "id": "ai-mosquito-trap",
+      "type": "news",
+      "category": "Health & AI",
+      "headline": "Camera trap uses AI to identify mosquitoes that spread dengue",
+      "summary": "A University of South Florida startup built a trap with two cameras that photograph insects caught on a sticky pad. AI then identifies each mosquito's species and sex and whether it has fed on blood, a job that takes experts two to three days under a microscope. The team reports more than 98% accuracy at identifying species in lab tests. Field testing with a Florida county is still being prepared.",
+      "whyItMatters": "Faster counts of disease-carrying mosquitoes could help health officials act sooner. The trap is not yet sold, and no effect on dengue cases has been shown.",
+      "csp": {
+        "idea": "Data",
+        "connection": "Automating image classification turns a slow manual task into fast, shareable data."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (University of South Florida)",
+          "date": "2026-10-26",
+          "url": "https://techxplore.com/news/2026-10-ai-powered-mosquito-curb-dengue.html"
+        }
+      ]
+    },
+    {
+      "id": "smart-mattress-sensors",
+      "type": "news",
+      "category": "Health tech",
+      "headline": "Printed sensors turn mattress protectors into bed monitors for elder care",
+      "summary": "RMIT University and Australian company Sleeptite printed pressure sensors with silver and carbon ink onto flexible sheets inside mattress protectors. The sensors track a person's position and posture in bed and send data wirelessly to the cloud, so caregivers can be alerted to fall risks. A trial with six residents at one care home logged more than 6,100 bed-hours of data.",
+      "whyItMatters": "Sensors built into everyday objects can watch over people without cameras. The trial was small, and the reports do not show that it prevents falls.",
+      "csp": {
+        "idea": "Computer Systems and Networks",
+        "connection": "Connected sensors send data to the cloud so people can monitor it remotely."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (RMIT University)",
+          "date": "2026-10-26",
+          "url": "https://techxplore.com/news/2026-10-electronics-mattress-protectors-fall.html"
+        }
+      ]
+    },
+    {
+      "id": "violin-lesson-brain-waves",
+      "type": "news",
+      "category": "Music & neuroscience",
+      "headline": "Wearable brain scanner shows one violin lesson changing brain waves",
+      "summary": "University of Nottingham researchers scanned 22 beginners with a lightweight helmet that measures the brain's magnetic signals while people move. Participants played \"Twinkle Twinkle Little Star\" on a specially made metal-free violin before and after one lesson. Certain brain wave patterns changed, and people with the biggest changes improved the most at playing.",
+      "whyItMatters": "Wearable scanners let scientists study the brain during real activities like music, not just while lying still. The group was small, and it covered only one lesson.",
+      "sources": [
+        {
+          "name": "Medical Xpress (University of Nottingham)",
+          "date": "2026-10-26",
+          "url": "https://medicalxpress.com/news/2026-10-violin-lesson-brain-patterns-beginners.html"
+        }
+      ]
+    },
+    {
+      "id": "origami-solver-structures",
+      "type": "news",
+      "category": "Design & fabrication",
+      "headline": "Software designs folded metal pieces for lightweight origami structures",
+      "summary": "MIT researchers created a building method in which small units are cut from flat metal sheets, folded and screwed together. Their automated solver splits a desired shape into many smaller problems, checks that each unit can be folded, then sends design files to a cutting machine. A team without construction experience built a 23-foot aluminum sculpture for the Boston Public Library in days.",
+      "whyItMatters": "Simulations suggest these structures are about 3.5 times stiffer than some other origami methods. Real building use has not yet been tested.",
+      "csp": {
+        "idea": "Algorithms and Programming",
+        "connection": "Breaking a big problem into smaller subproblems makes it easier to solve and check."
+      },
+      "sources": [
+        {
+          "name": "MIT News",
+          "date": "2026-10-27",
+          "url": "https://news.mit.edu/2026/origami-based-construction-method-yields-lightweight-load-bearing-structures-architecture-1027"
+        }
+      ]
+    },
+    {
+      "id": "csp-wild-ai-scams",
+      "type": "concept",
+      "category": "CSP in the Wild",
+      "headline": "CSP in the Wild: Why typos no longer give scams away",
+      "summary": "A University of Missouri cybersecurity expert says spelling mistakes are becoming a less reliable warning sign because AI can write professional-looking scam messages. Better signs are pressure: unexpected requests for money, personal details or verification codes, especially with urgency or secrecy. His advice is to verify through a separate trusted channel, such as an official website or a known phone number.",
+      "whyItMatters": "Multifactor authentication and passkeys protect accounts even when a convincing message fools someone.",
+      "csp": {
+        "idea": "Impact of Computing",
+        "connection": "Phishing tricks people into revealing information; multifactor authentication adds a second check."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (University of Missouri)",
+          "date": "2026-10-27",
+          "url": "https://techxplore.com/news/2026-10-cybersecurity-expert-ai-powered-scams.html"
+        }
+      ]
+    }
+  ]
+}
