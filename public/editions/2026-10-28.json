@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 1,
+  "editionId": "2026-10-28-daily",
+  "date": "2026-10-28",
+  "coverage": "Nine stories · flying robot, AI Turing test, ad data, Rembrandt AI, early universe, laser memory, social media, e-waste, space chips",
+  "cards": [
+    {
+      "id": "polymer-flying-robot",
+      "type": "news",
+      "category": "Robotics",
+      "headline": "Insect-sized flying robot keeps going after a flyswatter hit",
+      "summary": "UCLA and UC Davis engineers built a 185-milligram flying robot made entirely of polymers. A thin plastic film acts as an electric \"muscle\" that flaps its flexible wings directly, lifting up to three times its own weight. It survived being squeezed by about 11,000 times its weight and flew again after a flyswatter strike. The study appears in Science Robotics.",
+      "whyItMatters": "Tough, tiny robots could someday help with search and rescue or pollination. For now it is a lab prototype powered through wires, with no onboard battery, sensors or flight controller.",
+      "csp": {
+        "idea": "Computer Systems and Networks",
+        "connection": "A working robot needs hardware, power, sensors and control software together; this one has only the hardware so far."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (UCLA)",
+          "date": "2026-10-28",
+          "url": "https://techxplore.com/news/2026-10-insect-flying-robot-collisions.html"
+        }
+      ]
+    },
+    {
+      "id": "reverse-turing-test",
+      "type": "news",
+      "category": "Artificial intelligence",
+      "headline": "AI chatbots struggle to tell whether they're talking to humans or AIs",
+      "summary": "In a reverse Turing test, an AI asks the questions and must decide whether it is chatting with a person or another AI. Researchers at Paris Cité University had seven AI models question 20 human volunteers and seven AI systems. AIs told to act human with short, imperfect replies were never caught in 49 tests. The AI judges rated hidden AIs as human more often than they rated real people as human.",
+      "whyItMatters": "Using AI to screen out bots online may not work well. This was one small study, and results could differ with other models or conversation formats.",
+      "csp": {
+        "idea": "Impact of Computing",
+        "connection": "If software can't reliably separate people from bots, online systems need other ways to check identity."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (Computers in Human Behavior Reports)",
+          "date": "2026-10-27",
+          "url": "https://techxplore.com/news/2026-10-ais-reliably-reverse-turing.html"
+        }
+      ]
+    },
+    {
+      "id": "eu-ad-transparency",
+      "type": "news",
+      "category": "Privacy & social media",
+      "headline": "Most big platforms still don't fully explain who their ads target",
+      "summary": "An EU law requires very large platforms and search engines to keep public databases of their ads, including who paid and which users were targeted. Researchers led by City University of Hong Kong checked 24 services and found several had no public ad database at all. About half lacked details on targeting and total reach, and 75% gave no reach data by country. Only Meta broke reach down by age and gender.",
+      "whyItMatters": "Ad databases let researchers and journalists see how platforms target people. Laws only help if they are enforced, and the study found enforcement so far has been limited.",
+      "csp": {
+        "idea": "Data",
+        "connection": "Targeted ads rely on data collected about users; transparency rules make that data use visible."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (Computer Law & Security Review)",
+          "date": "2026-10-27",
+          "url": "https://techxplore.com/news/2026-10-shown-ad-platforms-wont-eu.html"
+        }
+      ]
+    },
+    {
+      "id": "rembrandt-ai-attribution",
+      "type": "news",
+      "category": "Art & AI",
+      "headline": "AI shows art experts why a painting looks like a Rembrandt",
+      "summary": "Carnegie Mellon engineers and a longtime National Gallery of Art curator trained an AI on more than 1,300 digitized paintings, including 311 by Rembrandt. It learned patterns in edges, color, light and brushstrokes, then highlights which parts of a painting drove its decision. When the model was highly confident, it was right 95.8% of the time. The work appears in PNAS.",
+      "whyItMatters": "Explainable AI lets experts check a model's reasoning instead of trusting a single answer. The team stresses its score is a statistical clue, not proof that a painting is authentic.",
+      "csp": {
+        "idea": "Data",
+        "connection": "Machine learning finds patterns in large data sets, but people still interpret what those patterns mean."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (Carnegie Mellon University)",
+          "date": "2026-10-27",
+          "url": "https://techxplore.com/news/2026-10-rembrandt-eyes-machine.html"
+        }
+      ]
+    },
+    {
+      "id": "lumina-universe-simulation",
+      "type": "news",
+      "category": "Space & supercomputing",
+      "headline": "Supercomputer simulation recreates the universe's first 2 billion years",
+      "summary": "Researchers at the Center for Astrophysics | Harvard & Smithsonian built Lumina, a simulation of how gas, dark matter and light interacted as the first galaxies formed. It covers a cube about 1.5 billion light-years on each side, more than 100 times the volume of earlier projects. The run used more than 15,000 graphics processing units (GPUs) on Frontier, a supercomputer in Tennessee.",
+      "whyItMatters": "Scientists can compare the simulation with telescope images to test theories about the early universe. The team calls it the largest simulation of its kind, which is their own claim.",
+      "csp": {
+        "idea": "Algorithms and Programming",
+        "connection": "Simulations model complex systems that are impossible to experiment on directly."
+      },
+      "sources": [
+        {
+          "name": "ScienceDaily (Center for Astrophysics)",
+          "date": "2026-10-27",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261026225600.htm"
+        }
+      ]
+    },
+    {
+      "id": "laser-magnetic-memory",
+      "type": "news",
+      "category": "Hardware",
+      "headline": "Laser pulses flip magnetic bits, a possible path to faster memory",
+      "summary": "Some computer memory stores each bit as the direction of a tiny magnetic region. UC San Diego engineers used a reshaped, much smaller ultrafast laser beam to flip those regions in a stack of nine metal layers, up from a previous limit of three. The researchers say switching with light could someday be more than 1,000 times faster than using magnetic fields. The study is in Nature Communications.",
+      "whyItMatters": "Faster memory could speed up everything from phones to data centers. No memory device exists yet, and the lasers involved are hard to build into chips.",
+      "csp": {
+        "idea": "Computer Systems and Networks",
+        "connection": "All digital data is stored as bits, and hardware needs a physical way to write each 0 or 1."
+      },
+      "sources": [
+        {
+          "name": "ScienceDaily (UC San Diego)",
+          "date": "2026-10-27",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261025073046.htm"
+        }
+      ]
+    },
+    {
+      "id": "social-media-comparison-teens",
+      "type": "news",
+      "category": "Social media & health",
+      "headline": "How teens use social media may matter more than how long",
+      "summary": "Karolinska Institutet and Norwegian researchers surveyed 4,011 students, average age 14, at 21 schools in Norway. Comparing yourself with others online was much more strongly linked to anxiety and depression symptoms than other kinds of use. Scrolling just to pass time, the most common reason, showed only weak links. The study took into account total time on social media.",
+      "whyItMatters": "Noticing when scrolling turns into comparing could help you use apps in healthier ways. The survey was taken at one point in time, so it cannot show that comparison causes the symptoms.",
+      "sources": [
+        {
+          "name": "Medical Xpress (Karolinska Institutet)",
+          "date": "2026-10-27",
+          "url": "https://medicalxpress.com/news/2026-10-comparisons-social-media-linked-mental.html"
+        }
+      ]
+    },
+    {
+      "id": "e-waste-antimony-flash",
+      "type": "news",
+      "category": "Climate tech",
+      "headline": "Split-second heating recovers a scarce metal from old electronics",
+      "summary": "Many plastic parts in electronics contain antimony, a scarce metal used to slow fires. Rice University chemists placed ground-up plastic from a power supply case, a circuit board and a connector between electrically heated carbon sheets and pulsed them with heat. About 90% of the antimony evaporated and was collected, and 83% of the bromine was turned into a chemical that can be captured. The study is in Nature Chemical Engineering.",
+      "whyItMatters": "The world produces tens of millions of tons of e-waste each year, and antimony is in limited supply. These were lab-scale tests, with cost and scaling still unknown.",
+      "sources": [
+        {
+          "name": "Tech Xplore (Rice University)",
+          "date": "2026-10-27",
+          "url": "https://techxplore.com/news/2026-10-faster-recover-critical-metal.html"
+        }
+      ]
+    },
+    {
+      "id": "ai-agents-radiation-chips",
+      "type": "news",
+      "category": "AI & chips",
+      "headline": "Team of AI agents helps analyze radiation damage to space chips",
+      "summary": "Chips in satellites slowly break down as radiation strikes them. Pacific Northwest National Laboratory used SciLink, a system of AI agents with different jobs, to combine lab data on damaged chips, form hypotheses and propose new experiments. The analysis took hours instead of the days or weeks a human team might need. The AI was 90% confident about one damage cause but only 60% about another.",
+      "whyItMatters": "AI helpers could speed up science, but scientists still checked the output for made-up answers and errors. The work was presented at a conference and has not been described as peer-reviewed.",
+      "csp": {
+        "idea": "Algorithms and Programming",
+        "connection": "Splitting a big task among specialized programs, then combining results, is a common way to manage complexity."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (PNNL)",
+          "date": "2026-10-27",
+          "url": "https://techxplore.com/news/2026-10-scientists-resistant-microchips-satellites-nuclear.html"
+        }
+      ]
+    }
+  ]
+}
