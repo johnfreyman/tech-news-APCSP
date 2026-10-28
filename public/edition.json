@@ -48,7 +48,7 @@
       "category": "Privacy & social media",
       "headline": "Most big platforms still don't fully explain who their ads target",
       "summary": "An EU law requires very large platforms and search engines to keep public databases of their ads, including who paid and which users were targeted. Researchers led by City University of Hong Kong checked 24 services and found several had no public ad database at all. About half lacked details on targeting and total reach, and 75% gave no reach data by country. Only Meta broke reach down by age and gender.",
-      "whyItMatters": "Ad databases let researchers and journalists see how platforms target people, including teens. Laws only help if they are enforced, and the study found enforcement so far has been limited.",
+      "whyItMatters": "Ad databases let researchers and journalists see how platforms target people. Laws only help if they are enforced, and the study found enforcement so far has been limited.",
       "csp": {
         "idea": "Data",
         "connection": "Targeted ads rely on data collected about users; transparency rules make that data use visible."
@@ -138,8 +138,8 @@
       "type": "news",
       "category": "Climate tech",
       "headline": "Split-second heating recovers a scarce metal from old electronics",
-      "summary": "Many plastic parts in electronics contain antimony, a scarce metal used to slow fires. Rice University chemists placed ground-up plastic from a power supply case, a circuit board and a connector between electrically heated carbon sheets and pulsed them with heat. About 90% of the antimony evaporated and was collected, and 83% of the harmful bromine was turned into a capturable chemical. The study is in Nature Chemical Engineering.",
-      "whyItMatters": "The world produces tens of millions of tons of e-waste each year, and recovering metals could keep devices from piling up in landfills. These were lab-scale tests, with cost and scaling still unknown.",
+      "summary": "Many plastic parts in electronics contain antimony, a scarce metal used to slow fires. Rice University chemists placed ground-up plastic from a power supply case, a circuit board and a connector between electrically heated carbon sheets and pulsed them with heat. About 90% of the antimony evaporated and was collected, and 83% of the bromine was turned into a chemical that can be captured. The study is in Nature Chemical Engineering.",
+      "whyItMatters": "The world produces tens of millions of tons of e-waste each year, and antimony is in limited supply. These were lab-scale tests, with cost and scaling still unknown.",
       "sources": [
         {
           "name": "Tech Xplore (Rice University)",
