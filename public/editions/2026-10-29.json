@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 1,
+  "editionId": "2026-10-29-daily",
+  "date": "2026-10-29",
+  "coverage": "Nine stories · personal pricing, AI brainstorming, wildfire AI, sensor car, snake robot, power fibers, chip films, delivery apps, deep sea",
+  "cards": [
+    {
+      "id": "ftc-personalized-pricing",
+      "type": "news",
+      "category": "Privacy & shopping",
+      "headline": "FTC asks Walmart, Delta and others how personal data shapes prices",
+      "summary": "The U.S. Federal Trade Commission ordered eight companies, including Walmart, Delta, Target and DoorDash, to explain how they use customer data when setting prices. Regulators want to know whether prices differ from person to person based on things like loyalty programs or personal data. The FTC is also studying whether gig apps use drivers' data to set pay. These are information requests, not findings; several companies deny setting prices this way.",
+      "whyItMatters": "Apps collect a lot about how you shop. Whether that data can quietly change the price you see is a real question about fairness, and regulators are now asking companies for the details.",
+      "csp": {
+        "idea": "Impact of Computing",
+        "connection": "Algorithms that use personal data to make decisions about people raise questions about transparency and fairness."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (AP)",
+          "date": "2026-10-29",
+          "url": "https://techxplore.com/news/2026-10-ftc-walmart-delta-personal-prices.html"
+        }
+      ]
+    },
+    {
+      "id": "ai-vs-human-brainstorming",
+      "type": "news",
+      "category": "AI & creativity",
+      "headline": "People brainstorm more original ideas with a partner than with ChatGPT",
+      "summary": "In a study of 208 people, participants came up with new uses for everyday objects like a brick or a book, working either with another person or with ChatGPT. Pairs using ChatGPT wrote more, but human pairs produced more creative and more varied ideas. ChatGPT tended to repeat similar ideas across separate sessions. The study, published in Computers in Human Behavior, tested one chatbot on one task.",
+      "whyItMatters": "AI can produce lots of ideas fast, but more is not the same as more original. For a group project, talking with classmates first may lead to a wider range of ideas.",
+      "csp": {
+        "idea": "Creative Development",
+        "connection": "Collaboration with people who think differently helps produce more varied solutions during brainstorming."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (The Conversation)",
+          "date": "2026-10-28",
+          "url": "https://techxplore.com/news/2026-10-ai-quickly-generate-ideas-people.html"
+        }
+      ]
+    },
+    {
+      "id": "wildfire-digital-twin",
+      "type": "news",
+      "category": "AI & climate",
+      "headline": "AI 'digital twin' forecasts how a wildfire will spread",
+      "summary": "NYU engineers built a digital twin, a computer model that mirrors a real fire as it changes. It combines a physics model of how fire spreads with live satellite, weather, terrain and vegetation data to forecast up to 12 hours ahead. In one test on Oregon's Grasshopper Fire, its predicted burn area matched what happened 94.6% by a standard overlap measure; another forecast scored 72.4%. It is a research prototype, not yet used by fire crews.",
+      "whyItMatters": "Better fire forecasts could help plan evacuations in places like the West Coast. The results also show that a model is only as good as how recent its data is.",
+      "csp": {
+        "idea": "Data",
+        "connection": "Combining many live data sources lets a simulation update its predictions as conditions change."
+      },
+      "sources": [
+        {
+          "name": "Phys.org (NYU Tandon)",
+          "date": "2026-10-28",
+          "url": "https://phys.org/news/2026-10-physics-ai-tool-aims-wildfire.html"
+        }
+      ]
+    },
+    {
+      "id": "sensor-mustang-students",
+      "type": "news",
+      "category": "Transportation",
+      "headline": "Students turn an electric SUV into a rolling self-driving lab",
+      "summary": "At Northeastern University's Seattle campus, students use a Ford Mustang Mach-E fitted with four cameras, lidar (laser-based 3D mapping), radar, GPS and motion sensors. The car records about 10 gigabytes of data per minute onto 8 terabytes of storage. Students use the data for projects like navigation help for people who are visually impaired. The team is modifying steering and throttle software to move beyond today's hands-free driver assistance.",
+      "whyItMatters": "Self-driving research is mostly about software and data. Learning how to combine sensors that each have strengths and weaknesses is the core skill these students are practicing.",
+      "csp": {
+        "idea": "Computer Systems and Networks",
+        "connection": "Several sensors feed one onboard computer, and software must merge their data to understand the road."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (Northeastern)",
+          "date": "2026-10-28",
+          "url": "https://techxplore.com/news/2026-10-students-road-sensor-ford-mustang.html"
+        }
+      ]
+    },
+    {
+      "id": "snake-robot-intestine",
+      "type": "news",
+      "category": "Health tech",
+      "headline": "Snake-inspired soft robot crawls through the small intestine",
+      "summary": "MIT researchers built a soft, tube-shaped robot that moves like a snake. Air chambers inflate in different patterns to stretch or bend it, while balloons at each end take turns gripping. An operator steers it with a wireless joystick, and it carries a camera, a drug sprayer and tiny clips for taking tissue samples. In animal studies in pig intestines, it traveled about 2 meters. It has not been tested in people. The work appears in Science Robotics.",
+      "whyItMatters": "The small intestine is over 20 feet long and hard for doctors to reach. A steerable robot could someday make diagnosis less difficult, but safety in humans is still unproven.",
+      "sources": [
+        {
+          "name": "Medical Xpress (MIT)",
+          "date": "2026-10-28",
+          "url": "https://medicalxpress.com/news/2026-10-snake-soft-robot-doctors-small.html"
+        }
+      ]
+    },
+    {
+      "id": "spray-power-fibers",
+      "type": "news",
+      "category": "Hardware",
+      "headline": "Spray-coated fibers power a keypad that unlocks a door",
+      "summary": "Korean researchers made fibers that generate electricity when pressed and released, using a one-step spray coating instead of high-voltage equipment. The fibers rely on the triboelectric effect, the same static charge you get rubbing a balloon. The team built a 12-key keypad connected to an Arduino that recognized a correct password and opened a door lock without outside power for detecting key presses. The fibers kept working for 30,000 press cycles.",
+      "whyItMatters": "Inputs that power themselves could lead to wearables and sensors that need fewer batteries. Wearable versions have not been tested yet.",
+      "csp": {
+        "idea": "Computer Systems and Networks",
+        "connection": "A keypad is an input device; the Arduino reads its signals and runs code that checks the password."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (NST)",
+          "date": "2026-10-28",
+          "url": "https://techxplore.com/news/2026-10-spray-coating-power-generating-fibers.html"
+        }
+      ]
+    },
+    {
+      "id": "dead-layer-chip-films",
+      "type": "news",
+      "category": "Chips",
+      "headline": "Ultra-thin films keep special chip materials working at tiny sizes",
+      "summary": "Some materials, called multiferroics, can store data by flipping with a tiny voltage, which could save energy. But when made thin enough for chips, they usually stop working, a problem called the \"dead layer.\" Brown University researchers squeezed the material by growing it on a slightly smaller crystal and added a metal layer to block stray electric fields. The films kept working at just a few atoms thick. The study in Nature Materials did not build working chips.",
+      "whyItMatters": "AI uses a lot of electricity, so lower-power memory matters. This is an early materials step, not a product.",
+      "sources": [
+        {
+          "name": "Tech Xplore (Brown University)",
+          "date": "2026-10-28",
+          "url": "https://techxplore.com/news/2026-10-ultrathin-dead-layer-effect-enable.html"
+        }
+      ]
+    },
+    {
+      "id": "meal-delivery-app-choices",
+      "type": "news",
+      "category": "Apps & health",
+      "headline": "Delivery app deals nudge people toward fast food, study finds",
+      "summary": "Australian researchers held 12 focus groups with 112 adults about apps like Uber Eats and DoorDash. Participants linked the apps with treat foods, and said promotions such as free delivery and buy-one-get-one-free often pushed them to order in instead of cooking. Most said they would ignore calorie labels when ordering a treat. The study, in the Australian and New Zealand Journal of Public Health, measured opinions, not actual orders.",
+      "whyItMatters": "App design and deals shape everyday decisions, often without us noticing. Knowing that can help you think twice about what a promotion is steering you toward.",
+      "csp": {
+        "idea": "Impact of Computing",
+        "connection": "Interface choices like pop-up deals can influence user behavior, with effects beyond the app itself."
+      },
+      "sources": [
+        {
+          "name": "Medical Xpress (SAHMRI)",
+          "date": "2026-10-28",
+          "url": "https://medicalxpress.com/news/2026-10-meal-delivery-apps-unhealthy-choices.html"
+        }
+      ]
+    },
+    {
+      "id": "barreleye-4k-rov",
+      "type": "news",
+      "category": "Ocean science",
+      "headline": "Robot sub films a rare see-through-headed fish in 4K",
+      "summary": "The Monterey Bay Aquarium Research Institute (MBARI) filmed a barreleye fish, whose tube-shaped eyes rotate under a clear dome on its head, about 600 meters deep. It is only MBARI's 11th sighting in nearly 40 years, and the first in 4K. A remotely operated vehicle, a robot sub piloted from a ship, also recorded 3D video for education. MBARI has logged more than 41,000 hours of deep-sea video over about 7,000 dives.",
+      "whyItMatters": "Most of the deep ocean is seen only through cameras on robots. Huge video archives like MBARI's let scientists study rare animals without collecting them.",
+      "csp": {
+        "idea": "Data",
+        "connection": "Decades of stored video become a searchable dataset for finding and comparing rare events."
+      },
+      "sources": [
+        {
+          "name": "Phys.org (MBARI)",
+          "date": "2026-10-28",
+          "url": "https://phys.org/news/2026-10-rarely-deep-sea-barreleye-fish.html"
+        }
+      ]
+    }
+  ]
+}
