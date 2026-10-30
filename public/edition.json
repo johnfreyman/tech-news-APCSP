@@ -46,7 +46,7 @@
       "id": "fast-micro-led",
       "type": "news",
       "category": "Hardware",
-      "headline": "Tiny LED flickers 2.75 billion times a second to carry data",
+      "headline": "Record-fast tiny LED could carry data as light in data centers",
       "summary": "Engineers at the University of Illinois and Notre Dame built gallium nitride micro-LEDs that switch on and off fast enough to send data at a bandwidth of 2.75 gigahertz while using 25 milliwatts. They tested sizes from 100 down to 2 micrometers and found a 5-micrometer LED gave the best balance of speed and power. The goal is short light-based links inside data centers, where most connections span under 10 meters. It is lab research in IEEE Electron Device Letters.",
       "whyItMatters": "Data centers that run AI and streaming move huge amounts of data over short distances. Sending it as light instead of through copper wires could save energy.",
       "csp": {
