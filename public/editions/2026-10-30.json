@@ -1,0 +1,179 @@
+{
+  "schemaVersion": 1,
+  "editionId": "2026-10-30-daily",
+  "date": "2026-10-30",
+  "coverage": "Nine stories · fluent chatbots, crypto hack, fast LEDs, pixel AI art, Social.Wiki, prosthetic magnets, dark commutes, weather lab, soil DNA AI",
+  "cards": [
+    {
+      "id": "fluent-chatbot-trust",
+      "type": "news",
+      "category": "AI",
+      "headline": "Smooth-talking chatbots fool people even when facts are wrong",
+      "summary": "Radboud University researchers showed participants chatbot conversations about The Lord of the Rings. Some chatbots answered in fluent, humanlike language and others in short, businesslike replies; some answers had subtly made-up facts. A fluent chatbot giving false information was rated as intelligent and pleasant as a curt one that was correct, and about 80% of participants missed the errors. The study appears in Computers in Human Behavior: Artificial Humans.",
+      "whyItMatters": "Polished writing is not proof of accuracy. When you use AI for schoolwork, check its claims against a reliable source, especially when the answer sounds confident.",
+      "csp": {
+        "idea": "Impact of Computing",
+        "connection": "Language models are trained to produce plausible text, so users must evaluate whether the output is actually correct."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (Radboud University)",
+          "date": "2026-10-29",
+          "url": "https://techxplore.com/news/2026-10-fluent-language-hallucinatory-chatbot-credible.html"
+        }
+      ]
+    },
+    {
+      "id": "binance-hack",
+      "type": "news",
+      "category": "Cybersecurity",
+      "headline": "Crypto exchange Binance says about $6.3 billion hit by hack",
+      "summary": "Binance, the largest cryptocurrency exchange, said about $6.3 billion was affected by an attack, that about $3 billion was frozen with help from partners, and that it will cover losses. It paused deposits and withdrawals for security checks. Two blockchain-analysis firms, TRM and Chainalysis, said a North Korea-linked hacking group was likely responsible; law enforcement has not confirmed that. Binance said it found no evidence that a wallet's private key leaked.",
+      "whyItMatters": "Blockchain records are public, which lets outside analysts follow stolen funds. Big platforms still need security at every step, not just strong encryption.",
+      "csp": {
+        "idea": "Computer Systems and Networks",
+        "connection": "Security depends on every part of a system, including who can approve access, not just the encryption."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (AP)",
+          "date": "2026-10-30",
+          "url": "https://techxplore.com/news/2026-10-blockchain-intelligence-firms-link-north.html"
+        }
+      ]
+    },
+    {
+      "id": "fast-micro-led",
+      "type": "news",
+      "category": "Hardware",
+      "headline": "Record-fast tiny LED could carry data as light in data centers",
+      "summary": "Engineers at the University of Illinois and Notre Dame built gallium nitride micro-LEDs that switch on and off fast enough to send data at a bandwidth of 2.75 gigahertz while using 25 milliwatts. They tested sizes from 100 down to 2 micrometers and found a 5-micrometer LED gave the best balance of speed and power. The goal is short light-based links inside data centers, where most connections span under 10 meters. It is lab research in IEEE Electron Device Letters.",
+      "whyItMatters": "Data centers that run AI and streaming move huge amounts of data over short distances. Sending it as light instead of through copper wires could save energy.",
+      "csp": {
+        "idea": "Computer Systems and Networks",
+        "connection": "Data travels as bits that can be encoded in electricity, light or radio; faster links let networks move more data."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (Univ. of Illinois)",
+          "date": "2026-10-29",
+          "url": "https://techxplore.com/news/2026-10-gigahertz-fast-energy-efficient-centers.html"
+        }
+      ]
+    },
+    {
+      "id": "pixel-space-image-ai",
+      "type": "news",
+      "category": "AI & art",
+      "headline": "Image AI that works pixel by pixel allows precise edits",
+      "summary": "Most AI image generators work on a compressed version of a picture, so fixing one detail can change unrelated parts. University of Rochester and NVIDIA researchers built PixelDiT2, which generates images directly in pixels. That lets users change one region, like a person's glasses or a car's color, without disturbing the rest. The team says it nearly matches leading models. The paper is a preprint, not yet peer-reviewed, and will be presented in December.",
+      "whyItMatters": "Artists and designers want control, not just a random new image each try. How an AI stores an image affects what kinds of edits are possible.",
+      "csp": {
+        "idea": "Data",
+        "connection": "Compressing data saves space and time but can lose detail; working with raw pixels trades speed for control."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (Univ. of Rochester)",
+          "date": "2026-10-29",
+          "url": "https://techxplore.com/news/2026-10-ai-generated-images-pixel.html"
+        }
+      ]
+    },
+    {
+      "id": "social-wiki-editable-apps",
+      "type": "news",
+      "category": "Social media",
+      "headline": "MIT's Social.Wiki lets users edit the social apps they use",
+      "summary": "Social.Wiki is a research platform where every social app has an edit button. Users can change an app's code themselves or ask an AI assistant to do it, then choose which other people's edits they see, such as only changes approved by two friends. User data is stored separately from the apps, and a data guard asks permission before an app reads it. It is an early prototype described in a preprint, with no public release date yet.",
+      "whyItMatters": "Most social apps are designed by one company for everyone. This project tests whether communities could shape their own feeds and features instead.",
+      "csp": {
+        "idea": "Creative Development",
+        "connection": "Letting users modify and remix code is a form of collaborative, iterative program development."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (MIT)",
+          "date": "2026-10-29",
+          "url": "https://techxplore.com/news/2026-10-socialwiki-users-reshape-social-apps.html"
+        }
+      ]
+    },
+    {
+      "id": "magnet-bead-prosthetics",
+      "type": "news",
+      "category": "Health tech",
+      "headline": "Magnet beads in muscles could help steer prosthetic legs",
+      "summary": "MIT researchers implanted pairs of 3-millimeter magnetic beads in leg muscles. Sensors on the skin track the distance between the beads as a muscle stretches or contracts, a method called magnetomicrometry. Three people with below-knee amputations used it to move a cursor on a screen, and it gave more accurate, stable control than electrical muscle sensors. Controlling a real prosthetic leg has not been tested yet. The study appears in Nature Sensors.",
+      "whyItMatters": "Skin sensors can be thrown off by sweat or nearby muscles. A more reliable signal could make walking with a robotic leg safer someday.",
+      "csp": {
+        "idea": "Computer Systems and Networks",
+        "connection": "Sensors turn physical motion into data that software uses to control a device in real time."
+      },
+      "sources": [
+        {
+          "name": "Medical Xpress (MIT)",
+          "date": "2026-10-29",
+          "url": "https://medicalxpress.com/news/2026-10-magnetic-bead-implants-accurate-prosthetic.html"
+        }
+      ]
+    },
+    {
+      "id": "dst-dark-school-commutes",
+      "type": "news",
+      "category": "Data & school",
+      "headline": "Model estimates permanent daylight time means more dark school trips",
+      "summary": "University of Washington researchers combined school start times, enrollment and location data to estimate how many school commutes would happen in the dark under permanent daylight saving time. In 14 states, the increase ranged up to about 71 million trips in Georgia; Washington would see about 35 million more. Extrapolating, they estimate at least 2 billion more nationwide. Congress is considering the change. The study is in Current Biology.",
+      "whyItMatters": "Your morning commute is part of this debate. The study shows how combining public datasets can turn a policy question into concrete numbers people can discuss.",
+      "csp": {
+        "idea": "Data",
+        "connection": "Combining several datasets let researchers estimate an outcome no single dataset could show."
+      },
+      "sources": [
+        {
+          "name": "Medical Xpress (Univ. of Washington)",
+          "date": "2026-10-29",
+          "url": "https://medicalxpress.com/news/2026-10-permanent-daylight-billion-dark-school.html"
+        }
+      ]
+    },
+    {
+      "id": "sandia-fog-rain-cameras",
+      "type": "news",
+      "category": "Sensors",
+      "headline": "Lab makes fog and rain on demand to test cameras",
+      "summary": "Sandia National Laboratories researchers run six off-the-shelf cameras, including a thermal camera, side by side in a chamber with 64 fog nozzles and 16 rain nozzles. It can make rain as heavy as 12 inches per hour. Lasers measure exactly how much light gets through, and all footage is time-stamped so frames can be compared. The team wants to check vendor claims and build a labeled dataset for training machine learning. Results are not yet reported.",
+      "whyItMatters": "Security cameras and self-driving cars both struggle in bad weather. Repeatable tests make it possible to compare sensors fairly instead of waiting for a storm.",
+      "csp": {
+        "idea": "Data",
+        "connection": "Machine learning needs labeled training data; controlled conditions make the labels precise."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (Sandia)",
+          "date": "2026-10-29",
+          "url": "https://techxplore.com/news/2026-10-bad-weather-purpose-camera-sensor.html"
+        }
+      ]
+    },
+    {
+      "id": "bbert-soil-bacteria",
+      "type": "news",
+      "category": "AI & science",
+      "headline": "Language-style AI reads DNA to find hidden soil bacteria",
+      "summary": "Hebrew University researchers built BBERT, an AI model similar to those used for text, but trained on bacterial DNA. It sorts short DNA fragments of about 100 letters without matching them to reference databases, which miss many soil microbes. It identified bacterial DNA about 90% of the time and sped up some genome reconstruction from about 66 hours to 25. It runs on a PC with a suitable graphics card. The study is in Nucleic Acids Research.",
+      "whyItMatters": "DNA is a kind of code made of letters, so tools built for language can help read it. Running on ordinary computers means smaller labs can use it too.",
+      "csp": {
+        "idea": "Algorithms and Programming",
+        "connection": "A model that learns patterns can classify data that a lookup in an incomplete database would miss."
+      },
+      "sources": [
+        {
+          "name": "Phys.org (Hebrew University)",
+          "date": "2026-10-29",
+          "url": "https://phys.org/news/2026-10-ai-tool-scientists-bacteria-hidden.html"
+        }
+      ]
+    }
+  ]
+}

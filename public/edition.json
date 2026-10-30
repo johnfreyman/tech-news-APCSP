@@ -1,169 +1,177 @@
 {
   "schemaVersion": 1,
-  "editionId": "2026-10-29-daily",
-  "date": "2026-10-29",
-  "coverage": "Nine stories · personal pricing, AI brainstorming, wildfire AI, sensor car, snake robot, power fibers, chip films, delivery apps, deep sea",
+  "editionId": "2026-10-30-daily",
+  "date": "2026-10-30",
+  "coverage": "Nine stories · fluent chatbots, crypto hack, fast LEDs, pixel AI art, Social.Wiki, prosthetic magnets, dark commutes, weather lab, soil DNA AI",
   "cards": [
     {
-      "id": "ftc-personalized-pricing",
+      "id": "fluent-chatbot-trust",
       "type": "news",
-      "category": "Privacy & shopping",
-      "headline": "FTC asks Walmart, Delta and others how personal data shapes prices",
-      "summary": "The U.S. Federal Trade Commission ordered eight companies, including Walmart, Delta, Target and DoorDash, to explain how they use customer data when setting prices. Regulators want to know whether prices differ from person to person based on things like loyalty programs or personal data. The FTC is also studying whether gig apps use drivers' data to set pay. These are information requests, not findings; several companies deny setting prices this way.",
-      "whyItMatters": "Apps collect a lot about how you shop. Whether that data can quietly change the price you see is a real question about fairness, and regulators are now asking companies for the details.",
+      "category": "AI",
+      "headline": "Smooth-talking chatbots fool people even when facts are wrong",
+      "summary": "Radboud University researchers showed participants chatbot conversations about The Lord of the Rings. Some chatbots answered in fluent, humanlike language and others in short, businesslike replies; some answers had subtly made-up facts. A fluent chatbot giving false information was rated as intelligent and pleasant as a curt one that was correct, and about 80% of participants missed the errors. The study appears in Computers in Human Behavior: Artificial Humans.",
+      "whyItMatters": "Polished writing is not proof of accuracy. When you use AI for schoolwork, check its claims against a reliable source, especially when the answer sounds confident.",
       "csp": {
         "idea": "Impact of Computing",
-        "connection": "Algorithms that use personal data to make decisions about people raise questions about transparency and fairness."
+        "connection": "Language models are trained to produce plausible text, so users must evaluate whether the output is actually correct."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (Radboud University)",
+          "date": "2026-10-29",
+          "url": "https://techxplore.com/news/2026-10-fluent-language-hallucinatory-chatbot-credible.html"
+        }
+      ]
+    },
+    {
+      "id": "binance-hack",
+      "type": "news",
+      "category": "Cybersecurity",
+      "headline": "Crypto exchange Binance says about $6.3 billion hit by hack",
+      "summary": "Binance, the largest cryptocurrency exchange, said about $6.3 billion was affected by an attack, that about $3 billion was frozen with help from partners, and that it will cover losses. It paused deposits and withdrawals for security checks. Two blockchain-analysis firms, TRM and Chainalysis, said a North Korea-linked hacking group was likely responsible; law enforcement has not confirmed that. Binance said it found no evidence that a wallet's private key leaked.",
+      "whyItMatters": "Blockchain records are public, which lets outside analysts follow stolen funds. Big platforms still need security at every step, not just strong encryption.",
+      "csp": {
+        "idea": "Computer Systems and Networks",
+        "connection": "Security depends on every part of a system, including who can approve access, not just the encryption."
       },
       "sources": [
         {
           "name": "Tech Xplore (AP)",
-          "date": "2026-10-29",
-          "url": "https://techxplore.com/news/2026-10-ftc-walmart-delta-personal-prices.html"
+          "date": "2026-10-30",
+          "url": "https://techxplore.com/news/2026-10-blockchain-intelligence-firms-link-north.html"
         }
       ]
     },
     {
-      "id": "ai-vs-human-brainstorming",
+      "id": "fast-micro-led",
       "type": "news",
-      "category": "AI & creativity",
-      "headline": "People brainstorm more original ideas with a partner than with ChatGPT",
-      "summary": "In a study of 208 people, participants came up with new uses for everyday objects like a brick or a book, working either with another person or with ChatGPT. Pairs using ChatGPT wrote more, but human pairs produced more creative and more varied ideas. ChatGPT tended to repeat similar ideas across separate sessions. The study, published in Computers in Human Behavior, tested one chatbot on one task.",
-      "whyItMatters": "AI can produce lots of ideas fast, but more is not the same as more original. For a group project, talking with classmates first may lead to a wider range of ideas.",
-      "csp": {
-        "idea": "Creative Development",
-        "connection": "Collaboration with people who think differently helps produce more varied solutions during brainstorming."
-      },
-      "sources": [
-        {
-          "name": "Tech Xplore (The Conversation)",
-          "date": "2026-10-28",
-          "url": "https://techxplore.com/news/2026-10-ai-quickly-generate-ideas-people.html"
-        }
-      ]
-    },
-    {
-      "id": "wildfire-digital-twin",
-      "type": "news",
-      "category": "AI & climate",
-      "headline": "AI 'digital twin' forecasts how a wildfire will spread",
-      "summary": "NYU engineers built a digital twin, a computer model that mirrors a real fire as it changes. It combines a physics model of how fire spreads with live satellite, weather, terrain and vegetation data to forecast up to 12 hours ahead. In one test on Oregon's Grasshopper Fire, its predicted burn area matched what happened 94.6% by a standard overlap measure; another forecast scored 72.4%. It is a research prototype, not yet used by fire crews.",
-      "whyItMatters": "Better fire forecasts could help plan evacuations in places like the West Coast. The results also show that a model is only as good as how recent its data is.",
-      "csp": {
-        "idea": "Data",
-        "connection": "Combining many live data sources lets a simulation update its predictions as conditions change."
-      },
-      "sources": [
-        {
-          "name": "Phys.org (NYU Tandon)",
-          "date": "2026-10-28",
-          "url": "https://phys.org/news/2026-10-physics-ai-tool-aims-wildfire.html"
-        }
-      ]
-    },
-    {
-      "id": "sensor-mustang-students",
-      "type": "news",
-      "category": "Transportation",
-      "headline": "Students turn an electric SUV into a rolling self-driving lab",
-      "summary": "At Northeastern University's Seattle campus, students use a Ford Mustang Mach-E fitted with four cameras, lidar (laser-based 3D mapping), radar, GPS and motion sensors. The car records about 10 gigabytes of data per minute onto 8 terabytes of storage. Students use the data for projects like navigation help for people who are visually impaired. The team is modifying steering and throttle software to move beyond today's hands-free driver assistance.",
-      "whyItMatters": "Self-driving research is mostly about software and data. Learning how to combine sensors that each have strengths and weaknesses is the core skill these students are practicing.",
+      "category": "Hardware",
+      "headline": "Record-fast tiny LED could carry data as light in data centers",
+      "summary": "Engineers at the University of Illinois and Notre Dame built gallium nitride micro-LEDs that switch on and off fast enough to send data at a bandwidth of 2.75 gigahertz while using 25 milliwatts. They tested sizes from 100 down to 2 micrometers and found a 5-micrometer LED gave the best balance of speed and power. The goal is short light-based links inside data centers, where most connections span under 10 meters. It is lab research in IEEE Electron Device Letters.",
+      "whyItMatters": "Data centers that run AI and streaming move huge amounts of data over short distances. Sending it as light instead of through copper wires could save energy.",
       "csp": {
         "idea": "Computer Systems and Networks",
-        "connection": "Several sensors feed one onboard computer, and software must merge their data to understand the road."
+        "connection": "Data travels as bits that can be encoded in electricity, light or radio; faster links let networks move more data."
       },
       "sources": [
         {
-          "name": "Tech Xplore (Northeastern)",
-          "date": "2026-10-28",
-          "url": "https://techxplore.com/news/2026-10-students-road-sensor-ford-mustang.html"
+          "name": "Tech Xplore (Univ. of Illinois)",
+          "date": "2026-10-29",
+          "url": "https://techxplore.com/news/2026-10-gigahertz-fast-energy-efficient-centers.html"
         }
       ]
     },
     {
-      "id": "snake-robot-intestine",
+      "id": "pixel-space-image-ai",
+      "type": "news",
+      "category": "AI & art",
+      "headline": "Image AI that works pixel by pixel allows precise edits",
+      "summary": "Most AI image generators work on a compressed version of a picture, so fixing one detail can change unrelated parts. University of Rochester and NVIDIA researchers built PixelDiT2, which generates images directly in pixels. That lets users change one region, like a person's glasses or a car's color, without disturbing the rest. The team says it nearly matches leading models. The paper is a preprint, not yet peer-reviewed, and will be presented in December.",
+      "whyItMatters": "Artists and designers want control, not just a random new image each try. How an AI stores an image affects what kinds of edits are possible.",
+      "csp": {
+        "idea": "Data",
+        "connection": "Compressing data saves space and time but can lose detail; working with raw pixels trades speed for control."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (Univ. of Rochester)",
+          "date": "2026-10-29",
+          "url": "https://techxplore.com/news/2026-10-ai-generated-images-pixel.html"
+        }
+      ]
+    },
+    {
+      "id": "social-wiki-editable-apps",
+      "type": "news",
+      "category": "Social media",
+      "headline": "MIT's Social.Wiki lets users edit the social apps they use",
+      "summary": "Social.Wiki is a research platform where every social app has an edit button. Users can change an app's code themselves or ask an AI assistant to do it, then choose which other people's edits they see, such as only changes approved by two friends. User data is stored separately from the apps, and a data guard asks permission before an app reads it. It is an early prototype described in a preprint, with no public release date yet.",
+      "whyItMatters": "Most social apps are designed by one company for everyone. This project tests whether communities could shape their own feeds and features instead.",
+      "csp": {
+        "idea": "Creative Development",
+        "connection": "Letting users modify and remix code is a form of collaborative, iterative program development."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (MIT)",
+          "date": "2026-10-29",
+          "url": "https://techxplore.com/news/2026-10-socialwiki-users-reshape-social-apps.html"
+        }
+      ]
+    },
+    {
+      "id": "magnet-bead-prosthetics",
       "type": "news",
       "category": "Health tech",
-      "headline": "Snake-inspired soft robot crawls through the small intestine",
-      "summary": "MIT researchers built a soft, tube-shaped robot that moves like a snake. Air chambers inflate in different patterns to stretch or bend it, while balloons at each end take turns gripping. An operator steers it with a wireless joystick, and it carries a camera, a drug sprayer and tiny clips for taking tissue samples. In animal studies in pig intestines, it traveled about 2 meters. It has not been tested in people. The work appears in Science Robotics.",
-      "whyItMatters": "The small intestine is over 20 feet long and hard for doctors to reach. A steerable robot could someday make diagnosis less difficult, but safety in humans is still unproven.",
+      "headline": "Magnet beads in muscles could help steer prosthetic legs",
+      "summary": "MIT researchers implanted pairs of 3-millimeter magnetic beads in leg muscles. Sensors on the skin track the distance between the beads as a muscle stretches or contracts, a method called magnetomicrometry. Three people with below-knee amputations used it to move a cursor on a screen, and it gave more accurate, stable control than electrical muscle sensors. Controlling a real prosthetic leg has not been tested yet. The study appears in Nature Sensors.",
+      "whyItMatters": "Skin sensors can be thrown off by sweat or nearby muscles. A more reliable signal could make walking with a robotic leg safer someday.",
+      "csp": {
+        "idea": "Computer Systems and Networks",
+        "connection": "Sensors turn physical motion into data that software uses to control a device in real time."
+      },
       "sources": [
         {
           "name": "Medical Xpress (MIT)",
-          "date": "2026-10-28",
-          "url": "https://medicalxpress.com/news/2026-10-snake-soft-robot-doctors-small.html"
+          "date": "2026-10-29",
+          "url": "https://medicalxpress.com/news/2026-10-magnetic-bead-implants-accurate-prosthetic.html"
         }
       ]
     },
     {
-      "id": "spray-power-fibers",
+      "id": "dst-dark-school-commutes",
       "type": "news",
-      "category": "Hardware",
-      "headline": "Spray-coated fibers power a keypad that unlocks a door",
-      "summary": "Korean researchers made fibers that generate electricity when pressed and released, using a one-step spray coating instead of high-voltage equipment. The fibers rely on the triboelectric effect, the same static charge you get rubbing a balloon. The team built a 12-key keypad connected to an Arduino that recognized a correct password and opened a door lock without outside power for detecting key presses. The fibers kept working for 30,000 press cycles.",
-      "whyItMatters": "Inputs that power themselves could lead to wearables and sensors that need fewer batteries. Wearable versions have not been tested yet.",
-      "csp": {
-        "idea": "Computer Systems and Networks",
-        "connection": "A keypad is an input device; the Arduino reads its signals and runs code that checks the password."
-      },
-      "sources": [
-        {
-          "name": "Tech Xplore (NST)",
-          "date": "2026-10-28",
-          "url": "https://techxplore.com/news/2026-10-spray-coating-power-generating-fibers.html"
-        }
-      ]
-    },
-    {
-      "id": "dead-layer-chip-films",
-      "type": "news",
-      "category": "Chips",
-      "headline": "Ultra-thin films keep special chip materials working at tiny sizes",
-      "summary": "Some materials, called multiferroics, can store data by flipping with a tiny voltage, which could save energy. But when made thin enough for chips, they usually stop working, a problem called the \"dead layer.\" Brown University researchers squeezed the material by growing it on a slightly smaller crystal and added a metal layer to block stray electric fields. The films kept working at just a few atoms thick. The study in Nature Materials did not build working chips.",
-      "whyItMatters": "AI uses a lot of electricity, so lower-power memory matters. This is an early materials step, not a product.",
-      "sources": [
-        {
-          "name": "Tech Xplore (Brown University)",
-          "date": "2026-10-28",
-          "url": "https://techxplore.com/news/2026-10-ultrathin-dead-layer-effect-enable.html"
-        }
-      ]
-    },
-    {
-      "id": "meal-delivery-app-choices",
-      "type": "news",
-      "category": "Apps & health",
-      "headline": "Delivery app deals nudge people toward fast food, study finds",
-      "summary": "Australian researchers held 12 focus groups with 112 adults about apps like Uber Eats and DoorDash. Participants linked the apps with treat foods, and said promotions such as free delivery and buy-one-get-one-free often pushed them to order in instead of cooking. Most said they would ignore calorie labels when ordering a treat. The study, in the Australian and New Zealand Journal of Public Health, measured opinions, not actual orders.",
-      "whyItMatters": "App design and deals shape everyday decisions, often without us noticing. Knowing that can help you think twice about what a promotion is steering you toward.",
-      "csp": {
-        "idea": "Impact of Computing",
-        "connection": "Interface choices like pop-up deals can influence user behavior, with effects beyond the app itself."
-      },
-      "sources": [
-        {
-          "name": "Medical Xpress (SAHMRI)",
-          "date": "2026-10-28",
-          "url": "https://medicalxpress.com/news/2026-10-meal-delivery-apps-unhealthy-choices.html"
-        }
-      ]
-    },
-    {
-      "id": "barreleye-4k-rov",
-      "type": "news",
-      "category": "Ocean science",
-      "headline": "Robot sub films a rare see-through-headed fish in 4K",
-      "summary": "The Monterey Bay Aquarium Research Institute (MBARI) filmed a barreleye fish, whose tube-shaped eyes rotate under a clear dome on its head, about 600 meters deep. It is only MBARI's 11th sighting in nearly 40 years, and the first in 4K. A remotely operated vehicle, a robot sub piloted from a ship, also recorded 3D video for education. MBARI has logged more than 41,000 hours of deep-sea video over about 7,000 dives.",
-      "whyItMatters": "Most of the deep ocean is seen only through cameras on robots. Huge video archives like MBARI's let scientists study rare animals without collecting them.",
+      "category": "Data & school",
+      "headline": "Model estimates permanent daylight time means more dark school trips",
+      "summary": "University of Washington researchers combined school start times, enrollment and location data to estimate how many school commutes would happen in the dark under permanent daylight saving time. In 14 states, the increase ranged up to about 71 million trips in Georgia; Washington would see about 35 million more. Extrapolating, they estimate at least 2 billion more nationwide. Congress is considering the change. The study is in Current Biology.",
+      "whyItMatters": "Your morning commute is part of this debate. The study shows how combining public datasets can turn a policy question into concrete numbers people can discuss.",
       "csp": {
         "idea": "Data",
-        "connection": "Decades of stored video become a searchable dataset for finding and comparing rare events."
+        "connection": "Combining several datasets let researchers estimate an outcome no single dataset could show."
       },
       "sources": [
         {
-          "name": "Phys.org (MBARI)",
-          "date": "2026-10-28",
-          "url": "https://phys.org/news/2026-10-rarely-deep-sea-barreleye-fish.html"
+          "name": "Medical Xpress (Univ. of Washington)",
+          "date": "2026-10-29",
+          "url": "https://medicalxpress.com/news/2026-10-permanent-daylight-billion-dark-school.html"
+        }
+      ]
+    },
+    {
+      "id": "sandia-fog-rain-cameras",
+      "type": "news",
+      "category": "Sensors",
+      "headline": "Lab makes fog and rain on demand to test cameras",
+      "summary": "Sandia National Laboratories researchers run six off-the-shelf cameras, including a thermal camera, side by side in a chamber with 64 fog nozzles and 16 rain nozzles. It can make rain as heavy as 12 inches per hour. Lasers measure exactly how much light gets through, and all footage is time-stamped so frames can be compared. The team wants to check vendor claims and build a labeled dataset for training machine learning. Results are not yet reported.",
+      "whyItMatters": "Security cameras and self-driving cars both struggle in bad weather. Repeatable tests make it possible to compare sensors fairly instead of waiting for a storm.",
+      "csp": {
+        "idea": "Data",
+        "connection": "Machine learning needs labeled training data; controlled conditions make the labels precise."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (Sandia)",
+          "date": "2026-10-29",
+          "url": "https://techxplore.com/news/2026-10-bad-weather-purpose-camera-sensor.html"
+        }
+      ]
+    },
+    {
+      "id": "bbert-soil-bacteria",
+      "type": "news",
+      "category": "AI & science",
+      "headline": "Language-style AI reads DNA to find hidden soil bacteria",
+      "summary": "Hebrew University researchers built BBERT, an AI model similar to those used for text, but trained on bacterial DNA. It sorts short DNA fragments of about 100 letters without matching them to reference databases, which miss many soil microbes. It identified bacterial DNA about 90% of the time and sped up some genome reconstruction from about 66 hours to 25. It runs on a PC with a suitable graphics card. The study is in Nucleic Acids Research.",
+      "whyItMatters": "DNA is a kind of code made of letters, so tools built for language can help read it. Running on ordinary computers means smaller labs can use it too.",
+      "csp": {
+        "idea": "Algorithms and Programming",
+        "connection": "A model that learns patterns can classify data that a lookup in an incomplete database would miss."
+      },
+      "sources": [
+        {
+          "name": "Phys.org (Hebrew University)",
+          "date": "2026-10-29",
+          "url": "https://phys.org/news/2026-10-ai-tool-scientists-bacteria-hidden.html"
         }
       ]
     }
