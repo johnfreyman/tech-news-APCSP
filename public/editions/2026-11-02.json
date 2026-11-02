@@ -1,0 +1,179 @@
+{
+  "schemaVersion": 1,
+  "editionId": "2026-11-02-daily",
+  "date": "2026-11-02",
+  "coverage": "Nine stories · grid dips, deceptive ads, AI scraping opt-out, Mount Tai robots, BP wearables, AI empathy, shortest paths, quantum links, robot moth",
+  "cards": [
+    {
+      "id": "grid-one-minute-dips",
+      "type": "news",
+      "category": "Computer systems",
+      "headline": "Batteries checking in every minute cause tiny power grid dips",
+      "summary": "Europe's power grid frequency was dipping briefly at the start of every minute, and no one knew why. Researchers at Forschungszentrum Jülich and partners traced it to large battery storage systems that check their charge every 60 seconds, all at the top of the minute, creating synchronized spikes in demand. They found the pattern worldwide. The dips are not a safety threat but add wear to hydroelectric turbines. The study is in Nature Energy.",
+      "whyItMatters": "Many devices running the same simple rule at once can add up to a big effect. The researchers' proposed fix is easy: schedule the checks at random times instead.",
+      "csp": {
+        "idea": "Computer Systems and Networks",
+        "connection": "When many independent devices run on the same timer, their combined behavior can strain a shared system; randomizing timing spreads the load."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (Forschungszentrum Jülich)",
+          "date": "2026-10-30",
+          "url": "https://techxplore.com/news/2026-10-mystery-fluctuations-power-grids.html"
+        }
+      ]
+    },
+    {
+      "id": "adlens-deceptive-ads",
+      "type": "news",
+      "category": "Cybersecurity",
+      "headline": "AI tool finds thousands of deceptive software ads on Google",
+      "summary": "NYU Tandon and Radboud University researchers built AdLens, which uses small language models to scan ads for known tricks, then checks the suspicious ones more closely. Of about 189,000 software ads in Google's public ad library, thousands were deceptive, such as fake virus warnings or apps claiming to find anyone's location from a phone number. They were shown more than 100 million times in Europe. The paper will be presented at a security conference November 18.",
+      "whyItMatters": "An ad appearing on a big platform does not mean it is honest. Be skeptical of pop-up warnings and apps that promise impossible results.",
+      "csp": {
+        "idea": "Impact of Computing",
+        "connection": "Automated filtering at scale can miss harmful content, and researchers can use public data to audit how well platforms enforce their own rules."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (NYU Tandon)",
+          "date": "2026-10-30",
+          "url": "https://techxplore.com/news/2026-10-thousands-deceptive-ads-evade-google.html"
+        }
+      ]
+    },
+    {
+      "id": "ai-scraping-opt-out",
+      "type": "news",
+      "category": "Internet",
+      "headline": "AI companies pledge one shared way for sites to block training",
+      "summary": "OpenAI, Google, Microsoft and Anthropic said they will support a single standard instruction that lets publishers opt out of having their pages used to train future AI models. Today, sites must write separate blocking rules for each company's bot. It is not fully in effect yet: Microsoft plans to start February 1, 2027, Google sometime in 2027, and OpenAI in the coming months; Anthropic says it has started. Scraping stays allowed unless a site opts out.",
+      "whyItMatters": "The text and images you post online can become AI training data. Standards like this decide who controls that choice and how easy it is to say no.",
+      "csp": {
+        "idea": "Computer Systems and Networks",
+        "connection": "Shared protocols let many different programs, like web crawlers, follow the same rules without custom code for each one."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (AFP)",
+          "date": "2026-10-31",
+          "url": "https://techxplore.com/news/2026-10-ai-giants-publishers-block.html"
+        }
+      ]
+    },
+    {
+      "id": "mount-tai-robot-race",
+      "type": "news",
+      "category": "Robotics",
+      "headline": "Robots climb 3,000 steps up China's Mount Tai carrying eggs",
+      "summary": "About 90 teams sent robots up a 3.9-kilometer route on Mount Tai, a UNESCO World Heritage site, with more than 3,000 steps. Some raced for speed; others carried fragile loads like eggs and watermelons. The fastest four-legged robot finished in 43 minutes 41 seconds, while CCTV said most tourists need at least two hours. Two humanoid robots fell on the route. Organizer China Media Group, which is state-run, called the mountain a natural extreme testing ground.",
+      "whyItMatters": "Stairs, uneven stones and fragile cargo are hard for robots. Public challenges show where robot balance and control software still fail outside the lab.",
+      "csp": {
+        "idea": "Algorithms and Programming",
+        "connection": "A walking robot constantly reads sensor data and adjusts its steps, a loop of input, decision and output."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (AFP)",
+          "date": "2026-11-02",
+          "url": "https://techxplore.com/news/2026-11-laden-eggs-robots-sacred-chinese.html"
+        }
+      ]
+    },
+    {
+      "id": "wearable-bp-crisis-alert",
+      "type": "news",
+      "category": "Health tech",
+      "headline": "Wearables and AI may warn of blood pressure crises days ahead",
+      "summary": "In a study of 4,190 adults with high blood pressure at one hospital in Pakistan, a cuff monitor and a wrist wearable collected readings day and night. An AI tool looked at 47 features, like whether blood pressure dropped during sleep, to flag a likely crisis within 72 hours. About 32% of people with an alert had a crisis, while 97.4% without one did not. The research is preliminary and will be presented at an American Heart Association meeting this week.",
+      "whyItMatters": "Wearables collect data continuously, which can reveal patterns a single doctor's visit misses. Early warnings still need testing in more places before doctors rely on them.",
+      "csp": {
+        "idea": "Data",
+        "connection": "Combining many measurements over time lets a model find patterns that predict a future event, with some false alarms."
+      },
+      "sources": [
+        {
+          "name": "Medical Xpress (American Heart Association)",
+          "date": "2026-11-02",
+          "url": "https://medicalxpress.com/news/2026-10-wearable-devices-ai-analysis-high.html"
+        }
+      ]
+    },
+    {
+      "id": "ai-vs-human-empathy",
+      "type": "news",
+      "category": "AI & society",
+      "headline": "People rate AI empathy higher but still prefer humans",
+      "summary": "Penn State psychologists asked people to rate supportive, empathetic messages written by AI or by humans, including trained crisis responders. Participants rated the AI responses higher in quality, yet still said they would rather receive empathy from a person. Responses that seemed to take more effort were seen as more empathetic, and that link was stronger for humans. Why people prefer human empathy is still unresolved. The study is in Communications Psychology.",
+      "whyItMatters": "A well-written message is not the same as feeling cared for. As chatbots get better with words, people still value knowing another person made the effort.",
+      "csp": {
+        "idea": "Impact of Computing",
+        "connection": "Evaluating AI requires measuring more than output quality, including how people experience and value it."
+      },
+      "sources": [
+        {
+          "name": "Phys.org (Penn State)",
+          "date": "2026-10-31",
+          "url": "https://phys.org/news/2026-10-people-human-empathy-ai-higher.html"
+        }
+      ]
+    },
+    {
+      "id": "shortest-paths-1996",
+      "type": "news",
+      "category": "Algorithms",
+      "headline": "Shortest-path shortcut from 1996 now works for nearby points",
+      "summary": "Finding the shortest distance between every pair of points in a network can take enormous computing time. A 1996 method quickly estimated distances within twice the true value, but only for points far apart. Manoj Gupta of IIT Gandhinagar extended that guarantee to much closer pairs using sampling at multiple scales, without making it slower. The work is theoretical and was presented at the FOCS computer science conference.",
+      "whyItMatters": "Maps, games and internet routing all depend on shortest-path algorithms. Sometimes a fast answer that is guaranteed to be close beats a perfect answer that takes too long.",
+      "csp": {
+        "idea": "Algorithms and Programming",
+        "connection": "Approximation algorithms trade some accuracy for speed when an exact solution would take an unreasonable amount of time."
+      },
+      "sources": [
+        {
+          "name": "ScienceDaily (IIT Gandhinagar)",
+          "date": "2026-10-30",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261029072146.htm"
+        }
+      ]
+    },
+    {
+      "id": "ibm-linked-quantum-chips",
+      "type": "news",
+      "category": "Hardware",
+      "headline": "IBM links two quantum chips with cables to act together",
+      "summary": "IBM researchers connected two 120-qubit quantum processors with four superconducting cables, each 80 centimeters long. A qubit is the basic unit of quantum information. Information passed between chips with about 99% accuracy on average, and two-qubit operations across both chips averaged 94.75%. The goal is to build bigger quantum computers from smaller modules. The paper is a preprint, not yet peer-reviewed, and IBM says more work is needed before it is practical.",
+      "whyItMatters": "Ordinary computers scale up by linking many processors. Quantum computers may need the same approach, and reliable connections between chips are a key step.",
+      "csp": {
+        "idea": "Computer Systems and Networks",
+        "connection": "Connecting separate processors so they share work is a basic way to build larger, more capable computing systems."
+      },
+      "sources": [
+        {
+          "name": "Phys.org (IBM Research)",
+          "date": "2026-10-31",
+          "url": "https://phys.org/news/2026-10-superconducting-cables-link-large-quantum.html"
+        }
+      ]
+    },
+    {
+      "id": "robot-moth-grows-sensor",
+      "type": "news",
+      "category": "Robotics",
+      "headline": "Robot moth grows its own light sensor through artificial veins",
+      "summary": "University of Tartu and Italian Institute of Technology researchers 3D-printed a moth-shaped robot with veins in its clear plastic wings. A pump moves a liquid through the veins; under ultraviolet light, the liquid turns into a conductive material that acts as a UV sensor. Before, the robot ignored UV light. After, its microcontroller could flap the wings or blink an LED when UV was detected. It is a proof of concept in Advanced Science.",
+      "whyItMatters": "Most robots only have the sensors they were built with. This tests whether a machine could add new hardware to itself, which could matter for robots far from repair.",
+      "csp": {
+        "idea": "Computer Systems and Networks",
+        "connection": "A new sensor gives a program a new input, so the same microcontroller can respond to a signal it could not detect before."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (Univ. of Tartu)",
+          "date": "2026-10-30",
+          "url": "https://techxplore.com/news/2026-10-robot-moth-uv-sensor-artificial.html"
+        }
+      ]
+    }
+  ]
+}
