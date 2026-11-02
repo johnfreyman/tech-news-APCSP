@@ -142,7 +142,7 @@
       "type": "news",
       "category": "Hardware",
       "headline": "IBM links two quantum chips with cables to act together",
-      "summary": "IBM researchers connected two 120-qubit quantum processors with four superconducting cables, each 80 centimeters long. A qubit is the basic unit of quantum information. Information passed between chips with about 99% accuracy on average, and two-qubit operations across both chips averaged 94.75%. The goal is to build bigger quantum computers from smaller modules. The paper is a preprint, not yet peer-reviewed, and IBM says more work is needed before it is practical.",
+      "summary": "IBM researchers connected two 120-qubit quantum processors with four superconducting cables, each 80 centimeters long. A qubit is the basic unit of quantum information. Information passed between chips with about 99% accuracy on average, and two-qubit operations across both chips averaged 94.75%. The goal is to build bigger quantum computers from smaller modules. The preprint is not yet peer-reviewed, and qubits must hold information longer before it is practical.",
       "whyItMatters": "Ordinary computers scale up by linking many processors. Quantum computers may need the same approach, and reliable connections between chips are a key step.",
       "csp": {
         "idea": "Computer Systems and Networks",
