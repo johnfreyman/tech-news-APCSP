@@ -1,177 +1,177 @@
 {
   "schemaVersion": 1,
-  "editionId": "2026-10-30-daily",
-  "date": "2026-10-30",
-  "coverage": "Nine stories · fluent chatbots, crypto hack, fast LEDs, pixel AI art, Social.Wiki, prosthetic magnets, dark commutes, weather lab, soil DNA AI",
+  "editionId": "2026-11-02-daily",
+  "date": "2026-11-02",
+  "coverage": "Nine stories · grid dips, deceptive ads, AI scraping opt-out, Mount Tai robots, BP wearables, AI empathy, shortest paths, quantum links, robot moth",
   "cards": [
     {
-      "id": "fluent-chatbot-trust",
+      "id": "grid-one-minute-dips",
       "type": "news",
-      "category": "AI",
-      "headline": "Smooth-talking chatbots fool people even when facts are wrong",
-      "summary": "Radboud University researchers showed participants chatbot conversations about The Lord of the Rings. Some chatbots answered in fluent, humanlike language and others in short, businesslike replies; some answers had subtly made-up facts. A fluent chatbot giving false information was rated as intelligent and pleasant as a curt one that was correct, and about 80% of participants missed the errors. The study appears in Computers in Human Behavior: Artificial Humans.",
-      "whyItMatters": "Polished writing is not proof of accuracy. When you use AI for schoolwork, check its claims against a reliable source, especially when the answer sounds confident.",
+      "category": "Computer systems",
+      "headline": "Batteries checking in every minute cause tiny power grid dips",
+      "summary": "Europe's power grid frequency was dipping briefly at the start of every minute, and no one knew why. Researchers at Forschungszentrum Jülich and partners traced it to large battery storage systems that check their charge every 60 seconds, all at the top of the minute, creating synchronized spikes in demand. They found the pattern worldwide. The dips are not a safety threat but add wear to hydroelectric turbines. The study is in Nature Energy.",
+      "whyItMatters": "Many devices running the same simple rule at once can add up to a big effect. The researchers' proposed fix is easy: schedule the checks at random times instead.",
       "csp": {
-        "idea": "Impact of Computing",
-        "connection": "Language models are trained to produce plausible text, so users must evaluate whether the output is actually correct."
+        "idea": "Computer Systems and Networks",
+        "connection": "When many independent devices run on the same timer, their combined behavior can strain a shared system; randomizing timing spreads the load."
       },
       "sources": [
         {
-          "name": "Tech Xplore (Radboud University)",
-          "date": "2026-10-29",
-          "url": "https://techxplore.com/news/2026-10-fluent-language-hallucinatory-chatbot-credible.html"
+          "name": "Tech Xplore (Forschungszentrum Jülich)",
+          "date": "2026-10-30",
+          "url": "https://techxplore.com/news/2026-10-mystery-fluctuations-power-grids.html"
         }
       ]
     },
     {
-      "id": "binance-hack",
+      "id": "adlens-deceptive-ads",
       "type": "news",
       "category": "Cybersecurity",
-      "headline": "Crypto exchange Binance says about $6.3 billion hit by hack",
-      "summary": "Binance, the largest cryptocurrency exchange, said about $6.3 billion was affected by an attack, that about $3 billion was frozen with help from partners, and that it will cover losses. It paused deposits and withdrawals for security checks. Two blockchain-analysis firms, TRM and Chainalysis, said a North Korea-linked hacking group was likely responsible; law enforcement has not confirmed that. Binance said it found no evidence that a wallet's private key leaked.",
-      "whyItMatters": "Blockchain records are public, which lets outside analysts follow stolen funds. Big platforms still need security at every step, not just strong encryption.",
+      "headline": "AI tool finds thousands of deceptive software ads on Google",
+      "summary": "NYU Tandon and Radboud University researchers built AdLens, which uses small language models to scan ads for known tricks, then checks the suspicious ones more closely. Of about 189,000 software ads in Google's public ad library, thousands were deceptive, such as fake virus warnings or apps claiming to find anyone's location from a phone number. They were shown more than 100 million times in Europe. The paper will be presented at a security conference November 18.",
+      "whyItMatters": "An ad appearing on a big platform does not mean it is honest. Be skeptical of pop-up warnings and apps that promise impossible results.",
       "csp": {
-        "idea": "Computer Systems and Networks",
-        "connection": "Security depends on every part of a system, including who can approve access, not just the encryption."
+        "idea": "Impact of Computing",
+        "connection": "Automated filtering at scale can miss harmful content, and researchers can use public data to audit how well platforms enforce their own rules."
       },
       "sources": [
         {
-          "name": "Tech Xplore (AP)",
+          "name": "Tech Xplore (NYU Tandon)",
           "date": "2026-10-30",
-          "url": "https://techxplore.com/news/2026-10-blockchain-intelligence-firms-link-north.html"
+          "url": "https://techxplore.com/news/2026-10-thousands-deceptive-ads-evade-google.html"
         }
       ]
     },
     {
-      "id": "fast-micro-led",
+      "id": "ai-scraping-opt-out",
       "type": "news",
-      "category": "Hardware",
-      "headline": "Record-fast tiny LED could carry data as light in data centers",
-      "summary": "Engineers at the University of Illinois and Notre Dame built gallium nitride micro-LEDs that switch on and off fast enough to send data at a bandwidth of 2.75 gigahertz while using 25 milliwatts. They tested sizes from 100 down to 2 micrometers and found a 5-micrometer LED gave the best balance of speed and power. The goal is short light-based links inside data centers, where most connections span under 10 meters. It is lab research in IEEE Electron Device Letters.",
-      "whyItMatters": "Data centers that run AI and streaming move huge amounts of data over short distances. Sending it as light instead of through copper wires could save energy.",
+      "category": "Internet",
+      "headline": "AI companies pledge one shared way for sites to block training",
+      "summary": "OpenAI, Google, Microsoft and Anthropic said they will support a single standard instruction that lets publishers opt out of having their pages used to train future AI models. Today, sites must write separate blocking rules for each company's bot. It is not fully in effect yet: Microsoft plans to start February 1, 2027, Google sometime in 2027, and OpenAI in the coming months; Anthropic says it has started. Scraping stays allowed unless a site opts out.",
+      "whyItMatters": "The text and images you post online can become AI training data. Standards like this decide who controls that choice and how easy it is to say no.",
       "csp": {
         "idea": "Computer Systems and Networks",
-        "connection": "Data travels as bits that can be encoded in electricity, light or radio; faster links let networks move more data."
+        "connection": "Shared protocols let many different programs, like web crawlers, follow the same rules without custom code for each one."
       },
       "sources": [
         {
-          "name": "Tech Xplore (Univ. of Illinois)",
-          "date": "2026-10-29",
-          "url": "https://techxplore.com/news/2026-10-gigahertz-fast-energy-efficient-centers.html"
+          "name": "Tech Xplore (AFP)",
+          "date": "2026-10-31",
+          "url": "https://techxplore.com/news/2026-10-ai-giants-publishers-block.html"
         }
       ]
     },
     {
-      "id": "pixel-space-image-ai",
+      "id": "mount-tai-robot-race",
       "type": "news",
-      "category": "AI & art",
-      "headline": "Image AI that works pixel by pixel allows precise edits",
-      "summary": "Most AI image generators work on a compressed version of a picture, so fixing one detail can change unrelated parts. University of Rochester and NVIDIA researchers built PixelDiT2, which generates images directly in pixels. That lets users change one region, like a person's glasses or a car's color, without disturbing the rest. The team says it nearly matches leading models. The paper is a preprint, not yet peer-reviewed, and will be presented in December.",
-      "whyItMatters": "Artists and designers want control, not just a random new image each try. How an AI stores an image affects what kinds of edits are possible.",
-      "csp": {
-        "idea": "Data",
-        "connection": "Compressing data saves space and time but can lose detail; working with raw pixels trades speed for control."
-      },
-      "sources": [
-        {
-          "name": "Tech Xplore (Univ. of Rochester)",
-          "date": "2026-10-29",
-          "url": "https://techxplore.com/news/2026-10-ai-generated-images-pixel.html"
-        }
-      ]
-    },
-    {
-      "id": "social-wiki-editable-apps",
-      "type": "news",
-      "category": "Social media",
-      "headline": "MIT's Social.Wiki lets users edit the social apps they use",
-      "summary": "Social.Wiki is a research platform where every social app has an edit button. Users can change an app's code themselves or ask an AI assistant to do it, then choose which other people's edits they see, such as only changes approved by two friends. User data is stored separately from the apps, and a data guard asks permission before an app reads it. It is an early prototype described in a preprint, with no public release date yet.",
-      "whyItMatters": "Most social apps are designed by one company for everyone. This project tests whether communities could shape their own feeds and features instead.",
-      "csp": {
-        "idea": "Creative Development",
-        "connection": "Letting users modify and remix code is a form of collaborative, iterative program development."
-      },
-      "sources": [
-        {
-          "name": "Tech Xplore (MIT)",
-          "date": "2026-10-29",
-          "url": "https://techxplore.com/news/2026-10-socialwiki-users-reshape-social-apps.html"
-        }
-      ]
-    },
-    {
-      "id": "magnet-bead-prosthetics",
-      "type": "news",
-      "category": "Health tech",
-      "headline": "Magnet beads in muscles could help steer prosthetic legs",
-      "summary": "MIT researchers implanted pairs of 3-millimeter magnetic beads in leg muscles. Sensors on the skin track the distance between the beads as a muscle stretches or contracts, a method called magnetomicrometry. Three people with below-knee amputations used it to move a cursor on a screen, and it gave more accurate, stable control than electrical muscle sensors. Controlling a real prosthetic leg has not been tested yet. The study appears in Nature Sensors.",
-      "whyItMatters": "Skin sensors can be thrown off by sweat or nearby muscles. A more reliable signal could make walking with a robotic leg safer someday.",
-      "csp": {
-        "idea": "Computer Systems and Networks",
-        "connection": "Sensors turn physical motion into data that software uses to control a device in real time."
-      },
-      "sources": [
-        {
-          "name": "Medical Xpress (MIT)",
-          "date": "2026-10-29",
-          "url": "https://medicalxpress.com/news/2026-10-magnetic-bead-implants-accurate-prosthetic.html"
-        }
-      ]
-    },
-    {
-      "id": "dst-dark-school-commutes",
-      "type": "news",
-      "category": "Data & school",
-      "headline": "Model estimates permanent daylight time means more dark school trips",
-      "summary": "University of Washington researchers combined school start times, enrollment and location data to estimate how many school commutes would happen in the dark under permanent daylight saving time. In 14 states, the increase ranged up to about 71 million trips in Georgia; Washington would see about 35 million more. Extrapolating, they estimate at least 2 billion more nationwide. Congress is considering the change. The study is in Current Biology.",
-      "whyItMatters": "Your morning commute is part of this debate. The study shows how combining public datasets can turn a policy question into concrete numbers people can discuss.",
-      "csp": {
-        "idea": "Data",
-        "connection": "Combining several datasets let researchers estimate an outcome no single dataset could show."
-      },
-      "sources": [
-        {
-          "name": "Medical Xpress (Univ. of Washington)",
-          "date": "2026-10-29",
-          "url": "https://medicalxpress.com/news/2026-10-permanent-daylight-billion-dark-school.html"
-        }
-      ]
-    },
-    {
-      "id": "sandia-fog-rain-cameras",
-      "type": "news",
-      "category": "Sensors",
-      "headline": "Lab makes fog and rain on demand to test cameras",
-      "summary": "Sandia National Laboratories researchers run six off-the-shelf cameras, including a thermal camera, side by side in a chamber with 64 fog nozzles and 16 rain nozzles. It can make rain as heavy as 12 inches per hour. Lasers measure exactly how much light gets through, and all footage is time-stamped so frames can be compared. The team wants to check vendor claims and build a labeled dataset for training machine learning. Results are not yet reported.",
-      "whyItMatters": "Security cameras and self-driving cars both struggle in bad weather. Repeatable tests make it possible to compare sensors fairly instead of waiting for a storm.",
-      "csp": {
-        "idea": "Data",
-        "connection": "Machine learning needs labeled training data; controlled conditions make the labels precise."
-      },
-      "sources": [
-        {
-          "name": "Tech Xplore (Sandia)",
-          "date": "2026-10-29",
-          "url": "https://techxplore.com/news/2026-10-bad-weather-purpose-camera-sensor.html"
-        }
-      ]
-    },
-    {
-      "id": "bbert-soil-bacteria",
-      "type": "news",
-      "category": "AI & science",
-      "headline": "Language-style AI reads DNA to find hidden soil bacteria",
-      "summary": "Hebrew University researchers built BBERT, an AI model similar to those used for text, but trained on bacterial DNA. It sorts short DNA fragments of about 100 letters without matching them to reference databases, which miss many soil microbes. It identified bacterial DNA about 90% of the time and sped up some genome reconstruction from about 66 hours to 25. It runs on a PC with a suitable graphics card. The study is in Nucleic Acids Research.",
-      "whyItMatters": "DNA is a kind of code made of letters, so tools built for language can help read it. Running on ordinary computers means smaller labs can use it too.",
+      "category": "Robotics",
+      "headline": "Robots climb 3,000 steps up China's Mount Tai carrying eggs",
+      "summary": "About 90 teams sent robots up a 3.9-kilometer route on Mount Tai, a UNESCO World Heritage site, with more than 3,000 steps. Some raced for speed; others carried fragile loads like eggs and watermelons. The fastest four-legged robot finished in 43 minutes 41 seconds, while CCTV said most tourists need at least two hours. Two humanoid robots fell on the route. Organizer China Media Group, which is state-run, called the mountain a natural extreme testing ground.",
+      "whyItMatters": "Stairs, uneven stones and fragile cargo are hard for robots. Public challenges show where robot balance and control software still fail outside the lab.",
       "csp": {
         "idea": "Algorithms and Programming",
-        "connection": "A model that learns patterns can classify data that a lookup in an incomplete database would miss."
+        "connection": "A walking robot constantly reads sensor data and adjusts its steps, a loop of input, decision and output."
       },
       "sources": [
         {
-          "name": "Phys.org (Hebrew University)",
-          "date": "2026-10-29",
-          "url": "https://phys.org/news/2026-10-ai-tool-scientists-bacteria-hidden.html"
+          "name": "Tech Xplore (AFP)",
+          "date": "2026-11-02",
+          "url": "https://techxplore.com/news/2026-11-laden-eggs-robots-sacred-chinese.html"
+        }
+      ]
+    },
+    {
+      "id": "wearable-bp-crisis-alert",
+      "type": "news",
+      "category": "Health tech",
+      "headline": "Wearables and AI may warn of blood pressure crises days ahead",
+      "summary": "In a study of 4,190 adults with high blood pressure at one hospital in Pakistan, a cuff monitor and a wrist wearable collected readings day and night. An AI tool looked at 47 features, like whether blood pressure dropped during sleep, to flag a likely crisis within 72 hours. About 32% of people with an alert had a crisis, while 97.4% without one did not. The research is preliminary and will be presented at an American Heart Association meeting this week.",
+      "whyItMatters": "Wearables collect data continuously, which can reveal patterns a single doctor's visit misses. Early warnings still need testing in more places before doctors rely on them.",
+      "csp": {
+        "idea": "Data",
+        "connection": "Combining many measurements over time lets a model find patterns that predict a future event, with some false alarms."
+      },
+      "sources": [
+        {
+          "name": "Medical Xpress (American Heart Association)",
+          "date": "2026-11-02",
+          "url": "https://medicalxpress.com/news/2026-10-wearable-devices-ai-analysis-high.html"
+        }
+      ]
+    },
+    {
+      "id": "ai-vs-human-empathy",
+      "type": "news",
+      "category": "AI & society",
+      "headline": "People rate AI empathy higher but still prefer humans",
+      "summary": "Penn State psychologists asked people to rate supportive, empathetic messages written by AI or by humans, including trained crisis responders. Participants rated the AI responses higher in quality, yet still said they would rather receive empathy from a person. Responses that seemed to take more effort were seen as more empathetic, and that link was stronger for humans. Why people prefer human empathy is still unresolved. The study is in Communications Psychology.",
+      "whyItMatters": "A well-written message is not the same as feeling cared for. As chatbots get better with words, people still value knowing another person made the effort.",
+      "csp": {
+        "idea": "Impact of Computing",
+        "connection": "Evaluating AI requires measuring more than output quality, including how people experience and value it."
+      },
+      "sources": [
+        {
+          "name": "Phys.org (Penn State)",
+          "date": "2026-10-31",
+          "url": "https://phys.org/news/2026-10-people-human-empathy-ai-higher.html"
+        }
+      ]
+    },
+    {
+      "id": "shortest-paths-1996",
+      "type": "news",
+      "category": "Algorithms",
+      "headline": "Shortest-path shortcut from 1996 now works for nearby points",
+      "summary": "Finding the shortest distance between every pair of points in a network can take enormous computing time. A 1996 method quickly estimated distances within twice the true value, but only for points far apart. Manoj Gupta of IIT Gandhinagar extended that guarantee to much closer pairs using sampling at multiple scales, without making it slower. The work is theoretical and was presented at the FOCS computer science conference.",
+      "whyItMatters": "Maps, games and internet routing all depend on shortest-path algorithms. Sometimes a fast answer that is guaranteed to be close beats a perfect answer that takes too long.",
+      "csp": {
+        "idea": "Algorithms and Programming",
+        "connection": "Approximation algorithms trade some accuracy for speed when an exact solution would take an unreasonable amount of time."
+      },
+      "sources": [
+        {
+          "name": "ScienceDaily (IIT Gandhinagar)",
+          "date": "2026-10-30",
+          "url": "https://www.sciencedaily.com/releases/2026/10/261029072146.htm"
+        }
+      ]
+    },
+    {
+      "id": "ibm-linked-quantum-chips",
+      "type": "news",
+      "category": "Hardware",
+      "headline": "IBM links two quantum chips with cables to act together",
+      "summary": "IBM researchers connected two 120-qubit quantum processors with four superconducting cables, each 80 centimeters long. A qubit is the basic unit of quantum information. Information passed between chips with about 99% accuracy on average, and two-qubit operations across both chips averaged 94.75%. The goal is to build bigger quantum computers from smaller modules. The preprint is not yet peer-reviewed, and qubits must hold information longer before it is practical.",
+      "whyItMatters": "Ordinary computers scale up by linking many processors. Quantum computers may need the same approach, and reliable connections between chips are a key step.",
+      "csp": {
+        "idea": "Computer Systems and Networks",
+        "connection": "Connecting separate processors so they share work is a basic way to build larger, more capable computing systems."
+      },
+      "sources": [
+        {
+          "name": "Phys.org (IBM Research)",
+          "date": "2026-10-31",
+          "url": "https://phys.org/news/2026-10-superconducting-cables-link-large-quantum.html"
+        }
+      ]
+    },
+    {
+      "id": "robot-moth-grows-sensor",
+      "type": "news",
+      "category": "Robotics",
+      "headline": "Robot moth grows its own light sensor through artificial veins",
+      "summary": "University of Tartu and Italian Institute of Technology researchers 3D-printed a moth-shaped robot with veins in its clear plastic wings. A pump moves a liquid through the veins; under ultraviolet light, the liquid turns into a conductive material that acts as a UV sensor. Before, the robot ignored UV light. After, its microcontroller could flap the wings or blink an LED when UV was detected. It is a proof of concept in Advanced Science.",
+      "whyItMatters": "Most robots only have the sensors they were built with. This tests whether a machine could add new hardware to itself, which could matter for robots far from repair.",
+      "csp": {
+        "idea": "Computer Systems and Networks",
+        "connection": "A new sensor gives a program a new input, so the same microcontroller can respond to a signal it could not detect before."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (Univ. of Tartu)",
+          "date": "2026-10-30",
+          "url": "https://techxplore.com/news/2026-10-robot-moth-uv-sensor-artificial.html"
         }
       ]
     }
