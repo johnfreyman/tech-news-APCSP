@@ -104,7 +104,7 @@
       "type": "news",
       "category": "Health tech",
       "headline": "AI heart scan measurements slightly better at predicting survival",
-      "summary": "Researchers at City St George's and University College London had an AI tool measure how well the heart pumps from MRI scans of 27,382 patients in the UK and US. Over about five years of follow-up, the AI measurements were slightly but significantly better at predicting who would die than measurements by experienced clinicians. The AI took 2 to 3 seconds per scan. The study looked back at past data, and the senior author invented the tool.",
+      "summary": "Researchers at City St George's and University College London had an AI tool measure how well the heart pumps from MRI scans of 27,382 patients in the UK and US. Over more than five years of follow-up on average, the AI measurements were slightly but significantly better at predicting who would die than measurements by experienced clinicians. The AI took 2 to 3 seconds per scan. The study looked back at past data, and the senior author invented the tool.",
       "whyItMatters": "AI can do some careful, repetitive measurements faster and more consistently than people. Doctors still need to check its results, since it made errors on about 1% of patients.",
       "csp": {
         "idea": "Data",
