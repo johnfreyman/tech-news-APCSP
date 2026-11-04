@@ -1,0 +1,179 @@
+{
+  "schemaVersion": 1,
+  "editionId": "2026-11-04-daily",
+  "date": "2026-11-04",
+  "coverage": "Nine stories · school AI, accent bias, fake cell towers, job-scam hack, smartwatch gestures, teens online, soft drone, bacteria computer, protein AI",
+  "cards": [
+    {
+      "id": "google-school-search-ai-opt-in",
+      "type": "news",
+      "category": "Education tech",
+      "headline": "Google ties student search access to schools turning on AI",
+      "summary": "Google said Tuesday that K-12 schools can now switch tools like its Gemini chatbot and search on or off, with each off until an administrator enables it. Because Google search now includes AI features, schools that refuse AI entirely also lose Google search for students. Google says 150 million students and teachers use Google Classroom. Critics, including former FTC chair Lina Khan, say Google is pressuring schools to adopt AI.",
+      "whyItMatters": "Many students use Google tools and Chromebooks every school day. Decisions about which features are bundled together shape what you can use for research and how much AI you see.",
+      "csp": {
+        "idea": "Impact of Computing",
+        "connection": "When features are bundled in one product, a setting meant for one tool can change access to another, raising questions of choice and control."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (AP)",
+          "date": "2026-11-04",
+          "url": "https://techxplore.com/news/2026-11-google-access-students-schools-ai.html"
+        }
+      ]
+    },
+    {
+      "id": "audio-ai-accent-bias",
+      "type": "news",
+      "category": "Artificial intelligence",
+      "headline": "AI models score some English accents lower for the same answers",
+      "summary": "University of Washington researchers had AI voices read identical scripts for job interviews, presentations and English tests in American, British, Chinese, Indian and Nigerian accents. Four audio AI models, including Gemini 2.5 and GPT-Audio 1.5, rated Chinese and Nigerian accents lowest, even when they transcribed the speech correctly. A check with 52 human speakers showed an even larger gap. The work was presented at the EMNLP conference.",
+      "whyItMatters": "AI is starting to screen job applicants and score spoken tests. If it judges how you sound instead of what you say, some people could be unfairly rated lower.",
+      "csp": {
+        "idea": "Impact of Computing",
+        "connection": "Training data that underrepresents some groups can produce biased results, so developers should report accuracy for each group, not just an average."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (Univ. of Washington)",
+          "date": "2026-11-03",
+          "url": "https://techxplore.com/news/2026-11-ai-biased-accents-scoring.html"
+        }
+      ]
+    },
+    {
+      "id": "devilray-fake-cell-towers",
+      "type": "news",
+      "category": "Cybersecurity",
+      "headline": "Test platform finds blind spots in fake cell tower detectors",
+      "summary": "A fake cell tower pretends to be a real one so nearby phones connect, which can reveal a phone's identity and location. KAIST researchers built Devilray, which reproduces 2,592 fake-tower setups, and tested seven public detectors; each missed at least 192. Retraining a machine-learning detector caught many more but also raised false alarms. The study is a preprint, and Devilray is shared only with vetted researchers.",
+      "whyItMatters": "A security tool tested only against attacks its own makers built may miss real ones. Good testing reports both missed attacks and false alarms.",
+      "csp": {
+        "idea": "Computer Systems and Networks",
+        "connection": "Phones trust signals that follow network standards, so attackers can misuse legitimate protocol messages to impersonate trusted devices."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (KAIST)",
+          "date": "2026-11-03",
+          "url": "https://techxplore.com/news/2026-11-devilray-exposes-fake-cell-tower.html"
+        }
+      ]
+    },
+    {
+      "id": "binance-fake-job-interview-hack",
+      "type": "news",
+      "category": "Cybersecurity",
+      "headline": "Crypto exchange says hack began with a fake job interview",
+      "summary": "Binance released its investigation into an October 29 theft of about $6.34 billion in cryptocurrency. It says attackers posed as a recruiter on a real job-search site and had an engineer download a fake \"test exercise\" containing malware, which gave them a path into internal systems. Earlier, another engineer had downloaded a tampered copy of a programming tool. The FBI blamed North Korea-linked hackers; North Korea denies it.",
+      "whyItMatters": "The attackers did not need to break encryption; they tricked people. Be cautious with unexpected job offers or files from strangers, even on trusted websites.",
+      "csp": {
+        "idea": "Impact of Computing",
+        "connection": "Phishing and social engineering exploit human trust, so security depends on people's habits as much as on software."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (AFP)",
+          "date": "2026-11-03",
+          "url": "https://techxplore.com/news/2026-11-binance-reveals-hackers-fake-job.html"
+        }
+      ]
+    },
+    {
+      "id": "smartwatch-hand-gestures",
+      "type": "news",
+      "category": "Wearables",
+      "headline": "Prototype smartwatches learn to recognize hand and finger gestures",
+      "summary": "Northwestern University researchers showed two research prototypes at the UIST conference. EITWatch sends tiny electrical signals through the wrist to map muscles and tendons, recognizing six hand gestures with over 92% accuracy, but works best when calibrated for one user. TransfHAR uses a watch's motion sensors and learned seven new activities with about 90% accuracy after one minute of examples each, in a study of 10 people.",
+      "whyItMatters": "Gesture control could help people who cannot easily tap a tiny screen. These are early prototypes, not features you can buy.",
+      "csp": {
+        "idea": "Data",
+        "connection": "Sensors turn muscle and motion signals into data, and a trained model matches patterns in that data to specific gestures."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (Northwestern)",
+          "date": "2026-11-03",
+          "url": "https://techxplore.com/news/2026-11-smartwatches.html"
+        }
+      ]
+    },
+    {
+      "id": "teens-online-friends-wellbeing",
+      "type": "news",
+      "category": "Social media",
+      "headline": "Who teens message online is linked to how they feel",
+      "summary": "Stockholm University researchers analyzed surveys of 3,034 Swedish 15-year-olds. Frequent online contact with close friends and friend groups was linked to better mental well-being. Moderate or frequent contact with friends known only online was linked to poorer well-being, especially among girls. The survey captured one point in time, so it shows associations, not that online chatting causes these differences.",
+      "whyItMatters": "Debates about teens and phones often focus only on screen time. This study suggests that who you talk to online may matter as much as how long you are on.",
+      "csp": {
+        "idea": "Data",
+        "connection": "Survey data can reveal associations, but without an experiment it cannot show cause and effect."
+      },
+      "sources": [
+        {
+          "name": "Medical Xpress (Wiley)",
+          "date": "2026-11-04",
+          "url": "https://medicalxpress.com/news/2026-11-online-communication-friends-affect-teens.html"
+        }
+      ]
+    },
+    {
+      "id": "flexiquad-soft-drone",
+      "type": "news",
+      "category": "Robotics",
+      "headline": "Ring-shaped soft drone bounces off collisions and keeps flying",
+      "summary": "ETH Zurich researchers built FlexiQuad, a drone with a soft ring-shaped frame instead of a rigid body, so it bends sideways when it hits something. The team used reinforcement learning, where software learns by trial and error, to teach it to steady itself after an impact using onboard motion sensors. It reached up to 80 km/h and survived crashes at about 25 km/h. It is a lab prototype.",
+      "whyItMatters": "Drones that survive bumps could someday inspect tight spaces or help in search and rescue. Those uses are still ideas, not tested missions.",
+      "csp": {
+        "idea": "Algorithms and Programming",
+        "connection": "Reinforcement learning lets a program improve its control rules by trying actions and rewarding the ones that work."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (ETH Zurich)",
+          "date": "2026-11-03",
+          "url": "https://techxplore.com/news/2026-11-flexible-drone-collisions-sacrificing-agility.html"
+        }
+      ]
+    },
+    {
+      "id": "bacteria-biocomputer-channels",
+      "type": "news",
+      "category": "Computing frontiers",
+      "headline": "Multiplying bacteria explore many puzzle solutions at once",
+      "summary": "A McGill-led team turned a classic problem into a maze of tiny channels, where each path represents one possible answer. Bacteria swim through the maze and divide, so many paths are explored at the same time instead of one by one. Software analyzes images to find which paths meet the problem's rules. The researchers say it is not meant to replace regular or quantum computers. The study is in Microsystems & Nanoengineering.",
+      "whyItMatters": "Some problems have too many possibilities for computers to check one at a time. Researchers are testing unusual hardware, even living cells, to search in parallel.",
+      "csp": {
+        "idea": "Algorithms and Programming",
+        "connection": "Parallel computing splits work so many possibilities are checked at once instead of in sequence."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (McGill)",
+          "date": "2026-11-03",
+          "url": "https://techxplore.com/news/2026-11-biocomputer-explore-multiple-solutions-bacteria.html"
+        }
+      ]
+    },
+    {
+      "id": "pinal-text-to-protein",
+      "type": "news",
+      "category": "Science",
+      "headline": "AI designs proteins from plain-English descriptions",
+      "summary": "Westlake University researchers built Pinal, an AI that takes a description like \"a fluorescent protein that emits green light\" and suggests protein sequences. It learned from about 1.7 billion pairs of proteins and text. In lab tests, results varied: of 29 fluorescent designs tested, only one glowed, while 5 of 20 designs for a metabolic protein worked. The study is in Nature, and the authors say more work is needed.",
+      "whyItMatters": "Proteins do much of the work in living things, from medicine to breaking down plastic. AI can suggest designs, but lab experiments still decide which ones actually work.",
+      "csp": {
+        "idea": "Data",
+        "connection": "A model trained on huge paired datasets can map text to new outputs, but its predictions still need testing in the real world."
+      },
+      "sources": [
+        {
+          "name": "Phys.org (Westlake Univ.)",
+          "date": "2026-11-03",
+          "url": "https://phys.org/news/2026-11-ai-protein.html"
+        }
+      ]
+    }
+  ]
+}
