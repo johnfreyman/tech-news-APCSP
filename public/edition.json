@@ -1,177 +1,177 @@
 {
   "schemaVersion": 1,
-  "editionId": "2026-11-04-daily",
-  "date": "2026-11-04",
-  "coverage": "Nine stories · school AI, accent bias, fake cell towers, job-scam hack, smartwatch gestures, teens online, soft drone, bacteria computer, protein AI",
+  "editionId": "2026-11-05-daily",
+  "date": "2026-11-05",
+  "coverage": "Nine stories · tracker flaws, blood bank hack, light-based AI, chip jobs, boarding data, AR focus, data center heat, floppies, old lock",
   "cards": [
     {
-      "id": "google-school-search-ai-opt-in",
+      "id": "fertility-tracker-student-hackers",
       "type": "news",
-      "category": "Education tech",
-      "headline": "Google ties student search access to schools turning on AI",
-      "summary": "Google said Tuesday that K-12 schools can now switch tools like its Gemini chatbot and search on or off, with each off until an administrator enables it. Because Google search now includes AI features, schools that refuse AI entirely also lose Google search for students. Google says 150 million students and teachers use Google Classroom. Critics, including former FTC chair Lina Khan, say Google is pressuring schools to adopt AI.",
-      "whyItMatters": "Many students use Google tools and Chromebooks every school day. Decisions about which features are bundled together shape what you can use for research and how much AI you see.",
+      "category": "Cybersecurity",
+      "headline": "Graduate students find 20 security flaws in a home health tracker",
+      "summary": "Northeastern University graduate students tested the Mira Ultra 4, an at-home device that tracks hormones for fertility, and its phone app. They found 20 vulnerabilities, or security weaknesses, that could let an attacker connect over Bluetooth, read unencrypted data, insert false health readings or impersonate users. They reported the flaws to the FDA, the federal cyber agency CISA and the maker, which says software updates fixed the root cause.",
+      "whyItMatters": "Health devices collect some of your most private data. This project started as a class assignment, showing that careful student testing can find real problems before criminals do.",
       "csp": {
         "idea": "Impact of Computing",
-        "connection": "When features are bundled in one product, a setting meant for one tool can change access to another, raising questions of choice and control."
+        "connection": "Responsible disclosure means reporting security flaws to the maker and authorities so they can be fixed before attackers use them."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (Northeastern Univ.)",
+          "date": "2026-11-04",
+          "url": "https://techxplore.com/news/2026-11-female-fertility-trackers-hacked-students.html"
+        }
+      ]
+    },
+    {
+      "id": "french-blood-bank-freezer-attack",
+      "type": "news",
+      "category": "Cybersecurity",
+      "headline": "Hackers tried to warm French blood plasma freezers remotely",
+      "summary": "France's national blood service said attackers raised temperature limits to extremely high levels on Monday at three cold-storage sites for plasma, a part of blood used for transfusions and medicines. Monitoring systems caught the change quickly, and staff moved or secured the plasma; the service says no blood products were lost. The refrigeration supplier blamed a part made by another company. French authorities are investigating.",
+      "whyItMatters": "Freezers, thermostats and other everyday machines are now connected to networks. When they are hacked, the damage can be physical, not just lost data.",
+      "csp": {
+        "idea": "Computer Systems and Networks",
+        "connection": "Connecting devices to the internet makes remote control possible for owners and attackers alike, so independent monitoring adds a safety layer."
       },
       "sources": [
         {
           "name": "Tech Xplore (AP)",
           "date": "2026-11-04",
-          "url": "https://techxplore.com/news/2026-11-google-access-students-schools-ai.html"
+          "url": "https://techxplore.com/news/2026-11-cyberattack-french-blood-bank-site.html"
         }
       ]
     },
     {
-      "id": "audio-ai-accent-bias",
+      "id": "optical-fiber-ai-training",
       "type": "news",
-      "category": "Artificial intelligence",
-      "headline": "AI models score some English accents lower for the same answers",
-      "summary": "University of Washington researchers had AI voices read identical scripts for job interviews, presentations and English tests in American, British, Chinese, Indian and Nigerian accents. Four audio AI models, including Gemini 2.5 and GPT-Audio 1.5, rated Chinese and Nigerian accents lowest, even when they transcribed the speech correctly. A check with 52 human speakers showed an even larger gap. The work was presented at the EMNLP conference.",
-      "whyItMatters": "AI is starting to screen job applicants and score spoken tests. If it judges how you sound instead of what you say, some people could be unfairly rated lower.",
-      "csp": {
-        "idea": "Impact of Computing",
-        "connection": "Training data that underrepresents some groups can produce biased results, so developers should report accuracy for each group, not just an average."
-      },
-      "sources": [
-        {
-          "name": "Tech Xplore (Univ. of Washington)",
-          "date": "2026-11-03",
-          "url": "https://techxplore.com/news/2026-11-ai-biased-accents-scoring.html"
-        }
-      ]
-    },
-    {
-      "id": "devilray-fake-cell-towers",
-      "type": "news",
-      "category": "Cybersecurity",
-      "headline": "Test platform finds blind spots in fake cell tower detectors",
-      "summary": "A fake cell tower pretends to be a real one so nearby phones connect, which can reveal a phone's identity and location. KAIST researchers built Devilray, which reproduces 2,592 fake-tower setups, and tested seven public detectors; each missed at least 192. Retraining a machine-learning detector caught many more but also raised false alarms. The study is a preprint, and Devilray is shared only with vetted researchers.",
-      "whyItMatters": "A security tool tested only against attacks its own makers built may miss real ones. Good testing reports both missed attacks and false alarms.",
+      "category": "Computer hardware",
+      "headline": "Researchers train AI on a computer that processes light",
+      "summary": "University of Tokyo and NTT researchers developed a way to train AI that runs on physical systems, such as light-based hardware. In their test system, data is turned into light, processed as it travels through a 200-meter loop of optical fiber, then turned back into an electrical signal. The team says its simpler design matched or beat complex networks using less computation. It is untested on large language models. The study is in Nature Computational Science.",
+      "whyItMatters": "Training AI uses huge amounts of electricity and cooling. Light-based hardware produces little heat, but researchers say making it small and reliable needs much more work.",
       "csp": {
         "idea": "Computer Systems and Networks",
-        "connection": "Phones trust signals that follow network standards, so attackers can misuse legitimate protocol messages to impersonate trusted devices."
+        "connection": "Computation does not require silicon transistors; any physical system that reliably transforms inputs into outputs can process data."
       },
       "sources": [
         {
-          "name": "Tech Xplore (KAIST)",
-          "date": "2026-11-03",
-          "url": "https://techxplore.com/news/2026-11-devilray-exposes-fake-cell-tower.html"
+          "name": "Tech Xplore (Univ. of Tokyo)",
+          "date": "2026-11-05",
+          "url": "https://techxplore.com/news/2026-11-ai-framework-optical-hardware.html"
         }
       ]
     },
     {
-      "id": "binance-fake-job-interview-hack",
+      "id": "community-college-chip-training",
       "type": "news",
-      "category": "Cybersecurity",
-      "headline": "Crypto exchange says hack began with a fake job interview",
-      "summary": "Binance released its investigation into an October 29 theft of about $6.34 billion in cryptocurrency. It says attackers posed as a recruiter on a real job-search site and had an engineer download a fake \"test exercise\" containing malware, which gave them a path into internal systems. Earlier, another engineer had downloaded a tampered copy of a programming tool. The FBI blamed North Korea-linked hackers; North Korea denies it.",
-      "whyItMatters": "The attackers did not need to break encryption; they tricked people. Be cautious with unexpected job offers or files from strangers, even on trusted websites.",
+      "category": "Careers",
+      "headline": "Community colleges offer short courses for computer chip jobs",
+      "summary": "U.S. community colleges are expanding short, hands-on programs that train technicians for new computer chip factories. Rio Salado College in Arizona opened a free 12-week course this fall that starts with virtual-reality practice and includes about 20 hours in university clean-room labs. The chip industry group SEMI projects a shortage of up to 157,000 U.S. semiconductor workers by 2030. One class includes a 23-year-old and a 64-year-old teacher.",
+      "whyItMatters": "Not every tech job requires a four-year degree. Chip factories need technicians who keep the equipment that makes phone and computer processors running.",
       "csp": {
-        "idea": "Impact of Computing",
-        "connection": "Phishing and social engineering exploit human trust, so security depends on people's habits as much as on software."
+        "idea": "Computer Systems and Networks",
+        "connection": "Every program depends on physical hardware, and building processors requires skilled people as well as designs."
       },
       "sources": [
         {
-          "name": "Tech Xplore (AFP)",
-          "date": "2026-11-03",
-          "url": "https://techxplore.com/news/2026-11-binance-reveals-hackers-fake-job.html"
+          "name": "Tech Xplore (AP)",
+          "date": "2026-11-05",
+          "url": "https://techxplore.com/news/2026-11-community-colleges-semiconductor-labor-shortage.html"
         }
       ]
     },
     {
-      "id": "smartwatch-hand-gestures",
+      "id": "flight-boarding-time-data",
       "type": "news",
-      "category": "Wearables",
-      "headline": "Prototype smartwatches learn to recognize hand and finger gestures",
-      "summary": "Northwestern University researchers showed two research prototypes at the UIST conference. EITWatch sends tiny electrical signals through the wrist to map muscles and tendons, recognizing six hand gestures with over 92% accuracy, but works best when calibrated for one user. TransfHAR uses a watch's motion sensors and learned seven new activities with about 90% accuracy after one minute of examples each, in a study of 10 people.",
-      "whyItMatters": "Gesture control could help people who cannot easily tap a tiny screen. These are early prototypes, not features you can buy.",
-      "csp": {
-        "idea": "Data",
-        "connection": "Sensors turn muscle and motion signals into data, and a trained model matches patterns in that data to specific gestures."
-      },
-      "sources": [
-        {
-          "name": "Tech Xplore (Northwestern)",
-          "date": "2026-11-03",
-          "url": "https://techxplore.com/news/2026-11-smartwatches.html"
-        }
-      ]
-    },
-    {
-      "id": "teens-online-friends-wellbeing",
-      "type": "news",
-      "category": "Social media",
-      "headline": "Who teens message online is linked to how they feel",
-      "summary": "Stockholm University researchers analyzed surveys of 3,034 Swedish 15-year-olds. Frequent online contact with close friends and friend groups was linked to better mental well-being. Moderate or frequent contact with friends known only online was linked to poorer well-being, especially among girls. The survey captured one point in time, so it shows associations, not that online chatting causes these differences.",
-      "whyItMatters": "Debates about teens and phones often focus only on screen time. This study suggests that who you talk to online may matter as much as how long you are on.",
+      "category": "Transportation",
+      "headline": "Five extra boarding minutes helped flights leave on time",
+      "summary": "In 2022, Delta lengthened boarding for many domestic flights from 35 to 40 minutes by taking time from other gate tasks. Researchers analyzed federal data on about 622,000 flights and found those flights left about 1.5 minutes sooner, and their chance of leaving on time rose by about one-third. The benefit was biggest for evening flights. The study covers four months of data and is forthcoming in Production and Operations Management.",
+      "whyItMatters": "Small schedule changes can add up across thousands of flights. Data analysis lets researchers test whether a policy actually worked instead of guessing.",
       "csp": {
         "idea": "Data",
-        "connection": "Survey data can reveal associations, but without an experiment it cannot show cause and effect."
+        "connection": "Comparing affected and unaffected groups in large datasets helps separate a policy's effect from other changes happening at the same time."
       },
       "sources": [
         {
-          "name": "Medical Xpress (Wiley)",
+          "name": "Tech Xplore (Univ. at Buffalo)",
+          "date": "2026-11-05",
+          "url": "https://techxplore.com/news/2026-11-passengers-bit-board-flights.html"
+        }
+      ]
+    },
+    {
+      "id": "varifocal-ar-pointing",
+      "type": "news",
+      "category": "Emerging interfaces",
+      "headline": "Headset that refocuses with depth helps users point faster",
+      "summary": "Most AR and VR headsets show every virtual object at one fixed focus distance, even when objects appear near or far, which can confuse the eyes. Researchers led by Japan's Shibaura Institute of Technology tested a prototype display that shifts focus to match each object's depth. In a study of 24 people, users selected virtual targets faster without making more errors. The prototype had a narrow view and did not test eyestrain.",
+      "whyItMatters": "Headsets are used for games, training and design work. Matching how human eyes focus could make them easier to use, but benefits varied from person to person.",
+      "csp": {
+        "idea": "Creative Development",
+        "connection": "User testing measures how real people perform with a design, revealing improvements that specifications alone cannot show."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (Shibaura Inst. of Tech.)",
           "date": "2026-11-04",
-          "url": "https://medicalxpress.com/news/2026-11-online-communication-friends-affect-teens.html"
+          "url": "https://techxplore.com/news/2026-11-focus-displays-virtual-augmented-reality.html"
         }
       ]
     },
     {
-      "id": "flexiquad-soft-drone",
+      "id": "data-center-ground-temperature",
       "type": "news",
-      "category": "Robotics",
-      "headline": "Ring-shaped soft drone bounces off collisions and keeps flying",
-      "summary": "ETH Zurich researchers built FlexiQuad, a drone with a soft ring-shaped frame instead of a rigid body, so it bends sideways when it hits something. The team used reinforcement learning, where software learns by trial and error, to teach it to steady itself after an impact using onboard motion sensors. It reached up to 80 km/h and survived crashes at about 25 km/h. It is a lab prototype.",
-      "whyItMatters": "Drones that survive bumps could someday inspect tight spaces or help in search and rescue. Those uses are still ideas, not tested missions.",
-      "csp": {
-        "idea": "Algorithms and Programming",
-        "connection": "Reinforcement learning lets a program improve its control rules by trying actions and rewarding the ones that work."
-      },
-      "sources": [
-        {
-          "name": "Tech Xplore (ETH Zurich)",
-          "date": "2026-11-03",
-          "url": "https://techxplore.com/news/2026-11-flexible-drone-collisions-sacrificing-agility.html"
-        }
-      ]
-    },
-    {
-      "id": "bacteria-biocomputer-channels",
-      "type": "news",
-      "category": "Computing frontiers",
-      "headline": "Multiplying bacteria explore many puzzle solutions at once",
-      "summary": "A McGill-led team turned a classic problem into a maze of tiny channels, where each path represents one possible answer. Bacteria swim through the maze and divide, so many paths are explored at the same time instead of one by one. Software analyzes images to find which paths meet the problem's rules. The researchers say it is not meant to replace regular or quantum computers. The study is in Microsystems & Nanoengineering.",
-      "whyItMatters": "Some problems have too many possibilities for computers to check one at a time. Researchers are testing unusual hardware, even living cells, to search in parallel.",
-      "csp": {
-        "idea": "Algorithms and Programming",
-        "connection": "Parallel computing splits work so many possibilities are checked at once instead of in sequence."
-      },
-      "sources": [
-        {
-          "name": "Tech Xplore (McGill)",
-          "date": "2026-11-03",
-          "url": "https://techxplore.com/news/2026-11-biocomputer-explore-multiple-solutions-bacteria.html"
-        }
-      ]
-    },
-    {
-      "id": "pinal-text-to-protein",
-      "type": "news",
-      "category": "Science",
-      "headline": "AI designs proteins from plain-English descriptions",
-      "summary": "Westlake University researchers built Pinal, an AI that takes a description like \"a fluorescent protein that emits green light\" and suggests protein sequences. It learned from about 1.7 billion pairs of proteins and text. In lab tests, results varied: of 29 fluorescent designs tested, only one glowed, while 5 of 20 designs for a metabolic protein worked. The study is in Nature, and the authors say more work is needed.",
-      "whyItMatters": "Proteins do much of the work in living things, from medicine to breaking down plastic. AI can suggest designs, but lab experiments still decide which ones actually work.",
+      "category": "Climate tech",
+      "headline": "Satellite study finds data centers barely warm nearby ground",
+      "summary": "An earlier study suggested data centers warm surrounding land by about 2 °C. A new study used 13 years of satellite images of 12 data centers near Tokyo. Daytime ground temperatures actually dropped about 2 °C after they opened, likely because reflective roofs replaced fields, and nighttime warming across the area stayed under 0.3 °C. Air near cooling vents can warm slightly. The study is in Environmental Research Letters.",
+      "whyItMatters": "Communities are debating where to build data centers for AI and cloud services. Decisions work best when they rely on careful measurements rather than first impressions.",
       "csp": {
         "idea": "Data",
-        "connection": "A model trained on huge paired datasets can map text to new outputs, but its predictions still need testing in the real world."
+        "connection": "Comparing measurements before and after a change, alongside control sites, makes conclusions from data more trustworthy."
       },
       "sources": [
         {
-          "name": "Phys.org (Westlake Univ.)",
-          "date": "2026-11-03",
-          "url": "https://phys.org/news/2026-11-ai-protein.html"
+          "name": "Phys.org (IOP Publishing)",
+          "date": "2026-11-04",
+          "url": "https://phys.org/news/2026-11-satellite-analysis-evidence-centers-widespread.html"
+        }
+      ]
+    },
+    {
+      "id": "floppy-disk-rescue",
+      "type": "news",
+      "category": "Tech history",
+      "headline": "Researchers rescue old files trapped on floppy disks",
+      "summary": "Many records from the 1980s to the 2000s sit on floppy disks and CD-ROMs that today's computers cannot read. Australian researchers make a \"bit-perfect\" disk image, an exact copy of every bit including hidden sections, then analyze the files and store them in modern formats. Helping a local historical society, they recovered a member's family-history files from six 1996 floppy disks made by a discontinued program.",
+      "whyItMatters": "Your photos and projects could become unreadable as file formats and devices change. Copying data into open, widely supported formats keeps it usable.",
+      "csp": {
+        "idea": "Data",
+        "connection": "Digital data is only bits; keeping it usable requires both hardware that can read it and software that understands its format."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (The Conversation)",
+          "date": "2026-11-04",
+          "url": "https://techxplore.com/news/2026-11-floppy-disk-history.html"
+        }
+      ]
+    },
+    {
+      "id": "shipwreck-lock-ct-scan",
+      "type": "news",
+      "category": "Surprising uses",
+      "headline": "3D scans crack the code on a 1583 shipwreck padlock",
+      "summary": "A brass combination lock from the Ann Francis, which wrecked off Wales in 1583, had stayed locked for over 400 years. Cardiff University experts, who usually scan bones, used micro-CT, a type of X-ray imaging, to build a 3D model of the mechanism without damaging it. The model showed how the notches lined up with letters, revealing the code ANCE, and the lock opened that evening. It is on display at a museum in Swansea.",
+      "whyItMatters": "Imaging tools built for medicine and engineering can answer questions in history and archaeology. Software turns X-ray scans into a 3D model people can explore.",
+      "csp": {
+        "idea": "Data",
+        "connection": "Combining many 2D scans into a 3D model shows how computers process large sets of data to reveal hidden information."
+      },
+      "sources": [
+        {
+          "name": "Phys.org (Cardiff Univ.)",
+          "date": "2026-11-04",
+          "url": "https://phys.org/news/2026-11-ct-scans-reveal-letter-code.html"
         }
       ]
     }
