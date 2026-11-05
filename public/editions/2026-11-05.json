@@ -1,0 +1,179 @@
+{
+  "schemaVersion": 1,
+  "editionId": "2026-11-05-daily",
+  "date": "2026-11-05",
+  "coverage": "Nine stories · tracker flaws, blood bank hack, light-based AI, chip jobs, boarding data, AR focus, data center heat, floppies, old lock",
+  "cards": [
+    {
+      "id": "fertility-tracker-student-hackers",
+      "type": "news",
+      "category": "Cybersecurity",
+      "headline": "Graduate students find 20 security flaws in a home health tracker",
+      "summary": "Northeastern University graduate students tested the Mira Ultra 4, an at-home device that tracks hormones for fertility, and its phone app. They found 20 vulnerabilities, or security weaknesses, that could let an attacker connect over Bluetooth, read unencrypted data, insert false health readings or impersonate users. They reported the flaws to the FDA, the federal cyber agency CISA and the maker, which says software updates fixed the root cause.",
+      "whyItMatters": "Health devices collect some of your most private data. This project started as a class assignment, showing that careful student testing can find real problems before criminals do.",
+      "csp": {
+        "idea": "Impact of Computing",
+        "connection": "Responsible disclosure means reporting security flaws to the maker and authorities so they can be fixed before attackers use them."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (Northeastern Univ.)",
+          "date": "2026-11-04",
+          "url": "https://techxplore.com/news/2026-11-female-fertility-trackers-hacked-students.html"
+        }
+      ]
+    },
+    {
+      "id": "french-blood-bank-freezer-attack",
+      "type": "news",
+      "category": "Cybersecurity",
+      "headline": "Hackers tried to warm French blood plasma freezers remotely",
+      "summary": "France's national blood service said attackers raised temperature limits to extremely high levels on Monday at three cold-storage sites for plasma, a part of blood used for transfusions and medicines. Monitoring systems caught the change quickly, and staff moved or secured the plasma; the service says no blood products were lost. The refrigeration supplier blamed a part made by another company. French authorities are investigating.",
+      "whyItMatters": "Freezers, thermostats and other everyday machines are now connected to networks. When they are hacked, the damage can be physical, not just lost data.",
+      "csp": {
+        "idea": "Computer Systems and Networks",
+        "connection": "Connecting devices to the internet makes remote control possible for owners and attackers alike, so independent monitoring adds a safety layer."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (AP)",
+          "date": "2026-11-04",
+          "url": "https://techxplore.com/news/2026-11-cyberattack-french-blood-bank-site.html"
+        }
+      ]
+    },
+    {
+      "id": "optical-fiber-ai-training",
+      "type": "news",
+      "category": "Computer hardware",
+      "headline": "Researchers train AI on a computer that processes light",
+      "summary": "University of Tokyo and NTT researchers developed a way to train AI that runs on physical systems, such as light-based hardware. In their test system, data is turned into light, processed as it travels through a 200-meter loop of optical fiber, then turned back into an electrical signal. The team says its simpler design matched or beat complex networks using less computation. It is untested on large language models. The study is in Nature Computational Science.",
+      "whyItMatters": "Training AI uses huge amounts of electricity and cooling. Light-based hardware produces little heat, but researchers say making it small and reliable needs much more work.",
+      "csp": {
+        "idea": "Computer Systems and Networks",
+        "connection": "Computation does not require silicon transistors; any physical system that reliably transforms inputs into outputs can process data."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (Univ. of Tokyo)",
+          "date": "2026-11-05",
+          "url": "https://techxplore.com/news/2026-11-ai-framework-optical-hardware.html"
+        }
+      ]
+    },
+    {
+      "id": "community-college-chip-training",
+      "type": "news",
+      "category": "Careers",
+      "headline": "Community colleges offer short courses for computer chip jobs",
+      "summary": "U.S. community colleges are expanding short, hands-on programs that train technicians for new computer chip factories. Rio Salado College in Arizona opened a free 12-week course this fall that starts with virtual-reality practice and includes about 20 hours in university clean-room labs. The chip industry group SEMI projects a shortage of up to 157,000 U.S. semiconductor workers by 2030. One class includes a 23-year-old and a 64-year-old teacher.",
+      "whyItMatters": "Not every tech job requires a four-year degree. Chip factories need technicians who keep the equipment that makes phone and computer processors running.",
+      "csp": {
+        "idea": "Computer Systems and Networks",
+        "connection": "Every program depends on physical hardware, and building processors requires skilled people as well as designs."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (AP)",
+          "date": "2026-11-05",
+          "url": "https://techxplore.com/news/2026-11-community-colleges-semiconductor-labor-shortage.html"
+        }
+      ]
+    },
+    {
+      "id": "flight-boarding-time-data",
+      "type": "news",
+      "category": "Transportation",
+      "headline": "Five extra boarding minutes helped flights leave on time",
+      "summary": "In 2022, Delta lengthened boarding for many domestic flights from 35 to 40 minutes by taking time from other gate tasks. Researchers analyzed federal data on about 622,000 flights and found those flights left about 1.5 minutes sooner, and their chance of leaving on time rose by about one-third. The benefit was biggest for evening flights. The study covers four months of data and is forthcoming in Production and Operations Management.",
+      "whyItMatters": "Small schedule changes can add up across thousands of flights. Data analysis lets researchers test whether a policy actually worked instead of guessing.",
+      "csp": {
+        "idea": "Data",
+        "connection": "Comparing affected and unaffected groups in large datasets helps separate a policy's effect from other changes happening at the same time."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (Univ. at Buffalo)",
+          "date": "2026-11-05",
+          "url": "https://techxplore.com/news/2026-11-passengers-bit-board-flights.html"
+        }
+      ]
+    },
+    {
+      "id": "varifocal-ar-pointing",
+      "type": "news",
+      "category": "Emerging interfaces",
+      "headline": "Headset that refocuses with depth helps users point faster",
+      "summary": "Most AR and VR headsets show every virtual object at one fixed focus distance, even when objects appear near or far, which can confuse the eyes. Researchers led by Japan's Shibaura Institute of Technology tested a prototype display that shifts focus to match each object's depth. In a study of 24 people, users selected virtual targets faster without making more errors. The prototype had a narrow view and did not test eyestrain.",
+      "whyItMatters": "Headsets are used for games, training and design work. Matching how human eyes focus could make them easier to use, but benefits varied from person to person.",
+      "csp": {
+        "idea": "Creative Development",
+        "connection": "User testing measures how real people perform with a design, revealing improvements that specifications alone cannot show."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (Shibaura Inst. of Tech.)",
+          "date": "2026-11-04",
+          "url": "https://techxplore.com/news/2026-11-focus-displays-virtual-augmented-reality.html"
+        }
+      ]
+    },
+    {
+      "id": "data-center-ground-temperature",
+      "type": "news",
+      "category": "Climate tech",
+      "headline": "Satellite study finds data centers barely warm nearby ground",
+      "summary": "An earlier study suggested data centers warm surrounding land by about 2 °C. A new study used 13 years of satellite images of 12 data centers near Tokyo. Daytime ground temperatures actually dropped about 2 °C after they opened, likely because reflective roofs replaced fields, and nighttime warming across the area stayed under 0.3 °C. Air near cooling vents can warm slightly. The study is in Environmental Research Letters.",
+      "whyItMatters": "Communities are debating where to build data centers for AI and cloud services. Decisions work best when they rely on careful measurements rather than first impressions.",
+      "csp": {
+        "idea": "Data",
+        "connection": "Comparing measurements before and after a change, alongside control sites, makes conclusions from data more trustworthy."
+      },
+      "sources": [
+        {
+          "name": "Phys.org (IOP Publishing)",
+          "date": "2026-11-04",
+          "url": "https://phys.org/news/2026-11-satellite-analysis-evidence-centers-widespread.html"
+        }
+      ]
+    },
+    {
+      "id": "floppy-disk-rescue",
+      "type": "news",
+      "category": "Tech history",
+      "headline": "Researchers rescue old files trapped on floppy disks",
+      "summary": "Many records from the 1980s to the 2000s sit on floppy disks and CD-ROMs that today's computers cannot read. Australian researchers make a \"bit-perfect\" disk image, an exact copy of every bit including hidden sections, then analyze the files and store them in modern formats. Helping a local historical society, they recovered a member's family-history files from six 1996 floppy disks holding files from a discontinued program.",
+      "whyItMatters": "Your photos and projects could become unreadable as file formats and devices change. Copying data into open, widely supported formats keeps it usable.",
+      "csp": {
+        "idea": "Data",
+        "connection": "Digital data is only bits; keeping it usable requires both hardware that can read it and software that understands its format."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (The Conversation)",
+          "date": "2026-11-04",
+          "url": "https://techxplore.com/news/2026-11-floppy-disk-history.html"
+        }
+      ]
+    },
+    {
+      "id": "shipwreck-lock-ct-scan",
+      "type": "news",
+      "category": "Surprising uses",
+      "headline": "3D scans crack the code on a 1583 shipwreck padlock",
+      "summary": "A brass combination lock from the Ann Francis, which wrecked off Wales in 1583, had stayed locked for over 400 years. Cardiff University experts, who usually scan bones, used micro-CT, a type of X-ray imaging, to build a 3D model of the mechanism without damaging it. The model showed how the notches lined up with letters, revealing the code ANCE, and the lock opened that evening. It is on display at a museum in Swansea.",
+      "whyItMatters": "Imaging tools built for medicine and engineering can answer questions in history and archaeology. Software turns X-ray scans into a 3D model people can explore.",
+      "csp": {
+        "idea": "Data",
+        "connection": "Combining many 2D scans into a 3D model shows how computers process large sets of data to reveal hidden information."
+      },
+      "sources": [
+        {
+          "name": "Phys.org (Cardiff Univ.)",
+          "date": "2026-11-04",
+          "url": "https://phys.org/news/2026-11-ct-scans-reveal-letter-code.html"
+        }
+      ]
+    }
+  ]
+}
