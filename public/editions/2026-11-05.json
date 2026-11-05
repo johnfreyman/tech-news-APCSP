@@ -142,7 +142,7 @@
       "type": "news",
       "category": "Tech history",
       "headline": "Researchers rescue old files trapped on floppy disks",
-      "summary": "Many records from the 1980s to the 2000s sit on floppy disks and CD-ROMs that today's computers cannot read. Australian researchers make a \"bit-perfect\" disk image, an exact copy of every bit including hidden sections, then analyze the files and store them in modern formats. Helping a local historical society, they recovered a member's family-history files from six 1996 floppy disks made by a discontinued program.",
+      "summary": "Many records from the 1980s to the 2000s sit on floppy disks and CD-ROMs that today's computers cannot read. Australian researchers make a \"bit-perfect\" disk image, an exact copy of every bit including hidden sections, then analyze the files and store them in modern formats. Helping a local historical society, they recovered a member's family-history files from six 1996 floppy disks holding files from a discontinued program.",
       "whyItMatters": "Your photos and projects could become unreadable as file formats and devices change. Copying data into open, widely supported formats keeps it usable.",
       "csp": {
         "idea": "Data",
