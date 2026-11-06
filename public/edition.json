@@ -1,177 +1,177 @@
 {
   "schemaVersion": 1,
-  "editionId": "2026-11-05-daily",
-  "date": "2026-11-05",
-  "coverage": "Nine stories · tracker flaws, blood bank hack, light-based AI, chip jobs, boarding data, AR focus, data center heat, floppies, old lock",
+  "editionId": "2026-11-06-daily",
+  "date": "2026-11-06",
+  "coverage": "Nine stories · AI language energy, shopping agents, robot memory, bear alerts, lost telescope, DNA storage, life jackets, crowd quakes, NFL data",
   "cards": [
     {
-      "id": "fertility-tracker-student-hackers",
+      "id": "ai-energy-non-english",
       "type": "news",
-      "category": "Cybersecurity",
-      "headline": "Graduate students find 20 security flaws in a home health tracker",
-      "summary": "Northeastern University graduate students tested the Mira Ultra 4, an at-home device that tracks hormones for fertility, and its phone app. They found 20 vulnerabilities, or security weaknesses, that could let an attacker connect over Bluetooth, read unencrypted data, insert false health readings or impersonate users. They reported the flaws to the FDA, the federal cyber agency CISA and the maker, which says software updates fixed the root cause.",
-      "whyItMatters": "Health devices collect some of your most private data. This project started as a class assignment, showing that careful student testing can find real problems before criminals do.",
+      "category": "Artificial intelligence",
+      "headline": "AI chatbots use more energy to answer in many non-English languages",
+      "summary": "University of Michigan researchers measured the energy three open-source AI models used across up to 122 languages. Non-English text took 1.4 to 180 times as much energy as English; Hindi needed 7.9 times and Bengali 15.3 times. The cause is tokens, the small text chunks a model processes: some languages split into many more tokens. Higher-energy languages also tended to get less accurate answers. The study was presented at the EMNLP 2026 conference.",
+      "whyItMatters": "Billions of people use AI in languages other than English. If those users pay more per token and get worse answers, the same tool is not equally fair or useful for everyone.",
       "csp": {
         "idea": "Impact of Computing",
-        "connection": "Responsible disclosure means reporting security flaws to the maker and authorities so they can be fixed before attackers use them."
+        "connection": "Design choices, such as how text is split into tokens, can create unequal costs and quality for different groups of users."
       },
       "sources": [
         {
-          "name": "Tech Xplore (Northeastern Univ.)",
-          "date": "2026-11-04",
-          "url": "https://techxplore.com/news/2026-11-female-fertility-trackers-hacked-students.html"
-        }
-      ]
-    },
-    {
-      "id": "french-blood-bank-freezer-attack",
-      "type": "news",
-      "category": "Cybersecurity",
-      "headline": "Hackers tried to warm French blood plasma freezers remotely",
-      "summary": "France's national blood service said attackers raised temperature limits to extremely high levels on Monday at three cold-storage sites for plasma, a part of blood used for transfusions and medicines. Monitoring systems caught the change quickly, and staff moved or secured the plasma; the service says no blood products were lost. The refrigeration supplier blamed a part made by another company. French authorities are investigating.",
-      "whyItMatters": "Freezers, thermostats and other everyday machines are now connected to networks. When they are hacked, the damage can be physical, not just lost data.",
-      "csp": {
-        "idea": "Computer Systems and Networks",
-        "connection": "Connecting devices to the internet makes remote control possible for owners and attackers alike, so independent monitoring adds a safety layer."
-      },
-      "sources": [
-        {
-          "name": "Tech Xplore (AP)",
-          "date": "2026-11-04",
-          "url": "https://techxplore.com/news/2026-11-cyberattack-french-blood-bank-site.html"
-        }
-      ]
-    },
-    {
-      "id": "optical-fiber-ai-training",
-      "type": "news",
-      "category": "Computer hardware",
-      "headline": "Researchers train AI on a computer that processes light",
-      "summary": "University of Tokyo and NTT researchers developed a way to train AI that runs on physical systems, such as light-based hardware. In their test system, data is turned into light, processed as it travels through a 200-meter loop of optical fiber, then turned back into an electrical signal. The team says its simpler design matched or beat complex networks using less computation. It is untested on large language models. The study is in Nature Computational Science.",
-      "whyItMatters": "Training AI uses huge amounts of electricity and cooling. Light-based hardware produces little heat, but researchers say making it small and reliable needs much more work.",
-      "csp": {
-        "idea": "Computer Systems and Networks",
-        "connection": "Computation does not require silicon transistors; any physical system that reliably transforms inputs into outputs can process data."
-      },
-      "sources": [
-        {
-          "name": "Tech Xplore (Univ. of Tokyo)",
+          "name": "Tech Xplore (Univ. of Michigan)",
           "date": "2026-11-05",
-          "url": "https://techxplore.com/news/2026-11-ai-framework-optical-hardware.html"
+          "url": "https://techxplore.com/news/2026-11-generative-ai-energy-english-text.html"
         }
       ]
     },
     {
-      "id": "community-college-chip-training",
+      "id": "ai-shopping-agents-upsell",
       "type": "news",
-      "category": "Careers",
-      "headline": "Community colleges offer short courses for computer chip jobs",
-      "summary": "U.S. community colleges are expanding short, hands-on programs that train technicians for new computer chip factories. Rio Salado College in Arizona opened a free 12-week course this fall that starts with virtual-reality practice and includes about 20 hours in university clean-room labs. The chip industry group SEMI projects a shortage of up to 157,000 U.S. semiconductor workers by 2030. One class includes a 23-year-old and a 64-year-old teacher.",
-      "whyItMatters": "Not every tech job requires a four-year degree. Chip factories need technicians who keep the equipment that makes phone and computer processors running.",
+      "category": "Privacy",
+      "headline": "Study finds AI shopping helpers pushed pricier picks to wealthier users",
+      "summary": "Researchers from Carnegie Mellon and Cisco ran about 325,000 tests on 13 AI models acting as personal agents, programs that pick flights, insurance or graduate schools for a user. Given identical requests from 32 fictional people, 8 of the 13 models chose more expensive options for wealthier profiles, sometimes guessing wealth from a single email. Only hiding financial details largely closed the gap. The study is a preprint, not peer reviewed, using fictional users.",
+      "whyItMatters": "AI helpers are being given access to email and personal data. What an agent knows about you can change its choices, so privacy settings affect more than who sees your data.",
       "csp": {
-        "idea": "Computer Systems and Networks",
-        "connection": "Every program depends on physical hardware, and building processors requires skilled people as well as designs."
+        "idea": "Impact of Computing",
+        "connection": "Personal data used as an algorithm's input can change its output in ways users did not request or expect."
       },
       "sources": [
         {
-          "name": "Tech Xplore (AP)",
+          "name": "Tech Xplore (Carnegie Mellon Univ.)",
           "date": "2026-11-05",
-          "url": "https://techxplore.com/news/2026-11-community-colleges-semiconductor-labor-shortage.html"
+          "url": "https://techxplore.com/news/2026-11-ai-agents-personal-upsell-wealthier.html"
         }
       ]
     },
     {
-      "id": "flight-boarding-time-data",
+      "id": "robot-memory-uncertainty",
       "type": "news",
-      "category": "Transportation",
-      "headline": "Five extra boarding minutes helped flights leave on time",
-      "summary": "In 2022, Delta lengthened boarding for many domestic flights from 35 to 40 minutes by taking time from other gate tasks. Researchers analyzed federal data on about 622,000 flights and found those flights left about 1.5 minutes sooner, and their chance of leaving on time rose by about one-third. The benefit was biggest for evening flights. The study covers four months of data and is forthcoming in Production and Operations Management.",
-      "whyItMatters": "Small schedule changes can add up across thousands of flights. Data analysis lets researchers test whether a policy actually worked instead of guessing.",
+      "category": "Robotics",
+      "headline": "MIT robots learn to double-check what they remember seeing",
+      "summary": "Robots that label objects with AI can mistake a chimney for a squirrel and keep that wrong memory. MIT researchers built a system that scores how uncertain each label is by checking the AI's confidence and comparing views from different angles. When a label looks shaky, it picks a few more images to re-check. It resolved ambiguity for about 92% of objects using two extra captions each. The work is an arXiv preprint headed to the NeurIPS conference.",
+      "whyItMatters": "Robots in homes, hospitals and warehouses need to know when they might be wrong. Checking evidence from several angles is also a good habit for people judging information.",
+      "csp": {
+        "idea": "Algorithms and Programming",
+        "connection": "Comparing several independent inputs and measuring agreement lets an algorithm detect and correct its own likely errors."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (MIT)",
+          "date": "2026-11-05",
+          "url": "https://techxplore.com/news/2026-11-chimney-squirrel-robot-fuzzy-memory.html"
+        }
+      ]
+    },
+    {
+      "id": "wildping-bear-alerts",
+      "type": "news",
+      "category": "Apps for good",
+      "headline": "Engineer builds crowdsourced bear-warning website in Kashmir",
+      "summary": "Mudasir Ali, a software engineer in Kashmir, built Wildping after his mother died in a bear attack. On the free website, people report sightings of Himalayan black bears and leopards, and users who set \"watch zones\" around homes, farms or school paths get phone alerts when an animal is reported nearby. It had about 9,000 visitors in under a month. It has not been shown to reduce attacks; its own site says it can buy families a few minutes.",
+      "whyItMatters": "A single programmer turned a personal loss into a tool for a whole region. Apps built on community reports work only when enough people take part.",
       "csp": {
         "idea": "Data",
-        "connection": "Comparing affected and unaffected groups in large datasets helps separate a policy's effect from other changes happening at the same time."
+        "connection": "Crowdsourcing collects data from many users; its usefulness depends on how many people contribute and how accurate their reports are."
       },
       "sources": [
         {
-          "name": "Tech Xplore (Univ. at Buffalo)",
+          "name": "Phys.org (AFP)",
+          "date": "2026-11-06",
+          "url": "https://phys.org/news/2026-11-necessities-indian-techie-wildlife.html"
+        }
+      ]
+    },
+    {
+      "id": "swift-telescope-reentry",
+      "type": "news",
+      "category": "Space",
+      "headline": "NASA's Swift telescope burns up after robot rescue falls short",
+      "summary": "NASA's Swift observatory studied cosmic explosions for two decades, but atmospheric drag pulled it lower. A robotic spacecraft called LINK, built by the company Katalyst Space, launched in July to grab Swift and boost its orbit. LINK lost two of its three reaction wheels, which help a spacecraft control its orientation, and began spinning. Engineers uploaded new control software, but the capture was called off. Swift reentered over Indonesia on November 4.",
+      "whyItMatters": "Satellites depend on software and backup systems to recover from failures. Engineers say future repair missions need spare fuel and fault-tolerant designs, not just enough power to reach a target.",
+      "csp": {
+        "idea": "Computer Systems and Networks",
+        "connection": "Fault tolerance means designing systems with redundancy so they can keep working when some parts fail."
+      },
+      "sources": [
+        {
+          "name": "Phys.org (The Conversation)",
           "date": "2026-11-05",
-          "url": "https://techxplore.com/news/2026-11-passengers-bit-board-flights.html"
+          "url": "https://phys.org/news/2026-11-nasa-swift-telescope-months-robot.html"
         }
       ]
     },
     {
-      "id": "varifocal-ar-pointing",
+      "id": "dna-data-microfactory",
       "type": "news",
-      "category": "Emerging interfaces",
-      "headline": "Headset that refocuses with depth helps users point faster",
-      "summary": "Most AR and VR headsets show every virtual object at one fixed focus distance, even when objects appear near or far, which can confuse the eyes. Researchers led by Japan's Shibaura Institute of Technology tested a prototype display that shifts focus to match each object's depth. In a study of 24 people, users selected virtual targets faster without making more errors. The prototype had a narrow view and did not test eyestrain.",
-      "whyItMatters": "Headsets are used for games, training and design work. Matching how human eyes focus could make them easier to use, but benefits varied from person to person.",
-      "csp": {
-        "idea": "Creative Development",
-        "connection": "User testing measures how real people perform with a design, revealing improvements that specifications alone cannot show."
-      },
-      "sources": [
-        {
-          "name": "Tech Xplore (Shibaura Inst. of Tech.)",
-          "date": "2026-11-04",
-          "url": "https://techxplore.com/news/2026-11-focus-displays-virtual-augmented-reality.html"
-        }
-      ]
-    },
-    {
-      "id": "data-center-ground-temperature",
-      "type": "news",
-      "category": "Climate tech",
-      "headline": "Satellite study finds data centers barely warm nearby ground",
-      "summary": "An earlier study suggested data centers warm surrounding land by about 2 °C. A new study used 13 years of satellite images of 12 data centers near Tokyo. Daytime ground temperatures actually dropped about 2 °C after they opened, likely because reflective roofs replaced fields, and nighttime warming across the area stayed under 0.3 °C. Air near cooling vents can warm slightly. The study is in Environmental Research Letters.",
-      "whyItMatters": "Communities are debating where to build data centers for AI and cloud services. Decisions work best when they rely on careful measurements rather than first impressions.",
+      "category": "Data storage",
+      "headline": "Automated microfactory stores digital files in DNA",
+      "summary": "A European team tested DNAMIC, an automated system that writes digital files into synthetic DNA. It translates binary 0s and 1s into DNA's four chemical letters, A, T, G and C, a process that can take several hours. The team stored a Swiss watchmaking archive and sealed the DNA in small steel capsules that need no power to preserve it. The University of Geneva announced the test; claims that the DNA lasts tens of thousands of years are projections.",
+      "whyItMatters": "The world produces enormous amounts of data, and today's hard drives need power and replacing. DNA could hold archives far more compactly, but writing and reading it is still slow.",
       "csp": {
         "idea": "Data",
-        "connection": "Comparing measurements before and after a change, alongside control sites, makes conclusions from data more trustworthy."
+        "connection": "Any data can be stored in any medium with enough distinct symbols; binary can be re-encoded into DNA's four-letter code."
       },
       "sources": [
         {
-          "name": "Phys.org (IOP Publishing)",
-          "date": "2026-11-04",
-          "url": "https://phys.org/news/2026-11-satellite-analysis-evidence-centers-widespread.html"
+          "name": "Tech Xplore (Univ. of Geneva)",
+          "date": "2026-11-05",
+          "url": "https://techxplore.com/news/2026-11-autonomous-microfactory-digital-dna-power.html"
         }
       ]
     },
     {
-      "id": "floppy-disk-rescue",
+      "id": "wave-powered-life-jacket",
       "type": "news",
-      "category": "Tech history",
-      "headline": "Researchers rescue old files trapped on floppy disks",
-      "summary": "Many records from the 1980s to the 2000s sit on floppy disks and CD-ROMs that today's computers cannot read. Australian researchers make a \"bit-perfect\" disk image, an exact copy of every bit including hidden sections, then analyze the files and store them in modern formats. Helping a local historical society, they recovered a member's family-history files from six 1996 floppy disks holding files from a discontinued program.",
-      "whyItMatters": "Your photos and projects could become unreadable as file formats and devices change. Copying data into open, widely supported formats keeps it usable.",
+      "category": "Wearables",
+      "headline": "Battery-free device turns wave motion into a life jacket SOS light",
+      "summary": "Australia's University of Wollongong researchers built a soft device with two liquid-metal droplets in a conductive liquid. Movement shifts the droplets, producing a small current. Forty linked devices made about 2 volts, enough to light small LEDs, and a life-jacket prototype used wave motion to light an \"SOS\" sign. It can also sense bending and even a wrist pulse. Researchers say power and durability need improvement. The study is in Science Advances.",
+      "whyItMatters": "Many sensors and wearables stop working when batteries die. Devices that power themselves from movement could work in places where charging is impractical.",
       "csp": {
-        "idea": "Data",
-        "connection": "Digital data is only bits; keeping it usable requires both hardware that can read it and software that understands its format."
+        "idea": "Computer Systems and Networks",
+        "connection": "Sensors convert physical events, like motion or pressure, into electrical signals a computing system can read."
       },
       "sources": [
         {
-          "name": "Tech Xplore (The Conversation)",
-          "date": "2026-11-04",
-          "url": "https://techxplore.com/news/2026-11-floppy-disk-history.html"
+          "name": "Tech Xplore (Univ. of Wollongong)",
+          "date": "2026-11-05",
+          "url": "https://techxplore.com/news/2026-11-powered-life-jackets-motion-emergency.html"
         }
       ]
     },
     {
-      "id": "shipwreck-lock-ct-scan",
+      "id": "crowd-seismic-signals",
       "type": "news",
       "category": "Surprising uses",
-      "headline": "3D scans crack the code on a 1583 shipwreck padlock",
-      "summary": "A brass combination lock from the Ann Francis, which wrecked off Wales in 1583, had stayed locked for over 400 years. Cardiff University experts, who usually scan bones, used micro-CT, a type of X-ray imaging, to build a 3D model of the mechanism without damaging it. The model showed how the notches lined up with letters, revealing the code ANCE, and the lock opened that evening. It is on display at a museum in Swansea.",
-      "whyItMatters": "Imaging tools built for medicine and engineering can answer questions in history and archaeology. Software turns X-ray scans into a 3D model people can explore.",
+      "headline": "Earthquake sensors can tell marching crowds from casual walkers",
+      "summary": "A Tel Aviv University seismologist analyzed ground-shaking data recorded during a 2020 march of about 11,000 people in New York state and a 2021 pilgrimage of about 100,000 in Israel. Tokyo schoolyard sensors also picked up school activity. Coordinated crowds that march, jump or chant created stronger signals than similar-sized casual crowds, mostly at 1 to 2 vibrations per second, close to walking pace. The study is in Seismological Research Letters.",
+      "whyItMatters": "Sensors built for one purpose can reveal unexpected patterns in other data. The author hopes to learn whether signals could someday reveal changes in crowd behavior, which is not yet shown.",
       "csp": {
         "idea": "Data",
-        "connection": "Combining many 2D scans into a 3D model shows how computers process large sets of data to reveal hidden information."
+        "connection": "Analyzing patterns in large sensor datasets can reveal information that the data was never originally collected to show."
       },
       "sources": [
         {
-          "name": "Phys.org (Cardiff Univ.)",
-          "date": "2026-11-04",
-          "url": "https://phys.org/news/2026-11-ct-scans-reveal-letter-code.html"
+          "name": "Phys.org (Seismological Soc. of America)",
+          "date": "2026-11-05",
+          "url": "https://phys.org/news/2026-11-large-pedestrian-crowds-distinctive-seismic.html"
+        }
+      ]
+    },
+    {
+      "id": "nfl-tracking-ai",
+      "type": "news",
+      "category": "Sports tech",
+      "headline": "Carnegie Mellon trains AI on NFL game film and tracking data",
+      "summary": "The NFL gave Carnegie Mellon University researchers official game film and Next Gen Stats data, which come from chips in players' shoulder pads, equipment and the ball that record movement on the field. The team received several terabytes and built two starting AI models: one learns from video and one from tracking data. Goals include automatically labeling plays and predicting moves like blitzes. The project is early, and no accuracy results have been reported yet.",
+      "whyItMatters": "Coaches and scouts spend many hours labeling game film by hand. Sports analytics is a growing career path that combines statistics, programming and a love of the game.",
+      "csp": {
+        "idea": "Data",
+        "connection": "Combining different types of data, such as video and location tracking, can reveal patterns that neither shows alone."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (Carnegie Mellon Univ.)",
+          "date": "2026-11-05",
+          "url": "https://techxplore.com/news/2026-11-football-ai.html"
         }
       ]
     }
