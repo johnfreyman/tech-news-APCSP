@@ -28,7 +28,7 @@
       "type": "news",
       "category": "Privacy",
       "headline": "Study finds AI shopping helpers pushed pricier picks to wealthier users",
-      "summary": "Researchers from Carnegie Mellon and Cisco ran about 325,000 tests of 13 AI models acting as personal agents, programs that pick flights, insurance or graduate schools for a user. Given identical requests from 32 fictional people, 8 of the 13 models chose more expensive options for wealthier profiles, sometimes guessing wealth from a single email. Only hiding financial details closed the gap. The study is a preprint, not yet peer reviewed, and used fictional users.",
+      "summary": "Researchers from Carnegie Mellon and Cisco ran about 325,000 tests of 13 AI models acting as personal agents, programs that pick flights, insurance or graduate schools for a user. Given identical requests from 32 fictional people, 8 of the 13 models chose more expensive options for wealthier profiles, sometimes guessing wealth from a single email. Only hiding financial details largely closed the gap. The study is a preprint, not yet peer reviewed, and used fictional users.",
       "whyItMatters": "AI helpers are being given access to email and personal data. What an agent knows about you can change its choices, so privacy settings affect more than who sees your data.",
       "csp": {
         "idea": "Impact of Computing",
