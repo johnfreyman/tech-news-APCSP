@@ -1,0 +1,175 @@
+{
+  "schemaVersion": 1,
+  "editionId": "2026-11-09-daily",
+  "date": "2026-11-09",
+  "coverage": "Nine stories · AO3 cyberattack, AI backdoors, in-memory computing, robot servers, heart MRI AI, running form, repair laws, chimp drone, SETI",
+  "cards": [
+    {
+      "id": "ao3-cyberattack",
+      "type": "news",
+      "category": "Cybersecurity",
+      "headline": "Cyberattack takes huge fan fiction archive AO3 offline",
+      "summary": "Archive of Our Own (AO3), a nonprofit fan fiction site with over 11 million registered users and nearly 18 million stored works, has been offline since Oct. 29 after a cyberattack, AFP reported Nov. 7. The Organization for Transformative Works, which runs it, says no data was lost and hopes to restore the site within a month. It doesn't believe its user database, which holds usernames, emails and encrypted passwords, was stolen but can't rule it out.",
+      "whyItMatters": "Even a free hobby site can hold personal data for millions of people. Using a different password for every account limits the damage if any one site's database is ever stolen.",
+      "csp": {
+        "idea": "Impact of Computing",
+        "connection": "Encrypting stored passwords and keeping data backed up help protect users when a system is attacked."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (AFP)",
+          "date": "2026-11-07",
+          "url": "https://techxplore.com/news/2026-11-cyberattack-internet-fan-fiction-library.html"
+        }
+      ]
+    },
+    {
+      "id": "ai-backdoor-removal",
+      "type": "news",
+      "category": "AI security",
+      "headline": "Researchers find new ways to remove hidden AI backdoors",
+      "summary": "A backdoor is a secret trigger hidden in an AI model: with the trigger, it does what an attacker wants; without it, the model acts normally, so the flaw is hard to spot. North Carolina State University researchers developed three methods that target backdoors in a model's features, architecture and weights. They say the methods remove or reduce backdoors without major performance losses, though no specific figures were given.",
+      "whyItMatters": "Many apps are built on AI models that someone else trained or adjusted. A model can pass ordinary tests and still hide a trigger, so knowing where software comes from matters.",
+      "csp": {
+        "idea": "Impact of Computing",
+        "connection": "A program that passes normal tests can still contain harmful behavior that an attacker deliberately hid inside it."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (NC State Univ.)",
+          "date": "2026-11-06",
+          "url": "https://techxplore.com/news/2026-11-techniques-hidden-ai-backdoors-major.html"
+        }
+      ]
+    },
+    {
+      "id": "analog-memory-fourier",
+      "type": "news",
+      "category": "Hardware",
+      "headline": "Flash memory chip runs a giant Fourier transform inside memory",
+      "summary": "A Fourier transform is an algorithm that breaks a signal, like sound, into its frequencies. Sandia National Laboratories and partners ran a 65,536-point fast Fourier transform using analog in-memory computing, where math happens inside memory cells instead of a separate processor. Earlier analog chips handled up to 128 points. The key was splitting the big transform into smaller ones. Results, in Nature Electronics, are preliminary.",
+      "whyItMatters": "Audio, images and wireless signals all rely on Fourier transforms. The team's modeling suggests doing this math inside memory could save energy, but analog math adds some error and real-world tests are still to come.",
+      "csp": {
+        "idea": "Algorithms and Programming",
+        "connection": "Splitting one big problem into smaller pieces that each fit the available hardware is an example of problem decomposition."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (Sandia National Labs)",
+          "date": "2026-11-08",
+          "url": "https://techxplore.com/news/2026-11-team-large-scale-fourier-analog.html"
+        }
+      ]
+    },
+    {
+      "id": "karachi-robot-servers",
+      "type": "news",
+      "category": "Robotics",
+      "headline": "Pakistani engineer builds robot servers for his Karachi restaurant",
+      "summary": "Engineer Syed Osama Aziz built two humanoid robots, Robia and Jojo, that roll between booths at his Karachi restaurant delivering food and introducing themselves. Aziz designed the circuit boards and wrote the software in his own lab, mostly from locally made parts. Diners still take food off the trays themselves. Aziz plans to add camera-based image processing so the robots could recognize returning customers, AFP reported.",
+      "whyItMatters": "Building a robot means combining hardware, software and choices about which jobs people still do. A plan to recognize customers also raises questions about what data a restaurant should collect.",
+      "csp": {
+        "idea": "Creative Development",
+        "connection": "A working robot is built in layers: circuit boards, software, and a design that decides which tasks people still handle."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (AFP)",
+          "date": "2026-11-08",
+          "url": "https://techxplore.com/news/2026-11-pakistan-built-robots-future-karachi.html"
+        }
+      ]
+    },
+    {
+      "id": "ai-heart-mri",
+      "type": "news",
+      "category": "Health technology",
+      "headline": "AI heart scan measurements predicted survival better than experts' did",
+      "summary": "Ejection fraction measures how much blood the heart pumps with each beat; doctors often find it by outlining the heart on MRI scans. Researchers at City St George's, University of London, compared a deep-learning model's measurements with experts' for 27,382 patients tracked about 5.6 years. The AI's numbers better predicted long-term survival, though the gain was small after accounting for age and sex. The Lancet Digital Health study used past records.",
+      "whyItMatters": "AI that does a repetitive measurement consistently could support doctors. Because the study used past records, it does not show that using the AI improves patients' health.",
+      "csp": {
+        "idea": "Data",
+        "connection": "Researchers judged the AI by comparing its outputs with experts' on a large data set where the real outcomes were already known."
+      },
+      "sources": [
+        {
+          "name": "Medical Xpress",
+          "date": "2026-11-06",
+          "url": "https://medicalxpress.com/news/2026-11-ai-heart-function-mri-clinicians.html"
+        }
+      ]
+    },
+    {
+      "id": "running-form-camera",
+      "type": "news",
+      "category": "Sports technology",
+      "headline": "Syracuse student builds camera-based tool to analyze runners' form",
+      "summary": "Syracuse University student Dan Griffiths built Rebound Motion Intelligence, software that uses computer vision and 3D pose estimation to analyze movement from one camera's video. It estimates the forces moving through the body, and a large language model chatbot explains the results in plain language. It was first used with Syracuse cross country and track athletes. No accuracy data or injury reductions have been reported yet.",
+      "whyItMatters": "Detailed motion analysis has usually needed an expensive biomechanics lab. Software that works from ordinary video could reach many more athletes and teams, if its accuracy holds up.",
+      "csp": {
+        "idea": "Data",
+        "connection": "Pose estimation turns video frames into data points for body joints that a program can then measure and compare."
+      },
+      "sources": [
+        {
+          "name": "Medical Xpress (Syracuse Univ.)",
+          "date": "2026-11-06",
+          "url": "https://medicalxpress.com/news/2026-11-platform-hidden-flaws-athletes.html"
+        }
+      ]
+    },
+    {
+      "id": "device-repair-laws",
+      "type": "news",
+      "category": "Right to repair",
+      "headline": "Researcher argues stronger repair laws could make gadgets last longer",
+      "summary": "Writing for The Conversation, researcher Margherita Feleppa says that many devices fail within a few years partly because of planned obsolescence, when products are designed or marketed so people replace them sooner. Examples include glued-in parts, rules requiring \"authorized\" repairers and restricted repair manuals. She urges Australia to copy EU right-to-repair rules. Global e-waste hit 62 million tonnes in 2022.",
+      "whyItMatters": "Phones, laptops and game consoles become e-waste when they can't be fixed. Repair rules can decide whether a cracked screen or worn battery means a repair or a whole new device.",
+      "csp": {
+        "idea": "Impact of Computing",
+        "connection": "Hardware design choices affect e-waste, repair costs and how long people can keep using their technology."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (The Conversation)",
+          "date": "2026-11-06",
+          "url": "https://techxplore.com/news/2026-11-devices.html"
+        }
+      ]
+    },
+    {
+      "id": "chimp-drone-delivery",
+      "type": "news",
+      "category": "Drones",
+      "headline": "Florida chimp sanctuary uses a drone to feed a stranded ape",
+      "summary": "Heavy rain from Nov. 1 to 3 flooded roads at Save the Chimps, a sanctuary near Fort Pierce, Florida, that cares for about 200 apes. One chimp, 38-year-old Kaleb, stayed in an outdoor area cut off by water. Staff used a delivery drone, bought earlier for emergencies, to drop food and blankets to him until he moved to an easier-to-reach spot on his own. Trucks and a tractor carried supplies to the other apes, AP reported.",
+      "whyItMatters": "Drones can reach places that people and vehicles cannot during floods. Buying the right tool before an emergency turned a stranded animal into a manageable delivery.",
+      "sources": [
+        {
+          "name": "Phys.org (AP)",
+          "date": "2026-11-08",
+          "url": "https://phys.org/news/2026-11-chimp-sanctuary-ape-food-drone.html"
+        }
+      ]
+    },
+    {
+      "id": "seti-game-theory",
+      "type": "news",
+      "category": "Space science",
+      "headline": "SETI search uses game theory to guess where aliens might signal",
+      "summary": "In game theory, a Schelling point is a choice two sides might both pick without talking, like meeting at a famous landmark. SETI researchers are scanning the anti-solar point, the spot in the sky opposite the Sun, because aliens who see Earth pass in front of the Sun would be in that direction. A pilot found about 1.9 million radio signals in 17 hours, all from human sources. The study is a preprint.",
+      "whyItMatters": "Sorting 1.9 million signals to rule out human interference is a big data-filtering job. Choosing smartly where to look first helps scientists use limited telescope time.",
+      "csp": {
+        "idea": "Data",
+        "connection": "Scientists must filter huge numbers of detected signals to separate human-made interference from anything new."
+      },
+      "sources": [
+        {
+          "name": "Phys.org (Universe Today)",
+          "date": "2026-11-08",
+          "url": "https://phys.org/news/2026-11-game-theory-seti-alien-civilizations.html"
+        }
+      ]
+    }
+  ]
+}
