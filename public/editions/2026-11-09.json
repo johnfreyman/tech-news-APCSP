@@ -103,8 +103,8 @@
       "id": "running-form-camera",
       "type": "news",
       "category": "Sports technology",
-      "headline": "Syracuse student builds camera-based tool to analyze runners' form",
-      "summary": "Syracuse University student Dan Griffiths built Rebound Motion Intelligence, software that uses computer vision and 3D pose estimation to analyze movement from one camera's video. It estimates the forces moving through the body, and a large language model chatbot explains the results in plain language. It was first used with Syracuse cross country and track athletes. No accuracy data or injury reductions have been reported yet.",
+      "headline": "Syracuse graduate builds camera-based tool to analyze runners' form",
+      "summary": "Recent Syracuse University graduate Dan Griffiths built Rebound Motion Intelligence, software that uses computer vision and 3D pose estimation to analyze movement from one camera's video. It estimates the forces moving through the body, and a large language model chatbot explains the results in plain language. He first used it with Syracuse cross country and track athletes. No accuracy data or injury reductions have been reported yet.",
       "whyItMatters": "Detailed motion analysis has usually needed an expensive biomechanics lab. Software that works from ordinary video could reach many more athletes and teams, if its accuracy holds up.",
       "csp": {
         "idea": "Data",
@@ -123,7 +123,7 @@
       "type": "news",
       "category": "Right to repair",
       "headline": "Researcher argues stronger repair laws could make gadgets last longer",
-      "summary": "Writing for The Conversation, researcher Margherita Feleppa says that many devices fail within a few years partly because of planned obsolescence, when products are designed or marketed so people replace them sooner. Examples include glued-in parts, rules requiring \"authorized\" repairers and restricted repair manuals. She urges Australia to copy EU right-to-repair rules. Global e-waste hit 62 million tonnes in 2022.",
+      "summary": "Writing for The Conversation, researcher Margherita Feleppa says that many devices fail within a few years partly because of planned obsolescence, a strategy of shortening a product's lifespan. Examples include glued-in parts, rules requiring \"authorized\" repairers and restricted repair manuals. She urges Australia to tighten its laws, noting new EU right-to-repair rules. Global e-waste hit 62 million tonnes in 2022.",
       "whyItMatters": "Phones, laptops and game consoles become e-waste when they can't be fixed. Repair rules can decide whether a cracked screen or worn battery means a repair or a whole new device.",
       "csp": {
         "idea": "Impact of Computing",
