@@ -85,7 +85,7 @@
       "type": "news",
       "category": "Health technology",
       "headline": "Sensor pillowcase tracks heart rate, breathing and sleep posture",
-      "summary": "Columbia University engineers built PillowSense, a pillowcase with conductive fabric that measures tiny electrical signals from the sleeper's neck. Software separates heart and muscle signals to estimate heart rate, breathing rate and sleeping position, with data processed on a phone. In 151 nights of home testing, it identified seven sleep postures with an F1 score, a common accuracy measure, of 88%. It is a research prototype, not a product.",
+      "summary": "Columbia University engineers built PillowSense, a pillowcase with conductive fabric that measures tiny electrical signals from the sleeper's neck. Software separates heart and muscle signals to estimate heart rate, breathing rate and sleeping position. In 151 nights of home testing, it identified seven sleep postures with an F1 score, a common accuracy measure, of 88%. It is a research prototype, not a product.",
       "whyItMatters": "Sleep trackers usually mean wearing a watch or ring to bed. Sensors built into everyday objects could collect health data with less effort, which also raises questions about who sees that data.",
       "csp": {
         "idea": "Data",
