@@ -1,0 +1,179 @@
+{
+  "schemaVersion": 1,
+  "editionId": "2026-11-10-daily",
+  "date": "2026-11-10",
+  "coverage": "Nine stories · sleep and phishing, VR passwords, robot code, space assembly, sensor pillow, concussions, data center power, AI rules, hornets",
+  "cards": [
+    {
+      "id": "sleep-loss-phishing",
+      "type": "news",
+      "category": "Cybersecurity",
+      "headline": "Losing an hour of sleep made workers likelier to click scams",
+      "summary": "Phishing emails trick people into clicking harmful links or sharing passwords. University of California, Irvine researchers used test phishing emails that a large U.S. institution's IT team sends to its more than 11,000 employees. On the Monday after the spring 2026 daylight saving time change, the click rate rose to 17.76% from 15.56% the Monday before, about 14% higher. The PNAS study inferred sleep loss from the clock change rather than measuring it.",
+      "whyItMatters": "Security depends on people as well as software. When you are tired or rushed, slow down before clicking a link or entering a password.",
+      "csp": {
+        "idea": "Impact of Computing",
+        "connection": "Phishing targets human behavior, so protecting a system means planning for people's mistakes as well as fixing code."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (UC Irvine)",
+          "date": "2026-11-09",
+          "url": "https://techxplore.com/news/2026-11-modest-loss-people-vulnerable-email.html"
+        }
+      ]
+    },
+    {
+      "id": "vr-direction-passwords",
+      "type": "news",
+      "category": "Cybersecurity",
+      "headline": "VR login uses directions in virtual scenes instead of typed digits",
+      "summary": "North Carolina State University and University of Minnesota researchers tested a virtual reality login where users pick one of 10 directions in each of six 360-degree scenes. Each direction secretly stands for a random digit, which avoids weak codes like 123456. In a study of 66 people aged 18 to 74, this group remembered passwords better than PIN users, but logging in took about five times longer. The work is a preprint headed to a VR conference.",
+      "whyItMatters": "Passwords people forget or make too simple are a common weak spot. Designers keep looking for logins that are both memorable and hard to guess.",
+      "csp": {
+        "idea": "Data",
+        "connection": "Each direction a user picks is mapped to a digit, so a memorable choice is stored as an ordinary number."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (NC State Univ.)",
+          "date": "2026-11-09",
+          "url": "https://techxplore.com/news/2026-11-vr-passwords-recall.html"
+        }
+      ]
+    },
+    {
+      "id": "ai-agents-robot-code",
+      "type": "news",
+      "category": "Robotics",
+      "headline": "AI agents write and test robot programs in simulation first",
+      "summary": "UC Berkeley roboticist Ken Goldberg and NVIDIA researchers break robot tasks into smaller skills, like finding an object or planning a grasp. AI agents combine the skills into a program, run it on many task variations in a simulation, find failures and revise the code. In one real test, a robot knocked over a metal bar because it misjudged the bar's mass. The paper is a preprint that has not been peer reviewed.",
+      "whyItMatters": "Testing in simulation lets developers find bugs before a real robot breaks something. Warehouse company Ambi Robotics says the method raised each robot's sorting capacity by over 15,000 packages a year.",
+      "csp": {
+        "idea": "Algorithms and Programming",
+        "connection": "Building a program from small reusable skills, then testing and revising it, mirrors the iterative development process."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (UC Berkeley)",
+          "date": "2026-11-09",
+          "url": "https://techxplore.com/news/2026-11-ai-agents-robot-code-virtual.html"
+        }
+      ]
+    },
+    {
+      "id": "caltech-space-assembly",
+      "type": "news",
+      "category": "Space robotics",
+      "headline": "Caltech robot assembles part of a structure in orbit",
+      "summary": "A Caltech robot aboard a Momentus spacecraft in low Earth orbit pulled tubes and joints from dispensers and joined them into a repeating section of a truss, the frame for a future antenna. Caltech calls it the first structure built autonomously in space. The team sent commands from Earth during roughly 15-minute contact windows and checked progress with photos. The team does not expect to finish the planned 11-section antenna before the mission ends in December.",
+      "whyItMatters": "Large antennas and telescopes are hard to fold into a rocket. Robots that build in orbit could make bigger space structures possible without astronauts.",
+      "csp": {
+        "idea": "Computer Systems and Networks",
+        "connection": "With only short communication windows, the robot had to carry out its steps on its own between commands from Earth."
+      },
+      "sources": [
+        {
+          "name": "ScienceDaily (Caltech)",
+          "date": "2026-11-09",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261108233043.htm"
+        }
+      ]
+    },
+    {
+      "id": "pillowsense-sleep",
+      "type": "news",
+      "category": "Health technology",
+      "headline": "Sensor pillowcase tracks heart rate, breathing and sleep posture",
+      "summary": "Columbia University engineers built PillowSense, a pillowcase with conductive fabric that measures tiny electrical signals from the sleeper's neck. Software separates heart and muscle signals to estimate heart rate, breathing rate and sleeping position, with data processed on a phone. In 151 nights of home testing, it identified seven sleep postures with an F1 score, a common accuracy measure, of 88%. It is a research prototype, not a product.",
+      "whyItMatters": "Sleep trackers usually mean wearing a watch or ring to bed. Sensors built into everyday objects could collect health data with less effort, which also raises questions about who sees that data.",
+      "csp": {
+        "idea": "Data",
+        "connection": "Raw electrical signals have to be filtered and separated before a program can turn them into useful health measurements."
+      },
+      "sources": [
+        {
+          "name": "Medical Xpress (Columbia Univ.)",
+          "date": "2026-11-10",
+          "url": "https://medicalxpress.com/news/2026-11-pillowcase-tracks.html"
+        }
+      ]
+    },
+    {
+      "id": "mouthguard-concussion-data",
+      "type": "news",
+      "category": "Sports technology",
+      "headline": "Sensor mouthguard data suggests concussions happen at lower forces",
+      "summary": "Stanford researchers studied motion-sensing mouthguards worn by 203 athletes in seven sports, covering 47 concussions and 3,804 other head impacts. Straight-line head acceleration best predicted concussion. A 100 g hit, or 100 times the force of gravity, carried about a 50% risk, far below the 192 g level often cited from helmet sensors. The authors say the concussion sample is small and needs confirming.",
+      "whyItMatters": "Better sensor data could change how helmets and safety rules are designed. Where a sensor sits, like a mouthguard instead of a helmet, can change what the data shows.",
+      "csp": {
+        "idea": "Data",
+        "connection": "Researchers built a model from thousands of measured impacts to estimate the risk of injury at each force level."
+      },
+      "sources": [
+        {
+          "name": "Medical Xpress (Stanford Medicine)",
+          "date": "2026-11-09",
+          "url": "https://medicalxpress.com/news/2026-11-concussion-upends-impacts-dangerous.html"
+        }
+      ]
+    },
+    {
+      "id": "data-center-power-costs",
+      "type": "news",
+      "category": "Energy and computing",
+      "headline": "Study: residents pay most grid costs tied to data center growth",
+      "summary": "A Cornell-led study in Nature Energy examined four major U.S. power grids. In 2025, data centers paid about 38%, or $3.12 billion, of the $8.25 billion in grid costs linked to their growth; the rest fell largely on residents. Data center growth raised wholesale power prices about 15% in Virginia. The authors suggest data centers cut use during the 22 busiest hours each year to ease strain.",
+      "whyItMatters": "Every AI chat and video stream runs in a data center that needs electricity. Who pays for that power is becoming a real question for families' utility bills.",
+      "csp": {
+        "idea": "Impact of Computing",
+        "connection": "Computing has physical costs, like electricity and power lines, that can affect people who never use the service."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (Cornell Univ.)",
+          "date": "2026-11-09",
+          "url": "https://techxplore.com/news/2026-11-centers-power-income-rural-residents.html"
+        }
+      ]
+    },
+    {
+      "id": "australia-ai-safeguards",
+      "type": "news",
+      "category": "Technology policy",
+      "headline": "Australia plans mandatory safety rules for AI companies",
+      "summary": "Australian Prime Minister Anthony Albanese announced Tuesday that AI companies operating in Australia will have to follow new mandatory safeguards, AFP reported. They include reporting AI security breaches and independent evaluation of frontier AI models, the most advanced systems. A new AI safety regulator would carry them out. No start date was given.",
+      "whyItMatters": "Governments are deciding who checks powerful AI systems before and after release. Rules like these could affect how AI tools are built and tested worldwide.",
+      "csp": {
+        "idea": "Impact of Computing",
+        "connection": "Laws and regulators shape how computing innovations are tested, released and held accountable."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (AFP)",
+          "date": "2026-11-10",
+          "url": "https://techxplore.com/news/2026-11-australia-mandatory-ai-safeguards.html"
+        }
+      ]
+    },
+    {
+      "id": "hornet-ai-trap",
+      "type": "news",
+      "category": "Student innovation",
+      "headline": "Students pair AI with a fungus sticker to fight invasive hornets",
+      "summary": "Asian hornets threaten bees and biodiversity in Europe. A student team at the Free University of Brussels designed a trap where an AI system checks whether a caught insect is an Asian hornet, which the team says it does with over 99% accuracy. Hornets get a protein sticker carrying a natural insect-killing fungus, then are released to carry it back to the nest. The team presents at the iGEM competition in Paris this week; no field results are reported.",
+      "whyItMatters": "Students can combine computing with biology to tackle real environmental problems. Accurate identification matters so that bees and other insects are not tagged by mistake.",
+      "csp": {
+        "idea": "Creative Development",
+        "connection": "The project combines an image-recognition system with a biological tool, showing how teams join ideas from different fields."
+      },
+      "sources": [
+        {
+          "name": "Phys.org (VUB)",
+          "date": "2026-11-10",
+          "url": "https://phys.org/news/2026-11-student-team-trojan-horse-asian.html"
+        }
+      ]
+    }
+  ]
+}
