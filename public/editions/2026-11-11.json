@@ -1,0 +1,179 @@
+{
+  "schemaVersion": 1,
+  "editionId": "2026-11-11-daily",
+  "date": "2026-11-11",
+  "coverage": "Nine stories · AI and debugging, EU app rules, fridge hacks, hurricane AI, rip currents, skin trackpad, robot thumb, whale cables, BP sensor",
+  "cards": [
+    {
+      "id": "ai-debugging-retention",
+      "type": "news",
+      "category": "Programming education",
+      "headline": "Students debugging with AI finished faster but remembered less later",
+      "summary": "A University of Eastern Finland doctoral study compared 152 university students who fixed buggy code with or without a generative AI assistant. Students using AI performed better and faster on some debugging tasks. But students who worked without AI showed stronger knowledge retention on a test seven weeks later. The researcher says the work is not against AI in school; it suggests using AI as a guide rather than an answer machine.",
+      "whyItMatters": "Getting code to work and learning how it works are not the same thing. When you use AI on assignments, asking it to explain or hint rather than fix may help you keep the skill.",
+      "csp": {
+        "idea": "Algorithms and Programming",
+        "connection": "Debugging means finding and fixing errors in a program, a core skill students build by reasoning through code themselves."
+      },
+      "sources": [
+        {
+          "name": "Phys.org (Univ. of Eastern Finland)",
+          "date": "2026-11-10",
+          "url": "https://phys.org/news/2026-11-qa-exploring-generative-ai-impact.html"
+        }
+      ]
+    },
+    {
+      "id": "eu-digital-fairness-act",
+      "type": "news",
+      "category": "Technology policy",
+      "headline": "EU proposal would let users switch off addictive app features",
+      "summary": "The European Union was set to propose a Digital Fairness Act on Wednesday, according to draft documents seen by AFP. It would give users the right to turn off \"addictive\" features and ban dark patterns, designs that trick people into purchases or settings. It would also bar pay-to-win features for minors, make games show the real money value of virtual currencies, and require clear labels on influencer ads. Companies could face fines up to 6% of annual revenue.",
+      "whyItMatters": "Many apps are designed to keep you scrolling and spending. Rules like these could change how the apps and games you use are built, even outside Europe.",
+      "csp": {
+        "idea": "Impact of Computing",
+        "connection": "Interface design choices affect user behavior, and laws can limit designs that harm users."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (AFP)",
+          "date": "2026-11-11",
+          "url": "https://techxplore.com/news/2026-11-eu-addictive-app-features-easier.html"
+        }
+      ]
+    },
+    {
+      "id": "enisa-fridge-hacks",
+      "type": "news",
+      "category": "Cybersecurity",
+      "headline": "After supermarket fridge hacks, EU cyber chief warns about home appliances",
+      "summary": "Cyberattacks in October and November hit supermarkets in at least 12 European countries, AFP reports. In France, hundreds of stores were struck, fridge and freezer temperatures rose, and many threw away perishable food. Juhan Lepassaar, head of the EU cybersecurity agency ENISA, said routers and home appliances could be next. He urged manufacturers to build products that are secure \"by design.\"",
+      "whyItMatters": "Smart devices on a network can be attacked like any computer. As more everyday objects connect to the internet, their security affects food, homes and safety.",
+      "csp": {
+        "idea": "Computer Systems and Networks",
+        "connection": "Every device connected to a network is a possible entry point, so security has to be built into hardware and software from the start."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (AFP)",
+          "date": "2026-11-11",
+          "url": "https://techxplore.com/news/2026-11-fridge-hacks-home-appliances-eu.html"
+        }
+      ]
+    },
+    {
+      "id": "ai-hurricane-forecasts",
+      "type": "news",
+      "category": "AI and weather",
+      "headline": "AI weather models help hurricane forecasters, but humans still decide",
+      "summary": "The U.S. National Hurricane Center now blends AI models, including one from Google DeepMind, with physics-based models. A DeepMind paper in Nature in August reported its three-day forecasts were about as accurate as earlier models' two-day forecasts. The model can generate 1,000 possible scenarios per storm. NHC's Dan Brown told AFP that AI forecasts can jump between runs, so specialists judge which models to trust and how to blend them.",
+      "whyItMatters": "An extra day of warning gives families more time to prepare or evacuate. The story also shows why people still check AI output before acting on it.",
+      "csp": {
+        "idea": "Data",
+        "connection": "The AI models learned patterns from large weather datasets, while forecasters combine several models' outputs into one prediction."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (AFP)",
+          "date": "2026-11-11",
+          "url": "https://techxplore.com/news/2026-11-ai-sharpens-hurricane-humans-shots.html"
+        }
+      ]
+    },
+    {
+      "id": "ripeye-rip-currents",
+      "type": "news",
+      "category": "AI and safety",
+      "headline": "AI tool flags possible rip currents in beach photos",
+      "summary": "Rip currents are strong channels of water that pull swimmers away from shore. UNSW researchers in Australia trained RipEye on about 10,000 labeled beach images, and it flags possible rips in a photo within seconds. Researchers say it detects a rip about 80% of the time and does not prove water is safe. Surf Life Saving Australia is testing it this summer, and a companion game lets players compare their guesses with the AI.",
+      "whyItMatters": "An 80% detection rate still misses some rips, so a tool like this supports human judgment rather than replacing it. The team is also studying whether AI help creates false confidence.",
+      "csp": {
+        "idea": "Data",
+        "connection": "The model learned from thousands of human-labeled images, so the quality and variety of training data shape what it can detect."
+      },
+      "sources": [
+        {
+          "name": "Phys.org (UNSW)",
+          "date": "2026-11-11",
+          "url": "https://phys.org/news/2026-11-ripeye-flags-rip-currents-beach.html"
+        }
+      ]
+    },
+    {
+      "id": "epipad-skin-trackpad",
+      "type": "news",
+      "category": "Wearables",
+      "headline": "Radar wristband turns your forearm into a smartwatch trackpad",
+      "summary": "North Carolina State University researchers built EpiPad, a wristband with a tiny millimeter-wave radar that reads the small dents fingertips make when pressing skin. That lets users scroll, zoom and click on a smartwatch by touching their forearm, and it senses how hard each finger presses. In tests with 20 people, it beat a touchscreen and a tilt cursor on errors and speed. It is a research prototype.",
+      "whyItMatters": "Small screens make gestures like pinch-to-zoom hard. New input methods could make watches and screenless devices like AI glasses easier to use.",
+      "csp": {
+        "idea": "Computer Systems and Networks",
+        "connection": "A sensor turns physical touch into data that software interprets as input commands, like a mouse or trackpad."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (NC State Univ.)",
+          "date": "2026-11-10",
+          "url": "https://techxplore.com/news/2026-11-radar-wristband-arm-smartwatch-trackpad.html"
+        }
+      ]
+    },
+    {
+      "id": "egothumb-robotic-thumb",
+      "type": "news",
+      "category": "Robotics",
+      "headline": "Wearable robotic thumb helps people do two-handed tasks one-handed",
+      "summary": "UC San Diego researchers built EgoThumb, an extra robotic thumb worn on the hand. A small camera near the palm feeds an AI model that decides when to grasp and release, without the wearer giving commands. The model learned by imitation from demonstrations a person made with a foot control. In lab tests of tasks like unscrewing a bottle cap, success averaged 87.5% to 92.5%. The work is a preprint not yet peer reviewed.",
+      "whyItMatters": "Wearable robots could help people who have limited use of one hand. The designs and software are open source, so others can build on them.",
+      "csp": {
+        "idea": "Algorithms and Programming",
+        "connection": "Instead of hand-coded rules, the thumb's behavior was learned from examples of a person doing the task."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (UC San Diego)",
+          "date": "2026-11-10",
+          "url": "https://techxplore.com/news/2026-11-extra-robotic-thumb-wearers-tasks.html"
+        }
+      ]
+    },
+    {
+      "id": "whale-fiber-cables",
+      "type": "news",
+      "category": "Networks and science",
+      "headline": "Undersea internet cables pick up bowhead whale calls",
+      "summary": "A Cornell researcher used distributed acoustic sensing, which sends laser pulses through fiber-optic cables and measures tiny changes caused by sound. Working in Utqiagvik, Alaska, with local whaling captains and wildlife managers, she analyzed terabytes of data from an existing fiber-optic cable. She recorded the first detections of bowhead whale calls with this method. A new review lays out how to turn it into a regular conservation tool.",
+      "whyItMatters": "Cables built to carry internet traffic can double as miles of underwater microphones. That could help scientists track whales in remote places in real time.",
+      "csp": {
+        "idea": "Computer Systems and Networks",
+        "connection": "Fiber-optic cables carry data as light, and changes in that light can reveal what is happening around the cable."
+      },
+      "sources": [
+        {
+          "name": "Phys.org (Cornell Univ.)",
+          "date": "2026-11-10",
+          "url": "https://phys.org/news/2026-11-repurposing-internet-backbone-advance-whale.html"
+        }
+      ]
+    },
+    {
+      "id": "cuffless-blood-pressure",
+      "type": "news",
+      "category": "Health technology",
+      "headline": "Tiny light-based sensor tracks blood pressure without a cuff",
+      "summary": "Blood pressure is usually checked with an inflatable cuff that gives one reading at a time. Technion researchers in Israel built a tiny sensor that uses light pulses to create ultrasound waves inside an artery, then measures the artery's width as it changes with each heartbeat. AI-based modeling turns those measurements into blood pressure estimates. Early volunteer tests captured 100 measurements per second; it is not yet a product.",
+      "whyItMatters": "Continuous readings could help people with heart disease spot problems between doctor visits. Someday the sensor could be built into smartwatches or patches.",
+      "csp": {
+        "idea": "Data",
+        "connection": "Raw sensor measurements must be processed by a model before they become a useful health number."
+      },
+      "sources": [
+        {
+          "name": "Medical Xpress (Technion)",
+          "date": "2026-11-10",
+          "url": "https://medicalxpress.com/news/2026-11-tiny-sensor-track-blood-pressure.html"
+        }
+      ]
+    }
+  ]
+}
