@@ -142,7 +142,7 @@
       "type": "news",
       "category": "Networks and science",
       "headline": "Undersea internet cables pick up bowhead whale calls",
-      "summary": "A Cornell researcher used distributed acoustic sensing, which sends laser pulses through fiber-optic cables and measures tiny changes caused by sound. Working in Utqiagvik, Alaska, with local whaling captains and wildlife managers, she analyzed terabytes of data from an existing telecom cable. She recorded the first detections of bowhead whale calls with this method. A new review lays out how to turn it into a regular conservation tool.",
+      "summary": "A Cornell researcher used distributed acoustic sensing, which sends laser pulses through fiber-optic cables and measures tiny changes caused by sound. Working in Utqiagvik, Alaska, with local whaling captains and wildlife managers, she analyzed terabytes of data from an existing fiber-optic cable. She recorded the first detections of bowhead whale calls with this method. A new review lays out how to turn it into a regular conservation tool.",
       "whyItMatters": "Cables built to carry internet traffic can double as miles of underwater microphones. That could help scientists track whales in remote places in real time.",
       "csp": {
         "idea": "Computer Systems and Networks",
