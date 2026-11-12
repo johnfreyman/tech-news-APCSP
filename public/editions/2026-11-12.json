@@ -1,0 +1,179 @@
+{
+  "schemaVersion": 1,
+  "editionId": "2026-11-12-daily",
+  "date": "2026-11-12",
+  "coverage": "Nine stories · AI and drug ads, folding audio, robot memory, echo-tracking watch, loot boxes, air taxi, trunk robots, black hole, p-values",
+  "cards": [
+    {
+      "id": "drug-ads-ai-recommendations",
+      "type": "news",
+      "category": "AI and health",
+      "headline": "Drug ads nudged AI chatbots toward recommending the advertised medicine",
+      "summary": "Mount Sinai researchers gave 12 AI models from companies including Google, OpenAI and Anthropic doctor-written patient cases, sometimes preceded by a clearly labeled real drug ad. Across 258,559 responses, models picked the advertised drug 47.6% of the time with the ad versus 35% without. The answers usually still seemed reasonable, which could make the effect easy to miss. The study, in The Lancet Digital Health, did not measure effects on real patients.",
+      "whyItMatters": "If ads appear in the same place as your question, an AI's answer can shift without saying so. That is worth remembering whenever you ask a chatbot for advice on health or anything you might buy.",
+      "csp": {
+        "idea": "Impact of Computing",
+        "connection": "An AI model's output depends on everything in its input, so extra content such as ads can bias results in ways users may not notice."
+      },
+      "sources": [
+        {
+          "name": "Medical Xpress (Mount Sinai)",
+          "date": "2026-11-11",
+          "url": "https://medicalxpress.com/news/2026-11-drug-ads-ai-treatment.html"
+        }
+      ]
+    },
+    {
+      "id": "unlimited-sensing-audio",
+      "type": "news",
+      "category": "Data and hardware",
+      "headline": "Folding loud sounds lets fewer bits capture more audio",
+      "summary": "An analog-to-digital converter turns sound into numbers, and with few bits per sample, loud sounds get clipped and lost. Imperial College London engineers built a prototype that folds loud signals into a smaller range instead, then uses math to reconstruct the original. Using six bits per sample, it gained at least 18 decibels of range over a normal six-bit converter. In a 52-person listening test, people rated its audio higher.",
+      "whyItMatters": "Every recording you make is converted into a limited number of bits. Getting more detail from the same bits could help digital stethoscopes, wearables and sensors use less energy.",
+      "csp": {
+        "idea": "Data",
+        "connection": "Analog sound is sampled and stored with a fixed number of bits, and that choice limits what values the digital version can represent."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (Imperial College London)",
+          "date": "2026-11-11",
+          "url": "https://techxplore.com/news/2026-11-year-limitation-digital-audio.html"
+        }
+      ]
+    },
+    {
+      "id": "robot-workspace-memory",
+      "type": "news",
+      "category": "AI and robotics",
+      "headline": "Small AI model gives robots fast \"muscle memory\" of past moments",
+      "summary": "Robots often slip up when they must remember what they saw earlier. MIT and Carnegie Mellon researchers had large vision-language AI models analyze robot videos ahead of time, then trained a small model to compress the robot's history into a compact memory. During tasks, only the small model runs, so the robot reacts quickly. A robot arm put away cubes about 92% of the time. The work is a preprint not yet peer reviewed.",
+      "whyItMatters": "Big AI models are powerful but slow and costly to run constantly. Doing the heavy thinking in advance and running a lighter model live is a common trick for making AI fast enough for real devices.",
+      "csp": {
+        "idea": "Algorithms and Programming",
+        "connection": "Compressing a long history into a small summary trades some detail for speed, a common design choice in efficient algorithms."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (MIT)",
+          "date": "2026-11-11",
+          "url": "https://techxplore.com/news/2026-11-robots-gain-muscle-memory-milliseconds.html"
+        }
+      ]
+    },
+    {
+      "id": "echomotion-smartwatch-tracking",
+      "type": "news",
+      "category": "Wearables",
+      "headline": "Smartwatch uses echoes to track your whole body's pose",
+      "summary": "Cornell researchers built EchoMotion, which makes a regular smartwatch speaker send ultrasonic sound and its microphone record echoes off the wearer's body. A deep learning model turns those echoes into the positions of 12 joints, from head to ankles, without cameras. On an unmodified Samsung watch, average error for new users was under 10 cm, about 6 cm after a 12-minute calibration. Crowded spaces still reduce accuracy.",
+      "whyItMatters": "Hardware you already own can gain new abilities through software alone. It could someday count workout reps or check exercise form without a camera watching you.",
+      "csp": {
+        "idea": "Data",
+        "connection": "The model learned to map patterns in sound data to body positions by training on recordings from volunteers."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (Cornell Univ.)",
+          "date": "2026-11-11",
+          "url": "https://techxplore.com/news/2026-11-ultrasound-ai-shelf-smartwatch-full.html"
+        }
+      ]
+    },
+    {
+      "id": "japan-loot-box-odds",
+      "type": "news",
+      "category": "Gaming",
+      "headline": "Many top Japanese mobile games don't show all loot box odds",
+      "summary": "Loot boxes, called gacha in Japan, are paid random prizes in games. A study of Japan's 100 highest-grossing iPhone games found 91% sold them. Industry rules require showing the odds, but only 41.8% disclosed odds for every loot box. Four games appeared to use a prize-collecting mechanic banned since 2012. The researchers, writing in the Journal of Behavioral Addictions, say self-regulation is not enough.",
+      "whyItMatters": "Loot boxes are built on random number generation, and you can't judge a purchase without knowing the odds. The study shows rules on paper don't always match what apps actually do.",
+      "csp": {
+        "idea": "Impact of Computing",
+        "connection": "Game designers program the probabilities behind random rewards, so disclosing them lets players understand what they are paying for."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (City Univ. of Hong Kong)",
+          "date": "2026-11-11",
+          "url": "https://techxplore.com/news/2026-11-mobile-games-japan-dont-fully.html"
+        }
+      ]
+    },
+    {
+      "id": "sri-lanka-pilotless-air-taxi",
+      "type": "news",
+      "category": "Transportation",
+      "headline": "Sri Lanka begins testing a pilotless two-seat air taxi",
+      "summary": "Sri Lanka's aviation authority licensed Chinese company EHang to test its EH216-S, an electric aircraft with no pilot that takes off and lands vertically. Two officials rode it on a short demonstration flight in Colombo on Wednesday, AFP reports. Officials say it has 16 propellers, flies about 25 minutes and covers up to 30 km. Testing may last about five months before any commercial service is allowed.",
+      "whyItMatters": "Flying without a pilot means software must handle navigation and safety on every trip. Long test periods are how regulators check whether that software can be trusted with passengers.",
+      "csp": {
+        "idea": "Computer Systems and Networks",
+        "connection": "Autonomous aircraft depend on sensors, onboard computers and communication links working together reliably."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (AFP)",
+          "date": "2026-11-11",
+          "url": "https://techxplore.com/news/2026-11-sri-lanka-chinese-flying-taxi.html"
+        }
+      ]
+    },
+    {
+      "id": "tensegrity-trunk-robots",
+      "type": "news",
+      "category": "Robotics",
+      "headline": "Trunk-like robots bend, grab and link up into teams",
+      "summary": "Colorado State University engineers built tube-shaped robots inspired by elephant trunks. They use tensegrity, where stiff rods are held by tensioned cables instead of joints, so they can bend, stretch and collapse. A claw on each end can grab objects or another robot, letting them form chains, loops and branches. Humans still pilot them, though two robots have found and connected to each other on their own. The study is in Nature Machine Intelligence.",
+      "whyItMatters": "Robots that team up could reach places one machine can't, such as rubble in search-and-rescue. Getting many robots to coordinate without a human pilot is the next programming challenge.",
+      "csp": {
+        "idea": "Computer Systems and Networks",
+        "connection": "Modular robots act like a system of parts that must coordinate, similar to devices cooperating on a network."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (Colorado State Univ.)",
+          "date": "2026-11-11",
+          "url": "https://techxplore.com/news/2026-11-elephant-trunks-shifting-robots-team.html"
+        }
+      ]
+    },
+    {
+      "id": "m87-black-hole-check",
+      "type": "news",
+      "category": "Space and AI",
+      "headline": "New AI method confirms the famous black hole image is real",
+      "summary": "In 2019, the Event Horizon Telescope released the first image of a black hole, in galaxy M87. Australia's CSIRO reanalyzed the original data with a machine learning method that combines telescope measurements in groups of three instead of pairs, cancelling some calibration errors. Without being told what a black hole looks like, it recovered a ring almost identical in size and shape. The work is published in Nature.",
+      "whyItMatters": "Checking a result with a different method is how scientists rule out mistakes in processing. The team says the same technique could help with medical imaging and earthquake mapping.",
+      "csp": {
+        "idea": "Data",
+        "connection": "Images like this are computed from huge datasets, so independent algorithms help confirm a pattern is in the data, not created by the processing."
+      },
+      "sources": [
+        {
+          "name": "Phys.org (CSIRO)",
+          "date": "2026-11-11",
+          "url": "https://phys.org/news/2026-11-independent-technique-validates-landmark-m87.html"
+        }
+      ]
+    },
+    {
+      "id": "p-value-misunderstandings",
+      "type": "news",
+      "category": "Data and statistics",
+      "headline": "Even trained researchers often misread statistical results, review finds",
+      "summary": "Uppsala University researchers reviewed 55 studies from 1963 to 2024 with over 15,000 participants, including statisticians and statistics teachers. Misunderstandings of p-values, statistical significance and confidence intervals were common in every group. A frequent error is treating a \"statistically significant\" result as proof that an effect is true or important. The review is published in PLOS ONE.",
+      "whyItMatters": "Headlines often say a study found a \"significant\" result. Knowing that significant doesn't mean big or proven helps you judge claims about data, including in your own projects.",
+      "csp": {
+        "idea": "Data",
+        "connection": "Drawing conclusions from data requires understanding what a statistic does and does not show."
+      },
+      "sources": [
+        {
+          "name": "Phys.org (Uppsala Univ.)",
+          "date": "2026-11-11",
+          "url": "https://phys.org/news/2026-11-statistics-common-experienced.html"
+        }
+      ]
+    }
+  ]
+}
