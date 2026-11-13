@@ -1,0 +1,179 @@
+{
+  "schemaVersion": 1,
+  "editionId": "2026-11-13-daily",
+  "date": "2026-11-13",
+  "coverage": "Nine stories · Microsoft outage, chip cloaking, lip-reading AI, AI vision implant, transit access, classic Xbox, bridge drone, bio-yarn, Rubik's Cube",
+  "cards": [
+    {
+      "id": "microsoft-365-outage",
+      "type": "news",
+      "category": "Networks and the cloud",
+      "headline": "Hours-long Microsoft outage disrupts email for companies and governments",
+      "summary": "A Microsoft 365 outage knocked out services tied to its Exchange Online email system, including Outlook, Teams and the Copilot assistant, the Associated Press reports. More than 130,000 users reported Outlook problems on Downdetector on Thursday. Government agencies in Singapore, the Philippines and Japan were affected. Microsoft said it saw no sign of a cyberattack, but in its latest update said the changes it applied were \"not taking as expected.\"",
+      "whyItMatters": "When millions of organizations rely on one cloud provider, a single failure spreads worldwide at once. It's a reminder of why schools and businesses plan backups for email and other online tools.",
+      "csp": {
+        "idea": "Computer Systems and Networks",
+        "connection": "Cloud services centralize computing, which is efficient but can reduce fault tolerance when a shared system fails."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (Associated Press)",
+          "date": "2026-11-13",
+          "url": "https://techxplore.com/news/2026-11-outlook-widespread-outage-microsoft-email.html"
+        }
+      ]
+    },
+    {
+      "id": "mems-substrate-cloak",
+      "type": "news",
+      "category": "Cybersecurity",
+      "headline": "Tiny switches could hide a circuit board's wiring from X-ray copying",
+      "summary": "Attackers can X-ray a chip package to map its wiring and reveal how a system is designed. A University of Florida team proposes tiny mechanical switches, called MEMS, that connect the real paths only when the device receives a valid secret key at power-up, leaving decoy paths open. A four-part example had 2^119 possible wirings. So far it is a design-software framework; no protected board has been built yet.",
+      "whyItMatters": "Security isn't only about software and passwords; hardware can be reverse engineered too. Tying the real wiring to a key is the same idea as encryption, applied to physical circuits.",
+      "csp": {
+        "idea": "Impact of Computing",
+        "connection": "Like encryption, the design relies on a huge number of possible keys so guessing the right configuration is impractical."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (Univ. of Florida)",
+          "date": "2026-11-12",
+          "url": "https://techxplore.com/news/2026-11-reconfigurable-mems-chip-package-wiring.html"
+        }
+      ]
+    },
+    {
+      "id": "kaist-lip-reading-ai",
+      "type": "news",
+      "category": "AI and accessibility",
+      "headline": "Lip-reading AI fills in its most certain words first",
+      "summary": "KAIST researchers in South Korea built an AI that turns video of lip movements into text. Instead of writing words strictly left to right, it decodes the words it is most confident about first, then uses them as context to sort out look-alike words such as \"pack\" and \"back.\" Trained on 433 hours of video, it got 19.4% of words wrong, the lowest reported for that training set. The work is a preprint not yet peer reviewed.",
+      "whyItMatters": "Lip reading could help caption speech in loud places or support people who are deaf or hard of hearing. The team says the model still needs to get smaller before it can run on wearables.",
+      "csp": {
+        "idea": "Algorithms and Programming",
+        "connection": "Changing the order in which a problem is solved, easiest parts first, can make an algorithm more accurate."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (KAIST)",
+          "date": "2026-11-13",
+          "url": "https://techxplore.com/news/2026-11-lip-ai-gaps-sentences-words.html"
+        }
+      ]
+    },
+    {
+      "id": "ai-visual-cortex-implant",
+      "type": "news",
+      "category": "AI and health",
+      "headline": "AI helps brain implant create flashes of sight for blind man",
+      "summary": "Researchers from UC Santa Barbara, ETH Zurich and a Spanish university worked with a 27-year-old man blinded by a brain injury who had a temporary 96-electrode implant in his visual cortex. A deep neural network learned to predict how his brain would respond to stimulation, then chose settings that produced the intended activity more accurately, using less current. He saw only flashes and shapes of light. The one-person study is in Neuron.",
+      "whyItMatters": "This is early research with one participant, not a cure for blindness. It shows how AI models can learn to control complex systems, even the human brain, by predicting their responses.",
+      "csp": {
+        "idea": "Data",
+        "connection": "The model was trained on recorded brain activity, using data to predict which input settings produce a desired output."
+      },
+      "sources": [
+        {
+          "name": "ScienceDaily (UC Santa Barbara)",
+          "date": "2026-11-12",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261110042553.htm"
+        }
+      ]
+    },
+    {
+      "id": "transit-accessibility-dashboard",
+      "type": "news",
+      "category": "Accessibility and data",
+      "headline": "Dashboard finds no U.S. transit system fully accessible for disabled riders",
+      "summary": "University of Michigan researchers built an online dashboard scoring 99 public transit systems in 85 U.S. cities on how well they serve riders with disabilities. It rates nearby destinations, service frequency, cost and rider comfort. No system scored high on every measure. Washington, D.C., Phoenix and San Diego ranked best overall. Disabled riders and advocates helped design the tool, and anyone can compare cities and download its data.",
+      "whyItMatters": "One barrier, like a missing ramp or rare buses, can make a whole trip impossible. Public data dashboards let riders and cities see those gaps and push for fixes.",
+      "csp": {
+        "idea": "Data",
+        "connection": "Combining several data sources into one scored, visual dashboard helps people find patterns and compare places."
+      },
+      "sources": [
+        {
+          "name": "Phys.org (Univ. of Michigan)",
+          "date": "2026-11-13",
+          "url": "https://phys.org/news/2026-11-riders-disabilities-roadblocks.html"
+        }
+      ]
+    },
+    {
+      "id": "original-xbox-games-pc",
+      "type": "news",
+      "category": "Gaming",
+      "headline": "Microsoft brings 25 original Xbox games to Windows PCs",
+      "summary": "For Xbox's 25th anniversary, Microsoft added 21 more games from its first console to its PC backward compatibility program, for 25 in total. Titles include Star Wars: Knights of the Old Republic, Morrowind and TimeSplitters 2. Microsoft says they need Windows 11, now support mouse and keyboard, and four have achievements for the first time. Some are in Game Pass; others must be bought.",
+      "whyItMatters": "Old games were written for one specific machine, so they don't just run on new hardware. Making them work again helps preserve games as part of digital history.",
+      "csp": {
+        "idea": "Computer Systems and Networks",
+        "connection": "Software built for one hardware system must be adapted or translated to run correctly on a different computer."
+      },
+      "sources": [
+        {
+          "name": "Xbox Wire (Microsoft)",
+          "date": "2026-11-12",
+          "url": "https://news.xbox.com/en-us/2026/11/12/25-original-xbox-games-now-available-on-pc/"
+        }
+      ]
+    },
+    {
+      "id": "bridge-crack-drone",
+      "type": "news",
+      "category": "Robotics",
+      "headline": "Small autonomous drone hunts for cracks inside bridges",
+      "summary": "Engineers at Ruhr University Bochum in Germany are building a drone small enough to fly inside the narrow hollow beams of concrete bridges. It plans its own route and uses SLAM, a method for mapping a space while tracking its own position, to navigate in the dark. AI scans the walls for hair-thin cracks and saves findings. So far it has been tested only in a lab, and human inspectors make the final call.",
+      "whyItMatters": "Many bridges built decades ago need regular checks in cramped, dark spaces. Drones that flag trouble spots could make inspections safer while keeping people in charge of decisions.",
+      "csp": {
+        "idea": "Algorithms and Programming",
+        "connection": "SLAM algorithms build a map and estimate position at the same time, letting a robot navigate places without GPS."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (Ruhr Univ. Bochum)",
+          "date": "2026-11-13",
+          "url": "https://techxplore.com/news/2026-11-autonomous-drones-concrete-bridges.html"
+        }
+      ]
+    },
+    {
+      "id": "aquaweave-bio-textiles",
+      "type": "news",
+      "category": "Fashion technology",
+      "headline": "Fabric woven from seaweed and shrimp-shell yarn changes shape when wet",
+      "summary": "Cornell researchers made yarns from seaweed, which swells in water; shrimp shells, which lengthen in acidic liquid; and gelatin, which dissolves. Using a computer-controlled loom, weavers turned them into fabrics that form tubes, flaps and domes when exposed to liquid. The work, called AquaWeave, was presented at a major human-computer interaction conference. Uses like posture-correcting jewelry are ideas, not tested products.",
+      "whyItMatters": "Designers are exploring clothing and devices that react to their surroundings without batteries or motors. Computer-controlled looms can also weave in circuits, mixing fashion and electronics.",
+      "csp": {
+        "idea": "Creative Development",
+        "connection": "Researchers tested each material, set parameters and built prototypes, an iterative design process like developing software."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (Cornell Univ.)",
+          "date": "2026-11-13",
+          "url": "https://techxplore.com/news/2026-11-shifting-bioyarns-possibilities-wearable-tech.html"
+        }
+      ]
+    },
+    {
+      "id": "rubiks-cube-hungary-robots",
+      "type": "news",
+      "category": "Tech history",
+      "headline": "Robots now build Rubik's Cubes in the puzzle's home country",
+      "summary": "A fully automated factory line in Jászberény, Hungary, opened this week to make Rubik's Cubes where the puzzle was invented, the Associated Press reports. Robotic arms assemble each cube and test it for function and durability, replacing the hand assembly of early production. The line plans to make 1 million cubes a year. Ernő Rubik built his first wooden prototype in 1974; more than half a billion cubes have since sold.",
+      "whyItMatters": "Automated testing lets a factory check every product the same way, every time. The cube itself remains a favorite puzzle for learning about algorithms and step-by-step problem solving.",
+      "csp": {
+        "idea": "Impact of Computing",
+        "connection": "Programmed robots can repeat precise assembly and quality tests at a scale that is hard for human workers."
+      },
+      "sources": [
+        {
+          "name": "Phys.org (Associated Press)",
+          "date": "2026-11-13",
+          "url": "https://phys.org/news/2026-11-iconic-puzzle-home-production-rubik.html"
+        }
+      ]
+    }
+  ]
+}

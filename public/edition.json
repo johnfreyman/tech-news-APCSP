@@ -1,177 +1,177 @@
 {
   "schemaVersion": 1,
-  "editionId": "2026-11-12-daily",
-  "date": "2026-11-12",
-  "coverage": "Nine stories · AI and drug ads, folding audio, robot memory, echo-tracking watch, loot boxes, air taxi, trunk robots, black hole, p-values",
+  "editionId": "2026-11-13-daily",
+  "date": "2026-11-13",
+  "coverage": "Nine stories · Microsoft outage, chip cloaking, lip-reading AI, AI vision implant, transit access, classic Xbox, bridge drone, bio-yarn, Rubik's Cube",
   "cards": [
     {
-      "id": "drug-ads-ai-recommendations",
+      "id": "microsoft-365-outage",
       "type": "news",
-      "category": "AI and health",
-      "headline": "Drug ads nudged AI chatbots toward recommending the advertised medicine",
-      "summary": "Mount Sinai researchers gave 12 AI models from companies including Google, OpenAI and Anthropic doctor-written patient cases, sometimes preceded by a clearly labeled real drug ad. Across 258,559 responses, models picked the advertised drug 47.6% of the time with the ad versus 35% without. The answers usually still seemed reasonable, which could make the effect easy to miss. The study, in The Lancet Digital Health, did not measure effects on real patients.",
-      "whyItMatters": "If ads appear in the same place as your question, an AI's answer can shift without saying so. That is worth remembering whenever you ask a chatbot for advice on health or anything you might buy.",
+      "category": "Networks and the cloud",
+      "headline": "Hours-long Microsoft outage disrupts email for companies and governments",
+      "summary": "A Microsoft 365 outage knocked out services tied to its Exchange Online email system, including Outlook, Teams and the Copilot assistant, the Associated Press reports. More than 130,000 users reported Outlook problems on Downdetector on Thursday. Government agencies in Singapore, the Philippines and Japan were affected. Microsoft said it saw no sign of a cyberattack, but in its latest update said the changes it applied were \"not taking as expected.\"",
+      "whyItMatters": "When millions of organizations rely on one cloud provider, a single failure spreads worldwide at once. It's a reminder of why schools and businesses plan backups for email and other online tools.",
+      "csp": {
+        "idea": "Computer Systems and Networks",
+        "connection": "Cloud services centralize computing, which is efficient but can reduce fault tolerance when a shared system fails."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (Associated Press)",
+          "date": "2026-11-13",
+          "url": "https://techxplore.com/news/2026-11-outlook-widespread-outage-microsoft-email.html"
+        }
+      ]
+    },
+    {
+      "id": "mems-substrate-cloak",
+      "type": "news",
+      "category": "Cybersecurity",
+      "headline": "Tiny switches could hide a circuit board's wiring from X-ray copying",
+      "summary": "Attackers can X-ray a chip package to map its wiring and reveal how a system is designed. A University of Florida team proposes tiny mechanical switches, called MEMS, that connect the real paths only when the device receives a valid secret key at power-up, leaving decoy paths open. A four-part example had 2^119 possible wirings. So far it is a design-software framework; no protected board has been built yet.",
+      "whyItMatters": "Security isn't only about software and passwords; hardware can be reverse engineered too. Tying the real wiring to a key is the same idea as encryption, applied to physical circuits.",
       "csp": {
         "idea": "Impact of Computing",
-        "connection": "An AI model's output depends on everything in its input, so extra content such as ads can bias results in ways users may not notice."
+        "connection": "Like encryption, the design relies on a huge number of possible keys so guessing the right configuration is impractical."
       },
       "sources": [
         {
-          "name": "Medical Xpress (Mount Sinai)",
-          "date": "2026-11-11",
-          "url": "https://medicalxpress.com/news/2026-11-drug-ads-ai-treatment.html"
+          "name": "Tech Xplore (Univ. of Florida)",
+          "date": "2026-11-12",
+          "url": "https://techxplore.com/news/2026-11-reconfigurable-mems-chip-package-wiring.html"
         }
       ]
     },
     {
-      "id": "unlimited-sensing-audio",
+      "id": "kaist-lip-reading-ai",
       "type": "news",
-      "category": "Data and hardware",
-      "headline": "Folding loud sounds lets fewer bits capture more audio",
-      "summary": "An analog-to-digital converter turns sound into numbers, and with few bits per sample, loud sounds get clipped and lost. Imperial College London engineers built a prototype that folds loud signals into a smaller range instead, then uses math to reconstruct the original. Using six bits per sample, it gained at least 18 decibels of range over a normal six-bit converter. In a 52-person listening test, people rated its audio higher.",
-      "whyItMatters": "Every recording you make is converted into a limited number of bits. Getting more detail from the same bits could help digital stethoscopes, wearables and sensors use less energy.",
-      "csp": {
-        "idea": "Data",
-        "connection": "Analog sound is sampled and stored with a fixed number of bits, and that choice limits what values the digital version can represent."
-      },
-      "sources": [
-        {
-          "name": "Tech Xplore (Imperial College London)",
-          "date": "2026-11-11",
-          "url": "https://techxplore.com/news/2026-11-year-limitation-digital-audio.html"
-        }
-      ]
-    },
-    {
-      "id": "robot-workspace-memory",
-      "type": "news",
-      "category": "AI and robotics",
-      "headline": "Small AI model gives robots fast \"muscle memory\" of past moments",
-      "summary": "Robots often slip up when they must remember what they saw earlier. MIT and Carnegie Mellon researchers had large vision-language AI models analyze robot videos ahead of time, then trained a small model to compress the robot's history into a compact memory. During tasks, only the small model runs, so the robot reacts quickly. A robot arm put away cubes about 92% of the time. The work is a preprint not yet peer reviewed.",
-      "whyItMatters": "Big AI models are powerful but slow and costly to run constantly. Doing the heavy thinking in advance and running a lighter model live is a common trick for making AI fast enough for real devices.",
+      "category": "AI and accessibility",
+      "headline": "Lip-reading AI fills in its most certain words first",
+      "summary": "KAIST researchers in South Korea built an AI that turns video of lip movements into text. Instead of writing words strictly left to right, it decodes the words it is most confident about first, then uses them as context to sort out look-alike words such as \"pack\" and \"back.\" Trained on 433 hours of video, it got 19.4% of words wrong, the lowest reported for that training set. The work is a preprint not yet peer reviewed.",
+      "whyItMatters": "Lip reading could help caption speech in loud places or support people who are deaf or hard of hearing. The team says the model still needs to get smaller before it can run on wearables.",
       "csp": {
         "idea": "Algorithms and Programming",
-        "connection": "Compressing a long history into a small summary trades some detail for speed, a common design choice in efficient algorithms."
+        "connection": "Changing the order in which a problem is solved, easiest parts first, can make an algorithm more accurate."
       },
       "sources": [
         {
-          "name": "Tech Xplore (MIT)",
-          "date": "2026-11-11",
-          "url": "https://techxplore.com/news/2026-11-robots-gain-muscle-memory-milliseconds.html"
+          "name": "Tech Xplore (KAIST)",
+          "date": "2026-11-13",
+          "url": "https://techxplore.com/news/2026-11-lip-ai-gaps-sentences-words.html"
         }
       ]
     },
     {
-      "id": "echomotion-smartwatch-tracking",
+      "id": "ai-visual-cortex-implant",
       "type": "news",
-      "category": "Wearables",
-      "headline": "Smartwatch uses echoes to track your whole body's pose",
-      "summary": "Cornell researchers built EchoMotion, which makes a regular smartwatch speaker send ultrasonic sound and its microphone record echoes off the wearer's body. A deep learning model turns those echoes into the positions of 12 joints, from head to ankles, without cameras. On an unmodified Samsung watch, average error for new users was under 10 cm, about 6 cm after a 12-minute calibration. Crowded spaces still reduce accuracy.",
-      "whyItMatters": "Hardware you already own can gain new abilities through software alone. It could someday count workout reps or check exercise form without a camera watching you.",
+      "category": "AI and health",
+      "headline": "AI helps brain implant create flashes of sight for blind man",
+      "summary": "Researchers from UC Santa Barbara, ETH Zurich and a Spanish university worked with a 27-year-old man blinded by a brain injury who had a temporary 96-electrode implant in his visual cortex. A deep neural network learned to predict how his brain would respond to stimulation, then chose settings that produced the intended activity more accurately, using less current. He saw only flashes and shapes of light. The one-person study is in Neuron.",
+      "whyItMatters": "This is early research with one participant, not a cure for blindness. It shows how AI models can learn to control complex systems, even the human brain, by predicting their responses.",
       "csp": {
         "idea": "Data",
-        "connection": "The model learned to map patterns in sound data to body positions by training on recordings from volunteers."
+        "connection": "The model was trained on recorded brain activity, using data to predict which input settings produce a desired output."
+      },
+      "sources": [
+        {
+          "name": "ScienceDaily (UC Santa Barbara)",
+          "date": "2026-11-12",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261110042553.htm"
+        }
+      ]
+    },
+    {
+      "id": "transit-accessibility-dashboard",
+      "type": "news",
+      "category": "Accessibility and data",
+      "headline": "Dashboard finds no U.S. transit system fully accessible for disabled riders",
+      "summary": "University of Michigan researchers built an online dashboard scoring 99 public transit systems in 85 U.S. cities on how well they serve riders with disabilities. It rates nearby destinations, service frequency, cost and rider comfort. No system scored high on every measure. Washington, D.C., Phoenix and San Diego ranked best overall. Disabled riders and advocates helped design the tool, and anyone can compare cities and download its data.",
+      "whyItMatters": "One barrier, like a missing ramp or rare buses, can make a whole trip impossible. Public data dashboards let riders and cities see those gaps and push for fixes.",
+      "csp": {
+        "idea": "Data",
+        "connection": "Combining several data sources into one scored, visual dashboard helps people find patterns and compare places."
+      },
+      "sources": [
+        {
+          "name": "Phys.org (Univ. of Michigan)",
+          "date": "2026-11-13",
+          "url": "https://phys.org/news/2026-11-riders-disabilities-roadblocks.html"
+        }
+      ]
+    },
+    {
+      "id": "original-xbox-games-pc",
+      "type": "news",
+      "category": "Gaming",
+      "headline": "Microsoft brings 25 original Xbox games to Windows PCs",
+      "summary": "For Xbox's 25th anniversary, Microsoft added 21 more games from its first console to its PC backward compatibility program, for 25 in total. Titles include Star Wars: Knights of the Old Republic, Morrowind and TimeSplitters 2. Microsoft says they need Windows 11, now support mouse and keyboard, and four have achievements for the first time. Some are in Game Pass; others must be bought.",
+      "whyItMatters": "Old games were written for one specific machine, so they don't just run on new hardware. Making them work again helps preserve games as part of digital history.",
+      "csp": {
+        "idea": "Computer Systems and Networks",
+        "connection": "Software built for one hardware system must be adapted or translated to run correctly on a different computer."
+      },
+      "sources": [
+        {
+          "name": "Xbox Wire (Microsoft)",
+          "date": "2026-11-12",
+          "url": "https://news.xbox.com/en-us/2026/11/12/25-original-xbox-games-now-available-on-pc/"
+        }
+      ]
+    },
+    {
+      "id": "bridge-crack-drone",
+      "type": "news",
+      "category": "Robotics",
+      "headline": "Small autonomous drone hunts for cracks inside bridges",
+      "summary": "Engineers at Ruhr University Bochum in Germany are building a drone small enough to fly inside the narrow hollow beams of concrete bridges. It plans its own route and uses SLAM, a method for mapping a space while tracking its own position, to navigate in the dark. AI scans the walls for hair-thin cracks and saves findings. So far it has been tested only in a lab, and human inspectors make the final call.",
+      "whyItMatters": "Many bridges built decades ago need regular checks in cramped, dark spaces. Drones that flag trouble spots could make inspections safer while keeping people in charge of decisions.",
+      "csp": {
+        "idea": "Algorithms and Programming",
+        "connection": "SLAM algorithms build a map and estimate position at the same time, letting a robot navigate places without GPS."
+      },
+      "sources": [
+        {
+          "name": "Tech Xplore (Ruhr Univ. Bochum)",
+          "date": "2026-11-13",
+          "url": "https://techxplore.com/news/2026-11-autonomous-drones-concrete-bridges.html"
+        }
+      ]
+    },
+    {
+      "id": "aquaweave-bio-textiles",
+      "type": "news",
+      "category": "Fashion technology",
+      "headline": "Fabric woven from seaweed and shrimp-shell yarn changes shape when wet",
+      "summary": "Cornell researchers made yarns from seaweed, which swells in water; shrimp shells, which lengthen in acidic liquid; and gelatin, which dissolves. Using a computer-controlled loom, weavers turned them into fabrics that form tubes, flaps and domes when exposed to liquid. The work, called AquaWeave, was presented at a major human-computer interaction conference. Uses like posture-correcting jewelry are ideas, not tested products.",
+      "whyItMatters": "Designers are exploring clothing and devices that react to their surroundings without batteries or motors. Computer-controlled looms can also weave in circuits, mixing fashion and electronics.",
+      "csp": {
+        "idea": "Creative Development",
+        "connection": "Researchers tested each material, set parameters and built prototypes, an iterative design process like developing software."
       },
       "sources": [
         {
           "name": "Tech Xplore (Cornell Univ.)",
-          "date": "2026-11-11",
-          "url": "https://techxplore.com/news/2026-11-ultrasound-ai-shelf-smartwatch-full.html"
+          "date": "2026-11-13",
+          "url": "https://techxplore.com/news/2026-11-shifting-bioyarns-possibilities-wearable-tech.html"
         }
       ]
     },
     {
-      "id": "japan-loot-box-odds",
+      "id": "rubiks-cube-hungary-robots",
       "type": "news",
-      "category": "Gaming",
-      "headline": "Many top Japanese mobile games don't show all loot box odds",
-      "summary": "Loot boxes, called gacha in Japan, are paid random prizes in games. A study of Japan's 100 highest-grossing iPhone games found 91% sold them. Industry rules require showing the odds, but only 41.8% disclosed odds for every loot box. Four games appeared to use a prize-collecting mechanic banned since 2012. The researchers, writing in the Journal of Behavioral Addictions, say self-regulation is not enough.",
-      "whyItMatters": "Loot boxes are built on random number generation, and you can't judge a purchase without knowing the odds. The study shows rules on paper don't always match what apps actually do.",
+      "category": "Tech history",
+      "headline": "Robots now build Rubik's Cubes in the puzzle's home country",
+      "summary": "A fully automated factory line in Jászberény, Hungary, opened this week to make Rubik's Cubes where the puzzle was invented, the Associated Press reports. Robotic arms assemble each cube and test it for function and durability, replacing the hand assembly of early production. The line plans to make 1 million cubes a year. Ernő Rubik built his first wooden prototype in 1974; more than half a billion cubes have since sold.",
+      "whyItMatters": "Automated testing lets a factory check every product the same way, every time. The cube itself remains a favorite puzzle for learning about algorithms and step-by-step problem solving.",
       "csp": {
         "idea": "Impact of Computing",
-        "connection": "Game designers program the probabilities behind random rewards, so disclosing them lets players understand what they are paying for."
+        "connection": "Programmed robots can repeat precise assembly and quality tests at a scale that is hard for human workers."
       },
       "sources": [
         {
-          "name": "Tech Xplore (City Univ. of Hong Kong)",
-          "date": "2026-11-11",
-          "url": "https://techxplore.com/news/2026-11-mobile-games-japan-dont-fully.html"
-        }
-      ]
-    },
-    {
-      "id": "sri-lanka-pilotless-air-taxi",
-      "type": "news",
-      "category": "Transportation",
-      "headline": "Sri Lanka begins testing a pilotless two-seat air taxi",
-      "summary": "Sri Lanka's aviation authority licensed Chinese company EHang to test its EH216-S, an electric aircraft with no pilot that takes off and lands vertically. Two officials rode it on a short demonstration flight in Colombo on Wednesday, AFP reports. Officials say it has 16 propellers, flies about 25 minutes and covers up to 30 km. Testing may last about five months before any commercial service is allowed.",
-      "whyItMatters": "Flying without a pilot means software must handle navigation and safety on every trip. Long test periods are how regulators check whether that software can be trusted with passengers.",
-      "csp": {
-        "idea": "Computer Systems and Networks",
-        "connection": "Autonomous aircraft depend on sensors, onboard computers and communication links working together reliably."
-      },
-      "sources": [
-        {
-          "name": "Tech Xplore (AFP)",
-          "date": "2026-11-11",
-          "url": "https://techxplore.com/news/2026-11-sri-lanka-chinese-flying-taxi.html"
-        }
-      ]
-    },
-    {
-      "id": "tensegrity-trunk-robots",
-      "type": "news",
-      "category": "Robotics",
-      "headline": "Trunk-like robots bend, grab and link up into teams",
-      "summary": "Colorado State University engineers built tube-shaped robots inspired by elephant trunks. They use tensegrity, where stiff rods are held by tensioned cables instead of joints, so they can bend, stretch and collapse. A claw on each end can grab objects or another robot, letting them form chains, loops and branches. Humans still pilot them, though two robots have found and connected to each other on their own. The study is in Nature Machine Intelligence.",
-      "whyItMatters": "Robots that team up could reach places one machine can't, such as rubble in search-and-rescue. Getting many robots to coordinate without a human pilot is the next programming challenge.",
-      "csp": {
-        "idea": "Computer Systems and Networks",
-        "connection": "Modular robots act like a system of parts that must coordinate, similar to devices cooperating on a network."
-      },
-      "sources": [
-        {
-          "name": "Tech Xplore (Colorado State Univ.)",
-          "date": "2026-11-11",
-          "url": "https://techxplore.com/news/2026-11-elephant-trunks-shifting-robots-team.html"
-        }
-      ]
-    },
-    {
-      "id": "m87-black-hole-check",
-      "type": "news",
-      "category": "Space and AI",
-      "headline": "New AI method confirms the famous black hole image is real",
-      "summary": "In 2019, the Event Horizon Telescope released the first image of a black hole, in galaxy M87. Australia's CSIRO reanalyzed the original data with a machine learning method that combines telescope measurements in groups of three instead of pairs, cancelling some calibration errors. Without being told what a black hole looks like, it recovered a ring almost identical in size and shape. The work is published in Nature.",
-      "whyItMatters": "Checking a result with a different method is how scientists rule out mistakes in processing. The team says the same technique could help with medical imaging and earthquake mapping.",
-      "csp": {
-        "idea": "Data",
-        "connection": "Images like this are computed from huge datasets, so independent algorithms help confirm a pattern is in the data, not created by the processing."
-      },
-      "sources": [
-        {
-          "name": "Phys.org (CSIRO)",
-          "date": "2026-11-11",
-          "url": "https://phys.org/news/2026-11-independent-technique-validates-landmark-m87.html"
-        }
-      ]
-    },
-    {
-      "id": "p-value-misunderstandings",
-      "type": "news",
-      "category": "Data and statistics",
-      "headline": "Even trained researchers often misread statistical results, review finds",
-      "summary": "Uppsala University researchers reviewed 55 studies from 1963 to 2024 with over 15,000 participants, including statisticians and statistics teachers. Misunderstandings of p-values, statistical significance and confidence intervals were common in every group. A frequent error is treating a \"statistically significant\" result as proof that an effect is true or important. The review is published in PLOS ONE.",
-      "whyItMatters": "Headlines often say a study found a \"significant\" result. Knowing that significant doesn't mean big or proven helps you judge claims about data, including in your own projects.",
-      "csp": {
-        "idea": "Data",
-        "connection": "Drawing conclusions from data requires understanding what a statistic does and does not show."
-      },
-      "sources": [
-        {
-          "name": "Phys.org (Uppsala Univ.)",
-          "date": "2026-11-11",
-          "url": "https://phys.org/news/2026-11-statistics-common-experienced.html"
+          "name": "Phys.org (Associated Press)",
+          "date": "2026-11-13",
+          "url": "https://phys.org/news/2026-11-iconic-puzzle-home-production-rubik.html"
         }
       ]
     }
