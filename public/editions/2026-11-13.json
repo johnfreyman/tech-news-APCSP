@@ -28,7 +28,7 @@
       "type": "news",
       "category": "Cybersecurity",
       "headline": "Tiny switches could hide a circuit board's wiring from X-ray copying",
-      "summary": "Attackers can X-ray a chip package to map its wiring and copy or tamper with a design. A University of Florida team proposes tiny mechanical switches, called MEMS, that connect the real paths only when the device receives a valid secret key at power-up, leaving decoy paths open. A four-part example had 2^119 possible wirings. So far it is a design-software framework; no protected board has been built yet.",
+      "summary": "Attackers can X-ray a chip package to map its wiring and reveal how a system is designed. A University of Florida team proposes tiny mechanical switches, called MEMS, that connect the real paths only when the device receives a valid secret key at power-up, leaving decoy paths open. A four-part example had 2^119 possible wirings. So far it is a design-software framework; no protected board has been built yet.",
       "whyItMatters": "Security isn't only about software and passwords; hardware can be reverse engineered too. Tying the real wiring to a key is the same idea as encryption, applied to physical circuits.",
       "csp": {
         "idea": "Impact of Computing",
