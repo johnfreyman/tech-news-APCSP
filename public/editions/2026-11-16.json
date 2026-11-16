@@ -1,0 +1,184 @@
+{
+  "schemaVersion": 1,
+  "editionId": "2026-11-16-daily",
+  "date": "2026-11-16",
+  "coverage": "Nine stories · FAA ground stop, Vulcan failure, Starship catch, Zoox on Uber, smartwatch BP, Meta fine, AI cheating, robot muscles, solar tracker",
+  "cards": [
+    {
+      "id": "faa-ground-stop-router",
+      "type": "news",
+      "category": "Networks",
+      "headline": "Overloaded router during cable upgrade grounded U.S. flights nationwide",
+      "summary": "On Friday the FAA halted flights nationwide for only the third time this century. Officials said a contractor was replacing copper wire with fiber optic cable at a remote site, and afterward a router overloaded a critical FAA communication system. The FAA's acting tech chief said two locations were contacting its network about a thousand times every four to five seconds. More than 8,200 flights were canceled Friday, according to Cirium.",
+      "whyItMatters": "One faulty device on a network can flood a shared system and stop everything that depends on it. Officials say they will rethink when upgrades happen; the exact root cause is still under investigation.",
+      "csp": {
+        "idea": "Computer Systems and Networks",
+        "connection": "Networks need fault tolerance and limits on traffic so one misbehaving device cannot overwhelm a critical shared system."
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "date": "2026-11-14",
+          "url": "https://techcrunch.com/2026/11/14/transportation-secretary-blames-routine-equipment-upgrade-for-grounding-flights-nationwide/"
+        }
+      ]
+    },
+    {
+      "id": "vulcan-amazon-leo-failure",
+      "type": "news",
+      "category": "Space and the internet",
+      "headline": "Rocket failure destroys 40 of Amazon's internet satellites",
+      "summary": "United Launch Alliance's Vulcan rocket failed during launch from Cape Canaveral, Florida, on Sunday, and 40 Amazon Leo satellites fell back to Earth. Amazon Leo is a planned network of 3,292 satellites meant to deliver internet service from orbit, competing with SpaceX's Starlink; 396 are in orbit now. ULA said the rocket suffered an anomaly and it does not yet know the cause. It was ULA's first total mission failure in 20 years.",
+      "whyItMatters": "Satellite internet could bring connections to rural areas that cables don't reach. Building it takes dozens of launches, so one failure can delay service for months.",
+      "csp": {
+        "idea": "Computer Systems and Networks",
+        "connection": "Satellite networks are part of the internet's physical layer, carrying data between ground stations and users."
+      },
+      "sources": [
+        {
+          "name": "Ars Technica",
+          "date": "2026-11-15",
+          "url": "https://arstechnica.com/space/2026/11/vulcan-rocket-fails-during-launch-dealing-major-blow-to-spacex-competitors/"
+        }
+      ]
+    },
+    {
+      "id": "starship-upper-stage-catch",
+      "type": "news",
+      "category": "Space and robotics",
+      "headline": "Launch tower catches returning Starship spacecraft for the first time",
+      "summary": "On Saturday, SpaceX's Starship upper stage came back from orbit, fired three engines to flip upright, and was caught by two giant arms on its Texas launch tower. It was the first time SpaceX had tried to catch this stage. On Friday's launch, Starship put 26 Starlink satellites in orbit, but the first-stage booster had an unspecified issue and was steered into the Gulf instead of being caught.",
+      "whyItMatters": "Reusing a whole rocket, like reusing an airplane, could make getting to space far cheaper. Landing it takes software that adjusts engines in real time with almost no room for error.",
+      "csp": {
+        "idea": "Algorithms and Programming",
+        "connection": "Guidance software constantly reads sensors and adjusts engine thrust, a feedback loop that must react within fractions of a second."
+      },
+      "sources": [
+        {
+          "name": "Ars Technica",
+          "date": "2026-11-14",
+          "url": "https://arstechnica.com/space/2026/11/with-starship-catch-spacex-still-shows-it-can-dazzle-the-world/"
+        },
+        {
+          "name": "Ars Technica",
+          "date": "2026-11-13",
+          "url": "https://arstechnica.com/space/2026/11/starship-flight-15-powers-to-orbit-setting-up-a-possible-catch-on-saturday/"
+        }
+      ]
+    },
+    {
+      "id": "zoox-robotaxis-uber-vegas",
+      "type": "news",
+      "category": "Transportation",
+      "headline": "Amazon's Zoox robotaxis join the Uber app in Las Vegas",
+      "summary": "Starting Monday, Uber riders in Las Vegas may be matched with a driverless robotaxi custom-built by Amazon-owned Zoox. Riders can't choose Zoox directly yet, but they can raise their chances by turning on autonomous rides in the app's settings. It is Zoox's first deal with an outside ride-hailing app. Uber says it will start with limited fleets and expand over the coming months.",
+      "whyItMatters": "Self-driving cars rely on sensors and software to make split-second decisions on real streets. Rollouts like this test whether people will trust and use them.",
+      "csp": {
+        "idea": "Impact of Computing",
+        "connection": "Autonomous vehicles shift driving decisions to software, raising questions about safety, jobs and who is responsible for errors."
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "date": "2026-11-16",
+          "url": "https://techcrunch.com/2026/11/16/zoox-robotaxis-are-now-on-the-uber-app-in-las-vegas/"
+        }
+      ]
+    },
+    {
+      "id": "smartwatch-blood-pressure-ai",
+      "type": "news",
+      "category": "Health and wearables",
+      "headline": "Smartwatch AI flags possible high blood pressure from wrist sensors",
+      "summary": "Google scientists, working with Beth Israel Deaconess Medical Center, built a system that uses a smartwatch's light-based pulse sensor and motion sensor to estimate the chance someone has high blood pressure. It was trained on nearly 500,000 hours of sensor data from 2,109 people. In a 196-person test, it caught 65.8% of cases, versus 55.3% for an initial office cuff reading. The study is in Nature.",
+      "whyItMatters": "High blood pressure often has no symptoms, so passive screening could prompt more people to see a doctor. It still missed about a third of cases and is not meant to replace medical checks.",
+      "csp": {
+        "idea": "Data",
+        "connection": "Machine learning finds patterns in large sets of sensor data, but measuring how often it misses cases shows its limits."
+      },
+      "sources": [
+        {
+          "name": "Popular Science",
+          "date": "2026-11-13",
+          "url": "https://www.popsci.com/technology/ai-improve-smartwatch-blood-pressure-monitoring/"
+        }
+      ]
+    },
+    {
+      "id": "italy-fines-meta-photo-access",
+      "type": "news",
+      "category": "Privacy",
+      "headline": "Italy fines Meta €805 million over Facebook photo access",
+      "summary": "Italy's data protection authority fined Meta €805 million, about $887 million, saying the Facebook app did not properly tell about 20 million Android users it could use their phone galleries. The feature suggests photos and videos as ideas for posts. Regulators said one app-wide permission was not specific consent and gave Meta 60 days to turn the feature off by default. Meta disagrees and plans to appeal.",
+      "whyItMatters": "When you tap \"allow\" on a permission, it may cover more than you expect. Privacy laws try to make apps ask clearly for each use of your data.",
+      "csp": {
+        "idea": "Impact of Computing",
+        "connection": "Apps collect personal data through permissions, and laws set rules for how clearly users must consent."
+      },
+      "sources": [
+        {
+          "name": "BBC News",
+          "date": "2026-11-14",
+          "url": "https://www.bbc.co.uk/news/articles/cwn83gxemk35o"
+        }
+      ]
+    },
+    {
+      "id": "korea-exam-ai-cheating",
+      "type": "news",
+      "category": "Education technology",
+      "headline": "Top scorer on South Korean tax exam admits cheating with AI",
+      "summary": "A 34-year-old who placed first on South Korea's certified tax accountant exam, missing one of 160 questions, admitted he cheated. He said he used a tiny camera to photograph questions, sent them to generative AI, and checked answers on his phone. Officials say anyone caught using AI to cheat on the exam will lose the qualification and be banned from retaking it for five years. Police are investigating.",
+      "whyItMatters": "AI tools make some kinds of cheating easier to attempt, so schools and testing agencies are rethinking exam security. A near-perfect score is what first raised suspicion.",
+      "csp": {
+        "idea": "Impact of Computing",
+        "connection": "Generative AI creates new ethical and security challenges that institutions must address with policies and safeguards."
+      },
+      "sources": [
+        {
+          "name": "BBC News",
+          "date": "2026-11-15",
+          "url": "https://www.bbc.co.uk/news/articles/ckvg2ezvpe08o"
+        }
+      ]
+    },
+    {
+      "id": "penn-artificial-muscles",
+      "type": "news",
+      "category": "Robotics",
+      "headline": "Artificial muscle fibers let a robot hand press piano keys",
+      "summary": "University of Pennsylvania engineers made artificial muscle fibers from a rubbery material that contracts when heated, strengthened with graphene. A thin copper coil inside heats the fiber and also works as a sensor: the system reads its electrical resistance and adjusts the heat to hold a position. The fibers moved a 3D-printed robot hand to press piano keys and turned robotic eyeballs. The work is early-stage research.",
+      "whyItMatters": "Soft, muscle-like parts could make robots move more gently and naturally around people. Using one part as both heater and sensor is a clever way to simplify hardware.",
+      "csp": {
+        "idea": "Computer Systems and Networks",
+        "connection": "A feedback loop reads a sensor value and adjusts an output to keep a system near a target, a core idea in control systems."
+      },
+      "sources": [
+        {
+          "name": "Popular Science",
+          "date": "2026-11-15",
+          "url": "https://www.popsci.com/technology/artificial-muscles-humanoid-robot-play-piano/"
+        }
+      ]
+    },
+    {
+      "id": "student-water-solar-tracker",
+      "type": "news",
+      "category": "Student invention",
+      "headline": "Seventh grader's solar panel follows the sun using dripping water",
+      "summary": "Jason Chang, a 13-year-old at Worcester Academy in Massachusetts, built a solar tracker with no motor or sensors. Water drips into a bucket on one side of a rotating frame, and the growing weight slowly tilts the panel to follow the sun. The prototype cost under $25. In tests reported by CBS Boston, it produced about 20% more voltage than a fixed panel, though that does not prove 20% more energy.",
+      "whyItMatters": "Fixed panels miss sunlight as the sun moves. Simple, low-cost designs can help in places without much money or electricity for motorized trackers.",
+      "csp": {
+        "idea": "Creative Development",
+        "connection": "Chang refined his prototype for over a year, testing and improving it, an iterative process like developing a program."
+      },
+      "sources": [
+        {
+          "name": "Engadget",
+          "date": "2026-11-15",
+          "url": "https://www.engadget.com/2313927/13-year-old-solving-solar-panel-limitation/"
+        }
+      ]
+    }
+  ]
+}
