@@ -1,197 +1,190 @@
 {
   "schemaVersion": 1,
-  "editionId": "2026-11-18-daily",
-  "date": "2026-11-18",
-  "coverage": "Nine stories · Java4Shell, tainted web scripts, light chips, Gemini privacy, YouTube TV views, Waymo, San Diego cameras, Voyager 1, glowing robot",
+  "editionId": "2026-11-19-daily",
+  "date": "2026-11-19",
+  "coverage": "Nine stories · Outages, Spirit data sale, four-color algorithm, school search, youth friendships, Instagram, podcast captions, Canva, exam alerts",
   "cards": [
     {
-      "id": "java4shell-base64-flaw",
+      "id": "outage-or-cyberattack",
       "type": "news",
-      "category": "Cybersecurity",
-      "headline": "AI-assisted researchers find critical flaw in Java's Base64 decoder",
-      "summary": "Calif Research disclosed Java4Shell, a memory-corruption bug in OpenJDK, the free software that runs Java programs. It sits in a sped-up Base64 decoder (Base64 turns binary data into plain text) used only on some x86 processors, the kind in many PCs and servers. Bad input can overwrite nearby memory and, in some apps, let an attacker take control. Calif says one researcher found it in about an hour with OpenAI's Codex. Oracle and OpenJDK released fixes Tuesday.",
-      "whyItMatters": "Java runs inside banking, airline and login systems, so one bug can affect many apps at once. No attacks using it had been reported yet, which is why quick updates matter.",
+      "category": "Networks and the internet",
+      "headline": "A week of outages: how experts tell glitches from cyberattacks",
+      "summary": "Within a week, a Microsoft outage, a US flight ground stop, a JPMorgan Chase payments bug and an NSA network problem hit in quick succession. There is no evidence they are linked or caused by hackers. Many were blamed on updates or upgrades that went wrong. One internet analyst told WIRED that only about one in a thousand outages he tracks turns out to be an attack. Investigators check status pages and internet-wide data on when and where failures began.",
+      "whyItMatters": "Big services depend on a few shared systems, so one bad update can ripple outward. Checking evidence before blaming hackers is the same habit as debugging: test the simplest cause first.",
       "csp": {
-        "idea": "Algorithms and Programming",
-        "connection": "A program that writes past the end of its memory buffer can corrupt other data; checking lengths and boundaries prevents this."
+        "idea": "Computer Systems and Networks",
+        "connection": "When many systems depend on one shared component, a single failure can cascade; redundancy reduces that risk."
       },
       "sources": [
         {
-          "name": "CyberScoop",
-          "date": "2026-11-17",
-          "url": "https://cyberscoop.com/java4shell-critical-java-flaw-openjdk/"
+          "name": "Ars Technica (WIRED)",
+          "date": "2026-11-19",
+          "url": "https://arstechnica.com/security/2026/11/how-to-tell-a-cyberattack-from-a-plain-old-outage/"
         },
-        {
-          "name": "BleepingComputer",
-          "date": "2026-11-17",
-          "url": "https://www.bleepingcomputer.com/news/security/critical-java4shell-flaw-allows-rce-attacks-on-major-java-applications/"
-        }
-      ]
-    },
-    {
-      "id": "optimizely-tainted-scripts",
-      "type": "news",
-      "category": "Cybersecurity",
-      "headline": "Tampered website code put malware on 178 major sites",
-      "summary": "Optimizely supplies JavaScript that many websites load to test and personalize pages. Researchers at ReportURI say attackers slipped malicious code into those scripts, which then ran on at least 178 sites, including CNN, Zoom, the BBC and Salesforce. The code swapped cryptocurrency wallet addresses, copied card numbers typed into some forms and tried to infect older iPhones. How attackers got in is still unknown; Optimizely had not responded.",
-      "whyItMatters": "When a site loads code from another company, that code runs with the site's full trust. Keeping your phone updated blocks many attacks that target old software.",
-      "csp": {
-        "idea": "Computer Systems and Networks",
-        "connection": "Web pages often combine code from many servers, so one compromised supplier can affect every site that depends on it."
-      },
-      "sources": [
-        {
-          "name": "Ars Technica",
-          "date": "2026-11-17",
-          "url": "https://arstechnica.com/security/2026/11/malicious-code-delivered-through-optimizely-hits-visitors-to-hundreds-of-sites/"
-        }
-      ]
-    },
-    {
-      "id": "europe-photonic-chips",
-      "type": "news",
-      "category": "Hardware and chips",
-      "headline": "Europe bets €400 million on chips that compute with light",
-      "summary": "Most chips move electrons through billions of tiny transistors. Photonic chips process data with light instead, which supporters say can be faster, use less energy and run cooler. The European Union has committed €400 million to a project called PIX Europe, and the Dutch research institute TNO is building a factory in Eindhoven to make larger photonic chip wafers. It is due to fully open in 2030.",
-      "whyItMatters": "AI data centers need ever more power, so more efficient chips could cut energy use. A TNO leader says photonics is where electronic chips were 40 to 50 years ago.",
-      "csp": {
-        "idea": "Computer Systems and Networks",
-        "connection": "Hardware sets the limits on how fast and efficiently a computer can process data, and new designs can shift those limits."
-      },
-      "sources": [
         {
           "name": "BBC News",
           "date": "2026-11-18",
-          "url": "https://www.bbc.co.uk/news/articles/cqglwjd450k0o"
+          "url": "https://www.bbc.co.uk/news/articles/c6z0kly2lll7o"
         }
       ]
     },
     {
-      "id": "gemini-training-toggle",
+      "id": "spirit-data-google-ai",
       "type": "news",
-      "category": "Privacy",
-      "headline": "Gemini users can now keep chat history without training Google's AI",
-      "summary": "Before, the only way to stop Google from using your Gemini chats to train its AI was to turn off your chat history. A new setting, rolling out globally over several weeks, separates the two, though you must find the toggle and switch training off yourself. It only affects future chats. Separately, U.S. users on paid plans are getting a way to view and edit the memory summary Gemini builds about them.",
-      "whyItMatters": "Many people pass personal details to chatbots without thinking about where they go. Knowing these settings lets you decide what you share, though Google may still keep data for other uses.",
-      "csp": {
-        "idea": "Impact of Computing",
-        "connection": "Data you give an app can be stored and reused in ways you may not expect, so default settings shape what happens to your information."
-      },
-      "sources": [
-        {
-          "name": "Ars Technica",
-          "date": "2026-11-17",
-          "url": "https://arstechnica.com/ai/2026/11/google-will-let-you-opt-out-of-ai-training-in-gemini-without-losing-your-history/"
-        },
-        {
-          "name": "Engadget",
-          "date": "2026-11-18",
-          "url": "https://www.engadget.com/2315475/google-gemini-memory-summary-see-what-remembers-about-you/"
-        }
-      ]
-    },
-    {
-      "id": "youtube-tv-coviews",
-      "type": "news",
-      "category": "Streaming",
-      "headline": "YouTube will estimate extra viewers when videos play on a TV",
-      "summary": "YouTube says it has been undercounting views when several people watch together on a TV. It will add estimated co-views to public view counts and watch time for TV viewing only. YouTube says it won't use cameras or microphones; a statistical model based on patterns like demographics and viewing times will make the estimate. The change won't apply to old views and won't affect how much money creators earn.",
-      "whyItMatters": "View counts influence what creators make and what brands sponsor. These numbers will now be partly estimates, and YouTube hasn't shared full details of its model.",
+      "category": "Data and privacy",
+      "headline": "Judge approves sale of Spirit Airlines workers' data to Google",
+      "summary": "A US bankruptcy judge approved Google's $10 million purchase of data from Spirit Airlines, which shut down in May. Google says it will use the data, including an estimated 100 million emails and half a billion Microsoft Teams messages, to train AI. After a union lawsuit, Google agreed to leave out health, drug-test and disciplinary records and to de-identify the data, meaning strip out details that point to specific people.",
+      "whyItMatters": "Messages you write at work or school can become valuable AI training data. A privacy expert warns that de-identified data can sometimes be linked back to people when combined with other information.",
       "csp": {
         "idea": "Data",
-        "connection": "Statistical models can estimate things that aren't measured directly, but their results are only as good as their assumptions."
+        "connection": "Removing names does not always make data anonymous; combining datasets can re-identify individuals."
       },
       "sources": [
         {
-          "name": "Engadget",
+          "name": "The Record",
           "date": "2026-11-18",
-          "url": "https://www.engadget.com/2320163/youtube-will-start-boosting-public-view-counts-when-you-watch-on-a-tv/"
+          "url": "https://therecord.media/judge-signs-off-google-purchase-spirit-airlines-data"
         }
       ]
     },
     {
-      "id": "waymo-freeway-pause",
+      "id": "four-color-faster-algorithm",
       "type": "news",
-      "category": "Transportation",
-      "headline": "Waymo pauses robotaxi freeway rides after California ban",
-      "summary": "California's Department of Motor Vehicles barred Waymo's driverless cars from state freeways on November 11, calling them an imminent hazard to public safety. It cited repeated cases of the cars entering active construction zones, including three that drove into one on U.S. 101. No injuries or collisions were reported. Waymo has now paused freeway rides in all its U.S. cities but still operates on city streets.",
-      "whyItMatters": "Self-driving software must handle rare, messy situations like work zones, not just ordinary roads. The ban stays until Waymo shows regulators it has fixed the problem.",
+      "category": "Algorithms",
+      "headline": "Mathematicians find a much faster way to color any map",
+      "summary": "The Four Color Theorem says any flat map can be colored with four colors so neighboring regions never match. In 1976 it became the first major theorem proven with a computer. A six-person team now reports an algorithm that does the coloring in nearly linear time instead of quadratic time. They showed every map has many spots where coloring can start, not just one. The work is part of this year's FOCS computer science conference.",
+      "whyItMatters": "With the old method, a map with 10 times more regions took about 100 times longer. The new one takes only a little more than 10 times longer, which matters for huge inputs.",
       "csp": {
-        "idea": "Impact of Computing",
-        "connection": "Software that makes decisions in the physical world needs testing on unusual cases, because errors can affect public safety."
+        "idea": "Algorithms and Programming",
+        "connection": "Algorithms that solve the same problem can differ hugely in efficiency as the input grows."
       },
       "sources": [
         {
-          "name": "BBC News",
+          "name": "Popular Science",
           "date": "2026-11-18",
-          "url": "https://www.bbc.co.uk/news/articles/cmy86pp336qlo"
+          "url": "https://www.popsci.com/science/four-color-problem-math-breakthrough/"
         },
         {
-          "name": "Engadget",
-          "date": "2026-11-17",
-          "url": "https://www.engadget.com/2319947/waymo-is-pausing-all-freeway-rides-after-california-dmv-says-the-robotaxis-are-imminent-hazard-to-public-safety/"
+          "name": "arXiv (Inoue et al.)",
+          "date": "2026-10-01",
+          "url": "https://arxiv.org/abs/2603.24880"
         }
       ]
     },
     {
-      "id": "san-diego-ends-flock",
+      "id": "schools-google-search-ai",
       "type": "news",
-      "category": "Privacy and policy",
-      "headline": "San Diego votes to switch off license plate cameras",
-      "summary": "San Diego's city council voted to end contracts with Flock, which makes automatic license plate readers (cameras whose software records passing plates), and with a smart streetlight company whose lights worked with them. More than 500 cameras will go dark. Police told the council the cameras helped recover 689 stolen vehicles, and Flock warned crimes may take longer to solve. Privacy advocates had argued the system tracked residents' movements.",
-      "whyItMatters": "Cities must weigh crime-solving tools against how much location data they collect about everyone. San Diego is one of the largest cities to end a Flock contract.",
+      "category": "Education technology",
+      "headline": "Big school districts weigh dropping Google Search over AI",
+      "summary": "The New York Times reported that, starting next year, schools that turn off Google's Gemini AI features would also lose Google Search. New York City and Chicago public schools said they may look for other search options, and Los Angeles is also considering alternatives. Google told The Verge it is piloting a step-by-step Guided Learning mode and that next year Gemini and Search will be off by default until schools choose what to enable.",
+      "whyItMatters": "Decisions like this shape which tools show up on your school Chromebook. It also shows how bundling features together can limit users' choices.",
       "csp": {
         "idea": "Impact of Computing",
-        "connection": "Automated data collection can serve public safety while also raising privacy concerns about tracking ordinary people."
-      },
-      "sources": [
-        {
-          "name": "Ars Technica",
-          "date": "2026-11-17",
-          "url": "https://arstechnica.com/tech-policy/2026/11/san-diego-dumps-both-flock-cameras-and-smart-streetlights/"
-        }
-      ]
-    },
-    {
-      "id": "voyager-one-light-day",
-      "type": "news",
-      "category": "Space",
-      "headline": "Voyager 1 is now one light-day from Earth",
-      "summary": "Launched in 1977, NASA's Voyager 1 crossed a milestone Wednesday: it is now about 16.1 billion miles away, the distance light travels in 24 hours. It is the farthest human-made object and still sends data on particles and magnetic fields. Radio signals now take a full day to reach it. Separately, a historian found that the Golden Record it carries repeats its playback instructions inside its cover as a backup.",
-      "whyItMatters": "Engineers must plan every command knowing the reply arrives two days later. Repeating key instructions in case one copy wears away is the same backup idea used in computer systems.",
-      "csp": {
-        "idea": "Computer Systems and Networks",
-        "connection": "Distance adds latency, the delay before data arrives, and redundant copies help information survive if one copy fails."
+        "connection": "Design decisions by one company can affect millions of students, raising questions about choice and control."
       },
       "sources": [
         {
           "name": "The Verge",
           "date": "2026-11-18",
-          "url": "https://www.theverge.com/science/1036431/nasa-voyager-1-light-day-milestone"
-        },
-        {
-          "name": "Ars Technica",
-          "date": "2026-11-18",
-          "url": "https://arstechnica.com/space/2026/11/voyager-1-at-one-light-day-historian-revisits-golden-records-forgotten-details/"
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1037151/school-districts-ditching-google"
         }
       ]
     },
     {
-      "id": "glowing-soft-robot",
+      "id": "gallup-youth-friendships",
       "type": "news",
-      "category": "Robotics",
-      "headline": "Soft robot glows green wherever its body stretches",
-      "summary": "Researchers at South Korea's DGIST built a small four-limbed soft robot covered in a woven mesh of flexible tubes. The tubes are filled with zinc sulfide particles mixed into a stretchy polymer, which glows green where the material is stretched, with no batteries or electronics. The fibers kept glowing after more than 1,000 stretches. The study appears in the journal Small Structures.",
-      "whyItMatters": "Soft robots bend in ways that are hard to monitor with stiff sensors. A body that lights up where it strains could help engineers spot problems, and may lead to wearable medical devices.",
+      "category": "Social life",
+      "headline": "Global survey: in-person friends linked to better well-being",
+      "summary": "Gallup and Boston Children's Digital Wellness Lab surveyed 15,925 people ages 15 to 22 in 16 countries. A median of 93% have a close in-person friend and 37% have a close online-only friend. In-person friendships were tied to higher life ratings; online-only ones were not. Short-form video scrolling, which 72% do often, was the only online activity linked to lower well-being. Those using AI as a companion reported more loneliness, but the study can't show cause.",
+      "whyItMatters": "The study describes people your age around the world. It shows patterns, not proof that any app causes loneliness, a difference worth keeping in mind with any survey.",
       "csp": {
-        "idea": "Computer Systems and Networks",
-        "connection": "Robots rely on sensors to report their own state, and new materials can turn a robot's body into a sensor."
+        "idea": "Data",
+        "connection": "Survey data can reveal correlations, but correlation alone does not prove one thing causes another."
       },
       "sources": [
         {
-          "name": "Popular Science",
+          "name": "Gallup",
           "date": "2026-11-17",
-          "url": "https://www.popsci.com/technology/soft-robot-glows-green/"
+          "url": "https://news.gallup.com/poll/716486/youth-wellbeing-matters-online-off.aspx"
+        },
+        {
+          "name": "404 Media",
+          "date": "2026-11-18",
+          "url": "https://www.404media.co/gallup-study-friendship-ai-companions/"
+        }
+      ]
+    },
+    {
+      "id": "instagram-edit-stories",
+      "type": "news",
+      "category": "Social media",
+      "headline": "Instagram now lets you edit a Story after posting",
+      "summary": "Instagram users can now fix text, music, stickers and drawings in a Story for up to 15 minutes after sharing it, Instagram head Adam Mosseri announced. Before, fixing a typo meant deleting and reposting, which lost views and replies and could scramble the order of a series. Edited Stories show an \"edited\" label. The feature is rolling out now.",
+      "whyItMatters": "Small design choices change how millions of people use an app. The \"edited\" label is a trade-off between letting people fix mistakes and keeping viewers informed.",
+      "sources": [
+        {
+          "name": "Engadget",
+          "date": "2026-11-18",
+          "url": "https://www.engadget.com/2320953/you-can-finally-edit-an-instagram-story-without-deleting-it/"
+        },
+        {
+          "name": "The Verge",
+          "date": "2026-11-18",
+          "url": "https://www.theverge.com/tech/1036941/instagram-now-lets-you-edit-your-stories-after-you-post-them"
+        }
+      ]
+    },
+    {
+      "id": "podcast-transcripts-access",
+      "type": "news",
+      "category": "Accessibility",
+      "headline": "SiriusXM and Pandora agree to transcribe podcasts for deaf listeners",
+      "summary": "SiriusXM agreed to provide podcast transcripts on SiriusXM and Pandora, settling a 2021 lawsuit brought under the Americans with Disabilities Act. Transcripts must identify speakers and include sound effects and proper punctuation. If speech-recognition software helps, a person must review the result. The company will also build custom word lists for each show.",
+      "whyItMatters": "Automatic captions still make mistakes, so human review matters. Accessible design lets more people join the same conversations.",
+      "csp": {
+        "idea": "Impact of Computing",
+        "connection": "Accessible design widens who can use technology; automated tools work best with human checks for accuracy."
+      },
+      "sources": [
+        {
+          "name": "Engadget",
+          "date": "2026-11-18",
+          "url": "https://www.engadget.com/2320646/siriusxm-and-pandora-will-provide-podcast-transcripts-for-the-deaf-and-hard-of-hearing-community/"
+        }
+      ]
+    },
+    {
+      "id": "canva-ai-off-switch",
+      "type": "news",
+      "category": "Creator tools",
+      "headline": "Canva adds a switch to turn off its generative AI",
+      "summary": "Design platform Canva added a setting that turns off most generative AI tools, such as Magic Write and Magic Expand, for free and paid users. A second setting shows human-made templates and graphics first in its library. Background Remover and Magic Grab stay on, because Canva says they only rearrange what's already in a design rather than generating new content.",
+      "whyItMatters": "Many students use Canva for school projects. Being able to choose when AI helps gives you more control over your own work.",
+      "sources": [
+        {
+          "name": "The Verge",
+          "date": "2026-11-19",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1037126/canva-ai-features-off-button"
+        },
+        {
+          "name": "Engadget",
+          "date": "2026-11-19",
+          "url": "https://www.engadget.com/2321318/canva-will-let-users-switch-off-most-generative-ai/"
+        }
+      ]
+    },
+    {
+      "id": "korea-exam-phone-alert",
+      "type": "news",
+      "category": "Education technology",
+      "headline": "South Korea uses emergency phone alerts against exam cheating",
+      "summary": "South Korea planned to send a loud emergency-style alert to phones before Thursday's Suneung, an eight-hour college entrance exam taken by about 550,000 students, to expose hidden phones. Proctors will also check glasses for hidden cameras, and smart glasses are banned. The steps follow a man's admission that he photographed tax-exam questions with a tiny camera and fed them to an AI tool.",
+      "whyItMatters": "Schools everywhere are rethinking tests because of AI. It shows how a tool built for disasters can be reused for a very different goal.",
+      "sources": [
+        {
+          "name": "Popular Science",
+          "date": "2026-11-18",
+          "url": "https://www.popsci.com/technology/emergency-alert-exam-cheaters-south-korea/"
         }
       ]
     }
