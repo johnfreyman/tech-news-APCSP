@@ -9,7 +9,7 @@
       "type": "news",
       "category": "Networks and the internet",
       "headline": "A week of outages: how experts tell glitches from cyberattacks",
-      "summary": "Within a week, a Microsoft outage, a US flight ground stop, a JPMorgan Chase payments bug and an NSA network problem hit in quick succession. There is no evidence they are linked or caused by hackers. Most were blamed on updates or upgrades that went wrong. One internet analyst told WIRED that only about one in a thousand outages he tracks turns out to be an attack. Investigators check status pages and internet-wide data on when and where failures began.",
+      "summary": "Within a week, a Microsoft outage, a US flight ground stop, a JPMorgan Chase payments bug and an NSA network problem hit in quick succession. There is no evidence they are linked or caused by hackers. Many were blamed on updates or upgrades that went wrong. One internet analyst told WIRED that only about one in a thousand outages he tracks turns out to be an attack. Investigators check status pages and internet-wide data on when and where failures began.",
       "whyItMatters": "Big services depend on a few shared systems, so one bad update can ripple outward. Checking evidence before blaming hackers is the same habit as debugging: test the simplest cause first.",
       "csp": {
         "idea": "Computer Systems and Networks",
@@ -52,7 +52,7 @@
       "type": "news",
       "category": "Algorithms",
       "headline": "Mathematicians find a much faster way to color any map",
-      "summary": "The Four Color Theorem says any flat map can be colored with four colors so neighboring regions never match. In 1976 it became the first major theorem proven with a computer. A six-person team now reports an algorithm that does the coloring in nearly linear time instead of quadratic time. They showed every map has many spots where coloring can start, not just one. The work will be presented at the FOCS computer science conference.",
+      "summary": "The Four Color Theorem says any flat map can be colored with four colors so neighboring regions never match. In 1976 it became the first major theorem proven with a computer. A six-person team now reports an algorithm that does the coloring in nearly linear time instead of quadratic time. They showed every map has many spots where coloring can start, not just one. The work is part of this year's FOCS computer science conference.",
       "whyItMatters": "With the old method, a map with 10 times more regions took about 100 times longer. The new one takes only a little more than 10 times longer, which matters for huge inputs.",
       "csp": {
         "idea": "Algorithms and Programming",
