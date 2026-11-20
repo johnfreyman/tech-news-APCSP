@@ -66,7 +66,7 @@
       "type": "news",
       "category": "Cloud computing",
       "headline": "Google books rockets to test data centers in orbit",
-      "summary": "Google signed a deal with Blue Origin to launch satellites carrying its AI chips and servers, each roughly the size of one data-center rack, as part of an experiment called Project Suncatcher. The goal is to run AI on solar power in space. The first launch is planned for early 2029. Big hurdles remain, including getting rid of heat and radiation that can flip bits from 1 to 0.",
+      "summary": "Google signed a deal with Blue Origin to launch satellites carrying its AI chips and servers, each with roughly the capacity of one data-center rack, as part of an experiment called Project Suncatcher. The goal is to run AI on solar power in space. The first launch is planned for early 2029. Big hurdles remain, including getting rid of heat and radiation that can flip bits from 1 to 0.",
       "whyItMatters": "Data centers use huge amounts of electricity on Earth, so companies are hunting for new power sources. Bit flips show why stored binary data needs error checking.",
       "csp": {
         "idea": "Computer Systems and Networks",
@@ -143,7 +143,7 @@
       "type": "news",
       "category": "Technology history",
       "headline": "7 million War of 1812 record pages are now searchable online",
-      "summary": "After 16 years of work, the National Archives and partners finished digitizing more than 180,000 pension applications filed by War of 1812 veterans and families. Handwriting recognition software makes every word searchable, so people can find anyone named in the files, not just the veterans. The records are free on the Fold3 website and are being added to the National Archives catalog.",
+      "summary": "After 16 years of work, the National Archives and partners finished digitizing more than 180,000 pension applications filed after the War of 1812. Handwriting recognition software makes every word searchable, so people can find anyone named in the files, not just the veterans. The records are free on the Fold3 website and are being added to the National Archives catalog.",
       "whyItMatters": "Turning fragile paper into searchable data saves history and lets anyone research their family or a school project.",
       "csp": {
         "idea": "Data",
