@@ -1,190 +1,178 @@
 {
   "schemaVersion": 1,
-  "editionId": "2026-11-19-daily",
-  "date": "2026-11-19",
-  "coverage": "Nine stories · Outages, Spirit data sale, four-color algorithm, school search, youth friendships, Instagram, podcast captions, Canva, exam alerts",
+  "editionId": "2026-11-20-daily",
+  "date": "2026-11-20",
+  "coverage": "Nine stories · Fridge hacks, Android apps, AI pushback, space data centers, face scans, Uber Kids, teen social media, 1812 records, cacti",
   "cards": [
     {
-      "id": "outage-or-cyberattack",
+      "id": "uk-fridge-hack-fix",
       "type": "news",
-      "category": "Networks and the internet",
-      "headline": "A week of outages: how experts tell glitches from cyberattacks",
-      "summary": "Within a week, a Microsoft outage, a US flight ground stop, a JPMorgan Chase payments bug and an NSA network problem hit in quick succession. There is no evidence they are linked or caused by hackers. Many were blamed on updates or upgrades that went wrong. One internet analyst told WIRED that only about one in a thousand outages he tracks turns out to be an attack. Investigators check status pages and internet-wide data on when and where failures began.",
-      "whyItMatters": "Big services depend on a few shared systems, so one bad update can ripple outward. Checking evidence before blaming hackers is the same habit as debugging: test the simplest cause first.",
+      "category": "Cybersecurity",
+      "headline": "UK quietly secured thousands of store fridges from hackers",
+      "summary": "After hackers hit internet-connected fridge controllers at supermarkets in France and other European countries this fall, researchers found a serious flaw in devices used in the UK. Since late October, companies and the UK's National Cyber Security Centre have taken thousands of controllers off the open internet, sometimes by unplugging cables and checking temperatures by hand. The BBC waited to report it so hackers would not learn of the weakness.",
+      "whyItMatters": "Everyday machines like freezers are now computers on a network, so a software flaw can spoil real food. Sometimes the safest fix is simply removing a device from the internet.",
       "csp": {
         "idea": "Computer Systems and Networks",
-        "connection": "When many systems depend on one shared component, a single failure can cascade; redundancy reduces that risk."
+        "connection": "Devices reachable from the open internet widen the attack surface; disconnecting them shrinks it."
       },
       "sources": [
-        {
-          "name": "Ars Technica (WIRED)",
-          "date": "2026-11-19",
-          "url": "https://arstechnica.com/security/2026/11/how-to-tell-a-cyberattack-from-a-plain-old-outage/"
-        },
         {
           "name": "BBC News",
-          "date": "2026-11-18",
-          "url": "https://www.bbc.co.uk/news/articles/c6z0kly2lll7o"
+          "date": "2026-11-20",
+          "url": "https://www.bbc.co.uk/news/articles/c6eq49zyx7p4o"
         }
       ]
     },
     {
-      "id": "spirit-data-google-ai",
+      "id": "android-developer-verification",
       "type": "news",
-      "category": "Data and privacy",
-      "headline": "Judge approves sale of Spirit Airlines workers' data to Google",
-      "summary": "A US bankruptcy judge approved Google's $10 million purchase of data from Spirit Airlines, which shut down in May. Google says it will use the data, including an estimated 100 million emails and half a billion Microsoft Teams messages, to train AI. After a union lawsuit, Google agreed to leave out health, drug-test and disciplinary records and to de-identify the data, meaning strip out details that point to specific people.",
-      "whyItMatters": "Messages you write at work or school can become valuable AI training data. A privacy expert warns that de-identified data can sometimes be linked back to people when combined with other information.",
+      "category": "Programming and security",
+      "headline": "Android will block apps from unverified developers worldwide in 2027",
+      "summary": "Starting in January 2027, Google will roll out a rule that Android phones only install apps from developers who have registered with Google, even outside the Play Store. Registering requires government ID and a $25 fee, though hobbyists get a free account for up to 50 installs. Google says this fights malware; critics say it gives Google more control. A hidden setting with a 24-hour wait lets users opt out.",
+      "whyItMatters": "If you ever build and share an Android app, you may need to verify your identity first. It shows the trade-off between security and openness on platforms you use daily.",
       "csp": {
-        "idea": "Data",
-        "connection": "Removing names does not always make data anonymous; combining datasets can re-identify individuals."
+        "idea": "Impact of Computing",
+        "connection": "Requiring identity to publish software can reduce harm but also limits who can create and share programs."
       },
       "sources": [
         {
-          "name": "The Record",
-          "date": "2026-11-18",
-          "url": "https://therecord.media/judge-signs-off-google-purchase-spirit-airlines-data"
+          "name": "Ars Technica",
+          "date": "2026-11-19",
+          "url": "https://arstechnica.com/gadgets/2026/11/google-will-launch-android-app-verification-requirement-globally-in-january-2027/"
         }
       ]
     },
     {
-      "id": "four-color-faster-algorithm",
+      "id": "llm-climate-pushback",
       "type": "news",
-      "category": "Algorithms",
-      "headline": "Mathematicians find a much faster way to color any map",
-      "summary": "The Four Color Theorem says any flat map can be colored with four colors so neighboring regions never match. In 1976 it became the first major theorem proven with a computer. A six-person team now reports an algorithm that does the coloring in nearly linear time instead of quadratic time. They showed every map has many spots where coloring can start, not just one. The work is part of this year's FOCS computer science conference.",
-      "whyItMatters": "With the old method, a map with 10 times more regions took about 100 times longer. The new one takes only a little more than 10 times longer, which matters for huge inputs.",
+      "category": "AI",
+      "headline": "Study: AI chatbots often change correct answers when users push back",
+      "summary": "Researchers from University College London and UNESCO tested 33 AI language models on climate science questions. Top models answered most textbook questions correctly but did no better than guessing when asked how two climate policies would combine. When testers argued with false claims, the models' accuracy dropped by 30 to 35 percent, usually after a single \"I don't think that's right.\"",
+      "whyItMatters": "A chatbot agreeing with you is not proof you are right. When you use AI for schoolwork, check important facts against trusted sources.",
       "csp": {
-        "idea": "Algorithms and Programming",
-        "connection": "Algorithms that solve the same problem can differ hugely in efficiency as the input grows."
+        "idea": "Impact of Computing",
+        "connection": "AI models can reflect user pressure instead of evidence, so their outputs need verification."
+      },
+      "sources": [
+        {
+          "name": "Ars Technica",
+          "date": "2026-11-19",
+          "url": "https://arstechnica.com/science/2026/11/llms-will-provide-accurate-climate-info-except-when-they-wont/"
+        }
+      ]
+    },
+    {
+      "id": "google-space-data-centers",
+      "type": "news",
+      "category": "Cloud computing",
+      "headline": "Google books rockets to test data centers in orbit",
+      "summary": "Google signed a deal with Blue Origin to launch satellites carrying its AI chips and servers, each with roughly the capacity of one data-center rack, as part of an experiment called Project Suncatcher. The goal is to run AI on solar power in space. The first launch is planned for early 2029. Big hurdles remain, including getting rid of heat and radiation that can flip bits from 1 to 0.",
+      "whyItMatters": "Data centers use huge amounts of electricity on Earth, so companies are hunting for new power sources. Bit flips show why stored binary data needs error checking.",
+      "csp": {
+        "idea": "Computer Systems and Networks",
+        "connection": "Radiation can flip stored bits, so systems use redundancy and error detection to keep data correct."
+      },
+      "sources": [
+        {
+          "name": "Engadget",
+          "date": "2026-11-19",
+          "url": "https://www.engadget.com/2321988/google-signs-deal-with-blue-origin-to-send-satellite-data-centers-into-orbit/"
+        }
+      ]
+    },
+    {
+      "id": "met-police-face-app",
+      "type": "news",
+      "category": "Privacy",
+      "headline": "London police test face recognition app on officers' phones",
+      "summary": "For six months, 100 Metropolitan Police officers can photograph people they suspect of an offence and compare the image to a database of custody photos. Officers must explain why, but do not need permission; the app will not be used on anyone thought to be under 13. Police say it speeds up identification. Privacy groups worry about possible bias and how individual officers will use it.",
+      "whyItMatters": "Face recognition turns a photo into data that can be matched against databases. Who controls those databases and how accurate matches are affect real people's rights.",
+      "csp": {
+        "idea": "Impact of Computing",
+        "connection": "Recognition algorithms trained on data can carry bias, raising fairness questions when used on the public."
+      },
+      "sources": [
+        {
+          "name": "BBC News",
+          "date": "2026-11-20",
+          "url": "https://www.bbc.co.uk/news/articles/ckq5vz28367do"
+        }
+      ]
+    },
+    {
+      "id": "uber-kids-pilot",
+      "type": "news",
+      "category": "Transportation",
+      "headline": "Uber tests rides for kids aged 10 to 12",
+      "summary": "Uber is piloting Uber Kids in Austin, Nashville and Madison, Wisconsin. A parent books the ride, must be at pickup, and can watch a live video feed from inside the car. Only invited, highly rated drivers who complete a course can take these trips. Uber uses PIN checks and GPS to flag unexpected stops or route changes. Uber calls it a limited pilot.",
+      "whyItMatters": "Apps are using cameras, GPS and alerts to make safety promises. That means more data is collected about riders, including kids.",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "date": "2026-11-19",
+          "url": "https://techcrunch.com/2026/11/19/uber-tests-rides-for-kids-as-young-as-10-with-extra-pay-for-drivers/"
+        },
+        {
+          "name": "Engadget",
+          "date": "2026-11-20",
+          "url": "https://www.engadget.com/2322650/uber-kids-rides-children-aged-10-to-12-years-old/"
+        }
+      ]
+    },
+    {
+      "id": "uk-social-media-ban-study",
+      "type": "news",
+      "category": "Social media and health",
+      "headline": "Long-running study will track what a teen social media ban changes",
+      "summary": "The UK plans to ban social media for under-16s starting in spring 2027. Researchers from Children of the 90s, a study that has followed families in Bristol since the early 1990s, will survey children and parents about their mental health and social media habits before and after the ban. They also want to learn what young people turn to instead.",
+      "whyItMatters": "Countries are debating rules about teens online, and data collected before and after a change helps show whether a policy actually works.",
+      "csp": {
+        "idea": "Data",
+        "connection": "Comparing data collected before and after a change helps researchers measure its effect."
+      },
+      "sources": [
+        {
+          "name": "BBC News",
+          "date": "2026-11-20",
+          "url": "https://www.bbc.co.uk/news/articles/c3rrgwg7ry1zo"
+        }
+      ]
+    },
+    {
+      "id": "war-of-1812-records",
+      "type": "news",
+      "category": "Technology history",
+      "headline": "7 million War of 1812 record pages are now searchable online",
+      "summary": "After 16 years of work, the National Archives and partners finished digitizing more than 180,000 pension applications filed after the War of 1812. Handwriting recognition software makes every word searchable, so people can find anyone named in the files, not just the veterans. The records are free on the Fold3 website and are being added to the National Archives catalog.",
+      "whyItMatters": "Turning fragile paper into searchable data saves history and lets anyone research their family or a school project.",
+      "csp": {
+        "idea": "Data",
+        "connection": "Digitizing and indexing text turns scanned images into data that can be searched and analyzed."
       },
       "sources": [
         {
           "name": "Popular Science",
-          "date": "2026-11-18",
-          "url": "https://www.popsci.com/science/four-color-problem-math-breakthrough/"
-        },
-        {
-          "name": "arXiv (Inoue et al.)",
-          "date": "2026-10-01",
-          "url": "https://arxiv.org/abs/2603.24880"
-        }
-      ]
-    },
-    {
-      "id": "schools-google-search-ai",
-      "type": "news",
-      "category": "Education technology",
-      "headline": "Big school districts weigh dropping Google Search over AI",
-      "summary": "The New York Times reported that, starting next year, schools that turn off Google's Gemini AI features would also lose Google Search. New York City and Chicago public schools said they may look for other search options, and Los Angeles is also considering alternatives. Google told The Verge it is piloting a step-by-step Guided Learning mode and that next year Gemini and Search will be off by default until schools choose what to enable.",
-      "whyItMatters": "Decisions like this shape which tools show up on your school Chromebook. It also shows how bundling features together can limit users' choices.",
-      "csp": {
-        "idea": "Impact of Computing",
-        "connection": "Design decisions by one company can affect millions of students, raising questions about choice and control."
-      },
-      "sources": [
-        {
-          "name": "The Verge",
-          "date": "2026-11-18",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1037151/school-districts-ditching-google"
-        }
-      ]
-    },
-    {
-      "id": "gallup-youth-friendships",
-      "type": "news",
-      "category": "Social life",
-      "headline": "Global survey: in-person friends linked to better well-being",
-      "summary": "Gallup and Boston Children's Digital Wellness Lab surveyed 15,925 people ages 15 to 22 in 16 countries. A median of 93% have a close in-person friend and 37% have a close online-only friend. In-person friendships were tied to higher life ratings; online-only ones were not. Short-form video scrolling, which 72% do often, was the only online activity linked to lower well-being. Those using AI as a companion reported more loneliness, but the study can't show cause.",
-      "whyItMatters": "The study describes people your age around the world. It shows patterns, not proof that any app causes loneliness, a difference worth keeping in mind with any survey.",
-      "csp": {
-        "idea": "Data",
-        "connection": "Survey data can reveal correlations, but correlation alone does not prove one thing causes another."
-      },
-      "sources": [
-        {
-          "name": "Gallup",
-          "date": "2026-11-17",
-          "url": "https://news.gallup.com/poll/716486/youth-wellbeing-matters-online-off.aspx"
-        },
-        {
-          "name": "404 Media",
-          "date": "2026-11-18",
-          "url": "https://www.404media.co/gallup-study-friendship-ai-companions/"
-        }
-      ]
-    },
-    {
-      "id": "instagram-edit-stories",
-      "type": "news",
-      "category": "Social media",
-      "headline": "Instagram now lets you edit a Story after posting",
-      "summary": "Instagram users can now fix text, music, stickers and drawings in a Story for up to 15 minutes after sharing it, Instagram head Adam Mosseri announced. Before, fixing a typo meant deleting and reposting, which lost views and replies and could scramble the order of a series. Edited Stories show an \"edited\" label. The feature is rolling out now.",
-      "whyItMatters": "Small design choices change how millions of people use an app. The \"edited\" label is a trade-off between letting people fix mistakes and keeping viewers informed.",
-      "sources": [
-        {
-          "name": "Engadget",
-          "date": "2026-11-18",
-          "url": "https://www.engadget.com/2320953/you-can-finally-edit-an-instagram-story-without-deleting-it/"
-        },
-        {
-          "name": "The Verge",
-          "date": "2026-11-18",
-          "url": "https://www.theverge.com/tech/1036941/instagram-now-lets-you-edit-your-stories-after-you-post-them"
-        }
-      ]
-    },
-    {
-      "id": "podcast-transcripts-access",
-      "type": "news",
-      "category": "Accessibility",
-      "headline": "SiriusXM and Pandora agree to transcribe podcasts for deaf listeners",
-      "summary": "SiriusXM agreed to provide podcast transcripts on SiriusXM and Pandora, settling a 2021 lawsuit brought under the Americans with Disabilities Act. Transcripts must identify speakers and include sound effects and proper punctuation. If speech-recognition software helps, a person must review the result. The company will also build custom word lists for each show.",
-      "whyItMatters": "Automatic captions still make mistakes, so human review matters. Accessible design lets more people join the same conversations.",
-      "csp": {
-        "idea": "Impact of Computing",
-        "connection": "Accessible design widens who can use technology; automated tools work best with human checks for accuracy."
-      },
-      "sources": [
-        {
-          "name": "Engadget",
-          "date": "2026-11-18",
-          "url": "https://www.engadget.com/2320646/siriusxm-and-pandora-will-provide-podcast-transcripts-for-the-deaf-and-hard-of-hearing-community/"
-        }
-      ]
-    },
-    {
-      "id": "canva-ai-off-switch",
-      "type": "news",
-      "category": "Creator tools",
-      "headline": "Canva adds a switch to turn off its generative AI",
-      "summary": "Design platform Canva added a setting that turns off most generative AI tools, such as Magic Write and Magic Expand, for free and paid users. A second setting shows human-made templates and graphics first in its library. Background Remover and Magic Grab stay on, because Canva says they only rearrange what's already in a design rather than generating new content.",
-      "whyItMatters": "Many students use Canva for school projects. Being able to choose when AI helps gives you more control over your own work.",
-      "sources": [
-        {
-          "name": "The Verge",
           "date": "2026-11-19",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1037126/canva-ai-features-off-button"
-        },
-        {
-          "name": "Engadget",
-          "date": "2026-11-19",
-          "url": "https://www.engadget.com/2321318/canva-will-let-users-switch-off-most-generative-ai/"
+          "url": "https://www.popsci.com/technology/war-of-1812-military-records-digitized/"
         }
       ]
     },
     {
-      "id": "korea-exam-phone-alert",
+      "id": "prickly-pear-power",
       "type": "news",
-      "category": "Education technology",
-      "headline": "South Korea uses emergency phone alerts against exam cheating",
-      "summary": "South Korea planned to send a loud emergency-style alert to phones before Thursday's Suneung, an eight-hour college entrance exam taken by about 550,000 students, to expose hidden phones. Proctors will also check glasses for hidden cameras, and smart glasses are banned. The steps follow a man's admission that he photographed tax-exam questions with a tiny camera and fed them to an AI tool.",
-      "whyItMatters": "Schools everywhere are rethinking tests because of AI. It shows how a tool built for disasters can be reused for a very different goal.",
+      "category": "Climate technology",
+      "headline": "Wired-up prickly pear cacti can power small farm sensors",
+      "summary": "Prickly pears store acid at night and use it up on their sunny side by day, creating a chemical difference that can produce electricity. A UC Santa Cruz team found eight connected cacti generate about 4.5 volts, enough to run low-power sensors that monitor crops. Even plants left without water for 15 months still produced electricity.",
+      "whyItMatters": "Sensors that power themselves could collect data in remote fields without batteries. It is a creative mix of biology and computing.",
+      "csp": {
+        "idea": "Computer Systems and Networks",
+        "connection": "Low-power sensors can gather and send data from places without a reliable power supply."
+      },
       "sources": [
         {
           "name": "Popular Science",
-          "date": "2026-11-18",
-          "url": "https://www.popsci.com/technology/emergency-alert-exam-cheaters-south-korea/"
+          "date": "2026-11-19",
+          "url": "https://www.popsci.com/environment/prickly-pear-generate-solar-electricity/"
         }
       ]
     }
