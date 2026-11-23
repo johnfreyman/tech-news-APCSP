@@ -1,178 +1,187 @@
 {
   "schemaVersion": 1,
-  "editionId": "2026-11-20-daily",
-  "date": "2026-11-20",
-  "coverage": "Nine stories · Fridge hacks, Android apps, AI pushback, space data centers, face scans, Uber Kids, teen social media, 1812 records, cacti",
+  "editionId": "2026-11-23-daily",
+  "date": "2026-11-23",
+  "coverage": "Nine stories · AI prompt leaks, flight outage, superconducting memory, AI shopping, game metadata, Auracast, cancer AI, emissions, Mercury",
   "cards": [
     {
-      "id": "uk-fridge-hack-fix",
+      "id": "ai-prompt-canaries",
       "type": "news",
       "category": "Cybersecurity",
-      "headline": "UK quietly secured thousands of store fridges from hackers",
-      "summary": "After hackers hit internet-connected fridge controllers at supermarkets in France and other European countries this fall, researchers found a serious flaw in devices used in the UK. Since late October, companies and the UK's National Cyber Security Centre have taken thousands of controllers off the open internet, sometimes by unplugging cables and checking temperatures by hand. The BBC waited to report it so hackers would not learn of the weakness.",
-      "whyItMatters": "Everyday machines like freezers are now computers on a network, so a software flaw can spoil real food. Sometimes the safest fix is simply removing a device from the internet.",
+      "headline": "Planted secrets show AI prompts leaking through middleman services",
+      "summary": "Security researcher HD Moore sent nearly 2 million AI prompts, each hiding a unique fake password, key or link, through services that pass prompts between apps and AI models. He then watched for those \"canaries\" to be used. Attackers who broke into at least three AI hosting providers stole and tried the bait keys, some resellers logged prompts, and some providers ignored \"don't keep my data\" settings.",
+      "whyItMatters": "Anything you type into an AI app may travel through several companies you never chose. Never paste passwords or private information into a chatbot.",
       "csp": {
         "idea": "Computer Systems and Networks",
-        "connection": "Devices reachable from the open internet widen the attack surface; disconnecting them shrinks it."
-      },
-      "sources": [
-        {
-          "name": "BBC News",
-          "date": "2026-11-20",
-          "url": "https://www.bbc.co.uk/news/articles/c6eq49zyx7p4o"
-        }
-      ]
-    },
-    {
-      "id": "android-developer-verification",
-      "type": "news",
-      "category": "Programming and security",
-      "headline": "Android will block apps from unverified developers worldwide in 2027",
-      "summary": "Starting in January 2027, Google will roll out a rule that Android phones only install apps from developers who have registered with Google, even outside the Play Store. Registering requires government ID and a $25 fee, though hobbyists get a free account for up to 50 installs. Google says this fights malware; critics say it gives Google more control. A hidden setting with a 24-hour wait lets users opt out.",
-      "whyItMatters": "If you ever build and share an Android app, you may need to verify your identity first. It shows the trade-off between security and openness on platforms you use daily.",
-      "csp": {
-        "idea": "Impact of Computing",
-        "connection": "Requiring identity to publish software can reduce harm but also limits who can create and share programs."
+        "connection": "Data can be read at every hop where it is decrypted, so each extra system in the path adds risk."
       },
       "sources": [
         {
           "name": "Ars Technica",
-          "date": "2026-11-19",
-          "url": "https://arstechnica.com/gadgets/2026/11/google-will-launch-android-app-verification-requirement-globally-in-january-2027/"
+          "date": "2026-11-20",
+          "url": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/"
         }
       ]
     },
     {
-      "id": "llm-climate-pushback",
+      "id": "delta-weight-system-outage",
       "type": "news",
-      "category": "AI",
-      "headline": "Study: AI chatbots often change correct answers when users push back",
-      "summary": "Researchers from University College London and UNESCO tested 33 AI language models on climate science questions. Top models answered most textbook questions correctly but did no better than guessing when asked how two climate policies would combine. When testers argued with false claims, the models' accuracy dropped by 30 to 35 percent, usually after a single \"I don't think that's right.\"",
-      "whyItMatters": "A chatbot agreeing with you is not proof you are right. When you use AI for schoolwork, check important facts against trusted sources.",
-      "csp": {
-        "idea": "Impact of Computing",
-        "connection": "AI models can reflect user pressure instead of evidence, so their outputs need verification."
-      },
-      "sources": [
-        {
-          "name": "Ars Technica",
-          "date": "2026-11-19",
-          "url": "https://arstechnica.com/science/2026/11/llms-will-provide-accurate-climate-info-except-when-they-wont/"
-        }
-      ]
-    },
-    {
-      "id": "google-space-data-centers",
-      "type": "news",
-      "category": "Cloud computing",
-      "headline": "Google books rockets to test data centers in orbit",
-      "summary": "Google signed a deal with Blue Origin to launch satellites carrying its AI chips and servers, each with roughly the capacity of one data-center rack, as part of an experiment called Project Suncatcher. The goal is to run AI on solar power in space. The first launch is planned for early 2029. Big hurdles remain, including getting rid of heat and radiation that can flip bits from 1 to 0.",
-      "whyItMatters": "Data centers use huge amounts of electricity on Earth, so companies are hunting for new power sources. Bit flips show why stored binary data needs error checking.",
+      "category": "Computer systems",
+      "headline": "Software outage delays Delta flights at the world's busiest airport",
+      "summary": "On Sunday, all Delta flights in and out of Atlanta were delayed after a system went down that calculates a plane's total weight and balance, including fuel, passengers and bags. Delta said staff used manual workarounds while repairing it. It followed a nationwide FAA ground stop and a multi-day Outlook outage the week before; Microsoft's president warned more outages may come as systems are upgraded.",
+      "whyItMatters": "Flying safely now depends on software doing math every trip. When one system fails, people need a backup plan, like doing the calculations by hand.",
       "csp": {
         "idea": "Computer Systems and Networks",
-        "connection": "Radiation can flip stored bits, so systems use redundancy and error detection to keep data correct."
+        "connection": "Systems need redundancy and fallback procedures so a single failure does not stop everything."
       },
       "sources": [
         {
-          "name": "Engadget",
-          "date": "2026-11-19",
-          "url": "https://www.engadget.com/2321988/google-signs-deal-with-blue-origin-to-send-satellite-data-centers-into-orbit/"
-        }
-      ]
-    },
-    {
-      "id": "met-police-face-app",
-      "type": "news",
-      "category": "Privacy",
-      "headline": "London police test face recognition app on officers' phones",
-      "summary": "For six months, 100 Metropolitan Police officers can photograph people they suspect of an offence and compare the image to a database of custody photos. Officers must explain why, but do not need permission; the app will not be used on anyone thought to be under 13. Police say it speeds up identification. Privacy groups worry about possible bias and how individual officers will use it.",
-      "whyItMatters": "Face recognition turns a photo into data that can be matched against databases. Who controls those databases and how accurate matches are affect real people's rights.",
-      "csp": {
-        "idea": "Impact of Computing",
-        "connection": "Recognition algorithms trained on data can carry bias, raising fairness questions when used on the public."
-      },
-      "sources": [
-        {
-          "name": "BBC News",
-          "date": "2026-11-20",
-          "url": "https://www.bbc.co.uk/news/articles/ckq5vz28367do"
-        }
-      ]
-    },
-    {
-      "id": "uber-kids-pilot",
-      "type": "news",
-      "category": "Transportation",
-      "headline": "Uber tests rides for kids aged 10 to 12",
-      "summary": "Uber is piloting Uber Kids in Austin, Nashville and Madison, Wisconsin. A parent books the ride, must be at pickup, and can watch a live video feed from inside the car. Only invited, highly rated drivers who complete a course can take these trips. Uber uses PIN checks and GPS to flag unexpected stops or route changes. Uber calls it a limited pilot.",
-      "whyItMatters": "Apps are using cameras, GPS and alerts to make safety promises. That means more data is collected about riders, including kids.",
-      "sources": [
-        {
-          "name": "TechCrunch",
-          "date": "2026-11-19",
-          "url": "https://techcrunch.com/2026/11/19/uber-tests-rides-for-kids-as-young-as-10-with-extra-pay-for-drivers/"
+          "name": "The Verge",
+          "date": "2026-11-22",
+          "url": "https://www.theverge.com/transportation/1039779/delta-flights-delayed-system-outage"
         },
         {
-          "name": "Engadget",
-          "date": "2026-11-20",
-          "url": "https://www.engadget.com/2322650/uber-kids-rides-children-aged-10-to-12-years-old/"
+          "name": "The Verge",
+          "date": "2026-11-22",
+          "url": "https://www.theverge.com/tech/1039851/major-tech-outages"
         }
       ]
     },
     {
-      "id": "uk-social-media-ban-study",
+      "id": "superconducting-memory-cell",
       "type": "news",
-      "category": "Social media and health",
-      "headline": "Long-running study will track what a teen social media ban changes",
-      "summary": "The UK plans to ban social media for under-16s starting in spring 2027. Researchers from Children of the 90s, a study that has followed families in Bristol since the early 1990s, will survey children and parents about their mental health and social media habits before and after the ban. They also want to learn what young people turn to instead.",
-      "whyItMatters": "Countries are debating rules about teens online, and data collected before and after a change helps show whether a policy actually works.",
+      "category": "Hardware",
+      "headline": "MIT builds a tiny superconducting memory cell that saves energy",
+      "summary": "Superconductors are materials that carry electricity with no resistance when very cold. MIT researchers made a thin superconducting film sandwiched between two magnetic layers; flipping the magnets turns current flow on or off, which a computer reads as a 1 or 0. The bit stays stored without power, and one cell can be changed without disturbing its neighbor. It is early lab work that still needs extreme cold.",
+      "whyItMatters": "Data centers use huge amounts of energy, so new kinds of memory could make future computers, including quantum ones, more efficient.",
       "csp": {
-        "idea": "Data",
-        "connection": "Comparing data collected before and after a change helps researchers measure its effect."
+        "idea": "Computer Systems and Networks",
+        "connection": "Any physical device with two stable states can store a bit, the smallest unit of data."
+      },
+      "sources": [
+        {
+          "name": "MIT News",
+          "date": "2026-11-20",
+          "url": "https://news.mit.edu/2026/tiny-superconducting-sandwich-could-help-computers-use-less-energy-1120"
+        }
+      ]
+    },
+    {
+      "id": "ai-black-friday-shopping",
+      "type": "news",
+      "category": "Shopping technology",
+      "headline": "AI shopping helpers face a Black Friday test",
+      "summary": "BBC reporters asked ChatGPT, Claude, Gemini and Alexa to find a 55-inch TV deal. Results were mixed: several links led to dead or sold-out pages, some prices were wrong, and Alexa only searched Amazon's own store. Meanwhile, Walmart says it will let Meta's Muse AI agent shop its site for customers starting November 24, with spending limits and purchase approval.",
+      "whyItMatters": "AI tools can save time, but they can also be confidently wrong. Check prices and links yourself before you buy, and know who the AI works for.",
+      "csp": {
+        "idea": "Impact of Computing",
+        "connection": "Automated agents acting for users raise questions about accuracy, trust and control."
       },
       "sources": [
         {
           "name": "BBC News",
-          "date": "2026-11-20",
-          "url": "https://www.bbc.co.uk/news/articles/c3rrgwg7ry1zo"
+          "date": "2026-11-21",
+          "url": "https://www.bbc.co.uk/news/articles/cw8dv4jmnle2o"
+        },
+        {
+          "name": "The Verge",
+          "date": "2026-11-23",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1039874/walmart-agent-gateway-meta-muse-black-friday"
         }
       ]
     },
     {
-      "id": "war-of-1812-records",
+      "id": "isaac-ai-music-metadata",
       "type": "news",
-      "category": "Technology history",
-      "headline": "7 million War of 1812 record pages are now searchable online",
-      "summary": "After 16 years of work, the National Archives and partners finished digitizing more than 180,000 pension applications filed after the War of 1812. Handwriting recognition software makes every word searchable, so people can find anyone named in the files, not just the veterans. The records are free on the Fold3 website and are being added to the National Archives catalog.",
-      "whyItMatters": "Turning fragile paper into searchable data saves history and lets anyone research their family or a school project.",
+      "category": "Gaming",
+      "headline": "Hidden file data exposes AI music in The Binding of Isaac",
+      "summary": "A Reddit user found that songs in one section of the game The Binding of Isaac: Repentance Plus contained metadata, hidden information stored inside files, pointing to the AI music generator Suno. Steam requires developers to disclose AI use, and studio Nicalis does not appear to have done so. Creator Edmund McMillen apologized, saying he had no idea, and the files were removed within hours.",
+      "whyItMatters": "Files often carry more information than you can see, like where and how they were made. Players also care about whether art in games is made by people.",
       "csp": {
         "idea": "Data",
-        "connection": "Digitizing and indexing text turns scanned images into data that can be searched and analyzed."
+        "connection": "Metadata is data about data, and it can reveal a file's origin even when the content looks ordinary."
       },
       "sources": [
         {
-          "name": "Popular Science",
-          "date": "2026-11-19",
-          "url": "https://www.popsci.com/technology/war-of-1812-military-records-digitized/"
+          "name": "The Verge",
+          "date": "2026-11-22",
+          "url": "https://www.theverge.com/games/1039770/binding-of-isaac-ai-music"
         }
       ]
     },
     {
-      "id": "prickly-pear-power",
+      "id": "auracast-theater-hearing",
       "type": "news",
-      "category": "Climate technology",
-      "headline": "Wired-up prickly pear cacti can power small farm sensors",
-      "summary": "Prickly pears store acid at night and use it up on their sunny side by day, creating a chemical difference that can produce electricity. A UC Santa Cruz team found eight connected cacti generate about 4.5 volts, enough to run low-power sensors that monitor crops. Even plants left without water for 15 months still produced electricity.",
-      "whyItMatters": "Sensors that power themselves could collect data in remote fields without batteries. It is a creative mix of biology and computing.",
+      "category": "Accessibility",
+      "headline": "Off-Broadway show streams sound to headphones to share hearing loss",
+      "summary": "In the play Love Me, comedian Drew Michael tells stories shaped by his hearing loss. Every audience member wears headphones that receive Auracast, a Bluetooth feature that broadcasts one audio stream to any number of nearby devices. Sound designers mix clear headphone audio with muffled theater speakers so the audience experiences what Michael hears.",
+      "whyItMatters": "Auracast is already used for accessibility at shows, lectures and announcement systems. This play also has a feed designed for hearing aids and cochlear implants.",
       "csp": {
         "idea": "Computer Systems and Networks",
-        "connection": "Low-power sensors can gather and send data from places without a reliable power supply."
+        "connection": "Broadcasting sends one stream to many receivers at once instead of a separate connection to each."
       },
       "sources": [
         {
-          "name": "Popular Science",
-          "date": "2026-11-19",
-          "url": "https://www.popsci.com/environment/prickly-pear-generate-solar-electricity/"
+          "name": "The Verge",
+          "date": "2026-11-22",
+          "url": "https://www.theverge.com/tech/1038879/off-broadway-love-me-auracast"
+        }
+      ]
+    },
+    {
+      "id": "bladder-cancer-ai-records",
+      "type": "news",
+      "category": "Health technology",
+      "headline": "AI finds early bladder cancer clues in medical records",
+      "summary": "University of Plymouth researchers trained an AI model on health records from nearly 70,000 patients. It narrowed 48,261 possible factors to 38 useful ones and correctly flagged 85% of patients with bladder cancer and 91% of those without it, sometimes a year or more before diagnosis. Some links it found are correlations, not proof of cause, and more testing is needed.",
+      "whyItMatters": "Finding patterns across huge amounts of data could help doctors catch disease earlier and avoid unnecessary invasive tests.",
+      "csp": {
+        "idea": "Data",
+        "connection": "Machine learning finds patterns in large data sets, but correlation does not show causation."
+      },
+      "sources": [
+        {
+          "name": "ScienceDaily",
+          "date": "2026-11-21",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261120075604.htm"
+        }
+      ]
+    },
+    {
+      "id": "meta-ai-emissions",
+      "type": "news",
+      "category": "Climate technology",
+      "headline": "Meta rethinks its 2030 climate goal as AI data centers grow",
+      "summary": "Meta's new sustainability report says its total emissions rose nearly 40 percent, from 15.6 million to over 21.7 million metric tonnes of carbon dioxide equivalent between 2024 and 2025. Meta attributed much of the increase to equipment such as data center servers. Meta says AI demand grew faster than expected and it is re-evaluating its goal of net-zero emissions by 2030.",
+      "whyItMatters": "Every AI request runs on physical computers that need electricity and water. Computing has real environmental costs.",
+      "csp": {
+        "idea": "Impact of Computing",
+        "connection": "Computing innovations can have unintended effects on the environment."
+      },
+      "sources": [
+        {
+          "name": "Ars Technica",
+          "date": "2026-11-20",
+          "url": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/"
+        }
+      ]
+    },
+    {
+      "id": "bepicolombo-mercury-orbit",
+      "type": "news",
+      "category": "Space",
+      "headline": "BepiColombo reaches Mercury orbit after eight-year trip",
+      "summary": "The European and Japanese BepiColombo mission is now orbiting Mercury, the planet closest to the Sun. To slow down enough, it looped past Earth, Venus and Mercury itself several times. Telemetry, data radioed back to Earth, confirmed it arrived, though a software issue made its thrusters fire for a shorter time than planned. Its two spacecraft will separate in the coming weeks.",
+      "whyItMatters": "Engineers control a spacecraft millions of miles away using code and data alone, so software has to be tested for problems no one can fix in person.",
+      "csp": {
+        "idea": "Computer Systems and Networks",
+        "connection": "Telemetry lets engineers monitor a remote system by sending sensor data across a long-distance link."
+      },
+      "sources": [
+        {
+          "name": "BBC News",
+          "date": "2026-11-22",
+          "url": "https://www.bbc.co.uk/news/articles/c39w9l4v1p9ro"
         }
       ]
     }
