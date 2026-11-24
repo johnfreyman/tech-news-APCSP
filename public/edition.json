@@ -1,187 +1,177 @@
 {
   "schemaVersion": 1,
-  "editionId": "2026-11-23-daily",
-  "date": "2026-11-23",
-  "coverage": "Nine stories · AI prompt leaks, flight outage, superconducting memory, AI shopping, game metadata, Auracast, cancer AI, emissions, Mercury",
+  "editionId": "2026-11-24-daily",
+  "date": "2026-11-24",
+  "coverage": "Nine stories · AI hacking agents, Ladybird, chip-design AI, recorded rides, camera glasses, SlideTag, languages, active matter, pricing",
   "cards": [
     {
-      "id": "ai-prompt-canaries",
+      "id": "ai-agents-zero-day",
       "type": "news",
       "category": "Cybersecurity",
-      "headline": "Planted secrets show AI prompts leaking through middleman services",
-      "summary": "Security researcher HD Moore sent nearly 2 million AI prompts, each hiding a unique fake password, key or link, through services that pass prompts between apps and AI models. He then watched for those \"canaries\" to be used. Attackers who broke into at least three AI hosting providers stole and tried the bait keys, some resellers logged prompts, and some providers ignored \"don't keep my data\" settings.",
-      "whyItMatters": "Anything you type into an AI app may travel through several companies you never chose. Never paste passwords or private information into a chatbot.",
+      "headline": "Amazon says attackers' AI agents found an unknown software flaw",
+      "summary": "Amazon reports that attackers gave AI agents running Cairn, an open-source hacking tool built for defenders, a list of servers and one goal: get access. Most attempts failed, but against a medical imaging app the agents found a zero-day, a flaw nobody had reported yet. Within about 11 minutes they could write files to the server, and later used the flaw to take full control. Palo Alto Networks has reported other attacks using the same tool.",
+      "whyItMatters": "The same AI tools that help defenders test their systems can help attackers too, and they work faster than many security teams can respond.",
       "csp": {
-        "idea": "Computer Systems and Networks",
-        "connection": "Data can be read at every hop where it is decrypted, so each extra system in the path adds risk."
+        "idea": "Impact of Computing",
+        "connection": "Many computing tools are dual-use: built to help, they can also be used to cause harm."
       },
       "sources": [
         {
           "name": "Ars Technica",
-          "date": "2026-11-20",
-          "url": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/"
+          "date": "2026-11-24",
+          "url": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/"
         }
       ]
     },
     {
-      "id": "delta-weight-system-outage",
+      "id": "ladybird-browser-alpha",
       "type": "news",
-      "category": "Computer systems",
-      "headline": "Software outage delays Delta flights at the world's busiest airport",
-      "summary": "On Sunday, all Delta flights in and out of Atlanta were delayed after a system went down that calculates a plane's total weight and balance, including fuel, passengers and bags. Delta said staff used manual workarounds while repairing it. It followed a nationwide FAA ground stop and a multi-day Outlook outage the week before; Microsoft's president warned more outages may come as systems are upgraded.",
-      "whyItMatters": "Flying safely now depends on software doing math every trip. When one system fails, people need a backup plan, like doing the calculations by hand.",
+      "category": "Software",
+      "headline": "Ladybird, a browser built from scratch, opens for early testing",
+      "summary": "A browser engine is the software that turns a web page's code into what you see on screen. Today, most browsers run on one of three engines: Blink (Chrome, Edge), WebKit (Safari) or Gecko (Firefox). Ladybird, backed by a nonprofit, wrote a new engine and released an alpha, an early test version, for macOS and Linux after more than four years. Its developer warns some websites won't work yet.",
+      "whyItMatters": "When only a few engines run the web, a few companies shape how it works. A new engine gives the web more independence and more choice.",
       "csp": {
         "idea": "Computer Systems and Networks",
-        "connection": "Systems need redundancy and fallback procedures so a single failure does not stop everything."
+        "connection": "Web pages follow open standards so that different browser engines can display the same page."
       },
       "sources": [
         {
           "name": "The Verge",
-          "date": "2026-11-22",
-          "url": "https://www.theverge.com/transportation/1039779/delta-flights-delayed-system-outage"
-        },
-        {
-          "name": "The Verge",
-          "date": "2026-11-22",
-          "url": "https://www.theverge.com/tech/1039851/major-tech-outages"
+          "date": "2026-11-23",
+          "url": "https://www.theverge.com/tech/1040872/ladybird-indie-browser-engine-alpha-testing"
         }
       ]
     },
     {
-      "id": "superconducting-memory-cell",
+      "id": "mit-small-model-chip-design",
       "type": "news",
-      "category": "Hardware",
-      "headline": "MIT builds a tiny superconducting memory cell that saves energy",
-      "summary": "Superconductors are materials that carry electricity with no resistance when very cold. MIT researchers made a thin superconducting film sandwiched between two magnetic layers; flipping the magnets turns current flow on or off, which a computer reads as a 1 or 0. The bit stays stored without power, and one cell can be changed without disturbing its neighbor. It is early lab work that still needs extreme cold.",
-      "whyItMatters": "Data centers use huge amounts of energy, so new kinds of memory could make future computers, including quantum ones, more efficient.",
+      "category": "AI and hardware",
+      "headline": "MIT trains a laptop-sized AI to help design analog chips",
+      "summary": "Analog chips handle real-world signals, like boosting a phone's wireless signal. Designing them usually means lots of manual tuning. MIT researchers built SLIC, a training method that teaches a small language model to guess a design, run a simulation, check the result and improve it. Small enough to run on a laptop, it came close to a much larger AI model while using far less computing power.",
+      "whyItMatters": "Smaller AI that runs locally can keep private data off outside servers and use much less energy than giant cloud models.",
       "csp": {
-        "idea": "Computer Systems and Networks",
-        "connection": "Any physical device with two stable states can store a bit, the smallest unit of data."
+        "idea": "Algorithms and Programming",
+        "connection": "Guess, test and refine is an iterative algorithm: repeat steps until the result meets a goal."
       },
       "sources": [
         {
           "name": "MIT News",
-          "date": "2026-11-20",
-          "url": "https://news.mit.edu/2026/tiny-superconducting-sandwich-could-help-computers-use-less-energy-1120"
+          "date": "2026-11-23",
+          "url": "https://news.mit.edu/2026/ai-driven-technique-could-help-engineers-design-analog-chips-faster-and-less-expensive-1123"
         }
       ]
     },
     {
-      "id": "ai-black-friday-shopping",
+      "id": "uber-recorded-rides",
       "type": "news",
-      "category": "Shopping technology",
-      "headline": "AI shopping helpers face a Black Friday test",
-      "summary": "BBC reporters asked ChatGPT, Claude, Gemini and Alexa to find a 55-inch TV deal. Results were mixed: several links led to dead or sold-out pages, some prices were wrong, and Alexa only searched Amazon's own store. Meanwhile, Walmart says it will let Meta's Muse AI agent shop its site for customers starting November 24, with spending limits and purchase approval.",
-      "whyItMatters": "AI tools can save time, but they can also be confidently wrong. Check prices and links yourself before you buy, and know who the AI works for.",
+      "category": "Transportation",
+      "headline": "Uber tests letting riders choose trips that are video recorded",
+      "summary": "Uber is piloting \"Recorded Rides,\" which matches riders with drivers whose phone camera records the whole trip. The test starts in Baltimore, Raleigh, Indianapolis and St. Louis, focusing on late-night rides and rides involving teens. Uber is also testing recording that turns on if a trip goes off course. Drivers can opt out, and riders can decline permission in the app.",
+      "whyItMatters": "Recording can make people feel safer, but it also creates video of passengers. Someone has to decide who can see it and how long it is kept.",
       "csp": {
         "idea": "Impact of Computing",
-        "connection": "Automated agents acting for users raise questions about accuracy, trust and control."
+        "connection": "Collecting data can improve safety while also raising privacy concerns."
       },
       "sources": [
         {
-          "name": "BBC News",
-          "date": "2026-11-21",
-          "url": "https://www.bbc.co.uk/news/articles/cw8dv4jmnle2o"
-        },
-        {
-          "name": "The Verge",
+          "name": "TechCrunch",
           "date": "2026-11-23",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1039874/walmart-agent-gateway-meta-muse-black-friday"
+          "url": "https://techcrunch.com/2026/11/23/uber-now-lets-you-book-rides-that-record-the-drive-by-default/"
         }
       ]
     },
     {
-      "id": "isaac-ai-music-metadata",
+      "id": "dutch-camera-glasses-warning",
       "type": "news",
-      "category": "Gaming",
-      "headline": "Hidden file data exposes AI music in The Binding of Isaac",
-      "summary": "A Reddit user found that songs in one section of the game The Binding of Isaac: Repentance Plus contained metadata, hidden information stored inside files, pointing to the AI music generator Suno. Steam requires developers to disclose AI use, and studio Nicalis does not appear to have done so. Creator Edmund McMillen apologized, saying he had no idea, and the files were removed within hours.",
-      "whyItMatters": "Files often carry more information than you can see, like where and how they were made. Players also care about whether art in games is made by people.",
+      "category": "Privacy",
+      "headline": "Dutch privacy regulator urges people not to buy AI camera glasses",
+      "summary": "The Dutch Data Protection Authority warned that smart glasses with cameras and AI put bystanders' privacy at risk, saying recording people in public with them is \"almost always prohibited.\" In its own tests, one pair misread a medicine label and claimed to have called an ambulance when it had not. Norway said in September it was considering a ban on camera devices.",
+      "whyItMatters": "People near you can be recorded without knowing it. The tests also show AI assistants can give wrong answers about important things like medicine.",
       "csp": {
-        "idea": "Data",
-        "connection": "Metadata is data about data, and it can reveal a file's origin even when the content looks ordinary."
+        "idea": "Impact of Computing",
+        "connection": "Wearable devices that collect data about others raise questions of consent."
       },
       "sources": [
         {
-          "name": "The Verge",
-          "date": "2026-11-22",
-          "url": "https://www.theverge.com/games/1039770/binding-of-isaac-ai-music"
+          "name": "TechCrunch",
+          "date": "2026-11-23",
+          "url": "https://techcrunch.com/2026/11/23/dutch-privacy-authority-urges-consumers-not-to-buy-pervert-glasses/"
         }
       ]
     },
     {
-      "id": "auracast-theater-hearing",
+      "id": "kodak-slidetag",
       "type": "news",
-      "category": "Accessibility",
-      "headline": "Off-Broadway show streams sound to headphones to share hearing loss",
-      "summary": "In the play Love Me, comedian Drew Michael tells stories shaped by his hearing loss. Every audience member wears headphones that receive Auracast, a Bluetooth feature that broadcasts one audio stream to any number of nearby devices. Sound designers mix clear headphone audio with muffled theater speakers so the audience experiences what Michael hears.",
-      "whyItMatters": "Auracast is already used for accessibility at shows, lectures and announcement systems. This play also has a feed designed for hearing aids and cochlear implants.",
+      "category": "Gadgets",
+      "headline": "Kodak's keychain gadget is both a tiny photo frame and a tracker",
+      "summary": "Kodak's SlideTag, styled after old photo slides, has a 1.54-inch color e-ink screen, the paper-like display type used in e-readers. A phone app can set it to show photos, a to-do list, a timer or a QR code. It also works with Apple's Find My and Google's Find Hub networks to locate lost items. It sells for $35 in a blind box with random designs.",
+      "whyItMatters": "Trackers like this rely on a network of other people's phones to help locate lost items. One small device can now do several jobs.",
       "csp": {
         "idea": "Computer Systems and Networks",
-        "connection": "Broadcasting sends one stream to many receivers at once instead of a separate connection to each."
+        "connection": "Find My networks use many phones as relays to report a tracker's position to its owner."
       },
       "sources": [
         {
-          "name": "The Verge",
-          "date": "2026-11-22",
-          "url": "https://www.theverge.com/tech/1038879/off-broadway-love-me-auracast"
+          "name": "Engadget",
+          "date": "2026-11-23",
+          "url": "https://www.engadget.com/2325598/kodak-slidetag-combines-a-digital-photo-frame-and-an-airtag/"
         }
       ]
     },
     {
-      "id": "bladder-cancer-ai-records",
+      "id": "mit-languages-brain-ai",
       "type": "news",
-      "category": "Health technology",
-      "headline": "AI finds early bladder cancer clues in medical records",
-      "summary": "University of Plymouth researchers trained an AI model on health records from nearly 70,000 patients. It narrowed 48,261 possible factors to 38 useful ones and correctly flagged 85% of patients with bladder cancer and 91% of those without it, sometimes a year or more before diagnosis. Some links it found are correlations, not proof of cause, and more testing is needed.",
-      "whyItMatters": "Finding patterns across huge amounts of data could help doctors catch disease earlier and avoid unnecessary invasive tests.",
+      "category": "Science",
+      "headline": "AI helps show brains handle 21 languages in a shared way",
+      "summary": "MIT researchers used brain scans from speakers of 21 languages, including new recordings of people hearing Alice in Wonderland in their native language. They combined the scans with multilingual AI models, which turn words into numbers, to predict brain responses. A model trained on one language, like French, could predict responses in another, like Vietnamese, suggesting brains represent meaning in a common way.",
+      "whyItMatters": "AI tools are becoming instruments for science. This work could help health tools work for speakers of many languages, not just English.",
       "csp": {
         "idea": "Data",
-        "connection": "Machine learning finds patterns in large data sets, but correlation does not show causation."
+        "connection": "Representing words as numbers lets computers compare meaning across very different languages."
+      },
+      "sources": [
+        {
+          "name": "MIT News",
+          "date": "2026-11-23",
+          "url": "https://news.mit.edu/2026/many-languages-one-common-neural-code-1123"
+        }
+      ]
+    },
+    {
+      "id": "active-matter-robots",
+      "type": "news",
+      "category": "Robotics",
+      "headline": "Chains of tiny motors bend and snap to crawl and walk",
+      "summary": "Active matter is material with its own energy source that can move by itself. Researchers in the Netherlands, Australia and the UK linked rods with small motors at each joint. Instead of bending once when pushed, the chains kept buckling and snapping, producing motion like crawling, walking and digging. A second study found that how parts connect can matter as much as how active each part is.",
+      "whyItMatters": "This could lead to soft robots whose bodies create complex movement without one central computer controlling every step.",
+      "csp": {
+        "idea": "Computer Systems and Networks",
+        "connection": "Decentralized systems spread work across many parts instead of relying on a single controller."
       },
       "sources": [
         {
           "name": "ScienceDaily",
-          "date": "2026-11-21",
-          "url": "https://www.sciencedaily.com/releases/2026/11/261120075604.htm"
+          "date": "2026-11-23",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261121221137.htm"
         }
       ]
     },
     {
-      "id": "meta-ai-emissions",
-      "type": "news",
-      "category": "Climate technology",
-      "headline": "Meta rethinks its 2030 climate goal as AI data centers grow",
-      "summary": "Meta's new sustainability report says its total emissions rose nearly 40 percent, from 15.6 million to over 21.7 million metric tonnes of carbon dioxide equivalent between 2024 and 2025. Meta attributed much of the increase to equipment such as data center servers. Meta says AI demand grew faster than expected and it is re-evaluating its goal of net-zero emissions by 2030.",
-      "whyItMatters": "Every AI request runs on physical computers that need electricity and water. Computing has real environmental costs.",
+      "id": "csp-surveillance-pricing",
+      "type": "concept",
+      "category": "CSP in the Wild",
+      "headline": "CSP in the Wild: When your data sets the price you see",
+      "summary": "Surveillance pricing uses algorithms and personal data, like your location, device or browsing history, to charge different people different prices for the same thing. It differs from surge pricing, which reacts to supply and demand. Ars Technica reports past examples, including Target's app allegedly showing a TV price $100 higher to shoppers inside a store. The FTC said in 2025 that at least 250 companies used it.",
+      "whyItMatters": "Two people can see different prices for the same item. Deciding ahead of time what you will pay and comparing prices helps protect you.",
       "csp": {
-        "idea": "Impact of Computing",
-        "connection": "Computing innovations can have unintended effects on the environment."
+        "idea": "Data",
+        "connection": "Algorithms trained on personal data can produce unfair or biased results for some groups."
       },
       "sources": [
         {
           "name": "Ars Technica",
-          "date": "2026-11-20",
-          "url": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/"
-        }
-      ]
-    },
-    {
-      "id": "bepicolombo-mercury-orbit",
-      "type": "news",
-      "category": "Space",
-      "headline": "BepiColombo reaches Mercury orbit after eight-year trip",
-      "summary": "The European and Japanese BepiColombo mission is now orbiting Mercury, the planet closest to the Sun. To slow down enough, it looped past Earth, Venus and Mercury itself several times. Telemetry, data radioed back to Earth, confirmed it arrived, though a software issue made its thrusters fire for a shorter time than planned. Its two spacecraft will separate in the coming weeks.",
-      "whyItMatters": "Engineers control a spacecraft millions of miles away using code and data alone, so software has to be tested for problems no one can fix in person.",
-      "csp": {
-        "idea": "Computer Systems and Networks",
-        "connection": "Telemetry lets engineers monitor a remote system by sending sensor data across a long-distance link."
-      },
-      "sources": [
-        {
-          "name": "BBC News",
-          "date": "2026-11-22",
-          "url": "https://www.bbc.co.uk/news/articles/c39w9l4v1p9ro"
+          "date": "2026-11-23",
+          "url": "https://arstechnica.com/tech-policy/2026/11/surveillance-pricing-uses-our-personal-data-to-make-us-pay-more/"
         }
       ]
     }

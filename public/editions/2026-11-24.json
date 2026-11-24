@@ -1,0 +1,179 @@
+{
+  "schemaVersion": 1,
+  "editionId": "2026-11-24-daily",
+  "date": "2026-11-24",
+  "coverage": "Nine stories · AI hacking agents, Ladybird, chip-design AI, recorded rides, camera glasses, SlideTag, languages, active matter, pricing",
+  "cards": [
+    {
+      "id": "ai-agents-zero-day",
+      "type": "news",
+      "category": "Cybersecurity",
+      "headline": "Amazon says attackers' AI agents found an unknown software flaw",
+      "summary": "Amazon reports that attackers gave AI agents running Cairn, an open-source hacking tool built for defenders, a list of servers and one goal: get access. Most attempts failed, but against a medical imaging app the agents found a zero-day, a flaw nobody had reported yet. Within about 11 minutes they could write files to the server, and later used the flaw to take full control. Palo Alto Networks has reported other attacks using the same tool.",
+      "whyItMatters": "The same AI tools that help defenders test their systems can help attackers too, and they work faster than many security teams can respond.",
+      "csp": {
+        "idea": "Impact of Computing",
+        "connection": "Many computing tools are dual-use: built to help, they can also be used to cause harm."
+      },
+      "sources": [
+        {
+          "name": "Ars Technica",
+          "date": "2026-11-24",
+          "url": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/"
+        }
+      ]
+    },
+    {
+      "id": "ladybird-browser-alpha",
+      "type": "news",
+      "category": "Software",
+      "headline": "Ladybird, a browser built from scratch, opens for early testing",
+      "summary": "A browser engine is the software that turns a web page's code into what you see on screen. Today, most browsers run on one of three engines: Blink (Chrome, Edge), WebKit (Safari) or Gecko (Firefox). Ladybird, backed by a nonprofit, wrote a new engine and released an alpha, an early test version, for macOS and Linux after more than four years. Its developer warns some websites won't work yet.",
+      "whyItMatters": "When only a few engines run the web, a few companies shape how it works. A new engine gives the web more independence and more choice.",
+      "csp": {
+        "idea": "Computer Systems and Networks",
+        "connection": "Web pages follow open standards so that different browser engines can display the same page."
+      },
+      "sources": [
+        {
+          "name": "The Verge",
+          "date": "2026-11-23",
+          "url": "https://www.theverge.com/tech/1040872/ladybird-indie-browser-engine-alpha-testing"
+        }
+      ]
+    },
+    {
+      "id": "mit-small-model-chip-design",
+      "type": "news",
+      "category": "AI and hardware",
+      "headline": "MIT trains a laptop-sized AI to help design analog chips",
+      "summary": "Analog chips handle real-world signals, like boosting a phone's wireless signal. Designing them usually means lots of manual tuning. MIT researchers built SLIC, a training method that teaches a small language model to guess a design, run a simulation, check the result and improve it. Small enough to run on a laptop, it came close to a much larger AI model while using far less computing power.",
+      "whyItMatters": "Smaller AI that runs locally can keep private data off outside servers and use much less energy than giant cloud models.",
+      "csp": {
+        "idea": "Algorithms and Programming",
+        "connection": "Guess, test and refine is an iterative algorithm: repeat steps until the result meets a goal."
+      },
+      "sources": [
+        {
+          "name": "MIT News",
+          "date": "2026-11-23",
+          "url": "https://news.mit.edu/2026/ai-driven-technique-could-help-engineers-design-analog-chips-faster-and-less-expensive-1123"
+        }
+      ]
+    },
+    {
+      "id": "uber-recorded-rides",
+      "type": "news",
+      "category": "Transportation",
+      "headline": "Uber tests letting riders choose trips that are video recorded",
+      "summary": "Uber is piloting \"Recorded Rides,\" which matches riders with drivers whose phone camera records the whole trip. The test starts in Baltimore, Raleigh, Indianapolis and St. Louis, focusing on late-night rides and rides involving teens. Uber is also testing recording that turns on if a trip goes off course. Drivers can opt out, and riders can decline permission in the app.",
+      "whyItMatters": "Recording can make people feel safer, but it also creates video of passengers. Someone has to decide who can see it and how long it is kept.",
+      "csp": {
+        "idea": "Impact of Computing",
+        "connection": "Collecting data can improve safety while also raising privacy concerns."
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "date": "2026-11-23",
+          "url": "https://techcrunch.com/2026/11/23/uber-now-lets-you-book-rides-that-record-the-drive-by-default/"
+        }
+      ]
+    },
+    {
+      "id": "dutch-camera-glasses-warning",
+      "type": "news",
+      "category": "Privacy",
+      "headline": "Dutch privacy regulator urges people not to buy AI camera glasses",
+      "summary": "The Dutch Data Protection Authority warned that smart glasses with cameras and AI put bystanders' privacy at risk, saying recording people in public with them is \"almost always prohibited.\" In its own tests, one pair misread a medicine label and claimed to have called an ambulance when it had not. Norway said in September it was considering a ban on camera devices.",
+      "whyItMatters": "People near you can be recorded without knowing it. The tests also show AI assistants can give wrong answers about important things like medicine.",
+      "csp": {
+        "idea": "Impact of Computing",
+        "connection": "Wearable devices that collect data about others raise questions of consent."
+      },
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "date": "2026-11-23",
+          "url": "https://techcrunch.com/2026/11/23/dutch-privacy-authority-urges-consumers-not-to-buy-pervert-glasses/"
+        }
+      ]
+    },
+    {
+      "id": "kodak-slidetag",
+      "type": "news",
+      "category": "Gadgets",
+      "headline": "Kodak's keychain gadget is both a tiny photo frame and a tracker",
+      "summary": "Kodak's SlideTag, styled after old photo slides, has a 1.54-inch color e-ink screen, the paper-like display type used in e-readers. A phone app can set it to show photos, a to-do list, a timer or a QR code. It also works with Apple's Find My and Google's Find Hub networks to locate lost items. It sells for $35 in a blind box with random designs.",
+      "whyItMatters": "Trackers like this rely on a network of other people's phones to help locate lost items. One small device can now do several jobs.",
+      "csp": {
+        "idea": "Computer Systems and Networks",
+        "connection": "Find My networks use many phones as relays to report a tracker's position to its owner."
+      },
+      "sources": [
+        {
+          "name": "Engadget",
+          "date": "2026-11-23",
+          "url": "https://www.engadget.com/2325598/kodak-slidetag-combines-a-digital-photo-frame-and-an-airtag/"
+        }
+      ]
+    },
+    {
+      "id": "mit-languages-brain-ai",
+      "type": "news",
+      "category": "Science",
+      "headline": "AI helps show brains handle 21 languages in a shared way",
+      "summary": "MIT researchers used brain scans from speakers of 21 languages, including new recordings of people hearing Alice in Wonderland in their native language. They combined the scans with multilingual AI models, which turn words into numbers, to predict brain responses. A model trained on one language, like French, could predict responses in another, like Vietnamese, suggesting brains represent meaning in a common way.",
+      "whyItMatters": "AI tools are becoming instruments for science. This work could help health tools work for speakers of many languages, not just English.",
+      "csp": {
+        "idea": "Data",
+        "connection": "Representing words as numbers lets computers compare meaning across very different languages."
+      },
+      "sources": [
+        {
+          "name": "MIT News",
+          "date": "2026-11-23",
+          "url": "https://news.mit.edu/2026/many-languages-one-common-neural-code-1123"
+        }
+      ]
+    },
+    {
+      "id": "active-matter-robots",
+      "type": "news",
+      "category": "Robotics",
+      "headline": "Chains of tiny motors bend and snap to crawl and walk",
+      "summary": "Active matter is material with its own energy source that can move by itself. Researchers in the Netherlands, Australia and the UK linked rods with small motors at each joint. Instead of bending once when pushed, the chains kept buckling and snapping, producing motion like crawling, walking and digging. A second study found that how parts connect can matter as much as how active each part is.",
+      "whyItMatters": "This could lead to soft robots whose bodies create complex movement without one central computer controlling every step.",
+      "csp": {
+        "idea": "Computer Systems and Networks",
+        "connection": "Decentralized systems spread work across many parts instead of relying on a single controller."
+      },
+      "sources": [
+        {
+          "name": "ScienceDaily",
+          "date": "2026-11-23",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261121221137.htm"
+        }
+      ]
+    },
+    {
+      "id": "csp-surveillance-pricing",
+      "type": "concept",
+      "category": "CSP in the Wild",
+      "headline": "CSP in the Wild: When your data sets the price you see",
+      "summary": "Surveillance pricing uses algorithms and personal data, like your location, device or browsing history, to charge different people different prices for the same thing. It differs from surge pricing, which reacts to supply and demand. Ars Technica reports past examples, including Target's app allegedly showing a TV price $100 higher to shoppers inside a store. The FTC said in 2025 that at least 250 companies used it.",
+      "whyItMatters": "Two people can see different prices for the same item. Deciding ahead of time what you will pay and comparing prices helps protect you.",
+      "csp": {
+        "idea": "Data",
+        "connection": "Algorithms trained on personal data can produce unfair or biased results for some groups."
+      },
+      "sources": [
+        {
+          "name": "Ars Technica",
+          "date": "2026-11-23",
+          "url": "https://arstechnica.com/tech-policy/2026/11/surveillance-pricing-uses-our-personal-data-to-make-us-pay-more/"
+        }
+      ]
+    }
+  ]
+}
