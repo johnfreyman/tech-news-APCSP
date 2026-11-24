@@ -47,7 +47,7 @@
       "type": "news",
       "category": "AI and hardware",
       "headline": "MIT trains a laptop-sized AI to help design analog chips",
-      "summary": "Analog chips handle real-world signals, like boosting a phone's wireless signal. Designing them usually means lots of manual tuning. MIT researchers built SLIC, a training method that teaches a small language model to guess a design, run a simulation, check the result and improve it. Running on a laptop, it came close to a much larger AI model while using far less computing power.",
+      "summary": "Analog chips handle real-world signals, like boosting a phone's wireless signal. Designing them usually means lots of manual tuning. MIT researchers built SLIC, a training method that teaches a small language model to guess a design, run a simulation, check the result and improve it. Small enough to run on a laptop, it came close to a much larger AI model while using far less computing power.",
       "whyItMatters": "Smaller AI that runs locally can keep private data off outside servers and use much less energy than giant cloud models.",
       "csp": {
         "idea": "Algorithms and Programming",
@@ -123,7 +123,7 @@
       "type": "news",
       "category": "Science",
       "headline": "AI helps show brains handle 21 languages in a shared way",
-      "summary": "MIT researchers recorded brain activity as speakers of 21 languages listened to Alice in Wonderland in their native language. They combined the scans with multilingual AI models, which turn words into numbers, to predict brain responses. A model trained on one language, like French, could predict responses in another, like Vietnamese, suggesting brains represent meaning in a common way.",
+      "summary": "MIT researchers used brain scans from speakers of 21 languages, including new recordings of people hearing Alice in Wonderland in their native language. They combined the scans with multilingual AI models, which turn words into numbers, to predict brain responses. A model trained on one language, like French, could predict responses in another, like Vietnamese, suggesting brains represent meaning in a common way.",
       "whyItMatters": "AI tools are becoming instruments for science. This work could help health tools work for speakers of many languages, not just English.",
       "csp": {
         "idea": "Data",
