@@ -1,0 +1,184 @@
+{
+  "schemaVersion": 1,
+  "editionId": "2026-11-25-daily",
+  "date": "2026-11-25",
+  "coverage": "Nine stories · Microsoft outage, Tidal AI ban, IBM quantum, TangiMap, AI voice, car subscriptions, drone crash, Mars, trash robots",
+  "cards": [
+    {
+      "id": "microsoft-outage-code-red",
+      "type": "news",
+      "category": "Cloud computing",
+      "headline": "Microsoft declares \"Code Red\" after its biggest email outage",
+      "summary": "Reuters reports internal Microsoft memos saying the November 12 outage of Outlook, Exchange Online and Teams had the most customer impact in Exchange Online's history. Microsoft's report blamed a hidden Windows bug from July that jammed gateway servers, the computers that route traffic. Engineers traded more than 11,000 messages across 11 chats while fixing it. Microsoft now aims to fix major outages within an hour.",
+      "whyItMatters": "Schools and businesses rely on cloud email. One hidden bug can sit unnoticed for months, then knock out a service for millions of people at once.",
+      "csp": {
+        "idea": "Computer Systems and Networks",
+        "connection": "Fault-tolerant systems add backup capacity so one failure doesn't take down the whole service."
+      },
+      "sources": [
+        {
+          "name": "Ars Technica",
+          "date": "2026-11-24",
+          "url": "https://arstechnica.com/gadgets/2026/11/microsofts-historic-cloud-outage-exposed-an-engineering-fog-of-war/"
+        },
+        {
+          "name": "The Verge",
+          "date": "2026-11-25",
+          "url": "https://www.theverge.com/news/1042025/microsoft-code-red-outlook-outage"
+        }
+      ]
+    },
+    {
+      "id": "tidal-bans-ai-music",
+      "type": "news",
+      "category": "Music",
+      "headline": "Tidal will delete 27 million fully AI-generated songs",
+      "summary": "Music streaming service Tidal says that starting December 9 it will ban songs made entirely by AI and remove the 27 million AI-labeled tracks it hosts, about 6.3% of its catalog. Tidal says 43% of new uploads in the past 90 days were fully AI-generated, and 96% of AI-labeled tracks got zero plays. Artists can still use AI tools if the final song includes human work.",
+      "whyItMatters": "AI uploads can crowd out human musicians and pull away royalty money. Detecting AI-made content is hard, so platforms keep facing new versions of this problem.",
+      "csp": {
+        "idea": "Impact of Computing",
+        "connection": "Digital watermarks hidden in audio can help computers identify where content came from."
+      },
+      "sources": [
+        {
+          "name": "Ars Technica",
+          "date": "2026-11-24",
+          "url": "https://arstechnica.com/ai/2026/11/tidal-will-ban-fully-ai-generated-music-on-december-9/"
+        }
+      ]
+    },
+    {
+      "id": "ibm-quantum-verified",
+      "type": "news",
+      "category": "Quantum computing",
+      "headline": "IBM reports a quantum computation it could also check for accuracy",
+      "summary": "IBM and University of Chicago researchers say an IBM quantum computer finished a task in about 15 minutes that leading methods on regular computers would take impractically long to copy. Qubits, a quantum computer's version of bits, are easily disrupted, so the team grouped them into 70 protected \"logical qubits\" that catch errors. IBM says this lets it measure how trustworthy the result is.",
+      "whyItMatters": "A super-fast answer is useless if no one can check it. Building in ways to catch errors is a key step before quantum computers can tackle real problems.",
+      "csp": {
+        "idea": "Computer Systems and Networks",
+        "connection": "Redundancy, storing information more than once, lets a system detect and recover from errors."
+      },
+      "sources": [
+        {
+          "name": "ScienceDaily",
+          "date": "2026-11-23",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261123231244.htm"
+        }
+      ]
+    },
+    {
+      "id": "mit-tangimap-controls",
+      "type": "news",
+      "category": "Interfaces",
+      "headline": "MIT's TangiMap turns knobs and sliders into custom app controls",
+      "summary": "Phones and cars keep replacing physical buttons with touchscreens. MIT researchers built TangiMap, which uses an AI agent to learn what a program can do, then assigns its functions to knobs, sliders and buttons on devices like a DJ mixer. In tests, a mixer edited photos in Adobe Lightroom, adjusted 3D models in Blender, and buttons animated a cartoon character live.",
+      "whyItMatters": "Physical controls let you work without looking and change several settings at once. Reusing devices you already own could make creative software faster and more accessible.",
+      "csp": {
+        "idea": "Creative Development",
+        "connection": "Good interface design matches the input method to how people actually work."
+      },
+      "sources": [
+        {
+          "name": "MIT News",
+          "date": "2026-11-24",
+          "url": "https://news.mit.edu/2026/tangimap-agentic-system-personalizes-physical-controls-help-users-dj-their-art-1124"
+        }
+      ]
+    },
+    {
+      "id": "ea-fc-motson-ai-voice",
+      "type": "news",
+      "category": "Gaming",
+      "headline": "EA recreates a late commentator's voice with AI for FC 27",
+      "summary": "EA Sports FC 27, the soccer game once called FIFA, will add commentary from John Motson, the series' first commentator, who died in 2023. EA combined his old recordings with generative AI so he can name today's players. EA says it paid his family, who approved. A group that campaigns against voice cloning says people should agree to it themselves before they die.",
+      "whyItMatters": "AI can now recreate a real person's voice. That raises new questions about consent and about who controls your voice and likeness, even after death.",
+      "csp": {
+        "idea": "Impact of Computing",
+        "connection": "Generative AI can create realistic media of real people, raising consent and ownership questions."
+      },
+      "sources": [
+        {
+          "name": "BBC News",
+          "date": "2026-11-25",
+          "url": "https://www.bbc.co.uk/news/articles/c65y10j841jpo"
+        }
+      ]
+    },
+    {
+      "id": "ny-car-feature-subscriptions",
+      "type": "news",
+      "category": "Transportation",
+      "headline": "New York bans subscriptions for features already built into cars",
+      "summary": "Governor Kathy Hochul signed a law, taking effect February 27, 2027, that stops carmakers and dealers from charging monthly fees for features that use hardware already in the car and have no ongoing cost, like heated seats. Ars Technica notes a possible loophole: features such as navigation and hands-free driving need map and software updates, so companies may argue those still cost money.",
+      "whyItMatters": "Cars are now computers on wheels, and software can turn features on or off. Laws like this decide whether you fully own what you buy.",
+      "csp": {
+        "idea": "Impact of Computing",
+        "connection": "Software can lock or unlock hardware, so who controls the code affects what owners can do."
+      },
+      "sources": [
+        {
+          "name": "Ars Technica",
+          "date": "2026-11-24",
+          "url": "https://arstechnica.com/cars/2026/11/new-york-says-no-more-subscriptions-for-in-car-features-or-does-it/"
+        }
+      ]
+    },
+    {
+      "id": "amazon-drone-crash-faa",
+      "type": "news",
+      "category": "Transportation",
+      "headline": "FAA investigates Amazon delivery drone that hit a cable and crashed",
+      "summary": "On November 20 in Huntington Woods, Michigan, an Amazon Prime Air drone dropped off a shampoo order, then caught a propeller on a thin fiber-optic cable during takeoff and landed on a neighbor's garage roof. The Federal Aviation Administration (FAA) is investigating. Amazon's drones have sensors meant to avoid obstacles, and Amazon says they make nearly 6,000 flights a day.",
+      "whyItMatters": "Sensors that avoid big obstacles can still miss thin wires. Testing for rare situations matters more as robots and drones move into neighborhoods.",
+      "csp": {
+        "idea": "Algorithms and Programming",
+        "connection": "Programs must be tested on edge cases, unusual inputs that are easy to overlook."
+      },
+      "sources": [
+        {
+          "name": "Ars Technica",
+          "date": "2026-11-24",
+          "url": "https://arstechnica.com/gadgets/2026/11/faa-opens-probe-after-amazon-delivery-drone-clips-cable-crashes-into-garage/"
+        }
+      ]
+    },
+    {
+      "id": "nasa-mars-fleet-offline",
+      "type": "news",
+      "category": "Space",
+      "headline": "Radio and steering problems pause two NASA Mars missions",
+      "summary": "NASA's Perseverance rover paused science after one radio stopped responding and its backup sent only about half its expected power. It now talks directly to Earth at a much lower data rate. The Odyssey orbiter lost one of its spinning reaction wheels, used for pointing, and without three wheels may have fuel for only one to two months. Engineers are still troubleshooting.",
+      "whyItMatters": "Engineers can't repair hardware 115 million miles away. Backup systems and careful remote troubleshooting decide whether these missions keep working.",
+      "csp": {
+        "idea": "Computer Systems and Networks",
+        "connection": "Orbiters relay rover data to Earth, much like routers pass data across the internet."
+      },
+      "sources": [
+        {
+          "name": "Ars Technica",
+          "date": "2026-11-24",
+          "url": "https://arstechnica.com/space/2026/11/half-of-nasas-aging-mars-fleet-knocked-offline-by-technical-issues/"
+        }
+      ]
+    },
+    {
+      "id": "shinjuku-trash-robots",
+      "type": "news",
+      "category": "Robotics",
+      "headline": "Googly-eyed trash robots tested at Tokyo's busiest train station",
+      "summary": "JR East, a Japanese rail company, finished a roughly 10-week trial of three robotic trash bins at Shinjuku Station, which sees nearly 3 million passengers a day. The robots rolled along preprogrammed routes, showed cartoon eyes on a screen and returned to the garbage area on their own when full. The goal is to ease the work of sanitation crews.",
+      "whyItMatters": "Robots in crowded public spaces must move safely around people. Friendly designs may also help people accept sharing space with machines.",
+      "csp": {
+        "idea": "Algorithms and Programming",
+        "connection": "A preprogrammed route is an algorithm: a fixed sequence of steps a robot follows."
+      },
+      "sources": [
+        {
+          "name": "Popular Science",
+          "date": "2026-11-23",
+          "url": "https://www.popsci.com/technology/trash-robots-shinjuku-train-station-japan/"
+        }
+      ]
+    }
+  ]
+}
