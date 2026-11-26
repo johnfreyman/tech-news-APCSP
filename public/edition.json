@@ -1,182 +1,202 @@
 {
   "schemaVersion": 1,
-  "editionId": "2026-11-25-daily",
-  "date": "2026-11-25",
-  "coverage": "Nine stories · Microsoft outage, Tidal AI ban, IBM quantum, TangiMap, AI voice, car subscriptions, drone crash, Mars, trash robots",
+  "editionId": "2026-11-26-daily",
+  "date": "2026-11-26",
+  "coverage": "Nine stories · Space data centers, 1Password breach, Ladybird browser, chatbot data, AI toys, Waymo, Neuralink, WhatsApp, asteroid crater",
   "cards": [
     {
-      "id": "microsoft-outage-code-red",
+      "id": "spacex-starmind-satellites",
       "type": "news",
       "category": "Cloud computing",
-      "headline": "Microsoft declares \"Code Red\" after its biggest email outage",
-      "summary": "Reuters reports internal Microsoft memos saying the November 12 outage of Outlook, Exchange Online and Teams had the most customer impact in Exchange Online's history. Microsoft's report blamed a hidden Windows bug from July that jammed gateway servers, the computers that route traffic. Engineers traded more than 11,000 messages across 11 chats while fixing it. Microsoft now aims to fix major outages within an hour.",
-      "whyItMatters": "Schools and businesses rely on cloud email. One hidden bug can sit unnoticed for months, then knock out a service for millions of people at once.",
+      "headline": "FCC approves SpaceX plan for up to 1 million data-center satellites",
+      "summary": "The Federal Communications Commission (FCC), which regulates US airwaves, gave SpaceX conditional approval for Starmind, up to 1 million solar-powered satellites meant to process AI data in orbit and relay results to Earth through Starlink. Ars Technica says that would raise the number of satellites in orbit about 50-fold. Astronomers warn the bright satellites would hurt night-sky observation, and it is still unclear whether space data centers can work at scale.",
+      "whyItMatters": "AI needs huge amounts of computing power and electricity. Where we put data centers, on Earth or in orbit, affects energy, the environment and the view of the night sky.",
       "csp": {
         "idea": "Computer Systems and Networks",
-        "connection": "Fault-tolerant systems add backup capacity so one failure doesn't take down the whole service."
+        "connection": "Data centers are large groups of networked computers; Starmind would link them to Earth through other satellites."
       },
       "sources": [
         {
           "name": "Ars Technica",
-          "date": "2026-11-24",
-          "url": "https://arstechnica.com/gadgets/2026/11/microsofts-historic-cloud-outage-exposed-an-engineering-fog-of-war/"
+          "date": "2026-11-25",
+          "url": "https://arstechnica.com/space/2026/11/the-fcc-has-authorized-spacex-to-deploy-1-million-satellites/"
+        },
+        {
+          "name": "BBC News",
+          "date": "2026-11-26",
+          "url": "https://www.bbc.co.uk/news/articles/cwp836l8n1jgo"
+        }
+      ]
+    },
+    {
+      "id": "1password-breach",
+      "type": "news",
+      "category": "Cybersecurity",
+      "headline": "1Password breach exposes customer names and emails, not passwords",
+      "summary": "Password manager 1Password says an attacker took over an employee's GitHub account, used it to push malicious code to backend servers, and copied names and email addresses from a subset of customers. The company says saved passwords stayed safe because vaults are encrypted with keys only users hold. It lengthened emailed sign-in codes from six digits to ten letters and numbers to make guessing harder.",
+      "whyItMatters": "Stolen emails can be used for phishing, fake messages that trick you into giving up logins. Encryption kept the most sensitive data safe even after the servers were breached.",
+      "csp": {
+        "idea": "Impact of Computing",
+        "connection": "Longer codes with more possible characters make brute-force guessing take far longer."
+      },
+      "sources": [
+        {
+          "name": "1Password",
+          "date": "2026-11-25",
+          "url": "https://1password.com/blog/update-on-nov-2026-security-incident"
         },
         {
           "name": "The Verge",
           "date": "2026-11-25",
-          "url": "https://www.theverge.com/news/1042025/microsoft-code-red-outlook-outage"
+          "url": "https://www.theverge.com/tech/1042409/1password-data-breach-leak"
         }
       ]
     },
     {
-      "id": "tidal-bans-ai-music",
+      "id": "ladybird-browser-alpha",
       "type": "news",
-      "category": "Music",
-      "headline": "Tidal will delete 27 million fully AI-generated songs",
-      "summary": "Music streaming service Tidal says that starting December 9 it will ban songs made entirely by AI and remove the 27 million AI-labeled tracks it hosts, about 6.3% of its catalog. Tidal says 43% of new uploads in the past 90 days were fully AI-generated, and 96% of AI-labeled tracks got zero plays. Artists can still use AI tools if the final song includes human work.",
-      "whyItMatters": "AI uploads can crowd out human musicians and pull away royalty money. Detecting AI-made content is hard, so platforms keep facing new versions of this problem.",
-      "csp": {
-        "idea": "Impact of Computing",
-        "connection": "Digital watermarks hidden in audio can help computers identify where content came from."
-      },
-      "sources": [
-        {
-          "name": "Ars Technica",
-          "date": "2026-11-24",
-          "url": "https://arstechnica.com/ai/2026/11/tidal-will-ban-fully-ai-generated-music-on-december-9/"
-        }
-      ]
-    },
-    {
-      "id": "ibm-quantum-verified",
-      "type": "news",
-      "category": "Quantum computing",
-      "headline": "IBM reports a quantum computation it could also check for accuracy",
-      "summary": "IBM and University of Chicago researchers say an IBM quantum computer finished a task in about 15 minutes that leading methods on regular computers would take impractically long to copy. Qubits, a quantum computer's version of bits, are easily disrupted, so the team grouped them into 70 protected \"logical qubits\" that catch errors. IBM says this lets it measure how trustworthy the result is.",
-      "whyItMatters": "A super-fast answer is useless if no one can check it. Building in ways to catch errors is a key step before quantum computers can tackle real problems.",
-      "csp": {
-        "idea": "Computer Systems and Networks",
-        "connection": "Redundancy, storing information more than once, lets a system detect and recover from errors."
-      },
-      "sources": [
-        {
-          "name": "ScienceDaily",
-          "date": "2026-11-23",
-          "url": "https://www.sciencedaily.com/releases/2026/11/261123231244.htm"
-        }
-      ]
-    },
-    {
-      "id": "mit-tangimap-controls",
-      "type": "news",
-      "category": "Interfaces",
-      "headline": "MIT's TangiMap turns knobs and sliders into custom app controls",
-      "summary": "Phones and cars keep replacing physical buttons with touchscreens. MIT researchers built TangiMap, which uses an AI agent to learn what a program can do, then assigns its functions to knobs, sliders and buttons on devices like a DJ mixer. In tests, a mixer edited photos in Adobe Lightroom, adjusted 3D models in Blender, and buttons animated a cartoon character live.",
-      "whyItMatters": "Physical controls let you work without looking and change several settings at once. Reusing devices you already own could make creative software faster and more accessible.",
+      "category": "Software",
+      "headline": "Ladybird, a browser built from scratch, releases its first download",
+      "summary": "Almost every web browser runs on one of three engines, the code that turns web pages into what you see: Chrome's Blink, Safari's WebKit or Firefox's Gecko. Ladybird, a nonprofit project, wrote its own engine from scratch and released its first downloadable alpha, an early test version, for Mac and Linux. An Ars Technica reviewer found it handled Google Maps and YouTube well, but its creators warn it is not yet secure.",
+      "whyItMatters": "When most browsers share one engine, websites get built for that engine instead of open web standards. A new engine helps reveal where sites break those shared rules.",
       "csp": {
         "idea": "Creative Development",
-        "connection": "Good interface design matches the input method to how people actually work."
-      },
-      "sources": [
-        {
-          "name": "MIT News",
-          "date": "2026-11-24",
-          "url": "https://news.mit.edu/2026/tangimap-agentic-system-personalizes-physical-controls-help-users-dj-their-art-1124"
-        }
-      ]
-    },
-    {
-      "id": "ea-fc-motson-ai-voice",
-      "type": "news",
-      "category": "Gaming",
-      "headline": "EA recreates a late commentator's voice with AI for FC 27",
-      "summary": "EA Sports FC 27, the soccer game once called FIFA, will add commentary from John Motson, the series' first commentator, who died in 2023. EA combined his old recordings with generative AI so he can name today's players. EA says it paid his family, who approved. A group that campaigns against voice cloning says people should agree to it themselves before they die.",
-      "whyItMatters": "AI can now recreate a real person's voice. That raises new questions about consent and about who controls your voice and likeness, even after death.",
-      "csp": {
-        "idea": "Impact of Computing",
-        "connection": "Generative AI can create realistic media of real people, raising consent and ownership questions."
-      },
-      "sources": [
-        {
-          "name": "BBC News",
-          "date": "2026-11-25",
-          "url": "https://www.bbc.co.uk/news/articles/c65y10j841jpo"
-        }
-      ]
-    },
-    {
-      "id": "ny-car-feature-subscriptions",
-      "type": "news",
-      "category": "Transportation",
-      "headline": "New York bans subscriptions for features already built into cars",
-      "summary": "Governor Kathy Hochul signed a law, taking effect February 27, 2027, that stops carmakers and dealers from charging monthly fees for features that use hardware already in the car and have no ongoing cost, like heated seats. Ars Technica notes a possible loophole: features such as navigation and hands-free driving need map and software updates, so companies may argue those still cost money.",
-      "whyItMatters": "Cars are now computers on wheels, and software can turn features on or off. Laws like this decide whether you fully own what you buy.",
-      "csp": {
-        "idea": "Impact of Computing",
-        "connection": "Software can lock or unlock hardware, so who controls the code affects what owners can do."
+        "connection": "Alpha releases let users find bugs early, part of the iterative testing cycle in software development."
       },
       "sources": [
         {
           "name": "Ars Technica",
-          "date": "2026-11-24",
-          "url": "https://arstechnica.com/cars/2026/11/new-york-says-no-more-subscriptions-for-in-car-features-or-does-it/"
+          "date": "2026-11-25",
+          "url": "https://arstechnica.com/gadgets/2026/11/ladybirds-new-alpha-shows-theres-life-beyond-chromium/"
         }
       ]
     },
     {
-      "id": "amazon-drone-crash-faa",
+      "id": "character-ai-chat-data-sale",
+      "type": "news",
+      "category": "Privacy",
+      "headline": "42 states try to stop Character.AI from selling users' chats",
+      "summary": "Character.AI, an app for chatting with AI characters, filed for bankruptcy in October. A group of 42 state attorneys general says it plans to auction chat histories from more than 21 million US accounts, including more than 2.1 million registered to minors. They say a buyer would not have to follow the old privacy policy, let users delete their data, or limit how the data is used.",
+      "whyItMatters": "Conversations with chatbots can be very personal. When an app shuts down or is sold, the data you shared may outlive the app itself.",
+      "csp": {
+        "idea": "Data",
+        "connection": "Stored data can be copied, sold and reused long after it was collected, beyond what users expected."
+      },
+      "sources": [
+        {
+          "name": "The Verge",
+          "date": "2026-11-26",
+          "url": "https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats"
+        }
+      ]
+    },
+    {
+      "id": "ny-ai-chatbot-toy-ban",
+      "type": "news",
+      "category": "AI and kids",
+      "headline": "New York bans AI chatbot toys for five years",
+      "summary": "New York Governor Kathy Hochul signed a five-year ban on selling toys, such as dolls and robots, that use the internet to hold AI conversations with children. Her office cited a consumer group's tests that found some toys discussed inappropriate topics, had few parental controls and grew less safe the longer they talked. Some could record a child's voice or scan their face. Violators face fines of up to $15,000 per day.",
+      "whyItMatters": "AI chatbots can say unexpected things, and toys may collect kids' voices and faces. Lawmakers are deciding where AI products are allowed.",
+      "csp": {
+        "idea": "Impact of Computing",
+        "connection": "AI chatbots generate responses instead of following a fixed script, so their output is hard to fully predict or test."
+      },
+      "sources": [
+        {
+          "name": "Engadget",
+          "date": "2026-11-26",
+          "url": "https://www.engadget.com/2328996/new-york-state-bans-ai-chatbot-toys-for-kids/"
+        }
+      ]
+    },
+    {
+      "id": "waymo-freeway-pause",
       "type": "news",
       "category": "Transportation",
-      "headline": "FAA investigates Amazon delivery drone that hit a cable and crashed",
-      "summary": "On November 20 in Huntington Woods, Michigan, an Amazon Prime Air drone dropped off a shampoo order, then caught a propeller on a thin fiber-optic cable during takeoff and landed on a neighbor's garage roof. The Federal Aviation Administration (FAA) is investigating. Amazon's drones have sensors meant to avoid obstacles, and Amazon says they make nearly 6,000 flights a day.",
-      "whyItMatters": "Sensors that avoid big obstacles can still miss thin wires. Testing for rare situations matters more as robots and drones move into neighborhoods.",
+      "headline": "Waymo robotaxis pulled off freeways after construction-zone mistakes",
+      "summary": "California's Department of Motor Vehicles banned Waymo's driverless cars from state freeways after they repeatedly drove into closed construction zones, and one tried to pass highway patrol cars slowing traffic. Waymo paused freeway rides in all its markets. Waymo says no one was hurt. A Carnegie Mellon safety expert told The Verge that earlier software fixes did not solve the problem.",
+      "whyItMatters": "Self-driving cars must handle rare situations, like temporary lane closures. Software that works in cities can still fail on unusual roads.",
       "csp": {
         "idea": "Algorithms and Programming",
-        "connection": "Programs must be tested on edge cases, unusual inputs that are easy to overlook."
+        "connection": "Programs must handle edge cases; a fix that passes some tests may still fail in new situations."
       },
       "sources": [
         {
-          "name": "Ars Technica",
-          "date": "2026-11-24",
-          "url": "https://arstechnica.com/gadgets/2026/11/faa-opens-probe-after-amazon-delivery-drone-clips-cable-crashes-into-garage/"
+          "name": "The Verge",
+          "date": "2026-11-25",
+          "url": "https://www.theverge.com/transportation/1042151/waymo-highway-ban-ai-safety-recalls"
+        },
+        {
+          "name": "KPBS",
+          "date": "2026-11-17",
+          "url": "https://www.kpbs.org/news/quality-of-life/2026/11/17/california-bans-waymo-autonomous-vehicles-from-state-freeways-saying-they-pose-an-imminent-hazard"
         }
       ]
     },
     {
-      "id": "nasa-mars-fleet-offline",
+      "id": "neuralink-pivotal-trial",
+      "type": "news",
+      "category": "Health tech",
+      "headline": "Neuralink gets FDA go-ahead for a larger brain-implant trial",
+      "summary": "Neuralink says the US Food and Drug Administration approved a \"pivotal\" trial, a larger, later-stage study, of its brain-computer interface for people with ALS, a disease that weakens muscle control. The implant reads brain signals tied to movement, and software turns them into commands to control a computer. Neuralink says 30+ people have used it so far. The trial will test usefulness and long-term safety.",
+      "whyItMatters": "Brain-computer interfaces could help people who cannot move or speak use phones and computers. Careful trials test whether they are safe before wider use.",
+      "csp": {
+        "idea": "Data",
+        "connection": "Software must find patterns in noisy brain-signal data and translate them into specific commands."
+      },
+      "sources": [
+        {
+          "name": "Engadget",
+          "date": "2026-11-26",
+          "url": "https://www.engadget.com/2329008/neuralink-receives-fda-approval-for-brain-implant-trial-in-als-patients/"
+        }
+      ]
+    },
+    {
+      "id": "whatsapp-scheduled-messages",
+      "type": "news",
+      "category": "Apps",
+      "headline": "WhatsApp adds scheduled messages, up to two weeks ahead",
+      "summary": "WhatsApp is rolling out scheduled messages worldwide over the coming weeks. You hold the send button, pick a time from 10 minutes to 14 days away, and the message arrives looking like any other. It works for texts, photos and videos in one-on-one and group chats. WhatsApp says scheduled messages are still end-to-end encrypted, and will arrive on time even if your phone is off.",
+      "whyItMatters": "You can wish a friend luck right before a test or say happy birthday at midnight in their time zone. It also shows how apps handle timing behind the scenes.",
+      "csp": {
+        "idea": "Algorithms and Programming",
+        "connection": "Scheduling is event-driven programming: code runs when a condition, like a set time, is reached."
+      },
+      "sources": [
+        {
+          "name": "The Verge",
+          "date": "2026-11-25",
+          "url": "https://www.theverge.com/tech/1042532/whatsapp-scheduled-messages"
+        },
+        {
+          "name": "Engadget",
+          "date": "2026-11-25",
+          "url": "https://www.engadget.com/2328242/whatsapp-is-finally-offering-scheduled-messages/"
+        }
+      ]
+    },
+    {
+      "id": "hera-dart-crater",
       "type": "news",
       "category": "Space",
-      "headline": "Radio and steering problems pause two NASA Mars missions",
-      "summary": "NASA's Perseverance rover paused science after one radio stopped responding and its backup sent only about half its expected power. It now talks directly to Earth at a much lower data rate. The Odyssey orbiter lost one of its spinning reaction wheels, used for pointing, and without three wheels may have fuel for only one to two months. Engineers are still troubleshooting.",
-      "whyItMatters": "Engineers can't repair hardware 115 million miles away. Backup systems and careful remote troubleshooting decide whether these missions keep working.",
+      "headline": "Spacecraft finds stadium-sized crater from NASA's asteroid crash test",
+      "summary": "In 2022, NASA crashed its DART spacecraft into the asteroid Dimorphos to test whether we could push an asteroid off course. Europe's Hera spacecraft has now arrived and found a crater about the size of a stadium, nearly as wide as the 151-meter asteroid. Dimorphos is now tumbling, and hundreds of boulders orbit the asteroid pair. Hera will soon move closer and release two small satellites.",
+      "whyItMatters": "Asteroids that could hit Earth come in many shapes and materials. Measurements from Hera will improve the computer models scientists use to plan future deflections.",
       "csp": {
-        "idea": "Computer Systems and Networks",
-        "connection": "Orbiters relay rover data to Earth, much like routers pass data across the internet."
+        "idea": "Data",
+        "connection": "Real measurements are used to check and improve computer simulations of how asteroids respond to impacts."
       },
       "sources": [
         {
           "name": "Ars Technica",
-          "date": "2026-11-24",
-          "url": "https://arstechnica.com/space/2026/11/half-of-nasas-aging-mars-fleet-knocked-offline-by-technical-issues/"
-        }
-      ]
-    },
-    {
-      "id": "shinjuku-trash-robots",
-      "type": "news",
-      "category": "Robotics",
-      "headline": "Googly-eyed trash robots tested at Tokyo's busiest train station",
-      "summary": "JR East, a Japanese rail company, finished a roughly 10-week trial of three robotic trash bins at Shinjuku Station, which sees nearly 3 million passengers a day. The robots rolled along preprogrammed routes, showed cartoon eyes on a screen and returned to the garbage area on their own when full. The goal is to ease the work of sanitation crews.",
-      "whyItMatters": "Robots in crowded public spaces must move safely around people. Friendly designs may also help people accept sharing space with machines.",
-      "csp": {
-        "idea": "Algorithms and Programming",
-        "connection": "A preprogrammed route is an algorithm: a fixed sequence of steps a robot follows."
-      },
-      "sources": [
+          "date": "2026-11-25",
+          "url": "https://arstechnica.com/space/2026/11/europes-hera-mission-returns-to-the-chaotic-scene-of-a-cosmic-smashup/"
+        },
         {
-          "name": "Popular Science",
-          "date": "2026-11-23",
-          "url": "https://www.popsci.com/technology/trash-robots-shinjuku-train-station-japan/"
+          "name": "Engadget",
+          "date": "2026-11-25",
+          "url": "https://www.engadget.com/2328617/nasas-dart-mission-left-a-stadium-sized-crater-in-an-asteroid-the-esa-finds/"
         }
       ]
     }
