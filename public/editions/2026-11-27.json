@@ -1,0 +1,189 @@
+{
+  "schemaVersion": 1,
+  "editionId": "2026-11-27-daily",
+  "date": "2026-11-27",
+  "coverage": "Nine stories · Backloggd breach, AI voice scam, UV chip, Android addresses, X teen controls, Etsy AI, Backblaze, screen time, peatlands",
+  "cards": [
+    {
+      "id": "backloggd-breach",
+      "type": "news",
+      "category": "Cybersecurity",
+      "headline": "Game-logging site Backloggd asks users to change passwords after breach",
+      "summary": "Backloggd, a site with about 1 million users who log and rate the video games they play, says someone exploited a bug to reach its admin tools. The attacker saw usernames, email addresses, hashed passwords and sign-in IP addresses. Hashing scrambles a password one way so the site never stores the original, but the admin warned that weak or common passwords can still be guessed from their hashes. Payment details, handled by Patreon, were not exposed.",
+      "whyItMatters": "If you reuse one password on several sites, a breach anywhere puts all those accounts at risk. Unique passwords, a password manager or passkeys limit the damage.",
+      "csp": {
+        "idea": "Impact of Computing",
+        "connection": "Hashing protects stored passwords, but attackers can hash common passwords and compare the results to find matches."
+      },
+      "sources": [
+        {
+          "name": "Engadget",
+          "date": "2026-11-26",
+          "url": "https://www.engadget.com/2329256/backloggd-breach-november-2026-password-reset/"
+        }
+      ]
+    },
+    {
+      "id": "ai-voice-clone-scam-sentence",
+      "type": "news",
+      "category": "AI and crime",
+      "headline": "Man gets nearly 4 years in prison for AI voice-clone scam",
+      "summary": "A Florida man was sentenced to 47 months in prison after using AI to clone the voice of streamer N3on. Federal prosecutors say he pretended to be the streamer and his representative to convince the creators of a cryptocurrency project that N3on would promote it. They sent him about $260,000 in cryptocurrency. He pleaded guilty to money laundering and aggravated identity theft and must repay the victims.",
+      "whyItMatters": "A familiar voice on a call or voice message is no longer proof of who is speaking. Checking a request through a second, trusted channel can stop this kind of scam.",
+      "csp": {
+        "idea": "Impact of Computing",
+        "connection": "AI can copy a person's voice from recordings, so audio alone can no longer verify someone's identity."
+      },
+      "sources": [
+        {
+          "name": "Engadget",
+          "date": "2026-11-26",
+          "url": "https://www.engadget.com/2329150/man-sentenced-to-47-month-prison-sentence-after-using-ai-impersonate-streamer/"
+        }
+      ]
+    },
+    {
+      "id": "harvard-uv-light-chip",
+      "type": "news",
+      "category": "Hardware",
+      "headline": "Harvard chip makes ultraviolet light 120 times stronger than before",
+      "summary": "Ultraviolet (UV) light loses power quickly as it travels through the tiny light channels on a chip. A Harvard team instead built a chip that makes UV light on the spot: inside a crystal called lithium niobate, two photons of red light combine into one UV photon. The researchers say their device produces about 120 times more UV power than similar earlier devices. Chip-sized UV sources could one day help shrink quantum computers and atomic clocks.",
+      "whyItMatters": "Many future technologies depend on making today's bulky lab equipment small enough to fit on a chip, the same path that turned room-sized computers into phones.",
+      "csp": {
+        "idea": "Computer Systems and Networks",
+        "connection": "Photonic chips move information with light instead of electricity, an alternative way to build computing hardware."
+      },
+      "sources": [
+        {
+          "name": "ScienceDaily",
+          "date": "2026-11-26",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261126063333.htm"
+        }
+      ]
+    },
+    {
+      "id": "android-developer-addresses",
+      "type": "news",
+      "category": "Apps",
+      "headline": "Google will publish some Android developers' addresses worldwide",
+      "summary": "To meet European Union rules, Google says Android developers who earn money from their apps must declare themselves \"traders\" by February 1, 2027. Starting March 1, their phone number and address will be shown to Play Store users everywhere, and Google does not accept PO boxes. Independent developers who work from home worry about privacy. Apple, under the same rules, shows addresses only in the affected European countries and allows PO boxes.",
+      "whyItMatters": "Many app makers are teens or solo coders working from home. The same law can be applied in very different ways, with real effects on people's privacy.",
+      "csp": {
+        "idea": "Impact of Computing",
+        "connection": "Once personal data is published online, it can be copied and reused anywhere, so where it is shown matters."
+      },
+      "sources": [
+        {
+          "name": "The Verge",
+          "date": "2026-11-26",
+          "url": "https://www.theverge.com/tech/1043228/android-play-store-google-developer-address-eu"
+        },
+        {
+          "name": "Engadget",
+          "date": "2026-11-27",
+          "url": "https://www.engadget.com/2329389/google-will-soon-share-android-developers-addresses-publicly/"
+        }
+      ]
+    },
+    {
+      "id": "x-parental-controls",
+      "type": "news",
+      "category": "Social media",
+      "headline": "X adds its first parental controls for teen accounts",
+      "summary": "X, formerly Twitter, now lets a parent or guardian link to a 13- to 17-year-old's account if both agree. Parents can see time spent, set daily limits, approve new followers, filter words and control who can send direct messages. X says parents cannot read private messages, see searches or post as the teen, and the teen can see every change. Teen accounts also default to a protected mode that restricts sensitive media and blocks targeted ads.",
+      "whyItMatters": "Apps are under growing pressure to protect teen users. These controls try to balance safety with a teen's privacy, a trade-off every platform has to design.",
+      "csp": {
+        "idea": "Impact of Computing",
+        "connection": "Designers choose which data parents can see and which stays private; those choices are built into the software."
+      },
+      "sources": [
+        {
+          "name": "The Verge",
+          "date": "2026-11-26",
+          "url": "https://www.theverge.com/news/1043078/x-parental-controls-features"
+        },
+        {
+          "name": "Engadget",
+          "date": "2026-11-26",
+          "url": "https://www.engadget.com/2329049/x-is-adding-its-first-ever-parental-controls/"
+        }
+      ]
+    },
+    {
+      "id": "etsy-ai-terms",
+      "type": "news",
+      "category": "Creators",
+      "headline": "Etsy says it won't train AI to copy sellers' work",
+      "summary": "Etsy, an online marketplace for handmade goods, updated its terms to let it and its partners use sellers' content to train artificial intelligence. Some sellers closed long-running shops in protest. Etsy's CEO now says the company will not train AI models to create copies of sellers' items. One illustrator told Ars Technica the clarification was \"sugar coating\" and that he still plans to close his 15-year-old store on December 1.",
+      "whyItMatters": "Artists and creators want a say in whether their work trains AI. Terms of service, the rules you agree to when you sign up, decide what a company can do with your uploads.",
+      "csp": {
+        "idea": "Data",
+        "connection": "AI models learn patterns from training data, so who supplies that data and with what permission is a key question."
+      },
+      "sources": [
+        {
+          "name": "Ars Technica",
+          "date": "2026-11-25",
+          "url": "https://arstechnica.com/tech-policy/2026/11/etsy-clarifies-ai-terms-after-seller-backlash/"
+        }
+      ]
+    },
+    {
+      "id": "backblaze-privacy-policy",
+      "type": "news",
+      "category": "Privacy",
+      "headline": "Backup company's new privacy policy worries some customers",
+      "summary": "Backblaze, which stores computer backups and files in the cloud, has a new privacy policy taking effect December 1. It says some account information, such as names, IP addresses and purchase history, may be sold or shared for targeted advertising. Some customers worried about their stored files. Backblaze told Ars Technica that the policy covers website and marketing data only, and that it does not sell or share the contents of customers' files.",
+      "whyItMatters": "Privacy policies are long, but they explain what a company can do with your information. Knowing the difference between account data and your actual files helps you judge the risk.",
+      "csp": {
+        "idea": "Data",
+        "connection": "Metadata, like an IP address or purchase history, can reveal a lot about a person even without the contents of their files."
+      },
+      "sources": [
+        {
+          "name": "Ars Technica",
+          "date": "2026-11-25",
+          "url": "https://arstechnica.com/information-technology/2026/11/backblaze-explains-why-its-sharing-customer-information-with-advertisers/"
+        }
+      ]
+    },
+    {
+      "id": "screen-time-sensitive-ages",
+      "type": "news",
+      "category": "Health tech",
+      "headline": "Screen time at ages 1 and 6 linked to later learning",
+      "summary": "Researchers in Singapore and France followed 502 children whose parents reported their screen viewing six times from infancy to middle childhood. Kids who watched more at age 1 and around age 6, when school starts, tended to score lower on academic tests at 9 and on working memory, the ability to hold and use information, at 10.5. The study shows a link, not proof that screens caused the differences.",
+      "whyItMatters": "When screen time happens may matter as much as how much. It is a reminder to separate correlation from cause when reading health studies about technology.",
+      "csp": {
+        "idea": "Data",
+        "connection": "Researchers found patterns by tracking the same children over years, but correlation in data does not prove cause and effect."
+      },
+      "sources": [
+        {
+          "name": "ScienceDaily",
+          "date": "2026-11-26",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261126033220.htm"
+        }
+      ]
+    },
+    {
+      "id": "peatland-drainage-warming",
+      "type": "news",
+      "category": "Climate",
+      "headline": "Draining wetlands caused about 2.7% of today's human-made warming",
+      "summary": "Peatlands, such as bogs and swamps, store about 30 percent of the world's soil carbon on only 3 to 4 percent of Earth's land. When people drain them for farms or building, the dried peat releases carbon dioxide for centuries. MIT researchers combined worldwide drainage data with models of how emissions change, and estimate that peatland drainage accounts for about 2.7 percent of present-day human-caused warming. The study appears in Nature.",
+      "whyItMatters": "Climate scientists rely on combining large datasets with computer models to measure effects no one can observe directly, and those results guide restoration efforts.",
+      "csp": {
+        "idea": "Data",
+        "connection": "Combining data from many sources with models lets researchers estimate a global effect that cannot be measured directly."
+      },
+      "sources": [
+        {
+          "name": "MIT News",
+          "date": "2026-11-25",
+          "url": "https://news.mit.edu/2026/draining-peatlands-leaves-long-warming-legacy-1125"
+        }
+      ]
+    }
+  ]
+}
